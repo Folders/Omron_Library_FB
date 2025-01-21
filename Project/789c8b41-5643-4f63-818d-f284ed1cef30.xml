@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Db.Section.ServiceSetting>
+    <Db.Field.AutoStartup>
+      <CurrentValue>Automatic</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Automatic</DefaultValue>
+      <Options>
+        <Option>Automatic</Option>
+        <Option>AutomaticTestMode</Option>
+        <Option>Manual</Option>
+      </Options>
+    </Db.Field.AutoStartup>
+    <Db.Field.ExecutionLogRecord>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Db.Field.ExecutionLogRecord>
+    <Db.Field.ExecutionLogFileNumber>
+      <CurrentValue>48</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>48</DefaultValue>
+      <Options />
+    </Db.Field.ExecutionLogFileNumber>
+    <Db.Field.ExecutionLogFileNumberValue2>
+      <CurrentValue>Db.Unit.Files</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Db.Unit.Files</DefaultValue>
+      <Options />
+    </Db.Field.ExecutionLogFileNumberValue2>
+    <Db.Field.ExecutionLogRecordNumber>
+      <CurrentValue>7200</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>7200</DefaultValue>
+      <Options />
+    </Db.Field.ExecutionLogRecordNumber>
+    <Db.Field.ExecutionLogRecordNumberValue2>
+      <CurrentValue>Db.Unit.RecordPerFile</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Db.Unit.RecordPerFile</DefaultValue>
+      <Options />
+    </Db.Field.ExecutionLogRecordNumberValue2>
+    <Db.Field.DebugLogFileNumber>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1</DefaultValue>
+      <Options />
+    </Db.Field.DebugLogFileNumber>
+    <Db.Field.DebugLogFileNumberValue2>
+      <CurrentValue>Db.Unit.Files</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Db.Unit.Files</DefaultValue>
+      <Options />
+    </Db.Field.DebugLogFileNumberValue2>
+    <Db.Field.DebugLogFileSize>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </Db.Field.DebugLogFileSize>
+    <Db.Field.DebugLogFileSizeValue2>
+      <CurrentValue>Db.Unit.Mb</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Db.Unit.Mb</DefaultValue>
+      <Options />
+    </Db.Field.DebugLogFileSizeValue2>
+    <Db.Field.DebugLogRetention>
+      <CurrentValue>StopLog</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>StopLog</DefaultValue>
+      <Options>
+        <Option>StopLog</Option>
+        <Option>OverwriteLog</Option>
+      </Options>
+    </Db.Field.DebugLogRetention>
+    <Db.Field.DebugLogClear>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Db.Field.DebugLogClear>
+    <Db.Field.SqlFailLogRecord>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Db.Field.SqlFailLogRecord>
+    <Db.Field.SqlFailLogFileNumber>
+      <CurrentValue>50</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>50</DefaultValue>
+      <Options />
+    </Db.Field.SqlFailLogFileNumber>
+    <Db.Field.SqlFailLogFileNumberValue2>
+      <CurrentValue>Db.Unit.Files</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Db.Unit.Files</DefaultValue>
+      <Options />
+    </Db.Field.SqlFailLogFileNumberValue2>
+    <Db.Field.SqlFailLogFileSize>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </Db.Field.SqlFailLogFileSize>
+    <Db.Field.SqlFailLogFileSizeValue2>
+      <CurrentValue>Db.Unit.Mb</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Db.Unit.Mb</DefaultValue>
+      <Options />
+    </Db.Field.SqlFailLogFileSizeValue2>
+  </Db.Section.ServiceSetting>
+</data>

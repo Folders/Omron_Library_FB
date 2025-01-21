@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Opcua.Section.ServerSetting>
+    <Opcua.Field.AutoStartup>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Opcua.Field.AutoStartup>
+    <Opcua.Field.EndPoint>
+      <CurrentValue>opc.tcp://[IPAddress]:4840</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>opc.tcp://[IPAddress]:4840</DefaultValue>
+      <Options />
+    </Opcua.Field.EndPoint>
+    <Opcua.Field.Port>
+      <CurrentValue>4840</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>4840</DefaultValue>
+      <Options />
+    </Opcua.Field.Port>
+    <Opcua.Field.PortValue2>
+      <CurrentValue>NexCpuEipEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuEipEmptyUnit</DefaultValue>
+      <Options />
+    </Opcua.Field.PortValue2>
+    <Opcua.Field.ExecutionLogRecord>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Opcua.Field.ExecutionLogRecord>
+    <Opcua.Field.ExecutionLogFileNumber>
+      <CurrentValue>24</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>24</DefaultValue>
+      <Options />
+    </Opcua.Field.ExecutionLogFileNumber>
+    <Opcua.Field.ExecutionLogFileNumberValue2>
+      <CurrentValue>Opcua.Unit.Files</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Opcua.Unit.Files</DefaultValue>
+      <Options />
+    </Opcua.Field.ExecutionLogFileNumberValue2>
+    <Opcua.Field.ExecutionLogRecordNumber>
+      <CurrentValue>12000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>12000</DefaultValue>
+      <Options />
+    </Opcua.Field.ExecutionLogRecordNumber>
+    <Opcua.Field.ExecutionLogRecordNumberValue2>
+      <CurrentValue>Opcua.Unit.RecordPerFile</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>Opcua.Unit.RecordPerFile</DefaultValue>
+      <Options />
+    </Opcua.Field.ExecutionLogRecordNumberValue2>
+    <Opcua.Field.ExpandStructureNodes>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </Opcua.Field.ExpandStructureNodes>
+    <OpcUa.Field.ExpandArrayNodes>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </OpcUa.Field.ExpandArrayNodes>
+    <OpcUa.Field.PublishSettings.PublishVariables>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </OpcUa.Field.PublishSettings.PublishVariables>
+    <OpcUa.Field.PublishSettings.Namespaces>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </OpcUa.Field.PublishSettings.Namespaces>
+    <OpcUa.Field.PublishSettings.Namespaces.Count>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </OpcUa.Field.PublishSettings.Namespaces.Count>
+    <OpcUa.Field.PublishSettings.Instances>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </OpcUa.Field.PublishSettings.Instances>
+    <OpcUa.Field.PublishSettings.Instances.Count>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </OpcUa.Field.PublishSettings.Instances.Count>
+  </Opcua.Section.ServerSetting>
+</data>

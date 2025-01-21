@@ -1,0 +1,2569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexCpuActionGeneral>
+    <NexCpuActionRunModeAtPowerOn>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionRunModeAtPowerOn>
+    <NexCpuActionBatteryLessSetting>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionBatteryLessSetting>
+    <NexCpuActionRunModeDelayTime>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCpuActionRunModeDelayTime>
+    <NexCpuActionRunModeDelayTimeValue2>
+      <CurrentValue>s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>s</DefaultValue>
+      <Options />
+    </NexCpuActionRunModeDelayTimeValue2>
+    <NexCpuActionMemoryCardCheckAtPowerOn>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionMemoryCardCheckAtPowerOn>
+    <NexCpuActionSDCardProgramTransferEnable>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionSDCardProgramTransferEnable>
+    <NexCpuActionSDCardProgramTransferPassword>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuActionSDCardProgramTransferPassword>
+    <NexCpuActionSDCardProgramTransferPasswordValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSDCardProgramTransferPasswordValue2>
+    <NexCpuActionSDCardRestoreEnable>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionSDCardRestoreEnable>
+    <NexCpuActionSDCardRestorePassword>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuActionSDCardRestorePassword>
+    <NexCpuActionSDCardRestorePasswordValue2>
+      <CurrentValue>NexCpuActionEmptyUnit</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
+      <Options />
+    </NexCpuActionSDCardRestorePasswordValue2>
+    <NexCpuActionSetting.CommandErrorOutput>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionSetting.CommandErrorOutput>
+    <NexCpuActionProtectAtPowerOn>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionProtectAtPowerOn>
+    <NexCpuActionProhibitSDBackup>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionProhibitSDBackup>
+    <NexCpuActionProhibitFirmwareUpdate>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionProhibitFirmwareUpdate>
+  </NexCpuActionGeneral>
+  <NexCpuEipFINSSetting>
+    <NexCpuEipFINSRoutingTable>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTable>
+    <NexCpuEipFINSRoutingTableLocalTable>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTable>
+    <NexCpuEipFINSRoutingTableLocalTableItemMaximumCount>
+      <CurrentValue>16</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>16</DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItemMaximumCount>
+    <NexCpuEipFINSRoutingTableLocalTableItemCount>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItemCount>
+    <NexCpuEipFINSRoutingTableRemoteTable>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTable>
+    <NexCpuEipFINSRoutingTableRemoteTableItemMaximumCount>
+      <CurrentValue>64</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>64</DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItemMaximumCount>
+    <NexCpuEipFINSRoutingTableRemoteTableItemCount>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItemCount>
+    <NexCpuEipFINSGatewayCounter>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuEipFINSGatewayCounter>
+    <NexCpuEipFINSWriteProtectionEnable>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuEipFINSWriteProtectionEnable>
+    <NexCpuEipFINSRoutingTableLocalTableItem0LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem0LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem0UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem0UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem0LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem0LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem0UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem0UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem0UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem0UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem1LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem1LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem1UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem1UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem1LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem1LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem1UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem1UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem1UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem1UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem2LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem2LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem2UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem2UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem2LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem2LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem2UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem2UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem2UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem2UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem3LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem3LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem3UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem3UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem3LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem3LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem3UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem3UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem3UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem3UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem4LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem4LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem4UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem4UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem4LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem4LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem4UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem4UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem4UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem4UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem5LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem5LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem5UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem5UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem5LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem5LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem5UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem5UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem5UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem5UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem6LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem6LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem6UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem6UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem6LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem6LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem6UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem6UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem6UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem6UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem7LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem7LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem7UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem7UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem7LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem7LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem7UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem7UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem7UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem7UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem8LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem8LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem8UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem8UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem8LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem8LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem8UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem8UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem8UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem8UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem9LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem9LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem9UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem9UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem9LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem9LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem9UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem9UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem9UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem9UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem10LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem10LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem10UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem10UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem10LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem10LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem10UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem10UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem10UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem10UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem11LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem11LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem11UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem11UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem11LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem11LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem11UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem11UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem11UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem11UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem12LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem12LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem12UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem12UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem12LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem12LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem12UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem12UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem12UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem12UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem13LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem13LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem13UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem13UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem13LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem13LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem13UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem13UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem13UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem13UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem14LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem14LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem14UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem14UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem14LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem14LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem14UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem14UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem14UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem14UnitPort>
+    <NexCpuEipFINSRoutingTableLocalTableItem15LocalRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem15LocalRowNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem15UnitNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem15UnitNumber>
+    <NexCpuEipFINSRoutingTableLocalTableItem15LocalNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem15LocalNetwork>
+    <NexCpuEipFINSRoutingTableLocalTableItem15UnitType>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem15UnitType>
+    <NexCpuEipFINSRoutingTableLocalTableItem15UnitPort>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableLocalTableItem15UnitPort>
+    <NexCpuEipFINSRoutingTableRemoteTableItem0RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem0RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem0RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem0RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem0RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem0RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem0RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem0RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem1RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem1RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem1RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem1RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem1RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem1RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem1RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem1RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem2RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem2RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem2RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem2RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem2RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem2RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem2RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem2RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem3RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem3RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem3RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem3RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem3RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem3RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem3RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem3RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem4RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem4RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem4RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem4RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem4RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem4RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem4RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem4RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem5RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem5RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem5RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem5RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem5RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem5RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem5RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem5RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem6RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem6RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem6RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem6RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem6RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem6RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem6RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem6RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem7RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem7RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem7RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem7RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem7RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem7RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem7RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem7RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem8RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem8RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem8RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem8RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem8RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem8RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem8RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem8RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem9RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem9RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem9RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem9RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem9RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem9RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem9RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem9RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem10RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem10RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem10RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem10RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem10RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem10RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem10RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem10RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem11RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem11RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem11RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem11RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem11RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem11RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem11RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem11RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem12RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem12RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem12RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem12RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem12RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem12RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem12RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem12RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem13RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem13RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem13RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem13RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem13RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem13RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem13RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem13RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem14RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem14RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem14RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem14RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem14RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem14RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem14RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem14RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem15RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem15RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem15RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem15RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem15RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem15RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem15RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem15RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem16RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem16RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem16RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem16RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem16RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem16RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem16RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem16RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem17RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem17RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem17RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem17RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem17RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem17RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem17RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem17RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem18RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem18RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem18RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem18RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem18RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem18RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem18RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem18RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem19RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem19RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem19RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem19RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem19RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem19RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem19RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem19RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem20RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem20RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem20RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem20RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem20RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem20RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem20RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem20RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem21RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem21RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem21RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem21RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem21RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem21RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem21RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem21RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem22RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem22RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem22RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem22RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem22RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem22RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem22RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem22RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem23RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem23RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem23RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem23RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem23RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem23RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem23RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem23RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem24RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem24RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem24RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem24RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem24RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem24RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem24RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem24RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem25RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem25RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem25RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem25RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem25RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem25RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem25RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem25RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem26RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem26RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem26RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem26RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem26RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem26RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem26RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem26RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem27RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem27RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem27RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem27RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem27RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem27RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem27RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem27RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem28RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem28RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem28RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem28RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem28RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem28RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem28RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem28RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem29RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem29RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem29RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem29RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem29RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem29RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem29RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem29RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem30RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem30RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem30RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem30RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem30RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem30RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem30RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem30RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem31RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem31RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem31RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem31RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem31RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem31RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem31RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem31RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem32RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem32RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem32RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem32RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem32RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem32RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem32RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem32RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem33RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem33RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem33RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem33RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem33RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem33RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem33RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem33RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem34RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem34RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem34RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem34RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem34RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem34RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem34RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem34RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem35RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem35RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem35RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem35RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem35RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem35RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem35RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem35RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem36RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem36RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem36RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem36RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem36RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem36RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem36RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem36RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem37RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem37RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem37RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem37RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem37RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem37RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem37RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem37RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem38RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem38RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem38RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem38RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem38RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem38RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem38RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem38RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem39RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem39RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem39RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem39RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem39RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem39RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem39RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem39RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem40RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem40RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem40RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem40RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem40RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem40RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem40RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem40RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem41RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem41RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem41RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem41RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem41RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem41RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem41RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem41RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem42RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem42RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem42RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem42RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem42RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem42RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem42RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem42RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem43RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem43RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem43RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem43RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem43RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem43RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem43RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem43RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem44RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem44RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem44RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem44RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem44RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem44RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem44RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem44RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem45RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem45RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem45RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem45RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem45RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem45RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem45RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem45RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem46RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem46RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem46RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem46RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem46RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem46RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem46RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem46RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem47RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem47RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem47RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem47RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem47RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem47RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem47RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem47RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem48RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem48RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem48RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem48RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem48RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem48RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem48RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem48RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem49RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem49RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem49RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem49RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem49RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem49RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem49RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem49RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem50RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem50RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem50RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem50RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem50RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem50RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem50RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem50RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem51RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem51RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem51RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem51RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem51RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem51RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem51RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem51RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem52RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem52RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem52RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem52RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem52RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem52RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem52RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem52RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem53RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem53RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem53RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem53RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem53RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem53RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem53RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem53RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem54RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem54RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem54RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem54RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem54RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem54RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem54RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem54RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem55RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem55RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem55RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem55RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem55RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem55RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem55RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem55RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem56RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem56RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem56RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem56RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem56RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem56RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem56RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem56RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem57RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem57RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem57RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem57RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem57RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem57RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem57RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem57RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem58RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem58RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem58RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem58RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem58RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem58RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem58RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem58RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem59RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem59RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem59RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem59RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem59RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem59RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem59RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem59RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem60RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem60RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem60RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem60RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem60RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem60RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem60RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem60RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem61RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem61RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem61RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem61RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem61RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem61RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem61RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem61RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem62RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem62RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem62RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem62RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem62RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem62RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem62RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem62RelayNode>
+    <NexCpuEipFINSRoutingTableRemoteTableItem63RemoteRowNumber>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem63RemoteRowNumber>
+    <NexCpuEipFINSRoutingTableRemoteTableItem63RemoteNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem63RemoteNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem63RelayNetwork>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem63RelayNetwork>
+    <NexCpuEipFINSRoutingTableRemoteTableItem63RelayNode>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuEipFINSRoutingTableRemoteTableItem63RelayNode>
+  </NexCpuEipFINSSetting>
+  <NexCpuLevelSetting>
+    <NexCpuLevelSettingTable>
+      <CurrentValue>1.0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1.0</DefaultValue>
+      <Options />
+    </NexCpuLevelSettingTable>
+  </NexCpuLevelSetting>
+</data>

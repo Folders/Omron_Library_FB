@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <MultiLanguage IsUseMultiLanguage="False" />
+  <Language LanguageNo="0" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="1" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="2" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="3" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="4" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="5" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="6" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="7" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+  <Language LanguageNo="8" Comment="">
+    <ImportanceType Code="1" Importance="User fault Level 1" />
+    <ImportanceType Code="2" Importance="User fault Level 2" />
+    <ImportanceType Code="3" Importance="User fault Level 3" />
+    <ImportanceType Code="4" Importance="User fault Level 4" />
+    <ImportanceType Code="5" Importance="User fault Level 5" />
+    <ImportanceType Code="6" Importance="User fault Level 6" />
+    <ImportanceType Code="7" Importance="User fault Level 7" />
+    <ImportanceType Code="8" Importance="User fault Level 8" />
+    <ImportanceType Code="256" Importance="User Information" />
+    <SystemAlertMessage Message="" />
+  </Language>
+</data>

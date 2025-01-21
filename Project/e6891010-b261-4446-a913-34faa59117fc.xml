@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <ReferredLibrariesModel>
+      <ReferredLibraries />
+      <BuildOption>
+        <data>
+          <LibraryModel>
+            <Name>Omron_FB</Name>
+            <NameSpace></NameSpace>
+            <Version>1.0.0</Version>
+            <Revision>1</Revision>
+            <LibraryId>00000000-0000-0000-0000-000000000000</LibraryId>
+            <Author>PClo</Author>
+            <Company></Company>
+            <DateCreated>2025-01-21T13:32:53.492103+01:00</DateCreated>
+            <DateModified>2025-01-21T13:32:53.492103+01:00</DateModified>
+            <Comment>Objects library for Omron PLC for Sysmac Studio</Comment>
+            <Password></Password>
+            <AttachedFiles />
+            <AttachedFilesRelativePaths />
+            <PublicPartsNames />
+            <InternalPartsNames />
+            <BuildDevice>
+              <Category></Category>
+              <Family></Family>
+              <FullModel></FullModel>
+              <MajorVersion>0</MajorVersion>
+              <MinorVersion>0</MinorVersion>
+              <Revision>0</Revision>
+              <DisplayVersion></DisplayVersion>
+              <Packages />
+            </BuildDevice>
+            <DependencyId>00000000-0000-0000-0000-000000000000</DependencyId>
+            <IsSource>true</IsSource>
+            <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+            <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+            <LibraryFilePath></LibraryFilePath>
+            <LibraryFileRelativePath></LibraryFileRelativePath>
+            <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+            <AsOldVer>false</AsOldVer>
+            <SchemaVersion>0</SchemaVersion>
+            <Parameter1>false</Parameter1>
+          </LibraryModel>
+        </data>
+      </BuildOption>
+      <ExcludedParts />
+      <InternalParts />
+      <LibraryTrackingIdConversionTable>
+        <LibraryEntityTrackingId>00000000-0000-0000-0000-000000000000</LibraryEntityTrackingId>
+        <PartTrackingIds />
+      </LibraryTrackingIdConversionTable>
+      <AreLibrariesIncluded>true</AreLibrariesIncluded>
+      <IsLibraryIdsDifferenceNotified>false</IsLibraryIdsDifferenceNotified>
+    </ReferredLibrariesModel>
+  </data>
+</data>

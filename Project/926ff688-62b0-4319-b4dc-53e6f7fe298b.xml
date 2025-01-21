@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <SolutionModel>
+      <DateCreated>2025-01-21T13:32:52.9071144+01:00</DateCreated>
+      <Author>PClo</Author>
+      <Customer></Customer>
+      <Project>Omron_FB</Project>
+      <ShortDescription>Objects library for Omron PLC for Sysmac Studio</ShortDescription>
+      <Version></Version>
+      <Password></Password>
+      <ProjectType>StandardProject</ProjectType>
+      <EnableReferredLibrariesExport>true</EnableReferredLibrariesExport>
+      <PL>en-US</PL>
+    </SolutionModel>
+  </data>
+</data>

@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexCpuCjMemorySetting>
+    <NexCpuCjMemorySettingTable>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTable>
+    <NexCpuCjMemorySettingTableCIOGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableCIOGeneration>
+    <NexCpuCjMemorySettingTableCIOAreaType>
+      <CurrentValue>CIO</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>CIO</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableCIOAreaType>
+    <NexCpuCjMemorySettingTableCIOMemorySize>
+      <CurrentValue>6144</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>6144</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableCIOMemorySize>
+    <NexCpuCjMemorySettingTableCIORetainType>
+      <CurrentValue>NonRetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NonRetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableCIORetainType>
+    <NexCpuCjMemorySettingTableWRGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableWRGeneration>
+    <NexCpuCjMemorySettingTableWRAreaType>
+      <CurrentValue>WR</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>WR</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableWRAreaType>
+    <NexCpuCjMemorySettingTableWRMemorySize>
+      <CurrentValue>512</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>512</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableWRMemorySize>
+    <NexCpuCjMemorySettingTableWRRetainType>
+      <CurrentValue>NonRetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NonRetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableWRRetainType>
+    <NexCpuCjMemorySettingTableHRGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableHRGeneration>
+    <NexCpuCjMemorySettingTableHRAreaType>
+      <CurrentValue>HR</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>HR</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableHRAreaType>
+    <NexCpuCjMemorySettingTableHRMemorySize>
+      <CurrentValue>512</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>512</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableHRMemorySize>
+    <NexCpuCjMemorySettingTableHRRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableHRRetainType>
+    <NexCpuCjMemorySettingTableDMGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableDMGeneration>
+    <NexCpuCjMemorySettingTableDMAreaType>
+      <CurrentValue>DM</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>DM</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableDMAreaType>
+    <NexCpuCjMemorySettingTableDMMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableDMMemorySize>
+    <NexCpuCjMemorySettingTableDMRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableDMRetainType>
+    <NexCpuCjMemorySettingTableEM0Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM0Generation>
+    <NexCpuCjMemorySettingTableEM0AreaType>
+      <CurrentValue>EM0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM0</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM0AreaType>
+    <NexCpuCjMemorySettingTableEM0MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM0MemorySize>
+    <NexCpuCjMemorySettingTableEM0RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM0RetainType>
+    <NexCpuCjMemorySettingTableEM1Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1Generation>
+    <NexCpuCjMemorySettingTableEM1AreaType>
+      <CurrentValue>EM1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM1</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1AreaType>
+    <NexCpuCjMemorySettingTableEM1MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1MemorySize>
+    <NexCpuCjMemorySettingTableEM1RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1RetainType>
+    <NexCpuCjMemorySettingTableEM2Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM2Generation>
+    <NexCpuCjMemorySettingTableEM2AreaType>
+      <CurrentValue>EM2</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM2</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM2AreaType>
+    <NexCpuCjMemorySettingTableEM2MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM2MemorySize>
+    <NexCpuCjMemorySettingTableEM2RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM2RetainType>
+    <NexCpuCjMemorySettingTableEM3Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM3Generation>
+    <NexCpuCjMemorySettingTableEM3AreaType>
+      <CurrentValue>EM3</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM3</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM3AreaType>
+    <NexCpuCjMemorySettingTableEM3MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM3MemorySize>
+    <NexCpuCjMemorySettingTableEM3RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM3RetainType>
+    <NexCpuCjMemorySettingTableEM4Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM4Generation>
+    <NexCpuCjMemorySettingTableEM4AreaType>
+      <CurrentValue>EM4</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM4</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM4AreaType>
+    <NexCpuCjMemorySettingTableEM4MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM4MemorySize>
+    <NexCpuCjMemorySettingTableEM4RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM4RetainType>
+    <NexCpuCjMemorySettingTableEM5Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM5Generation>
+    <NexCpuCjMemorySettingTableEM5AreaType>
+      <CurrentValue>EM5</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM5</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM5AreaType>
+    <NexCpuCjMemorySettingTableEM5MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM5MemorySize>
+    <NexCpuCjMemorySettingTableEM5RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM5RetainType>
+    <NexCpuCjMemorySettingTableEM6Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM6Generation>
+    <NexCpuCjMemorySettingTableEM6AreaType>
+      <CurrentValue>EM6</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM6</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM6AreaType>
+    <NexCpuCjMemorySettingTableEM6MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM6MemorySize>
+    <NexCpuCjMemorySettingTableEM6RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM6RetainType>
+    <NexCpuCjMemorySettingTableEM7Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM7Generation>
+    <NexCpuCjMemorySettingTableEM7AreaType>
+      <CurrentValue>EM7</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM7</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM7AreaType>
+    <NexCpuCjMemorySettingTableEM7MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM7MemorySize>
+    <NexCpuCjMemorySettingTableEM7RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM7RetainType>
+    <NexCpuCjMemorySettingTableEM8Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM8Generation>
+    <NexCpuCjMemorySettingTableEM8AreaType>
+      <CurrentValue>EM8</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM8</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM8AreaType>
+    <NexCpuCjMemorySettingTableEM8MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM8MemorySize>
+    <NexCpuCjMemorySettingTableEM8RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM8RetainType>
+    <NexCpuCjMemorySettingTableEM9Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM9Generation>
+    <NexCpuCjMemorySettingTableEM9AreaType>
+      <CurrentValue>EM9</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM9</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM9AreaType>
+    <NexCpuCjMemorySettingTableEM9MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM9MemorySize>
+    <NexCpuCjMemorySettingTableEM9RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM9RetainType>
+    <NexCpuCjMemorySettingTableEMAGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMAGeneration>
+    <NexCpuCjMemorySettingTableEMAAreaType>
+      <CurrentValue>EMA</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EMA</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMAAreaType>
+    <NexCpuCjMemorySettingTableEMAMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMAMemorySize>
+    <NexCpuCjMemorySettingTableEMARetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMARetainType>
+    <NexCpuCjMemorySettingTableEMBGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMBGeneration>
+    <NexCpuCjMemorySettingTableEMBAreaType>
+      <CurrentValue>EMB</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EMB</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMBAreaType>
+    <NexCpuCjMemorySettingTableEMBMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMBMemorySize>
+    <NexCpuCjMemorySettingTableEMBRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMBRetainType>
+    <NexCpuCjMemorySettingTableEMCGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMCGeneration>
+    <NexCpuCjMemorySettingTableEMCAreaType>
+      <CurrentValue>EMC</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EMC</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMCAreaType>
+    <NexCpuCjMemorySettingTableEMCMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMCMemorySize>
+    <NexCpuCjMemorySettingTableEMCRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMCRetainType>
+    <NexCpuCjMemorySettingTableEMDGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMDGeneration>
+    <NexCpuCjMemorySettingTableEMDAreaType>
+      <CurrentValue>EMD</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EMD</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMDAreaType>
+    <NexCpuCjMemorySettingTableEMDMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMDMemorySize>
+    <NexCpuCjMemorySettingTableEMDRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMDRetainType>
+    <NexCpuCjMemorySettingTableEMEGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMEGeneration>
+    <NexCpuCjMemorySettingTableEMEAreaType>
+      <CurrentValue>EME</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EME</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMEAreaType>
+    <NexCpuCjMemorySettingTableEMEMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMEMemorySize>
+    <NexCpuCjMemorySettingTableEMERetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMERetainType>
+    <NexCpuCjMemorySettingTableEMFGeneration>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMFGeneration>
+    <NexCpuCjMemorySettingTableEMFAreaType>
+      <CurrentValue>EMF</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EMF</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMFAreaType>
+    <NexCpuCjMemorySettingTableEMFMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMFMemorySize>
+    <NexCpuCjMemorySettingTableEMFRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEMFRetainType>
+    <NexCpuCjMemorySettingTableEM10Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM10Generation>
+    <NexCpuCjMemorySettingTableEM10AreaType>
+      <CurrentValue>EM10</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM10</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM10AreaType>
+    <NexCpuCjMemorySettingTableEM10MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM10MemorySize>
+    <NexCpuCjMemorySettingTableEM10RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM10RetainType>
+    <NexCpuCjMemorySettingTableEM11Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM11Generation>
+    <NexCpuCjMemorySettingTableEM11AreaType>
+      <CurrentValue>EM11</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM11</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM11AreaType>
+    <NexCpuCjMemorySettingTableEM11MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM11MemorySize>
+    <NexCpuCjMemorySettingTableEM11RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM11RetainType>
+    <NexCpuCjMemorySettingTableEM12Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM12Generation>
+    <NexCpuCjMemorySettingTableEM12AreaType>
+      <CurrentValue>EM12</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM12</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM12AreaType>
+    <NexCpuCjMemorySettingTableEM12MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM12MemorySize>
+    <NexCpuCjMemorySettingTableEM12RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM12RetainType>
+    <NexCpuCjMemorySettingTableEM13Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM13Generation>
+    <NexCpuCjMemorySettingTableEM13AreaType>
+      <CurrentValue>EM13</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM13</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM13AreaType>
+    <NexCpuCjMemorySettingTableEM13MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM13MemorySize>
+    <NexCpuCjMemorySettingTableEM13RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM13RetainType>
+    <NexCpuCjMemorySettingTableEM14Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM14Generation>
+    <NexCpuCjMemorySettingTableEM14AreaType>
+      <CurrentValue>EM14</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM14</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM14AreaType>
+    <NexCpuCjMemorySettingTableEM14MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM14MemorySize>
+    <NexCpuCjMemorySettingTableEM14RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM14RetainType>
+    <NexCpuCjMemorySettingTableEM15Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM15Generation>
+    <NexCpuCjMemorySettingTableEM15AreaType>
+      <CurrentValue>EM15</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM15</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM15AreaType>
+    <NexCpuCjMemorySettingTableEM15MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM15MemorySize>
+    <NexCpuCjMemorySettingTableEM15RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM15RetainType>
+    <NexCpuCjMemorySettingTableEM16Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM16Generation>
+    <NexCpuCjMemorySettingTableEM16AreaType>
+      <CurrentValue>EM16</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM16</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM16AreaType>
+    <NexCpuCjMemorySettingTableEM16MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM16MemorySize>
+    <NexCpuCjMemorySettingTableEM16RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM16RetainType>
+    <NexCpuCjMemorySettingTableEM17Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM17Generation>
+    <NexCpuCjMemorySettingTableEM17AreaType>
+      <CurrentValue>EM17</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM17</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM17AreaType>
+    <NexCpuCjMemorySettingTableEM17MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM17MemorySize>
+    <NexCpuCjMemorySettingTableEM17RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM17RetainType>
+    <NexCpuCjMemorySettingTableEM18Generation>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM18Generation>
+    <NexCpuCjMemorySettingTableEM18AreaType>
+      <CurrentValue>EM18</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM18</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM18AreaType>
+    <NexCpuCjMemorySettingTableEM18MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM18MemorySize>
+    <NexCpuCjMemorySettingTableEM18RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM18RetainType>
+    <NexCpuCjMemorySettingTableEM19Generation>
+      <CurrentValue>True</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>True</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM19Generation>
+    <NexCpuCjMemorySettingTableEM19AreaType>
+      <CurrentValue>EM19</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM19</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM19AreaType>
+    <NexCpuCjMemorySettingTableEM19MemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM19MemorySize>
+    <NexCpuCjMemorySettingTableEM19RetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM19RetainType>
+    <NexCpuCjMemorySettingTableEM1AGeneration>
+      <CurrentValue>True</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>True</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1AGeneration>
+    <NexCpuCjMemorySettingTableEM1AAreaType>
+      <CurrentValue>EM1A</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM1A</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1AAreaType>
+    <NexCpuCjMemorySettingTableEM1AMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1AMemorySize>
+    <NexCpuCjMemorySettingTableEM1ARetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1ARetainType>
+    <NexCpuCjMemorySettingTableEM1BGeneration>
+      <CurrentValue>True</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>True</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1BGeneration>
+    <NexCpuCjMemorySettingTableEM1BAreaType>
+      <CurrentValue>EM1B</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EM1B</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1BAreaType>
+    <NexCpuCjMemorySettingTableEM1BMemorySize>
+      <CurrentValue>32768</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32768</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1BMemorySize>
+    <NexCpuCjMemorySettingTableEM1BRetainType>
+      <CurrentValue>RetainType</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>RetainType</DefaultValue>
+      <Options />
+    </NexCpuCjMemorySettingTableEM1BRetainType>
+  </NexCpuCjMemorySetting>
+</data>

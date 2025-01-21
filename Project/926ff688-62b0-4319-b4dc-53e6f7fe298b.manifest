@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="Omron_FB" id="926ff688-62b0-4319-b4dc-53e6f7fe298b" trackingId="51a278bd-2708-406c-9fe2-a775144a18ae" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="V102Project" />
+      <ApplicationFeature name="DBCon V2.01" />
+      <ApplicationFeature name="SetUnit NX102-9020 Ver. 1.64" />
+      <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>
