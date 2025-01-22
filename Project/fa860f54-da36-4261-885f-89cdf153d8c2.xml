@@ -7,7 +7,9 @@
       <ExecutionConditionSiouCpuUnit CJUnitTaskNo="" />
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
-  <Programs />
+  <Programs>
+    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+  </Programs>
   <RefreshUnitIds />
   <TaskInterfaceVariables version="1" />
 </data>

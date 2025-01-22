@@ -1,0 +1,19 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=Pneu_Core_DoNotUse	N=PneuCore	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Use the cylinder
+++D=TIME	N=Timeout	IV=T#0S	Ord=3	G=VAR_INPUT	Com=Moving time maximum
+++D=BOOL	N=Out_Cmd	Ord=4	G=VAR_IN_OUT	Com=Command to move cylinder in OUT position
+++D=BOOL	N=Out_SensorMounted	IV=False	Ord=5	G=VAR_INPUT	Com=Sensor for cylinder in position OUT is mounted
+++D=BOOL	N=Out_Sensor	IV=False	Ord=6	G=VAR_INPUT	Com=Sensor OUT position
+++D=TIME	N=Out_MoveTime	Ord=7	G=VAR_INPUT	Com=Time to move in OUT position without sensor
+++D=BOOL	N=In_Cmd	Ord=8	G=VAR_IN_OUT	Com=Command to move cylinder in IN position
+++D=BOOL	N=In_SensorMounted	IV=False	Ord=9	G=VAR_INPUT	Com=Sensor for cylinder in position IN is mounted
+++D=BOOL	N=In_Sensor	IV=False	Ord=10	G=VAR_INPUT	Com=Sensor IN position
+++D=TIME	N=In_MoveTime	Ord=11	G=VAR_INPUT	Com=Time to move in IN position without sensor
+++D=BOOL	N=Commissioning	Ord=12	G=VAR_INPUT	Com=Put cylinder in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

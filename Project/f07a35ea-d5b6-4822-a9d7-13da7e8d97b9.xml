@@ -1,0 +1,4 @@
+<CodeEditorModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.CodeEditor.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CodingLanguageName>VBNET</CodingLanguageName><HiddenFooter>&#xD;
+End Module</HiddenFooter><HiddenHeader>Public Module SubroutineGroup0&#xD;
+</HiddenHeader><SerialData/><SerialDeviceHmiId/><SerialScaleData/><Text>'Add global subroutines&#xD;
+</Text></CodeEditorModel>

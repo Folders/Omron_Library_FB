@@ -1,4 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data Version="1">
-  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+  <DataType Name="Data Types" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="6" OffsetType="NJ">
+      <DataType Name="Test1" BaseType="PneuTest_1" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="For Cylinder1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="PneuTest_1" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="4" OffsetType="NJ">
+      <DataType Name="Enable_ConfigSimple" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose simple acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Enable_ConfigDouble" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdOut" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdIn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go in" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
 </data>

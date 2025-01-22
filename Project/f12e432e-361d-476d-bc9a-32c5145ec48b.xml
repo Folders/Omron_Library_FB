@@ -1,3 +1,6 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=PneuTest	N=Pneu	G=VAR_GLOBAL
+++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
+++D=OBJ\PNEUMATIC	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
