@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="6" OffsetType="NJ" Id="9fdaf6f0-d675-4b49-8c12-23e142aa5627">
+      <DataType Name="Test1" BaseType="FB_PLC\PneuTest_1" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="For Cylinder1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="586ec05d-03e3-47d3-a05b-009ab2ed4001" />
+    </DataType>
+    <DataType Name="PneuTest_1" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="4" OffsetType="NJ" Id="d1de2cf5-40ec-4727-9602-09bd5e1c2bce">
+      <DataType Name="Enable_ConfigSimple" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose simple acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0fe0687a-dfe5-4bdb-9d14-cd10c8568a10" />
+      <DataType Name="Enable_ConfigDouble" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="f77e99fe-a161-4493-ba1f-0c3c518f0e98" />
+      <DataType Name="CmdOut" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a79b5b1b-d8f5-4749-a290-18ce7ea48bce" />
+      <DataType Name="CmdIn" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go in" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d1e60034-4172-40c7-ac1c-510c6d3b71ce" />
+    </DataType>
+  </DataType>
+</data>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <MappedVariableIds>
+    <MappedVariableId PortId="4c3a6fdb-cf47-4ec5-80a9-a3e44975434e">
+      <MappedVariable VariableId="6cfc9db3-4fb1-488f-a52d-37d49559e900" />
+    </MappedVariableId>
+    <MappedVariableId PortId="83880e2f-4223-4fa1-97b4-3b485ca19ae0">
+      <MappedVariable VariableId="26cffbe0-f53f-4cd6-bf2d-ec4ea4fd1a48" />
+    </MappedVariableId>
+    <MappedVariableId PortId="fc8df325-500f-42e1-b748-e51a2425a328">
+      <MappedVariable VariableId="97dec800-5657-49da-8100-28202b6cd8a7" />
+    </MappedVariableId>
+  </MappedVariableIds>
+  <VariableTableTrackingIds>
+    <VariableTableTrackingId VariableId="6cfc9db3-4fb1-488f-a52d-37d49559e900" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
+    <VariableTableTrackingId VariableId="26cffbe0-f53f-4cd6-bf2d-ec4ea4fd1a48" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
+    <VariableTableTrackingId VariableId="97dec800-5657-49da-8100-28202b6cd8a7" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
+  </VariableTableTrackingIds>
+</data>
