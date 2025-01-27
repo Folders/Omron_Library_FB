@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR	Com=Run coil order
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Cylinder order are set for "Coil" order
+++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Order	Ord=2	G=VAR_INPUT	Com=Active the cylinder
+++D=BOOL	N=Enable	IV=True	Ord=3	G=VAR_INPUT	Com=Enable the order (default at TRUE)
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

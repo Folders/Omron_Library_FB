@@ -9,6 +9,11 @@
       <DataType Name="Enable_ConfigDouble" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CmdOut" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CmdIn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go in" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_GoOut" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to go OUT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_GoIn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to go IN" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_Sequence" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run a sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_CoilEnabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Use coil function" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_Coil" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Coil order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>

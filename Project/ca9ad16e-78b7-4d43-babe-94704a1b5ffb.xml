@@ -9,6 +9,11 @@
       <DataType Name="Enable_ConfigDouble" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="f77e99fe-a161-4493-ba1f-0c3c518f0e98" />
       <DataType Name="CmdOut" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a79b5b1b-d8f5-4749-a290-18ce7ea48bce" />
       <DataType Name="CmdIn" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go in" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d1e60034-4172-40c7-ac1c-510c6d3b71ce" />
+      <DataType Name="Order_GoOut" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to go OUT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="50803f32-f5ab-4725-a0d7-2d65d1ca8fb5" />
+      <DataType Name="Order_GoIn" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to go IN" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="3d0ee281-e338-4052-b510-1ab87bbc0d73" />
+      <DataType Name="Order_Sequence" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run a sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="cff3e706-3024-4d42-8957-bb1caf01a78d" />
+      <DataType Name="Order_CoilEnabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Use coil function" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="f3a1f755-724c-4891-b13a-6484b6f66577" />
+      <DataType Name="Order_Coil" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Coil order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="701fca57-115e-4e48-827e-c66adf5a8fb4" />
     </DataType>
   </DataType>
 </data>

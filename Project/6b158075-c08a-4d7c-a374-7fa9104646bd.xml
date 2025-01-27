@@ -4,6 +4,17 @@ _EN=Variables
 ++D=BOOL	N=dumb	G=VAR
 ++D=Pneu_Config_Cylinder_SimpleActing	N=Cylinder1_Simple	G=VAR
 ++D=Pneu_Config_Cylinder_DoubleActing	N=Cylinder1_Double	G=VAR
+++D=Pneu_GoOut	N=Out1	G=VAR
+++D=Pneu_GoIn	N=In1	G=VAR
+++D=TON	N=waitSeq1	G=VAR
+++D=Pneu_GoOut	N=Out2	G=VAR
+++D=Pneu_GoIn	N=In2	G=VAR
+++D=TON	N=waitSeq2	G=VAR
+++D=Pneu_GoOut	N=Out3	G=VAR
+++D=Pneu_GoIn	N=In3	G=VAR
+++D=TON	N=waitSeq3	G=VAR
+++D=Pneu_Coil	N=CoilCmd	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=PneuTest	N=Pneu	G=VAR_EXTERNAL
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_EXTERNAL
+++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
