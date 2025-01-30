@@ -1,6 +1,11 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=BOOL	N=Info_General	G=VAR_GLOBAL	Com=Rung with general information about an object
+++D=BOOL	N=Info_Struct	G=VAR_GLOBAL	Com=Rung with information on object structure
+++D=BOOL	N=Info_IOmap	G=VAR_GLOBAL	Com=Information about I/O map
+++D=BOOL	N=Info_Retain	G=VAR_GLOBAL	Com=This object must be retain!
+++D=BOOL	N=Info_ToDo	G=VAR_GLOBAL	Com=To do....
 ++D=BOOL	N=Commissioning	G=VAR_GLOBAL	Com=Put objects in commissioning
 ++D=PneuTest	N=Pneu	G=VAR_GLOBAL
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1

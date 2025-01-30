@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="Strings">
+    <Resource Name="S_Edit" ID="9b057321-aa57-4a4b-a00f-ff4eded44371">
+      <Localisation Language="en-GB" Translation="Edit" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1069" ID="fdd5cc66-bfc6-4f5c-b159-f29152f0c8c1">
+      <Localisation Language="en-GB" Translation="12" Default="True" />
+      <Localisation Language="tr-TR" Translation="12" />
+      <Localisation Language="it-IT" Translation="12" />
+      <Localisation Language="es-ES" Translation="12" />
+      <Localisation Language="pt-PT" Translation="12" />
+      <Localisation Language="fr-CH" Translation="12" />
+      <Localisation Language="de-DE" Translation="12" />
+      <Localisation Language="ru-RU" Translation="12" />
+      <Localisation Language="bg-BG" Translation="12" />
+      <Localisation Language="sv-SE" Translation="12" />
+      <Localisation Language="ro-RO" Translation="12" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="FA_Home" ID="7098cbc8-517b-4512-8d98-90ff2f6870ae">
+      <Localisation Language="en-GB" Translation="FA_Home.xaml" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily8" ID="5f995e4e-5e10-4098-a502-758a5d7669d0">
+      <Localisation Language="en-GB" Translation="Segoe UI" Default="True" />
+      <Localisation Language="tr-TR" Translation="Segoe UI" />
+      <Localisation Language="it-IT" Translation="Segoe UI" />
+      <Localisation Language="es-ES" Translation="Segoe UI" />
+      <Localisation Language="pt-PT" Translation="Segoe UI" />
+      <Localisation Language="fr-CH" Translation="Segoe UI" />
+      <Localisation Language="de-DE" Translation="Segoe UI" />
+      <Localisation Language="ru-RU" Translation="Segoe UI" />
+      <Localisation Language="bg-BG" Translation="Segoe UI" />
+      <Localisation Language="sv-SE" Translation="Segoe UI" />
+      <Localisation Language="ro-RO" Translation="Segoe UI" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle183" ID="1c811d06-2c94-410c-8967-3c031412c0d7">
+      <Localisation Language="en-GB" Translation="Normal" Default="True" />
+      <Localisation Language="tr-TR" Translation="Normal" />
+      <Localisation Language="it-IT" Translation="Normal" />
+      <Localisation Language="es-ES" Translation="Normal" />
+      <Localisation Language="pt-PT" Translation="Normal" />
+      <Localisation Language="fr-CH" Translation="Normal" />
+      <Localisation Language="de-DE" Translation="Normal" />
+      <Localisation Language="ru-RU" Translation="Normal" />
+      <Localisation Language="bg-BG" Translation="Normal" />
+      <Localisation Language="sv-SE" Translation="Normal" />
+      <Localisation Language="ro-RO" Translation="Normal" />
+    </Resource>
+  </Resources>
+</IagResources>

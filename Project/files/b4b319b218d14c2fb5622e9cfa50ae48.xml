@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="Strings">
+    <Resource Name="String14" ID="306377b0-f69a-45a3-9a3d-d9a2ddb1c09b">
+      <Localisation Language="en-GB" Translation="Zone" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String23" ID="c3aee4c0-e93c-42b1-9689-de8cb6f651c0">
+      <Localisation Language="en-GB" Translation="." Default="True" />
+      <Localisation Language="tr-TR" Translation="." />
+      <Localisation Language="it-IT" Translation="." />
+      <Localisation Language="es-ES" Translation="." />
+      <Localisation Language="pt-PT" Translation="." />
+      <Localisation Language="fr-CH" Translation="." />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1069" ID="b0d4b582-3078-448c-8aff-7bfe12510217">
+      <Localisation Language="en-GB" Translation="12" Default="True" />
+      <Localisation Language="tr-TR" Translation="12" />
+      <Localisation Language="it-IT" Translation="12" />
+      <Localisation Language="es-ES" Translation="12" />
+      <Localisation Language="pt-PT" Translation="12" />
+      <Localisation Language="fr-CH" Translation="12" />
+      <Localisation Language="de-DE" Translation="12" />
+      <Localisation Language="ru-RU" Translation="12" />
+      <Localisation Language="bg-BG" Translation="12" />
+      <Localisation Language="sv-SE" Translation="12" />
+      <Localisation Language="ro-RO" Translation="12" />
+    </Resource>
+    <Resource Name="FontSize1075" ID="f6a3d511-013b-4055-a30c-599c52822601">
+      <Localisation Language="en-GB" Translation="17" Default="True" />
+      <Localisation Language="tr-TR" Translation="17" />
+      <Localisation Language="it-IT" Translation="17" />
+      <Localisation Language="es-ES" Translation="17" />
+      <Localisation Language="pt-PT" Translation="17" />
+      <Localisation Language="fr-CH" Translation="17" />
+      <Localisation Language="de-DE" Translation="17" />
+      <Localisation Language="ru-RU" Translation="17" />
+      <Localisation Language="bg-BG" Translation="17" />
+      <Localisation Language="sv-SE" Translation="17" />
+      <Localisation Language="ro-RO" Translation="17" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily8" ID="0700fa0e-7f39-47a0-adaa-35da74e3192a">
+      <Localisation Language="en-GB" Translation="Segoe UI" Default="True" />
+      <Localisation Language="tr-TR" Translation="Segoe UI" />
+      <Localisation Language="it-IT" Translation="Segoe UI" />
+      <Localisation Language="es-ES" Translation="Segoe UI" />
+      <Localisation Language="pt-PT" Translation="Segoe UI" />
+      <Localisation Language="fr-CH" Translation="Segoe UI" />
+      <Localisation Language="de-DE" Translation="Segoe UI" />
+      <Localisation Language="ru-RU" Translation="Segoe UI" />
+      <Localisation Language="bg-BG" Translation="Segoe UI" />
+      <Localisation Language="sv-SE" Translation="Segoe UI" />
+      <Localisation Language="ro-RO" Translation="Segoe UI" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle183" ID="b36f4c55-d18c-4f12-8b26-22b6a084bf40">
+      <Localisation Language="en-GB" Translation="Normal" Default="True" />
+      <Localisation Language="tr-TR" Translation="Normal" />
+      <Localisation Language="it-IT" Translation="Normal" />
+      <Localisation Language="es-ES" Translation="Normal" />
+      <Localisation Language="pt-PT" Translation="Normal" />
+      <Localisation Language="fr-CH" Translation="Normal" />
+      <Localisation Language="de-DE" Translation="Normal" />
+      <Localisation Language="ru-RU" Translation="Normal" />
+      <Localisation Language="bg-BG" Translation="Normal" />
+      <Localisation Language="sv-SE" Translation="Normal" />
+      <Localisation Language="ro-RO" Translation="Normal" />
+    </Resource>
+    <Resource Name="FontStyle185" ID="f80397ee-392d-4c9a-8795-c1c756e5a02f">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+  </Resources>
+</IagResources>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="Strings">
+    <Resource Name="S_DigitalInputCard" ID="e8364637-7cfb-41a3-86ed-382b6208b3df">
+      <Localisation Language="en-GB" Translation="Digital Input Card" Default="True" />
+      <Localisation Language="tr-TR" Translation="Dijital Giriş Kartı" />
+      <Localisation Language="it-IT" Translation="Scheda di ingresso digitale" />
+      <Localisation Language="es-ES" Translation="Tarjeta de entrada digital" />
+      <Localisation Language="pt-PT" Translation="Cartão de entrada digital" />
+      <Localisation Language="fr-CH" Translation="Carte d'entrée numérique" />
+      <Localisation Language="de-DE" Translation="Digitale Eingangskarte" />
+      <Localisation Language="ru-RU" Translation="Цифровая карта ввода" />
+      <Localisation Language="bg-BG" Translation="Карта за цифров вход" />
+      <Localisation Language="sv-SE" Translation="Digital ingångskort" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="S_DigitalOutputCard" ID="12d5566c-5f7c-4d0f-a43c-c56d0534eb7f">
+      <Localisation Language="en-GB" Translation="Digital Output Card" Default="True" />
+      <Localisation Language="tr-TR" Translation="Dijital Çıkış Kartı" />
+      <Localisation Language="it-IT" Translation="Scheda di uscita digitale" />
+      <Localisation Language="es-ES" Translation="Tarjeta de salida digital" />
+      <Localisation Language="pt-PT" Translation="Cartão de saída digital" />
+      <Localisation Language="fr-CH" Translation="Carte de sortie numérique" />
+      <Localisation Language="de-DE" Translation="Digitale Ausgangskarte" />
+      <Localisation Language="ru-RU" Translation="Карта цифрового выхода" />
+      <Localisation Language="bg-BG" Translation="Карта за цифров изход" />
+      <Localisation Language="sv-SE" Translation="Digital utgångskort" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="S_SafetyInputCard2" ID="f5fee4f0-6cab-42d6-8ef5-5d0913f2e0c9">
+      <Localisation Language="en-GB" Translation="Safety Input Card" Default="True" />
+      <Localisation Language="tr-TR" Translation="Güvenlik Giriş Kartı" />
+      <Localisation Language="it-IT" Translation="Scheda di ingresso di sicurezza" />
+      <Localisation Language="es-ES" Translation="Tarjeta de entrada de seguridad" />
+      <Localisation Language="pt-PT" Translation="Cartão de entrada de segurança" />
+      <Localisation Language="fr-CH" Translation="Carte d'entrée de sécurité" />
+      <Localisation Language="de-DE" Translation="Sicherheitseingangskarte" />
+      <Localisation Language="ru-RU" Translation="Безопасная входная карта" />
+      <Localisation Language="bg-BG" Translation="Карта за вход за безопасност" />
+      <Localisation Language="sv-SE" Translation="Säkerhetsingångskort" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="S_SafetyOutputCard2" ID="a4532250-028c-4ec3-904b-ae100329dfe7">
+      <Localisation Language="en-GB" Translation="Safety Output Card" Default="True" />
+      <Localisation Language="tr-TR" Translation="Emniyet Çıkışı Kartı" />
+      <Localisation Language="it-IT" Translation="Scheda di uscita di sicurezza" />
+      <Localisation Language="es-ES" Translation="Tarjeta de salida de seguridad" />
+      <Localisation Language="pt-PT" Translation="Cartão de saída de segurança" />
+      <Localisation Language="fr-CH" Translation="Carte de sortie de sécurité" />
+      <Localisation Language="de-DE" Translation="Sicherheitsausgangskarte" />
+      <Localisation Language="ru-RU" Translation="Безопасная выходная карта" />
+      <Localisation Language="bg-BG" Translation="Изходна карта за безопасност" />
+      <Localisation Language="sv-SE" Translation="Säkerhetskort" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="S_State1" ID="43687daf-0c4c-4df8-a7dc-a054cb1ec9d3">
+      <Localisation Language="en-GB" Translation="State" Default="True" />
+      <Localisation Language="tr-TR" Translation="Durum" />
+      <Localisation Language="it-IT" Translation="Stato" />
+      <Localisation Language="es-ES" Translation="Estado" />
+      <Localisation Language="pt-PT" Translation="Estado" />
+      <Localisation Language="fr-CH" Translation="État" />
+      <Localisation Language="de-DE" Translation="Zustand" />
+      <Localisation Language="ru-RU" Translation="Штат" />
+      <Localisation Language="bg-BG" Translation="държава" />
+      <Localisation Language="sv-SE" Translation="Stat" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="S_Variable1" ID="5c43923a-ec89-40fd-99ff-9a8d8d28d9b6">
+      <Localisation Language="en-GB" Translation="Variable" Default="True" />
+      <Localisation Language="tr-TR" Translation="Değişken" />
+      <Localisation Language="it-IT" Translation="Variabile" />
+      <Localisation Language="es-ES" Translation="Variable" />
+      <Localisation Language="pt-PT" Translation="Variável" />
+      <Localisation Language="fr-CH" Translation="Variable" />
+      <Localisation Language="de-DE" Translation="Variabel" />
+      <Localisation Language="ru-RU" Translation="Переменная" />
+      <Localisation Language="bg-BG" Translation="Променлива" />
+      <Localisation Language="sv-SE" Translation="Variabel" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String133" ID="4bba1e25-d08c-4931-8908-2a0a9d7dc6a1">
+      <Localisation Language="en-GB" Translation="Safety Connection Status" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String65" ID="682baff7-1e03-490f-afe4-714a39add9a1">
+      <Localisation Language="en-GB" Translation="I/O Power Supply Error Flag" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String79" ID="7e965cbb-d037-4a42-b469-f83160d6397a">
+      <Localisation Language="en-GB" Translation="Unit Normal Status" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String80" ID="82680b8d-bb72-40ad-8c04-fadb58207d6b">
+      <Localisation Language="en-GB" Translation="Safety Output Terminal Status" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize663" ID="c5d2ec05-6480-4598-8aad-604f71c94089">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+    <Resource Name="FontSize664" ID="4084180e-2549-4f88-8d2b-7d4c0aa40f2e">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="73dacc3c-3d5b-4458-bf1d-acd30b215fa4">
+      <Localisation Language="en-GB" Translation="20" Default="True" />
+      <Localisation Language="tr-TR" Translation="20" />
+      <Localisation Language="it-IT" Translation="20" />
+      <Localisation Language="es-ES" Translation="20" />
+      <Localisation Language="pt-PT" Translation="20" />
+      <Localisation Language="fr-CH" Translation="20" />
+      <Localisation Language="de-DE" Translation="20" />
+      <Localisation Language="ru-RU" Translation="20" />
+      <Localisation Language="bg-BG" Translation="20" />
+      <Localisation Language="sv-SE" Translation="20" />
+      <Localisation Language="ro-RO" Translation="20" />
+    </Resource>
+    <Resource Name="FontSize1067" ID="63c929a4-3e96-4d69-852e-dc64f820d9b9">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="14" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="14" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+    <Resource Name="FontSize1078" ID="a3a25bd9-a0e4-40ac-b50d-aeaaf95e573c">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="14" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="12" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily8" ID="406a370b-dde5-4164-a209-633b4b80588d">
+      <Localisation Language="en-GB" Translation="Segoe UI" Default="True" />
+      <Localisation Language="tr-TR" Translation="Segoe UI" />
+      <Localisation Language="it-IT" Translation="Segoe UI" />
+      <Localisation Language="es-ES" Translation="Segoe UI" />
+      <Localisation Language="pt-PT" Translation="Segoe UI" />
+      <Localisation Language="fr-CH" Translation="Segoe UI" />
+      <Localisation Language="de-DE" Translation="Segoe UI" />
+      <Localisation Language="ru-RU" Translation="Segoe UI" />
+      <Localisation Language="bg-BG" Translation="Segoe UI" />
+      <Localisation Language="sv-SE" Translation="Segoe UI" />
+      <Localisation Language="ro-RO" Translation="Segoe UI" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle172" ID="3dbcb692-4ea3-4663-bfda-c468b774d2bc">
+      <Localisation Language="en-GB" Translation="Normal" Default="True" />
+      <Localisation Language="tr-TR" Translation="Normal" />
+      <Localisation Language="it-IT" Translation="Normal" />
+      <Localisation Language="es-ES" Translation="Normal" />
+      <Localisation Language="pt-PT" Translation="Normal" />
+      <Localisation Language="fr-CH" Translation="Normal" />
+      <Localisation Language="de-DE" Translation="Normal" />
+      <Localisation Language="ru-RU" Translation="Normal" />
+      <Localisation Language="bg-BG" Translation="Normal" />
+      <Localisation Language="sv-SE" Translation="Normal" />
+      <Localisation Language="ro-RO" Translation="Normal" />
+    </Resource>
+    <Resource Name="FontStyle183" ID="21f4191b-2e85-4704-a571-9d06626ebb38">
+      <Localisation Language="en-GB" Translation="Normal" Default="True" />
+      <Localisation Language="tr-TR" Translation="Normal" />
+      <Localisation Language="it-IT" Translation="Normal" />
+      <Localisation Language="es-ES" Translation="Normal" />
+      <Localisation Language="pt-PT" Translation="Normal" />
+      <Localisation Language="fr-CH" Translation="Normal" />
+      <Localisation Language="de-DE" Translation="Normal" />
+      <Localisation Language="ru-RU" Translation="Normal" />
+      <Localisation Language="bg-BG" Translation="Normal" />
+      <Localisation Language="sv-SE" Translation="Normal" />
+      <Localisation Language="ro-RO" Translation="Normal" />
+    </Resource>
+    <Resource Name="FontStyle186" ID="d6f7a411-5f7a-4e27-9228-14a7221b8ea7">
+      <Localisation Language="en-GB" Translation="BoldItalic" Default="True" />
+      <Localisation Language="tr-TR" Translation="BoldItalic" />
+      <Localisation Language="it-IT" Translation="BoldItalic" />
+      <Localisation Language="es-ES" Translation="BoldItalic" />
+      <Localisation Language="pt-PT" Translation="BoldItalic" />
+      <Localisation Language="fr-CH" Translation="BoldItalic" />
+      <Localisation Language="de-DE" Translation="BoldItalic" />
+      <Localisation Language="ru-RU" Translation="BoldItalic" />
+      <Localisation Language="bg-BG" Translation="BoldItalic" />
+      <Localisation Language="sv-SE" Translation="BoldItalic" />
+      <Localisation Language="ro-RO" Translation="BoldItalic" />
+    </Resource>
+    <Resource Name="FontStyle188" ID="3e4ee38f-244f-4b62-92f6-5975cdc44363">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+  </Resources>
+</IagResources>

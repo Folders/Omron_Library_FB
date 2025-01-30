@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="Pulsed" Address="" Length="" Retained="false" InitialValue="" Comment="Pulsed mode" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="f33a6e5f-94f3-432e-8186-7c4f7236a656" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Boolean" Name="Continous" Address="" Length="" Retained="false" InitialValue="" Comment="Continous wave mode" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="95f11072-50d3-4d73-be73-becc017c6f3d" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>

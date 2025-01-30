@@ -1,0 +1,1519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="Strings">
+    <Resource Name="State_Execute" ID="2c7e6af9-d1d3-43ae-b2a2-aff581a744cc">
+      <Localisation Language="en-GB" Translation="Execute" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="State_Starting" ID="5125516d-ad10-4be9-aab6-c97cdcadfea8">
+      <Localisation Language="en-GB" Translation="Starting" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String118" ID="ec25800e-c189-4990-af3d-19c663b6a1cc">
+      <Localisation Language="en-GB" Translation="UnHolding" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String119" ID="09bca720-e762-45d9-a049-3f888bba155c">
+      <Localisation Language="en-GB" Translation="UnSuspending" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String120" ID="b76440df-f7ae-4007-b051-8f19c0cacfc5">
+      <Localisation Language="en-GB" Translation="Held" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String121" ID="9c017e69-f678-4aba-a3b5-881f62748322">
+      <Localisation Language="en-GB" Translation="Holding" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String122" ID="eed7fbe4-efb7-4a67-8eab-87586014798c">
+      <Localisation Language="en-GB" Translation="Hold" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String123" ID="66dc7798-adf1-45ef-8d20-1b23eca4f3f2">
+      <Localisation Language="en-GB" Translation="Un-hold" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String22" ID="34cdb108-4dcf-4f04-a272-5073ae897f44">
+      <Localisation Language="en-GB" Translation="Run" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String26" ID="1548e4ec-15d9-4112-9fe9-d61b84e18148">
+      <Localisation Language="en-GB" Translation="Aborted" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String27" ID="a5b48479-9aa0-4b50-b3a3-0e8489c0b5e9">
+      <Localisation Language="en-GB" Translation="Aborting" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String28" ID="01b610dc-4481-4b90-984f-f46374edfd12">
+      <Localisation Language="en-GB" Translation="Clearing" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String29" ID="977008ba-11c6-4394-80c4-a9820b554ff1">
+      <Localisation Language="en-GB" Translation="Stopping" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String30" ID="eb26fdae-bdd4-4687-ace0-e26093888c99">
+      <Localisation Language="en-GB" Translation="Stopped" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String31" ID="888b4fc0-9068-49d8-b784-a5d295990340">
+      <Localisation Language="en-GB" Translation="Resetting" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String32" ID="099381f6-5e05-4427-8746-e07c77e20375">
+      <Localisation Language="en-GB" Translation="Idle" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String33" ID="994820a6-0c7e-4d59-8aeb-8a53f476b2d7">
+      <Localisation Language="en-GB" Translation="Complete" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String34" ID="ffe7e35e-4709-4796-9d3a-4db9f9b3a66b">
+      <Localisation Language="en-GB" Translation="Suspending" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String35" ID="81795087-7d28-43ed-ab6a-4ba4d7084489">
+      <Localisation Language="en-GB" Translation="Suspended" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String36" ID="3fd3a3b9-0179-47dd-862b-9a17762b21e1">
+      <Localisation Language="en-GB" Translation=" Un-suspended" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String38" ID="9042531c-335b-4ee1-adcd-ef566dc26241">
+      <Localisation Language="en-GB" Translation="Start" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String39" ID="cf118dc9-f86d-427f-9836-75adada3e2bb">
+      <Localisation Language="en-GB" Translation="Reset" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String40" ID="e98edb9d-7c92-44ce-9e98-8d70576e4a0f">
+      <Localisation Language="en-GB" Translation="Stop" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String41" ID="176c1ad3-ac94-482a-ac7c-3293cbee26ed">
+      <Localisation Language="en-GB" Translation="Clear" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String42" ID="edd6edaa-e2d1-4775-b1af-1cf77fb96468">
+      <Localisation Language="en-GB" Translation="Abort" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String43" ID="2b4e89e7-087e-4e2b-a5bb-a70b06efa137">
+      <Localisation Language="en-GB" Translation="Suspend" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String44" ID="f9941d02-0169-430b-ab4e-cd12988a79c7">
+      <Localisation Language="en-GB" Translation="SC" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String5" ID="bcb722f6-6f4c-44af-ad45-08155deff571">
+      <Localisation Language="en-GB" Translation="Work" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="String6" ID="67537118-f58d-4450-8fb7-e9a82481323d">
+      <Localisation Language="en-GB" Translation="Ready" Default="True" />
+      <Localisation Language="tr-TR" Translation="" />
+      <Localisation Language="it-IT" Translation="" />
+      <Localisation Language="es-ES" Translation="" />
+      <Localisation Language="pt-PT" Translation="" />
+      <Localisation Language="fr-CH" Translation="" />
+      <Localisation Language="de-DE" Translation="" />
+      <Localisation Language="ru-RU" Translation="" />
+      <Localisation Language="bg-BG" Translation="" />
+      <Localisation Language="sv-SE" Translation="" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize84" ID="cbb5045b-8502-4320-ba43-59083ed71243">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize568" ID="d0d3b60a-fbe6-4242-9219-406dbdf79db9">
+      <Localisation Language="en-GB" Translation="8" Default="True" />
+      <Localisation Language="tr-TR" Translation="8" />
+      <Localisation Language="it-IT" Translation="8" />
+      <Localisation Language="es-ES" Translation="8" />
+      <Localisation Language="pt-PT" Translation="8" />
+      <Localisation Language="fr-CH" Translation="8" />
+      <Localisation Language="de-DE" Translation="8" />
+      <Localisation Language="ru-RU" Translation="8" />
+      <Localisation Language="bg-BG" Translation="8" />
+      <Localisation Language="sv-SE" Translation="8" />
+      <Localisation Language="ro-RO" Translation="8" />
+    </Resource>
+    <Resource Name="FontSize600" ID="695e4acf-e585-48c0-8722-7e764eded136">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize601" ID="9079cb13-37bb-4861-bbdc-82aea21d7712">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize602" ID="7ed8fe67-e234-42bf-86f4-fdb221ba336c">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize603" ID="70275d71-1eb0-4023-af22-523fa743a904">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize604" ID="1de3038f-be2a-474e-8a1e-6b0a715fa0ae">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize605" ID="8d865dcb-590f-4d43-8508-e42733a9d9f4">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize606" ID="088ce645-f870-41ac-a695-47b7bd914a36">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize607" ID="a257fa58-7769-4de7-8cd3-19dc9abab5a0">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize608" ID="28f0ddea-f3ec-4f74-8aa9-3e00552dadd8">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize609" ID="19069914-2001-46d3-ba6e-7aa6453ea623">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize610" ID="74a87fc4-ae5a-4851-98b4-6597b78926bd">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize611" ID="963fa80d-6c53-4d9c-8f27-14aa1e5679f9">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize612" ID="793499a4-67d1-4267-8e3f-ec58381fc77b">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize613" ID="7ee91a20-59cc-4a43-8f6d-3fa9e0c05466">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize614" ID="712f40a5-2c6e-4771-affb-cd28856914a0">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize615" ID="e8490429-17a8-4bf2-bf91-bff1f076a388">
+      <Localisation Language="en-GB" Translation="13" Default="True" />
+      <Localisation Language="tr-TR" Translation="13" />
+      <Localisation Language="it-IT" Translation="13" />
+      <Localisation Language="es-ES" Translation="13" />
+      <Localisation Language="pt-PT" Translation="13" />
+      <Localisation Language="fr-CH" Translation="13" />
+      <Localisation Language="de-DE" Translation="13" />
+      <Localisation Language="ru-RU" Translation="13" />
+      <Localisation Language="bg-BG" Translation="13" />
+      <Localisation Language="sv-SE" Translation="13" />
+      <Localisation Language="ro-RO" Translation="13" />
+    </Resource>
+    <Resource Name="FontSize616" ID="230349ce-9ae4-40ce-a7ed-9d93b5d11eed">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize617" ID="16820d1e-b8f6-4ecf-8fad-a80f92b7345d">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize618" ID="06f337e1-aff2-43b7-9d9d-0e857695d5ad">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize619" ID="e2e94bb8-0dc9-4afa-a289-c9abd6f3e72c">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize620" ID="a0a3afb0-6559-4c8e-a5d0-45897a048efd">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize621" ID="f01cf385-61c5-40a6-9d36-2946f565371b">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize622" ID="25ee3960-53ed-41c8-9edc-b73a514b899a">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize623" ID="d765e562-76d1-42cb-bcf6-460b070ee960">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize624" ID="098c073c-024e-4957-b992-4ade0d1f2014">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize625" ID="5bc03be6-0860-4ec9-8188-c6ee511fa945">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize626" ID="d35484ee-7848-4fa2-9fa7-35e852c12f74">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize627" ID="aa4c6a96-5b6b-4f4f-b3e2-611d0a24aad2">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize628" ID="e12d0b60-8b51-4578-a106-411e847ea2fe">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize629" ID="f89c6990-71d6-43fb-bf35-a4af03b276f1">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize630" ID="43c70eb0-a5a9-4f78-aa6e-326711027a13">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize631" ID="3f28c862-5f55-44db-aebd-fd37007798f0">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize632" ID="2531a0cc-6795-437f-b13a-0e0c7fdab7f4">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize633" ID="d18838de-8d05-46f8-87cb-877254495348">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize634" ID="05d18872-2ed9-4f42-b2f9-b39ec00a4017">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize635" ID="8d49d5b9-f208-429d-bc3f-80d62d00a286">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize636" ID="4d3d3c26-b2e6-404c-929a-3f067c037362">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize637" ID="89bfb555-3513-4241-b09a-d7a3659fb360">
+      <Localisation Language="en-GB" Translation="10" Default="True" />
+      <Localisation Language="tr-TR" Translation="10" />
+      <Localisation Language="it-IT" Translation="10" />
+      <Localisation Language="es-ES" Translation="10" />
+      <Localisation Language="pt-PT" Translation="10" />
+      <Localisation Language="fr-CH" Translation="10" />
+      <Localisation Language="de-DE" Translation="10" />
+      <Localisation Language="ru-RU" Translation="10" />
+      <Localisation Language="bg-BG" Translation="10" />
+      <Localisation Language="sv-SE" Translation="10" />
+      <Localisation Language="ro-RO" Translation="10" />
+    </Resource>
+    <Resource Name="FontSize638" ID="1ae2f77d-f34c-4751-a2b1-ab62272b9681">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="14" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="14" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+    <Resource Name="FontSize639" ID="a3a1774b-7a68-4a54-8887-5df5407abf1f">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="14" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="14" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+    <Resource Name="FontSize640" ID="5eb64665-d2e6-4c71-98f5-70b03a0d808d">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="14" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="14" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily8" ID="3e5feb16-cfae-4203-aa47-962342cfa485">
+      <Localisation Language="en-GB" Translation="Segoe UI" Default="True" />
+      <Localisation Language="tr-TR" Translation="Segoe UI" />
+      <Localisation Language="it-IT" Translation="Segoe UI" />
+      <Localisation Language="es-ES" Translation="Segoe UI" />
+      <Localisation Language="pt-PT" Translation="Segoe UI" />
+      <Localisation Language="fr-CH" Translation="Segoe UI" />
+      <Localisation Language="de-DE" Translation="Segoe UI" />
+      <Localisation Language="ru-RU" Translation="Segoe UI" />
+      <Localisation Language="bg-BG" Translation="Segoe UI" />
+      <Localisation Language="sv-SE" Translation="Segoe UI" />
+      <Localisation Language="ro-RO" Translation="Segoe UI" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle130" ID="8ea47881-2960-45e5-9036-1939b56b6cca">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle131" ID="5d456014-b150-46b9-8749-57b5a47fce6b">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle132" ID="924dc57e-1ff3-424a-8344-38027e17f5b2">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle133" ID="d1316164-5584-4624-910d-2fb23e3e3be8">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle134" ID="ec33567a-5a31-412d-93f4-ae93263e1abb">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle135" ID="ac068391-7257-417d-8fae-5661be5601c9">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle136" ID="f397483d-f4df-4714-ab74-f9b241c0814d">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle137" ID="e505f233-bc4a-4807-bdec-662b4e1341ef">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle138" ID="b13ffab8-52aa-4430-8c09-4d9c337ddb9c">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle139" ID="a650a210-bd94-4007-bb39-f1a766f51a84">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle140" ID="c81b7ece-26b4-499b-96d4-a59f539f5ac8">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle141" ID="28653751-c9b5-42da-b3ff-b4df50c0a6c8">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle142" ID="24040c3f-d945-460f-9f72-f51667a0c240">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle143" ID="841d8a7e-f356-455b-809b-88bb0d802522">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle144" ID="ecdbc4f4-be94-4dfe-a171-70a737c1f351">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle145" ID="be317b2f-f531-4934-b0ed-9b2a0349d27b">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle146" ID="75ee8ec5-9bf7-421a-bf06-8eb0d6ea4f09">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle147" ID="f2ee4619-633f-4a7c-b40e-6f3d024e044c">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle148" ID="97069428-901d-4edc-81ba-b06502626846">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle149" ID="3ca7028d-c046-4fd1-b4fe-93a8a57335c7">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle150" ID="82d3239a-81ba-4d52-89b2-ef48e2294dce">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle151" ID="8f442138-a88a-4b19-84dd-b58f2ea3f850">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle152" ID="6604490c-4c71-4223-8046-fc2cec8cc2a3">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle153" ID="14739fa2-1664-4ac9-87b5-324bfa4c6fe7">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle154" ID="bdc6217c-d75c-4278-9a31-f88b603607ad">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle155" ID="acb8c827-3066-4eef-ad5e-9ab890ec89ec">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle156" ID="94946b6a-2fbe-433d-bf1c-10fa81d0b5ae">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle157" ID="f8bfaef4-feee-4534-bdf4-afcb34604c51">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle158" ID="f4e70d4d-63e1-4ff1-b518-e556540b7af6">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle159" ID="c6da19a5-b507-49a8-9345-df59b0e4f315">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle160" ID="58b0f467-4e17-495f-85c0-0f9774317207">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle161" ID="3b9aeb9f-ce10-4f25-a2c5-ab65f6287468">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle162" ID="403647d8-9474-4438-bd4d-6ecc8e1d632b">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle163" ID="0f7f85aa-dcd3-4411-8d76-742637351a64">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle164" ID="e1911900-082f-4052-9b51-a41a2c63d56c">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle165" ID="c9f216df-6253-43b1-9615-6ceb5119d45e">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle166" ID="49ae11e2-3f01-40e1-a263-b363b9b0d8b6">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle167" ID="887138c0-7e38-4bd5-b8a3-33bf286ecf96">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle168" ID="26997fcf-5c88-4685-96c2-e53762157448">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle169" ID="f7880234-0b0f-4904-be97-e40f745f49e9">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle170" ID="5c85fb98-9c17-45b2-895d-933ec7e3d988">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle171" ID="b0bc11a0-6750-4673-80fb-bf7a90d4f9f8">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+    <Resource Name="FontStyle174" ID="1115a94e-bfe6-409e-8f09-00705c361050">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+  </Resources>
+</IagResources>

@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                    
+                    xmlns:Core="clr-namespace:Omron.Cxap.Modules.PageElementsLibrary.Core;assembly=Omron.Cxap.Modules.PageElementsLibrary.Core"
+                    xmlns:DesignerCore="clr-namespace:Omron.Cxap.Modules.Designer.Core;assembly=Omron.Cxap.Modules.Designer.Core"
+                    xmlns:DeviceHmiCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Core"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+	<System:String x:Key="{x:Static DesignerCore:Constants.ResourceIdentifierKey}">THE.M_RightText</System:String>
+ 
+    <Core:PageElementEventConfig x:Key="bd82bce4-9ca2-444d-8507-87e75bff46ab" DefaultEvent="OnClick" />
+
+</ResourceDictionary>

@@ -15,6 +15,10 @@
       <DataType Name="Order_Interlock_In" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to interlock IN movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="81cf4bfc-81db-42ce-aa5a-a14ab3b2114a" />
       <DataType Name="Order_Interlock_Both" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to interlock movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="21701ab0-50a6-4c7b-b6ee-6e95034c5aad" />
       <DataType Name="Interlock_Disabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Disabled interlock during commissioning " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5469d249-ecf3-4c87-be35-327fb9362934" />
+      <DataType Name="SensorOUT_Used" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor OUT is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="c1bd068f-1312-450a-a6ed-989b3a6e9567" />
+      <DataType Name="SensorOUT_Value" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simu of sensor OUT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a51a15f1-70ac-4494-b23f-e27399c3b54e" />
+      <DataType Name="SensorIN_Used" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor IN is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9169b79e-7476-4045-a317-e57aa934d8f1" />
+      <DataType Name="SensorIN_Value" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simu of sensor IN" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1e41c9d6-9b3f-417c-8cc9-58707bef682c" />
     </DataType>
   </DataType>
 </data>

@@ -1,0 +1,17 @@
+<CodeEditorModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.CodeEditor.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CodingLanguageName>VBNET</CodingLanguageName><HiddenFooter>&#xD;
+End Class</HiddenFooter><HiddenHeader>Partial Public Class HMI_Apr_NewValue&#xD;
+</HiddenHeader><SerialData i:nil="true"/><SerialDeviceHmiId i:nil="true"/><SerialScaleData i:nil="true"/><Text>'IAG Code behind - Add local subroutines for the IAG.&#xD;
+&#xD;
+Sub New_point&#xD;
+&#xD;
+	&#xD;
+My_Apr.Cmd.NewVal_X=My_New_point_X&#xD;
+My_Apr.Cmd.NewVal_Y=My_New_point_Y&#xD;
+My_Apr.Cmd.NewVal=True&#xD;
+&#xD;
+My_Apr.Cmd.Update_Graph= True&#xD;
+	ClosePage(_HMI_CurrentPage)&#xD;
+End Sub&#xD;
+Sub Close_popup&#xD;
+	ClosePage(_HMI_CurrentPage)&#xD;
+End  Sub </Text></CodeEditorModel>

@@ -1,0 +1,4 @@
+<CodeEditorModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.CodeEditor.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CodingLanguageName>VBNET</CodingLanguageName><HiddenFooter>&#xD;
+End Class</HiddenFooter><HiddenHeader>Partial Public Class HMI&#xD;
+</HiddenHeader><SerialData i:nil="true"/><SerialDeviceHmiId i:nil="true"/><SerialScaleData i:nil="true"/><Text>'IAG Code behind - Add local subroutines for the IAG.&#xD;
+</Text></CodeEditorModel>

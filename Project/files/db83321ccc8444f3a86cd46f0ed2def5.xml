@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTypesManifest>
+  <DataType>
+    <Id>9c24382d-b96f-43ef-95ae-dc42d011c39c</Id>
+    <Namespace></Namespace>
+  </DataType>
+  <DataType>
+    <Id>63423935-1cf7-42c7-8b78-473b4ca1b7ea</Id>
+    <Namespace>NX</Namespace>
+  </DataType>
+  <DataType>
+    <Id>70956cf5-d233-4c03-9954-1eadce63893e</Id>
+    <Namespace>NJ</Namespace>
+  </DataType>
+  <DataType>
+    <Id>ae7e2754-bad1-4ab5-839c-53b97c73bf21</Id>
+    <Namespace>THE</Namespace>
+  </DataType>
+</DataTypesManifest>

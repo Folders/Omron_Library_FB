@@ -1,7 +1,6 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=dumb	G=VAR
 ++D=Pneu_Config_Cylinder_SimpleActing	N=Cylinder1_Simple	G=VAR
 ++D=Pneu_Config_Cylinder_DoubleActing	N=Cylinder1_Double	G=VAR
 ++D=Pneu_GoOut	N=Out1	G=VAR
@@ -17,7 +16,9 @@ _EN=Variables
 ++D=Pneu_Interlock	N=Config_Interlock_1	G=VAR
 ++D=Pneu_Interlock	N=Config_Interlock_2	G=VAR
 ++D=Pneu_Interlock	N=Config_Interlock_3	G=VAR
+++D=BOOL	N=GENE	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=PneuTest	N=Pneu	G=VAR_EXTERNAL
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_EXTERNAL
 ++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
+++D=BOOL	N=Info_General	G=VAR_EXTERNAL

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="Strings">
+    <Resource Name="S_AnalogicInputCard" ID="d1015ade-0ce4-447f-9856-dc79845452b7">
+      <Localisation Language="en-GB" Translation="Analogic Input Card" Default="True" />
+      <Localisation Language="tr-TR" Translation="Analog Giriş Kartı" />
+      <Localisation Language="it-IT" Translation="Scheda di ingresso analogico" />
+      <Localisation Language="es-ES" Translation="Tarjeta de entrada analógica" />
+      <Localisation Language="pt-PT" Translation="Cartão de entrada analógico" />
+      <Localisation Language="fr-CH" Translation="Carte d'entrée analogique" />
+      <Localisation Language="de-DE" Translation="Analogeingangskarte" />
+      <Localisation Language="ru-RU" Translation="аналоговая входная карта" />
+      <Localisation Language="bg-BG" Translation="Аналогова входна карта" />
+      <Localisation Language="sv-SE" Translation="Analogt ingångskort" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+    <Resource Name="S_AnalogicOutputCard" ID="47c276e8-a1b8-4682-884c-1215eb9b91a7">
+      <Localisation Language="en-GB" Translation="Analogic Output Card" Default="True" />
+      <Localisation Language="tr-TR" Translation="Analojik Çıkış Kartı" />
+      <Localisation Language="it-IT" Translation="Scheda di uscita analogica" />
+      <Localisation Language="es-ES" Translation="Tarjeta de salida analógica" />
+      <Localisation Language="pt-PT" Translation="Cartão de saída analógica" />
+      <Localisation Language="fr-CH" Translation="Carte de sortie analogique" />
+      <Localisation Language="de-DE" Translation="Analoge Ausgangskarte" />
+      <Localisation Language="ru-RU" Translation="аналоговая выходная плата" />
+      <Localisation Language="bg-BG" Translation="Аналогова изходна карта" />
+      <Localisation Language="sv-SE" Translation="Analogt utgångskort" />
+      <Localisation Language="ro-RO" Translation="" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1065" ID="2ff2d0df-b83a-4ae7-8509-d1c0521c9f71">
+      <Localisation Language="en-GB" Translation="20" Default="True" />
+      <Localisation Language="tr-TR" Translation="20" />
+      <Localisation Language="it-IT" Translation="20" />
+      <Localisation Language="es-ES" Translation="20" />
+      <Localisation Language="pt-PT" Translation="20" />
+      <Localisation Language="fr-CH" Translation="20" />
+      <Localisation Language="de-DE" Translation="20" />
+      <Localisation Language="ru-RU" Translation="20" />
+      <Localisation Language="bg-BG" Translation="20" />
+      <Localisation Language="sv-SE" Translation="20" />
+      <Localisation Language="ro-RO" Translation="20" />
+    </Resource>
+    <Resource Name="FontSize1067" ID="9d68872d-ccd5-4e50-a0fe-fd37b104d6cb">
+      <Localisation Language="en-GB" Translation="14" Default="True" />
+      <Localisation Language="tr-TR" Translation="14" />
+      <Localisation Language="it-IT" Translation="14" />
+      <Localisation Language="es-ES" Translation="14" />
+      <Localisation Language="pt-PT" Translation="14" />
+      <Localisation Language="fr-CH" Translation="14" />
+      <Localisation Language="de-DE" Translation="14" />
+      <Localisation Language="ru-RU" Translation="14" />
+      <Localisation Language="bg-BG" Translation="14" />
+      <Localisation Language="sv-SE" Translation="14" />
+      <Localisation Language="ro-RO" Translation="14" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily8" ID="8d86a862-652d-48e2-8aed-359eabd61d1e">
+      <Localisation Language="en-GB" Translation="Segoe UI" Default="True" />
+      <Localisation Language="tr-TR" Translation="Segoe UI" />
+      <Localisation Language="it-IT" Translation="Segoe UI" />
+      <Localisation Language="es-ES" Translation="Segoe UI" />
+      <Localisation Language="pt-PT" Translation="Segoe UI" />
+      <Localisation Language="fr-CH" Translation="Segoe UI" />
+      <Localisation Language="de-DE" Translation="Segoe UI" />
+      <Localisation Language="ru-RU" Translation="Segoe UI" />
+      <Localisation Language="bg-BG" Translation="Segoe UI" />
+      <Localisation Language="sv-SE" Translation="Segoe UI" />
+      <Localisation Language="ro-RO" Translation="Segoe UI" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle183" ID="271f644d-6492-4e61-94b3-eac6643c6adf">
+      <Localisation Language="en-GB" Translation="Normal" Default="True" />
+      <Localisation Language="tr-TR" Translation="Normal" />
+      <Localisation Language="it-IT" Translation="Normal" />
+      <Localisation Language="es-ES" Translation="Normal" />
+      <Localisation Language="pt-PT" Translation="Normal" />
+      <Localisation Language="fr-CH" Translation="Normal" />
+      <Localisation Language="de-DE" Translation="Normal" />
+      <Localisation Language="ru-RU" Translation="Normal" />
+      <Localisation Language="bg-BG" Translation="Normal" />
+      <Localisation Language="sv-SE" Translation="Normal" />
+      <Localisation Language="ro-RO" Translation="Normal" />
+    </Resource>
+    <Resource Name="FontStyle186" ID="57450183-8361-4dda-861b-03713dacc26e">
+      <Localisation Language="en-GB" Translation="BoldItalic" Default="True" />
+      <Localisation Language="tr-TR" Translation="BoldItalic" />
+      <Localisation Language="it-IT" Translation="BoldItalic" />
+      <Localisation Language="es-ES" Translation="BoldItalic" />
+      <Localisation Language="pt-PT" Translation="BoldItalic" />
+      <Localisation Language="fr-CH" Translation="BoldItalic" />
+      <Localisation Language="de-DE" Translation="BoldItalic" />
+      <Localisation Language="ru-RU" Translation="BoldItalic" />
+      <Localisation Language="bg-BG" Translation="BoldItalic" />
+      <Localisation Language="sv-SE" Translation="BoldItalic" />
+      <Localisation Language="ro-RO" Translation="BoldItalic" />
+    </Resource>
+    <Resource Name="FontStyle188" ID="b9f365ff-b096-4188-8ff5-d9b27d1d4281">
+      <Localisation Language="en-GB" Translation="Bold" Default="True" />
+      <Localisation Language="tr-TR" Translation="Bold" />
+      <Localisation Language="it-IT" Translation="Bold" />
+      <Localisation Language="es-ES" Translation="Bold" />
+      <Localisation Language="pt-PT" Translation="Bold" />
+      <Localisation Language="fr-CH" Translation="Bold" />
+      <Localisation Language="de-DE" Translation="Bold" />
+      <Localisation Language="ru-RU" Translation="Bold" />
+      <Localisation Language="bg-BG" Translation="Bold" />
+      <Localisation Language="sv-SE" Translation="Bold" />
+      <Localisation Language="ro-RO" Translation="Bold" />
+    </Resource>
+  </Resources>
+</IagResources>
