@@ -14,6 +14,9 @@ _EN=Variables
 ++D=Pneu_GoIn	N=In3	G=VAR
 ++D=TON	N=waitSeq3	G=VAR
 ++D=Pneu_Coil	N=CoilCmd	G=VAR
+++D=Pneu_Interlock	N=Config_Interlock_1	G=VAR
+++D=Pneu_Interlock	N=Config_Interlock_2	G=VAR
+++D=Pneu_Interlock	N=Config_Interlock_3	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=PneuTest	N=Pneu	G=VAR_EXTERNAL
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_EXTERNAL

@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=Pneu_Core_DoNotUse	N=PneuCore	G=VAR
+++D=BOOL	N=notUsed	G=VAR	Com=Not used for single acting
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Out_Cmd	Ord=2	G=VAR_IN_OUT	Com=Command to open valve
+++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT	Com=Use the valve
+++D=TIME	N=Out_MoveTime	Ord=4	G=VAR_INPUT	Com=Time to open the valve
+++D=TIME	N=In_MoveTime	Ord=5	G=VAR_INPUT	Com=Time to close the valve
+++D=BOOL	N=Commissioning	Ord=6	G=VAR_INPUT	Com=Put cylinder in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

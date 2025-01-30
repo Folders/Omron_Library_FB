@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data Version="1">
   <DataType Name="Data Types" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="6" OffsetType="NJ">
-      <DataType Name="Test1" BaseType="PneuTest_1" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="For Cylinder1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-    </DataType>
-    <DataType Name="PneuTest_1" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="4" OffsetType="NJ">
+    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="5" OffsetType="NJ">
       <DataType Name="Enable_ConfigSimple" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose simple acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Enable_ConfigDouble" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CmdOut" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -14,6 +11,10 @@
       <DataType Name="Order_Sequence" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run a sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Order_CoilEnabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Use coil function" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Order_Coil" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Coil order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_Interlock_Out" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to interlock OUT movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_Interlock_In" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to interlock IN movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Order_Interlock_Both" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to interlock movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Interlock_Disabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Disabled interlock during commissioning " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>

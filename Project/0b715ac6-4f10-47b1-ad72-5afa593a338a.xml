@@ -6,5 +6,5 @@ _EN=Variables
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Cylinder execute order and is in OUT position
 ++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT
-++D=BOOL	N=GoOut	Ord=2	G=VAR_INPUT	Com=Active the cylinder
+++D=BOOL	N=GoOut	Ord=2	G=VAR_INPUT	Com=Move the cylinder OUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

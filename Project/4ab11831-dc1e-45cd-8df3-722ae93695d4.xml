@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR	Com=Interlock order is running
+++D=BOOL	N=orderOut	G=VAR	Com=Local OUT interlock order
+++D=BOOL	N=orderIn	G=VAR	Com=Local IN interlock order
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\PNEUMATIC	N=MyPneu	Ord=0	G=VAR_IN_OUT
+++D=BOOL	N=Interlock	Ord=1	G=VAR_INPUT	Com=Interlock order
+++D=BOOL	N=Interlocked	Ord=2	G=VAR_OUTPUT	Com=Movement are interlocked
+++D=OBJ\ePneu_Interlock	N=Movement	Ord=3	G=VAR_INPUT	Com=Movement selection
+++D=BOOL	N=Disabled	Ord=4	G=VAR_INPUT	Com=Disabled interlock function in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
