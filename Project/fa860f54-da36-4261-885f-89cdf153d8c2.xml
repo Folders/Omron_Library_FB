@@ -8,7 +8,8 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Buzzer" InstanceName="Buzzer" IniFileTrackingId="9b87520733154c7c909a48b1560cbe4d" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds />
   <TaskInterfaceVariables version="1" />

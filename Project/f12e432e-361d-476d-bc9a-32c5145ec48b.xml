@@ -6,7 +6,13 @@ _EN=Variables
 ++D=BOOL	N=Info_IOmap	G=VAR_GLOBAL	Com=Information about I/O map
 ++D=BOOL	N=Info_Retain	G=VAR_GLOBAL	Com=This object must be retain!
 ++D=BOOL	N=Info_ToDo	G=VAR_GLOBAL	Com=To do....
+++D=BOOL	N=T_100ms	G=VAR_GLOBAL	Com=Flag 100ms
+++D=BOOL	N=T_200ms	G=VAR_GLOBAL	Com=Flag 200ms
+++D=BOOL	N=T_1s	G=VAR_GLOBAL	Com=Flag 1s
+++D=BOOL	N=T_2s	G=VAR_GLOBAL	Com=Flag 2s
 ++D=BOOL	N=Commissioning	G=VAR_GLOBAL	Com=Put objects in commissioning
 ++D=PneuTest	N=Pneu	G=VAR_GLOBAL
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
+++D=OBJ\BUZZER	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
+++D=OBJ\BUZZER	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
