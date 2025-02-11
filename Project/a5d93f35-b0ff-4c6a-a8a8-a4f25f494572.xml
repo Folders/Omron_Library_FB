@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR	Com=Effect is requested
+++D=ARRAY[0..5] OF TIME	N=t	IV=[T#0.1S, T#0.1s, T#0.1S, T#0.1s, T#0.1S, T#0.5s]	G=VAR	Com=Sound profil
+++D=INT	N=i	G=VAR	Com=Indix of profil
+++D=TON	N=cycle	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Effect is activated
+++D=OBJ\BUZZER	N=myBuzzer	Ord=1	G=VAR_IN_OUT	Com=Object of buzzer
+++D=BOOL	N=Active	Ord=2	G=VAR_INPUT	Com=Order to start the buzzer
+++D=USINT	N=Rank	IV=250	Ord=3	G=VAR_INPUT	Com=Priotity of order (Priority on low number) [1..250]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
