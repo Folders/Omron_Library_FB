@@ -1,14 +1,8 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=test1	G=VAR
 ++D=Buzzer_1s	N=Sound_1s	G=VAR
-++D=BOOL	N=test2	G=VAR
-++D=Buzzer_2s	N=Sound_200ms	G=VAR
-++D=BOOL	N=VisuSound	G=VAR
-++D=BOOL	N=Enabled	G=VAR
 ++D=Buzzer_2s	N=Sound_2s	G=VAR
-++D=BOOL	N=test3	G=VAR
 ++D=Buzzer_Continus	N=Sound_Continus	G=VAR
 ++D=Buzzer_Config	N=BuzzConfig	G=VAR
 ++D=Buzzer_3beep_Long	N=Sound_3beeps	G=VAR

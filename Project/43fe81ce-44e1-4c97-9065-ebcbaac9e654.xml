@@ -4,11 +4,20 @@
     <MappedVariableId PortId="4c3a6fdb-cf47-4ec5-80a9-a3e44975434e">
       <MappedVariable VariableId="6cfc9db3-4fb1-488f-a52d-37d49559e900" />
     </MappedVariableId>
+    <MappedVariableId PortId="604b7bb9-71a0-4243-82fa-10ccf8c17383">
+      <MappedVariable VariableId="471f10f1-cfd8-4956-848d-1ea64519e318" />
+    </MappedVariableId>
     <MappedVariableId PortId="83880e2f-4223-4fa1-97b4-3b485ca19ae0">
       <MappedVariable VariableId="26cffbe0-f53f-4cd6-bf2d-ec4ea4fd1a48" />
     </MappedVariableId>
     <MappedVariableId PortId="8a1bda11-ee9c-4798-8dc1-860ee8e1cd89">
       <MappedVariable VariableId="8faa0082-e5f5-4e4c-a00d-b472ecee12ae" />
+    </MappedVariableId>
+    <MappedVariableId PortId="ad7c2dc8-4d91-4f74-9651-7b7afc16b1c1">
+      <MappedVariable VariableId="db229a16-fb17-4bbd-beb8-0273ebd9bb93" />
+    </MappedVariableId>
+    <MappedVariableId PortId="d8166ce1-dfee-4208-880b-5f48dd587de2">
+      <MappedVariable VariableId="8319bcae-825d-45fe-8776-16a4c84d4aa3" />
     </MappedVariableId>
     <MappedVariableId PortId="fc8df325-500f-42e1-b748-e51a2425a328">
       <MappedVariable VariableId="97dec800-5657-49da-8100-28202b6cd8a7" />
@@ -16,8 +25,11 @@
   </MappedVariableIds>
   <VariableTableTrackingIds>
     <VariableTableTrackingId VariableId="26cffbe0-f53f-4cd6-bf2d-ec4ea4fd1a48" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
+    <VariableTableTrackingId VariableId="471f10f1-cfd8-4956-848d-1ea64519e318" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
     <VariableTableTrackingId VariableId="6cfc9db3-4fb1-488f-a52d-37d49559e900" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
+    <VariableTableTrackingId VariableId="8319bcae-825d-45fe-8776-16a4c84d4aa3" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
     <VariableTableTrackingId VariableId="8faa0082-e5f5-4e4c-a00d-b472ecee12ae" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
     <VariableTableTrackingId VariableId="97dec800-5657-49da-8100-28202b6cd8a7" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
+    <VariableTableTrackingId VariableId="db229a16-fb17-4bbd-beb8-0273ebd9bb93" VariableTableTrackingId="50bac157-6897-4363-ba17-3efb077d9c5e" />
   </VariableTableTrackingIds>
 </data>

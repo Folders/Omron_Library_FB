@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="5" OffsetType="NJ" Id="9fdaf6f0-d675-4b49-8c12-23e142aa5627">
+    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ" Id="9fdaf6f0-d675-4b49-8c12-23e142aa5627">
       <DataType Name="Enable_ConfigSimple" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose simple acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="56caf821-fb51-4f1d-b96a-81d40940339b" />
       <DataType Name="Enable_ConfigDouble" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="66d4df82-cefd-47c6-b78f-703d8c11342a" />
       <DataType Name="CmdOut" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="abdb8921-30b0-403d-b073-2beaea49f8dd" />
@@ -19,6 +19,21 @@
       <DataType Name="SensorOUT_Value" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simu of sensor OUT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a51a15f1-70ac-4494-b23f-e27399c3b54e" />
       <DataType Name="SensorIN_Used" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor IN is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9169b79e-7476-4045-a317-e57aa934d8f1" />
       <DataType Name="SensorIN_Value" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simu of sensor IN" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1e41c9d6-9b3f-417c-8cc9-58707bef682c" />
+    </DataType>
+    <DataType Name="BuzzerTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="8" OffsetType="NJ" Id="01d873e3-dfd5-437e-9461-0fa29af49489">
+      <DataType Name="Enable" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6822447f-ed98-46a8-a658-01fefb9e86fe" />
+      <DataType Name="Output" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal to buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="2fa44f7f-8818-441d-a5b2-c62113b47198" />
+      <DataType Name="Output_Zone1" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal to buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d31600d2-13e7-4bf0-b977-552f1a845769" />
+      <DataType Name="Order_1" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="ES - 10 - Continus" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="760adb79-c0e2-4ad2-ae91-2c3cbc684840" />
+      <DataType Name="Order_2" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="JOG - 200 - 1s" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="7e69bea8-197d-44b1-be88-fe8bea2168c5" />
+      <DataType Name="Order_3" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="No material - 150 - 3 beeps" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="e04f59ac-648e-4bb1-a397-4afa3d5afd8f" />
+      <DataType Name="Order_4" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm zone 1 - 100 - 2s" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9b888232-d512-4ad9-a57b-a03a4413b76c" />
+      <DataType Name="Order_5" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Filling zone 1 - 180 - Custom" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="3dc1e8c9-ba90-4069-8775-990f215d065f" />
+      <DataType Name="Running_1" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 1 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="c3c29302-35a0-4dc1-9286-5250c5e5884b" />
+      <DataType Name="Running_2" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 2 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6aad52e1-5e15-4b85-85d8-c46b06b273d3" />
+      <DataType Name="Running_3" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 3 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="47766bb4-8599-4888-b245-3c581ffae055" />
+      <DataType Name="Running_4" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 4 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a3bf607f-313f-459d-a454-b0af4bc26060" />
+      <DataType Name="Running_5" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 5 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="7f10efd5-e660-4a30-b27f-1eb4700b0f2f" />
     </DataType>
   </DataType>
 </data>
