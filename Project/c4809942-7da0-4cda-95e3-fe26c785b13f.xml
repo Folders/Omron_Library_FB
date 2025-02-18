@@ -72,7 +72,6 @@
       <DataType Name="Xch" BaseType="OBJ\Vibrator_Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="Vibrator_Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="4" OffsetType="NJ">
-      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="IsBowl" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a vibrating bowl" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="IsLinear" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a vibrating rail" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="AsParameter" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Vibrating drive have parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

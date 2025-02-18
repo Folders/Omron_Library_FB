@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ" Id="9fdaf6f0-d675-4b49-8c12-23e142aa5627">
+    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="NJ" Id="9fdaf6f0-d675-4b49-8c12-23e142aa5627">
       <DataType Name="Enable_ConfigSimple" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose simple acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="56caf821-fb51-4f1d-b96a-81d40940339b" />
       <DataType Name="Enable_ConfigDouble" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="66d4df82-cefd-47c6-b78f-703d8c11342a" />
       <DataType Name="CmdOut" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="abdb8921-30b0-403d-b073-2beaea49f8dd" />
@@ -20,7 +20,7 @@
       <DataType Name="SensorIN_Used" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor IN is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9169b79e-7476-4045-a317-e57aa934d8f1" />
       <DataType Name="SensorIN_Value" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simu of sensor IN" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1e41c9d6-9b3f-417c-8cc9-58707bef682c" />
     </DataType>
-    <DataType Name="BuzzerTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="8" OffsetType="NJ" Id="01d873e3-dfd5-437e-9461-0fa29af49489">
+    <DataType Name="BuzzerTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ" Id="01d873e3-dfd5-437e-9461-0fa29af49489">
       <DataType Name="Enable" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6822447f-ed98-46a8-a658-01fefb9e86fe" />
       <DataType Name="Output" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal to buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="2fa44f7f-8818-441d-a5b2-c62113b47198" />
       <DataType Name="Output_Zone1" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal to buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d31600d2-13e7-4bf0-b977-552f1a845769" />
@@ -34,6 +34,15 @@
       <DataType Name="Running_3" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 3 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="47766bb4-8599-4888-b245-3c581ffae055" />
       <DataType Name="Running_4" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 4 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a3bf607f-313f-459d-a454-b0af4bc26060" />
       <DataType Name="Running_5" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 5 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="7f10efd5-e660-4a30-b27f-1eb4700b0f2f" />
+    </DataType>
+    <DataType Name="VibratorTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="14" OffsetType="NJ" Id="e6796b9f-22fc-4020-ba8e-6a40835f7260">
+      <DataType Name="Enable_Analog" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable analog config" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="06214f67-b477-4679-a24d-a058ebcc376d" />
+      <DataType Name="Enable_Sinus" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable sinus generator config" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0ba28575-1864-4c5e-bf52-9526feb9ce69" />
+      <DataType Name="OUT_Run" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0c5d968b-2b99-405b-aca2-6f6a8662f916" />
+      <DataType Name="OUT_Speed" BaseType="Short" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output analog setpoint" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a1f48a5a-f50c-4e1e-b2c9-44b3000c60b2" />
+      <DataType Name="Order_Run" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a2f86db9-0460-492e-9b49-0a07beac862b" />
+      <DataType Name="Order_Power" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="3eef6926-9f4d-4649-952f-e678dbf8b341" />
+      <DataType Name="Power" BaseType="Single" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Power setoint [0..100%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="3454f5d8-40ff-46c2-9022-f9070733a1cd" />
     </DataType>
   </DataType>
 </data>

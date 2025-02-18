@@ -5,6 +5,8 @@ _EN=Variables
 ++D=Vibrator_Power	N=Vib_Power	G=VAR
 ++D=Vibrator_Config_Sinus	N=Config_Sinus	G=VAR
 ++D=Vibrator_Config_Analog	N=Config_Analog	G=VAR
+++D=BOOL	N=toggleMode	G=VAR
+++D=BOOL	N=a	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=OBJ\VIBRATOR	N=Vib_Rail1	G=VAR_EXTERNAL
 ++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
