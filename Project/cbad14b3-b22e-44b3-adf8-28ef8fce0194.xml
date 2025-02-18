@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB started info
+++D=Vibrator_GetParam	N=readValue	G=VAR
+++D=REAL	N=backupValue	G=VAR	Com=Backup of drive current value
+++D=Vibrator_SetParam	N=writeValue	G=VAR
+++D=BOOL	N=orderUpdate	G=VAR	Com=Order a parameter write
+++D=REAL	N=backupRatio	G=VAR	Com=Backup or ratio
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Checking for update
+++D=OBJ\VIBRATOR	N=MyVibrator	Ord=1	G=VAR_IN_OUT	Com=Object
+++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Update value if needed
+++D=REAL	N=Value	Ord=3	G=VAR_IN_OUT	Com=New value of parameter
+++D=WORD	N=Code	Ord=4	G=VAR_INPUT	Com=Code of parameter
+++D=REAL	N=Ratio	IV=1.0	Ord=5	G=VAR_INPUT	Com=Ratio of value
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

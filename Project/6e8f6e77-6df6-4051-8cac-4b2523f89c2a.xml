@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=Vibrator_CmdCoil	N=Vib_Cmd	G=VAR
+++D=Vibrator_Power	N=Vib_Power	G=VAR
+++D=Vibrator_Config_Sinus	N=Config_Sinus	G=VAR
+++D=Vibrator_Config_Analog	N=Config_Analog	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\VIBRATOR	N=Vib_Rail1	G=VAR_EXTERNAL
+++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
+++D=VibratorTest	N=Vib	G=VAR_EXTERNAL

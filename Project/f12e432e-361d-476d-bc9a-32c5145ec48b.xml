@@ -11,9 +11,11 @@ _EN=Variables
 ++D=BOOL	N=T_1s	G=VAR_GLOBAL	Com=Flag 1s
 ++D=BOOL	N=T_2s	G=VAR_GLOBAL	Com=Flag 2s
 ++D=BOOL	N=Commissioning	G=VAR_GLOBAL	Com=Put objects in commissioning
-++D=PneuTest	N=Pneu	G=VAR_GLOBAL
-++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
-++D=OBJ\PNEUMATIC	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL
 ++D=OBJ\BUZZER	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
 ++D=OBJ\BUZZER	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
+++D=PneuTest	N=Pneu	G=VAR_GLOBAL
+++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
+++D=OBJ\PNEUMATIC	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
+++D=VibratorTest	N=Vib	G=VAR_GLOBAL
+++D=OBJ\VIBRATOR	N=Vib_Rail1	G=VAR_GLOBAL	Com=Vibrator object 1

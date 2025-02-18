@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceSetModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Vib.Order_Run</Name>
+      <Id>bfc0a161-12d7-4994-87d4-939c832bfed1</Id>
+      <SymbolId>entity://variables.global.f12e432e-361d-476d-bc9a-32c5145ec48b/Vib.Order_Run%3ABOOL</SymbolId>
+      <NaturalDataType>BOOL</NaturalDataType>
+      <Comment>Cylinder object 2 Order to run</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>255</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>0</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Boolean</DataType>
+      <Id>bfc0a161-12d7-4994-87d4-939c832bfed1</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset>0</ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Vib.OUT_Run</Name>
+      <Id>e80adc40-0ad7-4358-bcbf-b74d22fb6bd3</Id>
+      <SymbolId>entity://variables.global.f12e432e-361d-476d-bc9a-32c5145ec48b/Vib.OUT_Run%3ABOOL</SymbolId>
+      <NaturalDataType>BOOL</NaturalDataType>
+      <Comment>Cylinder object 2 Output command</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>0</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>255</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Boolean</DataType>
+      <Id>e80adc40-0ad7-4358-bcbf-b74d22fb6bd3</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset>-2</ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+    <DataTraceSetItemModel>
+      <ModelType>Symbol</ModelType>
+      <Name>Vib.OUT_Speed</Name>
+      <Id>9b336d48-bf0c-4994-8042-7bc93a56c202</Id>
+      <SymbolId>entity://variables.global.f12e432e-361d-476d-bc9a-32c5145ec48b/Vib.OUT_Speed%3AINT</SymbolId>
+      <NaturalDataType>INT</NaturalDataType>
+      <Comment>Cylinder object 2 Output analog setpoint</Comment>
+      <ColourA>255</ColourA>
+      <ColourR>0</ColourR>
+      <ColourG>255</ColourG>
+      <ColourB>0</ColourB>
+      <Historical>false</Historical>
+      <DataType>System.Int16</DataType>
+      <Id>9b336d48-bf0c-4994-8042-7bc93a56c202</Id>
+      <Visible>true</Visible>
+      <Offset>0</Offset>
+      <ValueOffset>0</ValueOffset>
+      <WriteConfirmed>true</WriteConfirmed>
+    </DataTraceSetItemModel>
+  </DataTraceSetModel>
+</data>

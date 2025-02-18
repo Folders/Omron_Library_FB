@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=REAL	N=Temp_In	G=VAR	Com=Backup value of input to check value update [s]
+++D=TIME	N=Temp_Out	G=VAR	Com=Output value
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BOOL	N=ENO	Ord=1	RO=1	G=VAR_OUTPUT
+++D=REAL	N=In	Ord=2	G=VAR_INPUT	Com=Data to convert [s]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=TIME	N=REAL_TO_TIME	G=RETURN	Com=Data in TIME type

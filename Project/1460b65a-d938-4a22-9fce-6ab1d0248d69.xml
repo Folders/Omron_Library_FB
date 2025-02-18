@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR	Com=Command to run
+++D=WORD	N=cmdSpeed	G=VAR
+++D=BOOL	N=cmdRun	G=VAR	Com=OUT run command
+++D=INT	N=r	G=VAR	Com=Step of read parameter
+++D=BOOL	N=reading	G=VAR	Com=Reading sequence is running
+++D=BOOL	N=readingDone	G=VAR	Com=Reading is done
+++D=INT	N=w	G=VAR	Com=Step of write parameter
+++D=BOOL	N=writing	G=VAR	Com=Writing sequence is running
+++D=BOOL	N=writingDone	G=VAR	Com=Writing is done
+++D=BOOL	N=started	G=VAR	Com=FB started info
+++D=WORD	N=errorCode	G=VAR	Com=Erorr code of drive
+++D=WORD	N=ACK	IV=16#DEC0	G=VAR	Com=Acknowledge is write with "C0DE" en hex, but comm is swapped
+++D=Vibrator_ParamFollow	N=frequencyParam	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\VIBRATOR	N=MyVibrator	Ord=1	G=VAR_IN_OUT	Com=Object
+++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Vibrator is used
+++D=ARRAY[0..3] OF WORD	N=Data_IN	Ord=3	G=VAR_INPUT
+++D=ARRAY[0..3] OF WORD	N=Data_OUT	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=IsBowl	IV=True	Ord=5	G=VAR_INPUT	Com=It's a bowl or a linear rail?
+++D=BOOL	N=Commissioning	Ord=6	G=VAR_INPUT	Com=Put cylinder in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

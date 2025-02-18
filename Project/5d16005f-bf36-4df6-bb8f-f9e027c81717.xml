@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=SINT	N=idLocal	IV=-1	G=VAR	Com=Id of function bloc
+++D=INT	N=s	G=VAR	Com=Step
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\VIBRATOR	N=MyVibrator	Ord=0	G=VAR_IN_OUT	Com=Object
+++D=BOOL	N=Read	Ord=1	G=VAR_INPUT	Com=Order to read a parameter
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT	Com=Paramter is read
+++D=WORD	N=Code	Ord=3	G=VAR_INPUT	Com=Code of the parameter
+++D=REAL	N=Value	Ord=4	G=VAR_OUTPUT	Com=Read value
+++D=REAL	N=Ratio	IV=1.0	Ord=5	G=VAR_INPUT	Com=Ratio of value
+++D=BOOL	N=Fault	Ord=6	G=VAR_OUTPUT	Com=Ratio of data
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

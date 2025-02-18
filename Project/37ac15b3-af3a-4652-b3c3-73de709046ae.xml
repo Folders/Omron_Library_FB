@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Order is enabled
+++D=OBJ\VIBRATOR	N=myVibrator	Ord=1	G=VAR_IN_OUT	Com=Object
+++D=BOOL	N=Order	Ord=2	G=VAR_INPUT	Com=Active the vibrator
+++D=REAL	N=Power	Ord=3	G=VAR_INPUT	Com=Power of the vibrator [%]
+++D=BOOL	N=Enabled	IV=True	Ord=4	G=VAR_INPUT	Com=Enabled the order (default at TRUE)
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
