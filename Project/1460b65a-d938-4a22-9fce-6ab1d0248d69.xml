@@ -19,8 +19,8 @@ _EN=Variables
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config used
 ++D=OBJ\VIBRATOR	N=MyVibrator	Ord=1	G=VAR_IN_OUT	Com=Object
 ++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Vibrator is used
-++D=ARRAY[0..3] OF WORD	N=Data_IN	Ord=3	G=VAR_INPUT
-++D=ARRAY[0..3] OF WORD	N=Data_OUT	Ord=4	G=VAR_OUTPUT
+++D=ARRAY[0..3] OF WORD	N=Data_IN	Ord=3	G=VAR_INPUT	Com=EIP input datas
+++D=ARRAY[0..3] OF WORD	N=Data_OUT	Ord=4	G=VAR_OUTPUT	Com=EIP output datas
 ++D=BOOL	N=IsBowl	IV=True	Ord=5	G=VAR_INPUT	Com=It's a bowl or a linear rail?
 ++D=BOOL	N=Commissioning	Ord=6	G=VAR_INPUT	Com=Put cylinder in commissioning
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

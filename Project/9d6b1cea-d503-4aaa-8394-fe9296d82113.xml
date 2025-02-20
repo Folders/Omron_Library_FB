@@ -17,7 +17,7 @@ _EN=Variables
 ++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Vibrator is used
 ++D=REAL	N=MaxAnalog	IV=4000	Ord=3	G=VAR_INPUT	Com=Maximun analog value for 100% [DA max]
 ++D=BOOL	N=IsBowl	IV=True	Ord=4	G=VAR_INPUT	Com=It's a bowl or a linear rail?
-++D=BOOL	N=Commissioning	Ord=5	G=VAR_INPUT	Com=Put cylinder in commissioning
+++D=BOOL	N=Commissioning	Ord=5	G=VAR_INPUT	Com=Put vibrator in commissioning
 ++D=BOOL	N=Cmd_Run	Ord=6	G=VAR_OUTPUT	Com=Command to run
 ++D=INT	N=Cmd_Speed	Ord=7	G=VAR_OUTPUT	Com=Speed setpoint [0..4000]
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
