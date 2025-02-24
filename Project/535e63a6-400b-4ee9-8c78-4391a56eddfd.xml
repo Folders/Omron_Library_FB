@@ -1,0 +1,23 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=Command	G=VAR
+++D=INT	N=i	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\FLASHLAMP	N=Stack	Ord=1	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data1	Ord=2	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data2	Ord=3	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data3	Ord=4	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data4	Ord=5	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data5	Ord=6	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data6	Ord=7	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data7	Ord=8	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data8	Ord=9	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data9	Ord=10	G=VAR_IN_OUT
+++D=ARRAY[0..1] OF Byte	N=Data10	Ord=11	G=VAR_IN_OUT
+++D=BOOL	N=Enable	Ord=12	G=VAR_INPUT
+++D=BOOL	N=Commissioning	Ord=13	G=VAR_INPUT
+++D=USINT	N=SegStart	Ord=14	G=VAR_INPUT
+++D=USINT	N=SegEnd	Ord=15	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

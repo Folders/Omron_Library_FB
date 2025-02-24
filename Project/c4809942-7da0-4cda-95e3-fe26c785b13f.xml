@@ -1,22 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types0" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BUZZER" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="13" OffsetType="NJ">
+    <DataType Name="BUZZER" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="18" OffsetType="NJ">
       <DataType Name="Cmd" BaseType="OBJ\Buzzer_Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command:" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\Buzzer_Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status:" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Buzzer_Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
+    <DataType Name="Buzzer_Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="13" OffsetType="NJ">
       <DataType Name="Sound" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound request" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Rank" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current priority level (Priority on low number)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sensor_Lock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="External sensor detection locked by a sensor" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sensor_Run" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Request from sensor to buzz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Buzzer_Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
+    <DataType Name="Buzzer_Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
       <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="PNEUMATIC" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
+    <DataType Name="FLASHLAMP" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="FlashLamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="17" OffsetType="NJ">
+      <DataType Name="Cmd" BaseType="OBJ\Flashlamp_Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cfg" BaseType="OBJ\Flashlamp_Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\Flashlamp_Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Rank" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Flashlamp_Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
+      <DataType Name="Color" BaseType="OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Chose the color of the light" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Effect" BaseType="OBJ\eEffect" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Chose the status of the light" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Progress" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Flashlamp_Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
+      <DataType Name="IsSchneider" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsBalluf" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsRGB" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsMurr" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Flashlamp_Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="PNEUMATIC" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\Pneumatic_Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Config:" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd" BaseType="OBJ\Pneumatic_Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command:" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\Pneumatic_Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status:" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -64,7 +86,7 @@
       <DataType Name="GoIn" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Interlock IN movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Both" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Interlock any movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="VIBRATOR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
+    <DataType Name="VIBRATOR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\Vibrator_Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd" BaseType="OBJ\Vibrator_Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\Vibrator_Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -111,6 +133,42 @@
       <DataType Name="Value" BaseType="WORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value to write in the parameter code" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="IdCurrant" BaseType="SINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id from currant request" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="IdMax" BaseType="SINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of command FB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="eColor" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color selection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="NoColor" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Off" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Red" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Yellow" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Yellow" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Lime" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Lime" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Aqua" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Aqua" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Fuchsia" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="Fuchsia" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="White" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="White" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Brown" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="11" Comment="Brown (Darker red)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Orange" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="12" Comment="Orange (Darker yellow)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="13" Comment="Green (Darker lime)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="14" Comment="Blue (Darker aqua)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Purple" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="15" Comment="Purple (Darker fuchsia)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Gray" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="16" Comment="Silver" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Black" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="17" Comment="Black" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NoUpdate" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="100" Comment="No update of color" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="eEffect" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Effect selection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="Off" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Turn off" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Steady" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Continus" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Flashing" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="3 flash" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Blinking" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="1 Hz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FastBlinking" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="0.5 Hz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Rotating" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="Rotation effect" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Level" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="Level 0-100 %" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="RecipeMgr_Sta" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="14" OffsetType="NJ">
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="History manager is ready to work " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Busy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="History manager is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Changed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="One or more parameters are changed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Machine_Exporting" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Exporting machine datas to the DB in progress" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Machine_Importing" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Importing machine datas from the DB in progress" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Recipe_Exporting" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Exporting recipe datas to the DB in progress" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Recipe_Importing" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Importing recipe datas from the DB in progress" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Recipe_Navigation" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Navigation recipe datas from the DB in progress" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>
