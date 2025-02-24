@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+  <DataType Name="Data Types" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
     <DataType Name="_sHMI_VNC_CLIENT_INFO" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="afad86b5-5b3c-4bf0-bbd9-def16557f3f6">
       <DataType Name="IPAddress" BaseType="String" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="0b9412e5-c6c4-42de-aada-19c83298bef7" />
       <DataType Name="Comment" BaseType="String" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="a9211ae9-5058-42a1-bf27-1dd142eaa118" />
@@ -103,6 +103,38 @@
       <DataType Name="All" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="1d4c18b6-f015-449b-b958-e8cfd22dba06" />
       <DataType Name="InputVariable" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="5f234b93-ebf6-4dac-934c-bb4b7b7848c7" />
       <DataType Name="OutputVariable" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="6d36ff45-e7b2-4467-a450-db36fe98fe41" />
+    </DataType>
+    <DataType Name="ePneu_Interlock" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6c0bbaca-e195-4586-98a7-168a493935e3">
+      <DataType Name="NoDefine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Do nothing" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6d2c9c50-bcbe-4a16-8caa-cb7572c85d63" />
+      <DataType Name="GoOut" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Interlock OUT movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="951db8b8-55f1-43e9-94b0-1e64f98204c7" />
+      <DataType Name="GoIn" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Interlock IN movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6089eb40-710a-4dea-a1bc-bd3ac2043db0" />
+      <DataType Name="Both" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Interlock any movement" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="31343528-eaf2-4ca3-ba32-d2c1df59c5b8" />
+    </DataType>
+    <DataType Name="eColor" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color selection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="542be755-849d-4a09-bb88-160430af0f0a">
+      <DataType Name="NoColor" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Off" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a9aad2bc-4472-4486-bef4-3cee2b1ad877" />
+      <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Red" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="432ce24b-84b5-4e49-9962-fad0ef367084" />
+      <DataType Name="Yellow" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Yellow" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="7bf01444-d730-41f6-9e7c-171f256a63d5" />
+      <DataType Name="Lime" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Lime" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="4efb54c1-ba16-4613-b891-8065b9cdcde3" />
+      <DataType Name="Aqua" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Aqua" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="bd415bae-f32c-400f-a2cc-d51a0c18b96c" />
+      <DataType Name="Fuchsia" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="Fuchsia" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b42cc6e0-91b7-4584-ac53-c54f51f36e38" />
+      <DataType Name="White" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="White" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0b75bfb7-aeb3-47f8-9535-d77d3cd68c29" />
+      <DataType Name="Brown" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="11" Comment="Brown (Darker red)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5e02f1b1-8fb2-4e86-a377-ed38b55eb38a" />
+      <DataType Name="Orange" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="12" Comment="Orange (Darker yellow)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="620fe51e-68a4-44d4-b13a-75e7a02bde04" />
+      <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="13" Comment="Green (Darker lime)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="71aef2d4-b981-4d12-a50c-b60e77982e74" />
+      <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="14" Comment="Blue (Darker aqua)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d2f0f0a5-32ca-487a-b6c7-de7e39abc8bc" />
+      <DataType Name="Purple" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="15" Comment="Purple (Darker fuchsia)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="bf96bb8e-bd3c-44a2-9d40-937a5ab537ba" />
+      <DataType Name="Gray" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="16" Comment="Silver" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="281afa3c-0856-41d4-a56a-2fcea47bff88" />
+      <DataType Name="Black" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="17" Comment="Black" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a3b89e42-3ca9-4528-965e-1598ad5ab346" />
+      <DataType Name="NoUpdate" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="100" Comment="No update of color" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d434da19-fb50-4c27-bb30-77715627c5d4" />
+    </DataType>
+    <DataType Name="eEffect" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Effect selection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1cf6f221-0c0a-4377-a453-0a8c2f19da78">
+      <DataType Name="Off" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Turn off" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="ff6991f2-5cd1-4245-94f9-0ce258329166" />
+      <DataType Name="Steady" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Continus" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="873ed980-8ccd-4cb3-925f-471be70dab15" />
+      <DataType Name="Flashing" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="3 flash" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6eb3c59f-2b70-4b7b-bf82-8c1833521fcf" />
+      <DataType Name="Blinking" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="1 Hz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="4bc7df3f-9d74-4ebc-bb6b-ed42e19e9d76" />
+      <DataType Name="FastBlinking" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="0.5 Hz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9ee6d5b4-ee4b-417a-849d-889cf366cdaf" />
+      <DataType Name="Rotating" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="Rotation effect" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="7bf81480-4dea-4d62-964d-0cfe3a5a603f" />
+      <DataType Name="Level" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="Level 0-100 %" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="f66feaa2-fe9b-46dc-bd88-58c1ec617e87" />
     </DataType>
   </DataType>
 </data>

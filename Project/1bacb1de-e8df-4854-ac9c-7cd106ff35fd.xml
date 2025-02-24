@@ -1,13 +1,13 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=FlashLamp_CoreSbS_DoNotUse	N=ApplyStack1	G=VAR
+++D=FlashLamp_CoreSbS_DoNotUse	N=applyStack1	G=VAR
 ++D=FlashLamp_CoreSbS_DoNotUse	N=ApplyStack2	G=VAR
 ++D=FlashLamp_CoreSbS_DoNotUse	N=ApplyStack3	G=VAR
 ++D=FlashLamp_CoreSbS_DoNotUse	N=ApplyStack4	G=VAR
 ++D=FlashLamp_CoreSbS_DoNotUse	N=ApplyStack5	G=VAR
 ++D=INT	N=i	G=VAR
-++D=BYTE	N=Command	G=VAR
+++D=BYTE	N=command	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\FLASHLAMP	N=Stack_1	Ord=1	G=VAR_IN_OUT

@@ -1,7 +1,7 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=Run	G=VAR	Com=Apply effect
+++D=BOOL	N=run	G=VAR	Com=Apply effect
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Effect is displayed
 ++D=OBJ\FLASHLAMP	N=myFlashLamp	Ord=1	G=VAR_IN_OUT	Com=FL object
