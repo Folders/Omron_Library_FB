@@ -1,0 +1,20 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=effectCmd	G=VAR	Com=Effect to apply to output
+++D=USINT	N=rankOld	G=VAR	Com=Backup of rank
+++D=BOOL	N=r	G=VAR	Com=Red
+++D=BOOL	N=g	G=VAR	Com=Green
+++D=BOOL	N=b	G=VAR	Com=Blue
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\FLASHLAMP	N=myFL	Ord=1	G=VAR_IN_OUT	Com=Flash lamp object
+++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Flash lamp is used
+++D=BOOL	N=Commissioning	Ord=3	G=VAR_INPUT	Com=Put object in commissioning
+++D=BOOL	N=Output_R	Ord=4	G=VAR_OUTPUT	Com=Red light command
+++D=BOOL	N=Output_G	Ord=5	G=VAR_OUTPUT	Com=Green light command
+++D=BOOL	N=Output_B	Ord=6	G=VAR_OUTPUT	Com=Blue light command
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=T_1s	G=VAR_EXTERNAL
+++D=BOOL	N=T_2s	G=VAR_EXTERNAL
+++D=BOOL	N=T_100ms	G=VAR_EXTERNAL

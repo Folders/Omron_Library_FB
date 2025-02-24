@@ -11,7 +11,6 @@ _EN=Variables
 ++D=FL_OrangeBlinking	N=FL_OrangeBlinking2	G=VAR
 ++D=FL_OrangeBlinking	N=FL_OrangeBlinking1	G=VAR
 ++D=BOOL	N=cmd2	G=VAR
-++D=FL_RedLeveling	N=FL_RedLeveling1	G=VAR
 ++D=FL_GreenRotating	N=FLGreenRotating1	G=VAR
 ++D=FL_GreenRotating	N=FLGreenRotating2	G=VAR
 ++D=FL_GreenRotating	N=FLGreenRotating3	G=VAR
@@ -34,6 +33,7 @@ _EN=Variables
 ++D=FL_BlueFlashing	N=FL_BlueFlashing4	G=VAR
 ++D=FL_BlueFlashing	N=FL_BlueFlashing5	G=VAR
 ++D=BOOL	N=inverte	G=VAR	Com=Reverse the display order of the segments.
+++D=FL_Level	N=SetLevel	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=OBJ\FLASHLAMP	N=FL_Stack1	G=VAR_EXTERNAL
 ++D=OBJ\FLASHLAMP	N=FL_Stack2	G=VAR_EXTERNAL
