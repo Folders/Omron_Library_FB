@@ -1,0 +1,51 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=nbStack	IV=5	G=VAR	Com=Number of element
+++D=FlashLamp_Config_Modlight_5stacks	N=configModlight5	G=VAR
+++D=FlashLamp_Config_Modlight_4stacks	N=configModlight4	G=VAR
+++D=FlashLamp_Config_Modlight_3stacks	N=configModlight3	G=VAR
+++D=FlashLamp_Config_Modlight_5stacks	N=config_stacks	G=VAR
+++D=FlashLamp_Config_Modlight_5stacks	N=config_5stacks	G=VAR
+++D=FlashLamp_Config_Modlight_5stacks	N=config_stacks5	G=VAR
+++D=FlashLamp_Config_Modlight_4stacks	N=config_stacks4	G=VAR
+++D=FlashLamp_Config_Modlight_3stacks	N=config_stacks3	G=VAR
+++D=FlashLamp_Config_Modlight_2stacks	N=config_stacks2	G=VAR
+++D=FlashLamp_Link	N=Lin	G=VAR
+++D=FlashLamp_Link	N=configLink	G=VAR
+++D=FL_OrangeSteady	N=waiting	G=VAR
+++D=FL_GreenSteady	N=running	G=VAR
+++D=FL_RedSteady	N=ES1	G=VAR
+++D=FL_RedSteady	N=ES2	G=VAR
+++D=FL_RedSteady	N=ES3	G=VAR
+++D=FL_RedSteady	N=ES4	G=VAR
+++D=FL_RedSteady	N=ES5	G=VAR
+++D=FlashLamp_Apply	N=testA	G=VAR
+++D=FlashLamp_Apply	N=testB	G=VAR
+++D=FlashLamp_Apply	N=testC	G=VAR
+++D=FL_GreenSteady	N=laserReady	G=VAR
+++D=FL_RedRotating	N=laserShooting	G=VAR
+++D=FL_OrangeSteady	N=laserPower	G=VAR
+++D=FL_OrangeFlashing	N=laserFault	G=VAR
+++D=FlashLamp_Level	N=setLevelA	G=VAR
+++D=FlashLamp_Level	N=setLevelB	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=FlashlampTest	N=FL	G=VAR_EXTERNAL
+++D=OBJ\FLASHLAMP	N=FL_Stack1	G=VAR_EXTERNAL
+++D=OBJ\FLASHLAMP	N=FL_Stack2	G=VAR_EXTERNAL
+++D=OBJ\FLASHLAMP	N=FL_Stack3	G=VAR_EXTERNAL
+++D=OBJ\FLASHLAMP	N=FL_Stack4	G=VAR_EXTERNAL
+++D=OBJ\FLASHLAMP	N=FL_Stack5	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data01	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data02	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data03	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data04	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data05	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data06	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data07	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data08	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data09	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data10	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data11	G=VAR_EXTERNAL
+++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data12	G=VAR_EXTERNAL
+++D=BOOL	N=Commissioning	G=VAR_EXTERNAL

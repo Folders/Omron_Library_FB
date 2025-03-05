@@ -19,11 +19,12 @@ _EN=Variables
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
 ++D=VibratorTest	N=Vib	G=VAR_GLOBAL
 ++D=OBJ\VIBRATOR	N=Vib_Rail1	G=VAR_GLOBAL	Com=Vibrator object 1
-++D=OBJ\FLASHLAMP	N=FL_Stack1	G=VAR_GLOBAL	Com=FlashLamp
-++D=OBJ\FLASHLAMP	N=FL_Stack2	G=VAR_GLOBAL	Com=FlashLamp1
-++D=OBJ\FLASHLAMP	N=FL_Stack3	G=VAR_GLOBAL	Com=FlashLamp1
-++D=OBJ\FLASHLAMP	N=FL_Stack4	G=VAR_GLOBAL	Com=FlashLamp1
-++D=OBJ\FLASHLAMP	N=FL_Stack5	G=VAR_GLOBAL	Com=FlashLamp1
+++D=FlashlampTest	N=FL	G=VAR_GLOBAL
+++D=OBJ\FLASHLAMP	N=FL_Stack1	G=VAR_GLOBAL	Com=FlashLamp stack 1
+++D=OBJ\FLASHLAMP	N=FL_Stack2	G=VAR_GLOBAL	Com=FlashLamp stack 2
+++D=OBJ\FLASHLAMP	N=FL_Stack3	G=VAR_GLOBAL	Com=FlashLamp stack 3
+++D=OBJ\FLASHLAMP	N=FL_Stack4	G=VAR_GLOBAL	Com=FlashLamp stack 4
+++D=OBJ\FLASHLAMP	N=FL_Stack5	G=VAR_GLOBAL	Com=FlashLamp stack 5
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data01	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data02	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data03	G=VAR_GLOBAL

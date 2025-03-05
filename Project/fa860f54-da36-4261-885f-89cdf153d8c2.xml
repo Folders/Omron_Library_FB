@@ -8,10 +8,10 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="Buzzer" InstanceName="Buzzer" IniFileTrackingId="9b87520733154c7c909a48b1560cbe4d" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="Vibrator" InstanceName="Vibrator" IniFileTrackingId="69ae199d0c2f4f34828319d36eccf4a3" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="FlashLamp" InstanceName="FlashLamp" IniFileTrackingId="526e0b3d97b840b2a23a2ca1328394a0" StartupSetting="TRUE" SequenceNumber="4" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Vibrator" InstanceName="Vibrator" IniFileTrackingId="69ae199d0c2f4f34828319d36eccf4a3" StartupSetting="TRUE" SequenceNumber="4" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="FlashLamp" InstanceName="FlashLamp" IniFileTrackingId="4b25aca3ad164e3d88d306b3d3d5443d" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds />
   <TaskInterfaceVariables version="1" />

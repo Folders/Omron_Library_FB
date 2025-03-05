@@ -1,0 +1,32 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=FlashLamp_Modlight_DoNotUse	N=applyStack1	G=VAR
+++D=FlashLamp_Modlight_DoNotUse	N=applyStack2	G=VAR
+++D=FlashLamp_Modlight_DoNotUse	N=applyStack3	G=VAR
+++D=FlashLamp_Modlight_DoNotUse	N=applyStack4	G=VAR
+++D=USINT	N=nbSeg	G=VAR	Com=Number of segment to write
+++D=FlashLamp_Modlight_DoNotUse	N=fillingClear	G=VAR
+++D=FlashLamp_Modlight_DoNotUse	N=fillingLight	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\FLASHLAMP	N=MyFL_Stack4	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 4
+++D=OBJ\FLASHLAMP	N=MyFL_Stack3	Ord=2	G=VAR_IN_OUT	Com=Object for stack layer 3
+++D=OBJ\FLASHLAMP	N=MyFL_Stack2	Ord=3	G=VAR_IN_OUT	Com=Object for stack layer 2
+++D=OBJ\FLASHLAMP	N=MyFL_Stack1	Ord=4	G=VAR_IN_OUT	Com=Object for stack layer 1
+++D=BOOL	N=Enable	Ord=5	G=VAR_INPUT
+++D=BOOL	N=Invert	Ord=6	G=VAR_INPUT
+++D=BOOL	N=Commissioning	Ord=7	G=VAR_INPUT	Com=Put object in commissioning
+++D=ARRAY[0..1] OF Byte	N=Data01	Ord=8	G=VAR_OUTPUT	Com=IO-Link output data 1
+++D=ARRAY[0..1] OF Byte	N=Data02	Ord=9	G=VAR_OUTPUT	Com=IO-Link output data 2
+++D=ARRAY[0..1] OF Byte	N=Data03	Ord=10	G=VAR_OUTPUT	Com=IO-Link output data 3
+++D=ARRAY[0..1] OF Byte	N=Data04	Ord=11	G=VAR_OUTPUT	Com=IO-Link output data 4
+++D=ARRAY[0..1] OF Byte	N=Data05	Ord=12	G=VAR_OUTPUT	Com=IO-Link output data 5
+++D=ARRAY[0..1] OF Byte	N=Data06	Ord=13	G=VAR_OUTPUT	Com=IO-Link output data 6
+++D=ARRAY[0..1] OF Byte	N=Data07	Ord=14	G=VAR_OUTPUT	Com=IO-Link output data 7
+++D=ARRAY[0..1] OF Byte	N=Data08	Ord=15	G=VAR_OUTPUT	Com=IO-Link output data 8
+++D=ARRAY[0..1] OF Byte	N=Data09	Ord=16	G=VAR_OUTPUT	Com=IO-Link output data 9
+++D=ARRAY[0..1] OF Byte	N=Data10	Ord=17	G=VAR_OUTPUT	Com=IO-Link output data 10
+++D=ARRAY[0..1] OF Byte	N=Data11	Ord=18	G=VAR_OUTPUT	Com=IO-Link output data 11
+++D=ARRAY[0..1] OF Byte	N=Data12	Ord=19	G=VAR_OUTPUT	Com=IO-Link output data 12
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

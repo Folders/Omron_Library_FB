@@ -1,0 +1,16 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=FlashLamp_Apply	N=configFill	G=VAR
+++D=FlashLamp_Apply	N=configEmpty	G=VAR
+++D=BOOL	N=run	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Effect is displayed
+++D=OBJ\FLASHLAMP	N=MyFL_Stack1	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 1
+++D=OBJ\FLASHLAMP	N=MyFL_Stack2	Ord=2	G=VAR_IN_OUT	Com=Object for stack layer 2
+++D=BOOL	N=Active	Ord=3	G=VAR_INPUT	Com=Active this effect
+++D=USINT	N=Rank	IV=110	Ord=4	G=VAR_INPUT	Com=Priority of this effect (Lower is greater)
+++D=REAL	N=Progress	Ord=5	G=VAR_INPUT	Com=Define level in filling mode [0..100%]
+++D=OBJ\eColor	N=ColorFilling	IV=Green	Ord=6	G=VAR_INPUT	Com=Color of filled part
+++D=OBJ\eColor	N=ColorEmpty	IV=Black	Ord=7	G=VAR_INPUT	Com=Color of empty part
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
