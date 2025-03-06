@@ -6,7 +6,7 @@ _EN=Variables
 ++D=FlashLamp_Config_RGB	N=cfgMiddle	G=VAR
 ++D=FlashLamp_Config_RGB	N=cfgLow	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
 ++D=OBJ\FLASHLAMP	N=MyFL_Up	Ord=1	G=VAR_IN_OUT	Com=Upper segment of flash lamp
 ++D=OBJ\FLASHLAMP	N=MyFL_Middle	Ord=2	G=VAR_IN_OUT	Com=Middle segment of flash lamp
 ++D=OBJ\FLASHLAMP	N=MyFL_Low	Ord=3	G=VAR_IN_OUT	Com=Lower segment of flash lamp

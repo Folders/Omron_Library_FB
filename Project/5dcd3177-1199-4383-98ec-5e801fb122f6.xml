@@ -4,7 +4,7 @@ _EN=Variables
 ++D=REAL	N=cmd	G=VAR	Com=PWM setpoint command [0..100]
 ++D=TimeProportionalOut	N=outputCmd	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
 ++D=OBJ\FLASHLAMP	N=MyFlashLamp	Ord=1	G=VAR_IN_OUT	Com=Flash lamp object
 ++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Flash lamp is used
 ++D=BOOL	N=Commissioning	Ord=3	G=VAR_INPUT	Com=Put object in commissioning

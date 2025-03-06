@@ -4,7 +4,7 @@ _EN=Variables
 ++D=BYTE	N=cmd	G=VAR	Com=Color and effect command code
 ++D=INT	N=i	G=VAR	Com=Index
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
 ++D=OBJ\FLASHLAMP	N=MyStack	Ord=1	G=VAR_IN_OUT
 ++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT
 ++D=ARRAY[0..1] OF Byte	N=Data1	Ord=3	G=VAR_IN_OUT

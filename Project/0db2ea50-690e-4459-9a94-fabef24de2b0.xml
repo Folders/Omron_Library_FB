@@ -7,7 +7,7 @@ _EN=Variables
 ++D=FlashLamp_Modlight_DoNotUse	N=fillingClear	G=VAR
 ++D=FlashLamp_Modlight_DoNotUse	N=fillingLight	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
 ++D=OBJ\FLASHLAMP	N=MyFL_Stack2	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 2
 ++D=OBJ\FLASHLAMP	N=MyFL_Stack1	Ord=2	G=VAR_IN_OUT	Com=Object for stack layer 1
 ++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT

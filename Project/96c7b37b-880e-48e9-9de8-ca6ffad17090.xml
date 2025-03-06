@@ -2,7 +2,7 @@
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
-++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
 ++D=OBJ\BUZZER	N=MyBuzzer	Ord=1	G=VAR_IN_OUT	Com=Buzzer object
 ++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Enable buzzer
 ++D=BOOL	N=Commissioning	Ord=3	G=VAR_INPUT	Com=Put buzzer in commissioning
