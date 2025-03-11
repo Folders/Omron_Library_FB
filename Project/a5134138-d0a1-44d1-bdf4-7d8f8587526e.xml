@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=REAL	N=valMax	G=VAR
+++D=REAL	N=valMin	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=REAL	N=In	Ord=1	G=VAR_INPUT	Com=Current value to be compared
+++D=REAL	N=Ref	Ord=2	G=VAR_INPUT	Com=Comparison reference
+++D=REAL	N=Tol_Plus	Ord=3	G=VAR_INPUT	Com=Tolerance positive of the comparison
+++D=REAL	N=Tol_Minus	Ord=4	G=VAR_INPUT	Com=Tolerance negative of the comparison
+++D=BOOL	N=OutOfRange	Ord=5	G=VAR_OUTPUT	Com=Value is not in range
+++D=BOOL	N=TooHigh	Ord=6	G=VAR_OUTPUT	Com=Input value is too high
+++D=BOOL	N=TooLow	Ord=7	G=VAR_OUTPUT	Com=Input value is too low
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=Cmp_Tols	G=RETURN	Com=Value is in range

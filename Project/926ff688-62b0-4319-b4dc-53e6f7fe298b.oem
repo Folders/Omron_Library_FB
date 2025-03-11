@@ -600,6 +600,111 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="Function" subtype="Ladder" id="016df56d-2f65-4608-8ef3-8910487dcf72" name="Cmp_Tol" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" label="1.0.0" author="cp" comment="Compares an input value with a reference plus or minus a tolerance." trackingId="8d0ed1b5-4094-4157-b125-c9c1d5d9b81d" DN="Cmp_Tol">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="0ecc47cf-c4bb-4f1d-b0d8-ac6ebff35c11" name="Variables" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" trackingId="63772e1d-cf50-4f63-8e82-2d63886351c3" hash="80f2f21799909365d62e9cf9cdf19cb9">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="7345e3fc-fd5f-4cfc-b0e2-eefa2de33c31" name="PouIFLibrary" version="NaN" dateCreated="07/10/2018 17:55:44" trackingId="1215787e-eadc-4eca-ab45-f3b4b4ac61ea">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="c2960a45-1021-41bd-937d-fc7f55284f47" name="Source" version="0" dateCreated="07/10/2018 17:55:44" trackingId="05b599a6-bc36-45f1-bbe9-4dfbad42402b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="242d7359-c296-4b4e-8479-d7a62aac7c54" name="LadderBody" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" trackingId="6df015d6-d5c3-45da-8f61-1ae3a5e8b736" hash="c80942a4ca021914edc2dd2e779eb4fb">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="05348e92-97e7-4094-b3e4-833cfcbfede1" name="Source" version="0" dateCreated="07/10/2018 17:55:44" trackingId="702fe60f-e701-45ec-b5a2-91d017500057">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="5f8f5b8d-2e40-44b6-8921-5c2ac47f7edd" name="PouBodySourceHolder" version="0" dateCreated="07/10/2018 17:55:44" trackingId="107cfbe5-d140-4c07-b1d6-710e8d6f36eb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="2a8b7f9e-7a4d-4fa0-a895-dab5e47db2bd" name="b8b215bd-fb29-4778-9480-3f500a360869" version="0" dateCreated="07/10/2018 17:59:41" dateLastModified="03/11/2025 09:43:29" trackingId="6180538a-6c06-4221-b272-a20549d9471d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="Function" subtype="Ladder" id="b0546a33-0706-437e-bcc9-44405d23e612" name="Cmp_Tols" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" label="1.0.0" author="cp" comment="Compares an input value with a reference plus or minus a tolerance." trackingId="f47eec6a-f579-4cf0-88df-4e5380b277b7" DN="Cmp_Tols">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="a5134138-d0a1-44d1-bdf4-7d8f8587526e" name="Variables" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" trackingId="f9f4fdfa-2cf5-47f5-aae7-df29d2f061f2" hash="0790cd6e0b1d9c7693754b2fcccbae4d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="90c266b5-6220-4a0e-8796-74aec56dee9e" name="PouIFLibrary" version="NaN" dateCreated="07/10/2018 17:55:44" trackingId="2b19fd71-963b-485d-9d62-660a8f21b9d4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="098bc897-e0f0-4a5d-819e-fb68fe1a630b" name="Source" version="0" dateCreated="07/10/2018 17:55:44" trackingId="27db6e45-0057-41ab-8056-15429481dd2c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="8826c87c-bc85-49e7-93f7-1ea0d7f722b5" name="LadderBody" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" trackingId="09118d6f-cad4-42f3-ab7f-d42c2ab6c01a" hash="12ff9d5cad019bc41799de7fbc3d1df1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="8820144a-0d1d-477d-ab2e-a2eb6b6afba5" name="Source" version="0" dateCreated="07/10/2018 17:55:44" trackingId="73b7fe83-1043-418b-8de6-37bfde26b0f4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="f9ee32e7-361d-48ff-83d6-7293930efc1a" name="PouBodySourceHolder" version="0" dateCreated="07/10/2018 17:55:44" trackingId="9cc2ab17-1fdd-49b3-ae33-62d74c171008">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="c042f3dd-c7fa-4518-b2d3-f554208bb0a3" name="b8b215bd-fb29-4778-9480-3f500a360869" version="0" dateCreated="07/10/2018 17:59:41" dateLastModified="03/11/2025 09:43:29" trackingId="e388147f-2a94-4806-8425-3b12d7184487">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="Function" subtype="Ladder" id="f82f9439-abb5-465b-8b7c-c9f83346d67c" name="Cmp_Angle" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" author="cp" trackingId="053572de-d6c7-4be3-88ef-c162e6118cb1" DN="Cmp_Angle">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="59819374-d865-4d2f-9d1d-b98875e0a924" name="Variables" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" trackingId="fb376291-48e1-44a6-9815-aef537a6f510" hash="a02521b3e1e2e7eb1e30f3301d3b6f6d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="532b6c1b-578d-41aa-acb0-8080fb7302b7" name="PouIFLibrary" version="NaN" dateCreated="07/10/2018 17:55:44" trackingId="1649e527-0b62-4bc5-9086-0b2cf8ffbb22">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="d7c92031-bbcc-4c8e-bcf6-55ce79d9a7b6" name="Source" version="0" dateCreated="07/10/2018 17:55:44" trackingId="94d1c57a-cfbf-4437-9b94-18dcf98f1fdb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="c118a28a-2f56-451f-9cc8-b3c4f49484d0" name="LadderBody" version="0" dateCreated="07/10/2018 17:55:44" dateLastModified="03/11/2025 09:43:29" trackingId="3dbc9a76-6344-4369-a521-82c559123a43" hash="fc2007652f1937ad029211bc5a95ac36">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="56eb586a-22af-463a-88ff-0fe1b9365928" name="Source" version="0" dateCreated="07/10/2018 17:55:44" trackingId="326b31bc-032f-4e27-a0f4-6f28e5505a65">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="09bf9002-71b6-42e5-bd8e-2067bc936189" name="PouBodySourceHolder" version="0" dateCreated="07/10/2018 17:55:44" trackingId="dcb3d2d4-d124-48ad-a1bd-99c5864678f7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="0bf3ff55-b815-4182-b645-8daceba61a1c" name="b8b215bd-fb29-4778-9480-3f500a360869" version="0" dateCreated="07/10/2018 17:59:41" dateLastModified="03/11/2025 09:43:29" trackingId="00d6545c-a80b-4615-800e-01b17a3ee752">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                 </ChildEntities>
               </Entity>
               <Entity type="Group" subtype="IecFunctionBlocks" id="0d5fe9d9-89b8-4c4e-9614-f4899fe50d1a" name="Function Blocks" version="0" dateCreated="01/21/2025 13:32:53" trackingId="ae836cd4-b776-4d10-bbe9-4d6e29b647da" DN="Function Blocks">
