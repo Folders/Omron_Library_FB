@@ -893,7 +893,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="6c4d5e52-5efc-40d4-9f4e-a828a101b658" name="LadderBody" version="0" dateCreated="02/10/2025 13:54:16" dateLastModified="02/24/2025 16:22:19" trackingId="7d3ec03d-27dc-41b0-b730-b7a9860e99c5" hash="245e385965d4d4500a39072f365a708b">
+                      <Entity type="PouBody" subtype="Ladder" id="6c4d5e52-5efc-40d4-9f4e-a828a101b658" name="LadderBody" version="0" dateCreated="02/10/2025 13:54:16" dateLastModified="06/19/2025 15:52:56" trackingId="7d3ec03d-27dc-41b0-b730-b7a9860e99c5" hash="8ad77a87ad4f22d66541c40ae442c759">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="e37c6243-5e85-4db7-a9cc-2d07b9344f6b" name="Source" version="0" dateCreated="02/10/2025 13:54:16" trackingId="b2477f11-c730-4a92-9d38-ef5b3b730322">
@@ -904,7 +904,7 @@
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="6d1bd7b6-275f-45aa-b4ea-1f5b67e168a6" name="ffabad33-2526-43e3-b563-19e4a08b7280" version="0" dateCreated="02/10/2025 14:39:40" dateLastModified="02/24/2025 16:22:19" trackingId="4ad3746d-4905-4768-98aa-ce5f22e55fc1">
+                          <Entity type="Inline" subtype="StructuredText" id="6d1bd7b6-275f-45aa-b4ea-1f5b67e168a6" name="ffabad33-2526-43e3-b563-19e4a08b7280" version="0" dateCreated="02/10/2025 14:39:40" dateLastModified="06/19/2025 15:52:56" trackingId="4ad3746d-4905-4768-98aa-ce5f22e55fc1">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -998,7 +998,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="6af8f506-982b-4de8-9c80-8c710b1118ce" name="LadderBody" version="0" dateCreated="01/16/2019 15:51:45" dateLastModified="03/06/2025 17:03:05" trackingId="31a0ac0a-7c05-474e-b6a7-1cc26d07aeba" hash="63c8e76070042c840abe0da4f1c7b866">
+                      <Entity type="PouBody" subtype="Ladder" id="6af8f506-982b-4de8-9c80-8c710b1118ce" name="LadderBody" version="0" dateCreated="01/16/2019 15:51:45" dateLastModified="06/19/2025 15:08:39" trackingId="31a0ac0a-7c05-474e-b6a7-1cc26d07aeba" hash="004f700e912dde64ba6ba1e3ea81f528">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="e67ceecb-12b3-4b18-a82c-d401c231cb36" name="Source" version="0" dateCreated="01/16/2019 15:51:45" trackingId="b99d2d4b-0d3e-4640-8d41-a3c26c08f088">
@@ -1009,7 +1009,7 @@
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="ba543b8b-66e8-40cf-b2b7-b89e798e0222" name="fc2f127b-0a1a-4845-9eb4-0c91a5cb1f7a" version="0" dateCreated="07/10/2024 08:23:40" dateLastModified="03/06/2025 17:03:05" trackingId="e75963ce-860a-422d-8260-beba0250eab1">
+                          <Entity type="Inline" subtype="StructuredText" id="ba543b8b-66e8-40cf-b2b7-b89e798e0222" name="fc2f127b-0a1a-4845-9eb4-0c91a5cb1f7a" version="0" dateCreated="07/10/2024 08:23:40" dateLastModified="06/19/2025 15:08:39" trackingId="e75963ce-860a-422d-8260-beba0250eab1">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -2435,6 +2435,111 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="84206a21-14eb-4a3c-aba5-8c7ef7b9d651" name="StatusBar_Config" version="0" dateCreated="06/19/2025 14:18:02" dateLastModified="06/19/2025 14:30:19" author="FFor" trackingId="ef144f46-2bae-4be4-a72f-bb1399daac65" DN="StatusBar_Config">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="a6b8b3c0-8e6f-4d09-a9d5-d45525400097" name="Variables" version="0" dateCreated="06/19/2025 14:18:02" dateLastModified="06/19/2025 14:30:19" trackingId="e657b858-f440-467a-a605-636b2269a8a2" hash="0d25cb75e88499d94a173532d9e76fec">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="f1961869-a99e-44c6-83a1-ee01157ed88d" name="PouIFLibrary" version="NaN" dateCreated="06/19/2025 14:18:02" trackingId="eaee92b9-4960-4af9-b097-10d335ba30fd">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="0608ece1-6f31-4468-9f35-c39261ef2602" name="Source" version="0" dateCreated="06/19/2025 14:18:02" trackingId="239ed87e-b4f4-42db-b853-aa7c6d090da1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="1603b1ac-14da-469f-b55c-106ed35b7589" name="LadderBody" version="0" dateCreated="06/19/2025 14:18:02" dateLastModified="06/19/2025 15:52:56" trackingId="e540f068-0e30-4ac3-ba41-39ffe968bdc8" hash="4c80bb829bf07675cefad908ee31e0d2">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="715e5767-7491-468f-881e-4e59c21f386f" name="Source" version="0" dateCreated="06/19/2025 14:18:02" trackingId="5acec48d-4e9a-4716-bc2f-8b512b1a03c9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="fd8cb5e2-1000-4a4b-95bb-5810d1929d62" name="PouBodySourceHolder" version="0" dateCreated="06/19/2025 14:18:02" trackingId="59de2326-4cdb-4348-894e-5af60844df2e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="a3a8fea0-a7d5-4ab6-8a27-b2c833e82155" name="a6eed9bf-1477-4b34-9b18-be84b3367973" version="0" dateCreated="06/19/2025 14:25:12" dateLastModified="06/19/2025 15:52:56" trackingId="a6eed9bf-1477-4b34-9b18-be84b3367973">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="a944213f-1688-4fe6-8183-6fd8afdd8865" name="StatusBar_Manager" version="0" dateCreated="06/19/2025 14:31:39" dateLastModified="06/19/2025 15:08:39" author="FFor" trackingId="31b01a62-0af0-4963-a74f-a79076c1aee8" DN="StatusBar_Manager">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d57c7b2a-bccb-4f9d-b413-621d61e865bc" name="Variables" version="0" dateCreated="06/19/2025 14:31:39" dateLastModified="06/20/2025 10:53:03" trackingId="dde82bd4-fcd4-4f0a-b12e-fe403617929b" hash="17b91da9fdf6e42502e4bb15f0dbc82b">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="ac258761-9bfd-437a-b073-5566e3cc9ff4" name="PouIFLibrary" version="NaN" dateCreated="06/19/2025 14:31:39" trackingId="af7ed8c8-bcd8-4d2c-82e5-293ee99827d1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="44b37ed8-c793-4c5c-b2c4-c830af6b01d7" name="Source" version="0" dateCreated="06/19/2025 14:31:39" trackingId="6f1c2d58-8b1f-4bf8-81f6-77df0b82a3aa">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="bf858638-0abd-42da-b891-7fe28f5c85ed" name="LadderBody" version="0" dateCreated="06/19/2025 14:31:39" dateLastModified="06/20/2025 10:53:03" trackingId="858f34f8-3407-4a0b-8ad8-2ec8375027d7" hash="a59d5b8fa5b0c046b7a7d1688fc2990d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a21afc11-afaa-4d4a-8ba8-096416f4d263" name="Source" version="0" dateCreated="06/19/2025 14:31:39" trackingId="4598f721-e86c-449f-a9aa-0919d594b989">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="acb1b774-4bce-433c-8bff-d5333960d985" name="PouBodySourceHolder" version="0" dateCreated="06/19/2025 14:31:39" trackingId="877b89e9-8d52-405b-b3c9-e4306af5db89">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="62fce09b-77cf-4b70-bba9-6f1a9a090771" name="5190733d-059d-4707-956b-c5f3804b674a" version="0" dateCreated="06/19/2025 15:46:48" dateLastModified="06/20/2025 10:53:03" trackingId="5190733d-059d-4707-956b-c5f3804b674a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="f9a48aa8-81f5-4deb-bb6e-3a7ef4c7c8b2" name="StatusBar_Request" version="0" dateCreated="06/19/2025 15:05:06" dateLastModified="06/19/2025 15:52:56" author="FFor" trackingId="9d10e8dd-0d4a-43ec-9577-f5bb85013be1" DN="StatusBar_Request">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d0097e3e-d6a4-47de-b054-183e14f5e28f" name="Variables" version="0" dateCreated="06/19/2025 15:05:06" dateLastModified="06/19/2025 15:52:56" trackingId="3a5d7b8a-ad3a-4da3-9e9c-2d1b5f6ee7b2" hash="25abd43cab2163aac9c66f2697f39182">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="75f262f9-f9cd-494b-b1ba-f6c6009f79e3" name="PouIFLibrary" version="NaN" dateCreated="06/19/2025 15:05:06" trackingId="cc68a7b3-a548-4b10-ab0c-4913ecb04e05">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="59189fb2-0301-443e-8238-5ea8b56aa27b" name="Source" version="0" dateCreated="06/19/2025 15:05:06" trackingId="43e5958b-70c6-4819-8153-cdf0ed67cb3d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="15ca04c0-ec13-4ed1-9ac0-661ce267ca36" name="LadderBody" version="0" dateCreated="06/19/2025 15:05:06" dateLastModified="06/19/2025 15:52:56" trackingId="12bf09f8-1def-4e65-93b8-c39a83745413" hash="126facfcf2349d81e349f3f5492bf231">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a7fe65c8-2f13-447f-8973-bce4caf44677" name="Source" version="0" dateCreated="06/19/2025 15:05:06" trackingId="96cd6f13-c962-422e-8f68-9234c3d18a07">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="84530cd4-3e18-43ef-94ec-24d30ff38b1a" name="PouBodySourceHolder" version="0" dateCreated="06/19/2025 15:05:06" trackingId="e29b59b5-9181-4a6f-aec6-33b7896bf546">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="3c1440fb-d200-40d4-b982-d07926c2957b" name="1e2afb38-e4cf-41dd-998a-9ef1e8bb6266" version="0" dateCreated="06/19/2025 15:32:16" dateLastModified="06/19/2025 15:52:56" trackingId="1e2afb38-e4cf-41dd-998a-9ef1e8bb6266">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                 </ChildEntities>
               </Entity>
             </ChildEntities>
@@ -2442,7 +2547,7 @@
           <Entity type="Group" subtype="IecData" id="3e3ff250-379b-4db7-81dd-8b6ce0d160a4" name="Data" version="0" dateCreated="01/21/2025 13:32:53" trackingId="36d6e623-ffe7-4707-8dc1-5c19110471ee" DN="Data">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="DataType" subtype="" id="1feceb05-ad2d-4ed5-bfdd-cc19f8965395" name="Data Types" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="03/05/2025 09:03:47" trackingId="afeef670-eaa4-4976-86e3-7e78c57b7029" DN="Data Types" hash="2b351687de45e0f014770691828cb0e7">
+              <Entity type="DataType" subtype="" id="1feceb05-ad2d-4ed5-bfdd-cc19f8965395" name="Data Types" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="06/20/2025 10:53:03" trackingId="afeef670-eaa4-4976-86e3-7e78c57b7029" DN="Data Types" hash="cae38921546bdeeb5f45010525d395eb">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="d8dfbce7-d0d7-437f-8667-419edb6aa0a9" name="Source" version="0" dateCreated="01/21/2025 13:32:53" trackingId="1ac932b3-8bb8-4270-ac6c-4a52f7051f0a">
@@ -2464,7 +2569,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="c4809942-7da0-4cda-95e3-fe26c785b13f" name="Data Types0" version="0" dateCreated="01/21/2025 13:39:45" dateLastModified="03/05/2025 10:47:44" namespace="OBJ" trackingId="28447cca-18cb-4926-8046-4845eb275f0a" hash="8ae54c44c642dcb044e987f095f3186f">
+              <Entity type="DataType" subtype="" id="c4809942-7da0-4cda-95e3-fe26c785b13f" name="Data Types0" version="0" dateCreated="01/21/2025 13:39:45" dateLastModified="06/20/2025 10:53:03" namespace="OBJ" trackingId="28447cca-18cb-4926-8046-4845eb275f0a" hash="c9fa9de6015c7e22965799eacf0cf4b4">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="4952aa0e-8dc8-46e9-9174-737cc6422672" name="Source" version="0" dateCreated="01/21/2025 13:39:45" trackingId="9c9e33a3-dc3e-4ee4-a594-d72bb4d1b8b3">

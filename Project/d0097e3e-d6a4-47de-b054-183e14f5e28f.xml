@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\STATUSBAR	N=MyStatusBar	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Active	Ord=2	G=VAR_INPUT
+++D=OBJ\eStatusBar	N=eNum	Ord=3	G=VAR_INPUT
+++D=USINT	N=Rank	Ord=4	G=VAR_INPUT
+++D=OBJ\eColor	N=Color	Ord=5	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
