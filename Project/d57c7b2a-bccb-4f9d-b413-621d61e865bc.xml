@@ -12,10 +12,10 @@ _EN=Variables
 ++D=StatusBar_Request	N=Req_009	G=VAR
 ++D=StatusBar_Request	N=Req_010	G=VAR
 ++D=StatusBar_Request	N=Req_011	G=VAR
+++D=BOOL	N=Test	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=General_Machine	N=MyGeneral	Ord=1	G=VAR_IN_OUT
-++D=OBJ\STATUS	N=MyStatus	Ord=2	G=VAR_INPUT
-++D=OBJ\STATUSBAR	N=MyStatusBar	Ord=3	G=VAR_IN_OUT
-++D=BOOL	N=Enabled	Ord=4	G=VAR_INPUT
+++D=OBJ\STATUSBAR	N=MyStatusBar	Ord=2	G=VAR_IN_OUT
+++D=BOOL	N=Enabled	Ord=3	G=VAR_INPUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
