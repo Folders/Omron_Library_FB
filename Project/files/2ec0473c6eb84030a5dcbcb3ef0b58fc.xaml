@@ -1,0 +1,189 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:DesignerCore="clr-namespace:Omron.Cxap.Modules.Designer.Core;assembly=Omron.Cxap.Modules.Designer.Core"
+                    xmlns:DeviceHmiCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Core"
+                    xmlns:Languages="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Languages;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:PageElements="clr-namespace:Omron.Cxap.Modules.DeviceHmi.PageElements;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:PageElementsStyles="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Themes.PageElementsStyles;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:Resources="clr-namespace:Omron.Cxap.Modules.DeviceHmi.PageElements.Resources;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:ResourcesCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Resources.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:VariablesCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Variables.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:Specialized="clr-namespace:System.Collections.Specialized;assembly=System"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Omron.Cxap.Modules.DeviceHmi.Module;component/PageElements/Resources/ToolBoxControlsStyles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <System:String x:Key="{x:Static DesignerCore:Constants.ResourceIdentifierKey}">Omron_IAG</System:String>
+	<System:String x:Key="TypeName">Button_SimpleIcon</System:String>
+    
+    <Resources:PageElement x:Key="0af025f5-d6e7-4883-8c52-55315a988233"
+                           DesignerName="{StaticResource TypeName}"
+                           IconTemplate="{x:Static PageElementsStyles:PageElementsResourceKeys+ControlContainers.IagControlIconTemplate}"
+                           VisualTemplate="{x:Static PageElementsStyles:PageElementsResourceKeys+ControlContainers.IagControlVisualTemplate}"
+                           Feature="{x:Static DesignerCore:Constants+Features.IagControl}">
+        <Resources:PageElement.Properties>
+            <Resources:Properties>
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.General}"
+                                    Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.Name}"                
+                                    DescriptionKey="{x:Static Languages:PageElementsConstants+SharedConstants+Descriptions.Name}"                               
+                                    Feature="{x:Static DesignerCore:Constants+Features.IagElementName}" 
+                                    DefaultValue="{StaticResource TypeName}"
+                                    IsMergeable="False"
+                                    PropertyType="{x:Type System:String}"/>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.General}"
+                                    Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.Type}"              
+                                    DescriptionKey="{x:Static Languages:PageElementsConstants+SharedConstants+Descriptions.Type}"
+                                    PropertyType="{x:Type System:String}"
+                                    IsReadOnly="true" />									
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.General}"
+                                    Property="{x:Static DeviceHmiCore:Constants+ControlContainers+IagConstants+PropertyNames.Version}"              
+                                    DescriptionKey="{x:Static Languages:PageElementsConstants+ControlContainers+IagConstantsDescriptions.Version}"
+                                    PropertyType="{x:Type System:String}"
+                                    IsReadOnly="true">
+                                    <Resources:Property.DefaultValue>S05V00R00</Resources:Property.DefaultValue>
+                </Resources:Property>									
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.General}"
+                                    Property="{x:Static DeviceHmiCore:Constants+ControlContainers+IagConstants+PropertyNames.Publisher}"              
+                                    DescriptionKey="{x:Static Languages:PageElementsConstants+ControlContainers+IagConstantsDescriptions.Publisher}"
+                                    PropertyType="{x:Type System:String}"
+                                    IsReadOnly="true">
+                                    <Resources:Property.DefaultValue>Pierre Clot</Resources:Property.DefaultValue>
+                </Resources:Property>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Appearance}"    
+                                    Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.IsHorizontallyFlipped}"     
+                                    IsBrowsable="False"
+                                    DesignTimeOnly="True"
+                                    PropertyType="{x:Type System:Boolean}"
+                                    DefaultValue="False"/>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Appearance}"    
+                                    Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.IsVerticallyFlipped}"     
+                                    IsBrowsable="False"
+                                    DesignTimeOnly="True"
+                                    PropertyType="{x:Type System:Boolean}"
+                                    DefaultValue="False"/>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Appearance}"    
+                                    Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.RotationAngle}"     
+                                    IsBrowsable="False"
+                                    DesignTimeOnly="True"
+                                    PropertyType="{x:Type System:Double}"
+                                    DefaultValue="0.0"/>
+                                    
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Appearance}"
+                                    Property="{x:Static DeviceHmiCore:Constants+ControlContainers+IagConstants+PropertyNames.Background}"
+                                    DisplayName="{x:Static DeviceHmiCore:Constants+ControlContainers+IagConstants+DisplayNames.Background}"
+                                    DescriptionKey="{x:Static Languages:PageElementsConstants+ControlContainers+IagConstantsDescriptions.Background}"
+                                    EditorTemplate="{x:Static PageElements:Constants.BrushPickerEditor}"
+                                    Feature="{x:Static DesignerCore:Constants+Features.CustomColor}"
+                                    DefaultValue="{x:Static Brushes.Transparent}"
+                                    PropertyType="{x:Type Brush}"/>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Layout}"
+                                    Property="{x:Static DeviceHmiCore:Constants+ControlContainers+PropertyNames.ContainerPadding}"
+                                    IsBrowsable="False"
+                                    DesignTimeOnly="True"
+                                    PropertyType="{x:Type Thickness}"
+                                    DefaultValue="0,0,0,0"/>
+
+                <StaticResource ResourceKey="PositionGroup"/>
+                <StaticResource ResourceKey="PositionProperties"/>
+
+                <StaticResource ResourceKey="SizeGroup"/>
+                <Resources:PropertyRange Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Layout}"  
+                            Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.Width}"
+                            DescriptionKey="{x:Static Languages:PageElementsConstants+SharedConstants+Descriptions.Width}" 
+                            EditorTemplate="{x:Static PageElements:Constants.DoubleEditorWithBoundMinMaxLimitsNoDecimalPlaces}"
+                            Feature="{x:Static DesignerCore:Constants+Features.Width}"
+                            DesignTimeOnly="True"
+                            PropertyType="{x:Type System:Double}"
+                            Minimum="{x:Static PageElements:Constants+Limits.PositivePosition}"
+                            Maximum="{x:Static PageElements:Constants+Limits.Maximum}"/>
+
+                <Resources:PropertyRange Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Layout}"  
+                            Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.Height}"
+                            DescriptionKey="{x:Static Languages:PageElementsConstants+SharedConstants+Descriptions.Height}" 
+                            EditorTemplate="{x:Static PageElements:Constants.DoubleEditorWithBoundMinMaxLimitsNoDecimalPlaces}"
+                            Feature="{x:Static DesignerCore:Constants+Features.Height}"
+                            DesignTimeOnly="True"
+                            PropertyType="{x:Type System:Double}"                            
+                            Minimum="{x:Static PageElements:Constants+Limits.PositivePosition}"
+                            Maximum="{x:Static PageElements:Constants+Limits.Maximum}"/>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.BehaviourInput}"
+                        Property="Text"
+                        DesignTimeOnly="False"
+                        EditorTemplate="{x:Static PageElements:Constants.ExpressionEditor}"
+                        Feature="{x:Static DesignerCore:Constants+Features.NullableExpression}"
+                        PropertyType="{x:Type VariablesCore:Expression}">
+                            <Resources:Property.DescriptionKey>[String] Title ressource name</Resources:Property.DescriptionKey>
+                </Resources:Property>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.BehaviourInput}"
+                        Property="IsEnable"
+                        DesignTimeOnly="False"
+                        EditorTemplate="{x:Static PageElements:Constants.ExpressionEditor}"
+                        Feature="{x:Static DesignerCore:Constants+Features.NullableExpression}"
+                        PropertyType="{x:Type VariablesCore:Expression}">
+                            <Resources:Property.DescriptionKey>[Boolean] Button is enabled</Resources:Property.DescriptionKey>
+                </Resources:Property>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.BehaviourInput}"
+                        Property="IsActive"
+                        DesignTimeOnly="False"
+                        EditorTemplate="{x:Static PageElements:Constants.ExpressionEditor}"
+                        Feature="{x:Static DesignerCore:Constants+Features.NullableExpression}"
+                        PropertyType="{x:Type VariablesCore:Expression}">
+                            <Resources:Property.DescriptionKey>[Boolean] Button is active (pressed)</Resources:Property.DescriptionKey>
+                </Resources:Property>
+
+                <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.BehaviourInput}"
+                        Property="Color"
+                        DesignTimeOnly="False"
+                        EditorTemplate="{x:Static PageElements:Constants.ExpressionEditor}"
+                        Feature="{x:Static DesignerCore:Constants+Features.NullableExpression}"
+                        PropertyType="{x:Type VariablesCore:Expression}">
+                            <Resources:Property.DescriptionKey>[OBJ\eColor] Select color when the button is active (no color = gray)</Resources:Property.DescriptionKey>
+                </Resources:Property>
+
+                <Resources:ElementsCollection CollectionName="{x:Static DeviceHmiCore:Constants+ElementKeys.IagControls}" 
+                                              IsBrowsable="False"/>
+
+                <Resources:ElementsCollection Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Animations}"
+											  CollectionName="{x:Static DeviceHmiCore:Constants+ElementKeys.Animations}" 
+                                              DescriptionKey="{x:Static Languages:PageElementsConstants+PropertyTexts.AnimationsPropertyDescription}"
+                                              EditorTemplate="{x:Static PageElements:Constants.AnimationsEditor}"
+                                              Feature="{x:Static DesignerCore:Constants+Features.ExclusiveElement}">
+                    <Resources:ElementsCollection.ElementKeys>
+                        <Specialized:StringCollection>
+                            <x:Static Member="DeviceHmiCore:Constants+AnimationsWithNamespace.Move"/>
+                            <x:Static Member="DeviceHmiCore:Constants+AnimationsWithNamespace.ResizeHeight"/>
+                            <x:Static Member="DeviceHmiCore:Constants+AnimationsWithNamespace.ResizeWidth"/>
+                            <x:Static Member="DeviceHmiCore:Constants+AnimationsWithNamespace.Visibility"/>
+                        </Specialized:StringCollection>
+                    </Resources:ElementsCollection.ElementKeys>
+                </Resources:ElementsCollection>
+
+                <Resources:ElementsCollection Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Events}"
+											  CollectionName="{x:Static DeviceHmiCore:Constants+ElementKeys.Events}" 
+                                              DescriptionKey="{x:Static Languages:PageElementsConstants+PropertyTexts.EventsPropertyDescription}"
+                                              EditorTemplate="{x:Static PageElements:Constants.EventsEditor}"
+                                              Feature="{x:Static DesignerCore:Constants+Features.ExclusiveElement}"
+                                              IsBrowsable="True">
+                    <Resources:ElementsCollection.ElementKeys>
+                        <Specialized:StringCollection>
+                            <System:String>Omron_IAG.Button_SimpleIcon.406a266a-01c9-4569-852b-dbb244e0a993</System:String>
+                        </Specialized:StringCollection>
+                    </Resources:ElementsCollection.ElementKeys>
+                </Resources:ElementsCollection>
+
+            </Resources:Properties>
+        </Resources:PageElement.Properties>
+    </Resources:PageElement>
+</ResourceDictionary>

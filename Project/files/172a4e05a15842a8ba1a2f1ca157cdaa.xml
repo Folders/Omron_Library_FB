@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTypesManifest>
+  <DataType>
+    <Id>0c9f6613-a24a-4866-92cd-302d1dccc1a2</Id>
+    <Namespace></Namespace>
+  </DataType>
+  <DataType>
+    <Id>464d845f-4efc-49b3-b5d7-89b865fbae58</Id>
+    <Namespace>OBJ</Namespace>
+  </DataType>
+</DataTypesManifest>

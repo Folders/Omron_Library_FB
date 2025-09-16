@@ -8,6 +8,7 @@ _EN=Variables
 ++D=USINT	N=nbSeg	G=VAR	Com=Number of segment to write
 ++D=FlashLamp_Modlight_DoNotUse	N=fillingClear	G=VAR
 ++D=FlashLamp_Modlight_DoNotUse	N=fillingLight	G=VAR
+++D=BOOL	N=Enabled	Ord=1	G=VAR	AOE=1	Com=Config are enabled
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
 ++D=OBJ\FLASHLAMP	N=MyFL_Stack4	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 4

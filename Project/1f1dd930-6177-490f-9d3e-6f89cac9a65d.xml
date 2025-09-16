@@ -1,0 +1,37 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DB_Manager	N=Config_DB_1	G=VAR
+++D=DB_Connect	N=Normal_Connect	G=VAR
+++D=DWORD	N=myConnection	G=VAR	Com=My connection
+++D=DB_CreateMapping	N=Normal_Map	G=VAR
+++D=DB_Insert	N=Normal_Insert	G=VAR
+++D=DB_Close	N=Normal_Close	G=VAR
+++D=DB_Manager	N=Config_DB_2	G=VAR
+++D=BOOL	N=Test_1	G=VAR
+++D=DB_Connect_WithMgr	N=Connect_A	G=VAR
+++D=BOOL	N=Test_A	G=VAR
+++D=BOOL	N=Connection_A	G=VAR	Com=I'm connected for "Test A"
+++D=BOOL	N=Done_A	G=VAR	Com="Test A" is done
+++D=DB_Close_WithMgr	N=Close_A	G=VAR
+++D=BOOL	N=Test_B	G=VAR
+++D=DB_CreateMapping	N=A_Map	G=VAR
+++D=DB_CreateMapping	N=Map_A	G=VAR
+++D=DB_Insert	N=Insert_A	G=VAR
+++D=DB_Connect_WithMgr	N=Connect_B	G=VAR
+++D=DB_CreateMapping	N=Map_B	G=VAR
+++D=DB_Insert	N=Insert_B	G=VAR
+++D=DB_Close_WithMgr	N=Close_B	G=VAR
+++D=BOOL	N=Test_C	G=VAR
+++D=DB_Connect_WithMgr	N=Connect_C	G=VAR
+++D=DB_CreateMapping	N=Map_C	G=VAR
+++D=DB_Insert	N=Insert_C	G=VAR
+++D=DB_Close_WithMgr	N=Close_C	G=VAR
+++D=BOOL	N=Test_All	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\DB_MGR	N=DB_Machine	G=VAR_EXTERNAL
+++D=BOOL	N=Info_General	G=VAR_EXTERNAL
+++D=FlatDB\Users	N=UserDB	G=VAR_EXTERNAL
+++D=BOOL	N=Info_Struct	G=VAR_EXTERNAL
+++D=OBJ\DB_MGR	N=DB_General	G=VAR_EXTERNAL
+++D=BOOL	N=Info_ToDo	G=VAR_EXTERNAL

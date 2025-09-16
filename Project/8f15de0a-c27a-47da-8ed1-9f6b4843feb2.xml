@@ -1,0 +1,12 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=Id_Local	G=VAR	Com=Id of function bloc
+++D=BOOL	N=Ready	G=VAR	Com=Instance is ready to work
+++D=INT	N=S	G=VAR	Com=Step of executing command
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\DB_MGR	N=MyDB	Ord=0	G=VAR_IN_OUT	Com=DB object
+++D=BOOL	N=Request	Ord=1	G=VAR_INPUT	Com=Request a connection to DB
+++D=BOOL	N=Connected	Ord=2	G=VAR_OUTPUT	Com=Connected to DB
+++D=BOOL	N=OtherRequest	Ord=3	G=VAR_OUTPUT	Com=Another instance need DB connection
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,0 +1,26 @@
+<CodeEditorModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.CodeEditor.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CodingLanguageName>VBNET</CodingLanguageName><HiddenFooter>&#xD;
+End Class</HiddenFooter><HiddenHeader>Partial Public Class Button_Momentary&#xD;
+</HiddenHeader><SerialData i:nil="true"/><SerialDeviceHmiId i:nil="true"/><SerialScaleData i:nil="true"/><Text>'IAG Code behind - Add local subroutines for the IAG.&#xD;
+&#xD;
+Public Sub OnShow&#xD;
+	Pressed = False&#xD;
+	&#xD;
+	' Init shape&#xD;
+	If Not Init Then&#xD;
+		' Reshape active rectangle&#xD;
+		Me.R_Active_Fill.Top = 2&#xD;
+		Me.R_Active_Fill.Left = 2&#xD;
+		Me.R_Active_Fill.Height = Me.R_Active_Border.Height - 4&#xD;
+		Me.R_Active_Fill.Width = Me.R_Active_Border.Width - 4&#xD;
+		&#xD;
+		' Reshape pressed rectangle&#xD;
+		Me.R_Pressed_Fill.Top = 2&#xD;
+		Me.R_Pressed_Fill.Left = 2&#xD;
+		Me.R_Pressed_Fill.Height = Me.R_Pressed_Border.Height - 4&#xD;
+		Me.R_Pressed_Fill.Width = Me.R_Pressed_Border.Width - 4&#xD;
+		&#xD;
+		Init = True&#xD;
+	End If&#xD;
+			&#xD;
+End Sub&#xD;
+ </Text></CodeEditorModel>

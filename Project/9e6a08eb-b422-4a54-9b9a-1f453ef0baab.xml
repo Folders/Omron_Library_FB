@@ -1,0 +1,16 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=Order_Connection	G=VAR	Com=Connection order
+++D=BOOL	N=Started	G=VAR	Com=DB service is running
+++D=BOOL	N=ToDO	G=VAR	Com=To test / implement
+++D=DB_Connect_WithMgr	N=ConnectToMaster	G=VAR
+++D=DB_Close_WithMgr	N=CloseToMaster	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\DB_MGR	N=Master_DB	Ord=1	G=VAR_IN_OUT	Com=Master DB manager with DB function
+++D=OBJ\DB_MGR	N=MyDB	Ord=2	G=VAR_IN_OUT	Com=New DB manager without DB function
+++D=BOOL	N=Enabled	Ord=3	G=VAR_INPUT
+++D=STRING[256]	N=Name	Ord=4	G=VAR_INPUT	Com=Name of the connection (In Sysmac - DB Connection settings)
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=T_1s	G=VAR_EXTERNAL

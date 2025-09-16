@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DB_Connect	N=Conn_DB	G=VAR
+++D=DB_Close	N=Deco_DB	G=VAR
+++D=BOOL	N=Order_Connection	G=VAR	Com=Connection order
+++D=TON	N=Wait_Deco	G=VAR
+++D=DB_GetConnectionStatus	N=GetConnection	G=VAR
+++D=DB_GetServiceStatus	N=GetService	G=VAR
+++D=BOOL	N=Started	G=VAR	Com=DB service is running
+++D=BOOL	N=Initializing	G=VAR	Com=Inititalization is running
+++D=BOOL	N=Error	G=VAR	Com=Error of connection
+++D=BOOL	N=ResetConn	G=VAR	Com=Reset comm
+++D=TON	N=Wait_AutoReset	G=VAR
+++D=TON	N=Wait_ConnReset	G=VAR
+++D=BOOL	N=Busy	G=VAR
+++D=BOOL	N=InFault	G=VAR	Com=Currently in fault
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\DB_MGR	N=MyDB	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT
+++D=STRING[256]	N=Name	Ord=3	G=VAR_INPUT	Com=Name of the connection (In Sysmac - DB Connection settings)
+++D=WORD	N=ErrorID	Ord=4	G=VAR_OUTPUT	Com=Connection error ID
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=T_1s	G=VAR_EXTERNAL

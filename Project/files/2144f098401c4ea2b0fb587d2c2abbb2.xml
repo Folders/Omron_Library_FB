@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="c46cebbb-dc41-4cd1-ba81-d70997eb2ec1">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1066" ID="84c51a18-682b-4b05-9a4d-cf19c3b9bca6">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="62c77a73-d06b-4d6d-855f-ff314f02620d">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String85" ID="232ff31b-2da2-47a1-bbd3-f254d171c7e8">
+      <Localisation Language="en-US" Translation="Red / 1" Default="True" />
+    </Resource>
+    <Resource Name="String86" ID="2aa51da4-8807-44dc-8398-aa0a65f9d69b">
+      <Localisation Language="en-US" Translation="Lime / 2" Default="True" />
+    </Resource>
+    <Resource Name="String87" ID="12b4d76f-6b62-4b62-a32f-e87443afb856">
+      <Localisation Language="en-US" Translation="Yellow / 3" Default="True" />
+    </Resource>
+    <Resource Name="String88" ID="858fcdce-3c0b-41eb-b07f-61b805ebf426">
+      <Localisation Language="en-US" Translation="Blue / 4" Default="True" />
+    </Resource>
+    <Resource Name="String89" ID="849ac524-cc6c-4e9d-9157-350b11861ec8">
+      <Localisation Language="en-US" Translation="Fushia" Default="True" />
+    </Resource>
+    <Resource Name="String90" ID="129294a4-52ee-4889-9393-3fc4a3466930">
+      <Localisation Language="en-US" Translation="Aqua / 6" Default="True" />
+    </Resource>
+    <Resource Name="String91" ID="92aa992a-0336-4f0a-b8b9-c85ee192dbef">
+      <Localisation Language="en-US" Translation="White" Default="True" />
+    </Resource>
+    <Resource Name="String92" ID="a837daa4-7a59-4a81-8911-7d3a91316fda">
+      <Localisation Language="en-US" Translation="No color" Default="True" />
+    </Resource>
+    <Resource Name="String93" ID="58078ed2-dd9c-4d7e-90a0-47aa4a0be89f">
+      <Localisation Language="en-US" Translation="Ne effect" Default="True" />
+    </Resource>
+    <Resource Name="String94" ID="7ee74928-54c4-4d48-94f5-a85835ba26c7">
+      <Localisation Language="en-US" Translation="Steady" Default="True" />
+    </Resource>
+    <Resource Name="String95" ID="7ba31fe0-d0a8-495f-902f-80e3e5b6a874">
+      <Localisation Language="en-US" Translation="Flashing" Default="True" />
+    </Resource>
+    <Resource Name="String96" ID="b9a84f74-422e-4791-9eb0-2cd10471e1a8">
+      <Localisation Language="en-US" Translation="Blinking" Default="True" />
+    </Resource>
+    <Resource Name="String97" ID="17bfc8d7-481d-4c3d-9357-46aea9804150">
+      <Localisation Language="en-US" Translation="Fast blinking" Default="True" />
+    </Resource>
+    <Resource Name="String98" ID="8bb6694c-c0ec-42b3-95e2-47f9ee0d1926">
+      <Localisation Language="en-US" Translation="Rotating" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

@@ -14,6 +14,9 @@ _EN=Variables
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL
 ++D=OBJ\BUZZER	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
 ++D=OBJ\BUZZER	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
+++D=OBJ\DB_MGR	N=DB_General	G=VAR_GLOBAL	Com=Database general
+++D=OBJ\DB_MGR	N=DB_Machine	G=VAR_GLOBAL	Com=Database of machine
+++D=FlatDB\Users	N=UserDB	G=VAR_GLOBAL	Com=User flat structure for DB
 ++D=PneuTest	N=Pneu	G=VAR_GLOBAL
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
 ++D=OBJ\PNEUMATIC	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2

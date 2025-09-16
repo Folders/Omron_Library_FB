@@ -1,0 +1,9 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=S	G=VAR	Com=Step of executing command
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\DB_MGR	N=MyDB	Ord=0	G=VAR_IN_OUT	Com=DB object
+++D=BOOL	N=Request	Ord=1	G=VAR_INPUT	Com=Request a connection to DB
+++D=BOOL	N=Disconnected	Ord=2	G=VAR_OUTPUT	Com=Connected to DB
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
