@@ -1,0 +1,41 @@
+  <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:DesignerCore="clr-namespace:Omron.Cxap.Modules.Designer.Core;assembly=Omron.Cxap.Modules.Designer.Core"
+                      xmlns:DeviceHmiCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Core"
+                      xmlns:EventsAndActions="clr-namespace:Omron.Cxap.Modules.DeviceHmi.EventsAndActions;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                      xmlns:Languages="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Languages;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                      xmlns:PageElements="clr-namespace:Omron.Cxap.Modules.DeviceHmi.PageElements;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                      xmlns:Resources="clr-namespace:Omron.Cxap.Modules.DeviceHmi.PageElements.Resources;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                      xmlns:System="clr-namespace:System;assembly=mscorlib">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Omron.Cxap.Modules.DeviceHmi.Module;component/EventsAndActions/Resources/EventResources.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <System:String x:Key="{x:Static DesignerCore:Constants.ResourceIdentifierKey}">Omron_IAG.Button_MomentaryIcon</System:String>
+
+    <Resources:PageElement x:Key="c352be05-6faa-4c4b-9ef1-192b47a7c727"
+                           DesignerName="OnClick"
+                           DescriptionKey="When user press the button"
+                           EditorTemplate="{x:Static PageElements:Constants.ElementPropertyEditor}"
+                           IsReadOnly="True">
+        <Resources:PageElement.Properties>
+            <Resources:Properties>
+                 <Resources:Property Category="{x:Static Languages:PageElementsConstants+CategoryTexts.General}"
+                                     Property="{x:Static DeviceHmiCore:Constants+AllSharedConstants+PropertyNames.Name}"
+                                     DescriptionKey="{x:Static Languages:PageElementsConstants+SharedConstants+Descriptions.Name}"
+                                     IsReadOnly="True"
+                                     Feature="{x:Static DesignerCore:Constants+Features.ParentDisplayName}"
+                                     PropertyType="{x:Type System:String}"/>
+
+                 <Resources:ElementsCollection Category="{x:Static Languages:PageElementsConstants+CategoryTexts.Behaviour}"
+                                               CollectionName="{x:Static DeviceHmiCore:Constants+ElementKeys.Actions}"
+                                               DescriptionKey="{x:Static Languages:EventsConstants.ActionsDescription}"
+                                               EditorTemplate="{x:Static EventsAndActions:Constants.ActionsEditor}"
+                                               Feature="{x:Static DesignerCore:Constants+Features.ActionsCollection}"
+                                               ElementKeys="{StaticResource Actions}"/>
+            </Resources:Properties>
+        </Resources:PageElement.Properties>
+    </Resources:PageElement>
+
+</ResourceDictionary>

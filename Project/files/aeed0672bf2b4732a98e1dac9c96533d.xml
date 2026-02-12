@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Variables>
-  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
-  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup" />
-  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
-    <Variable DataTypeName="Boolean" Name="pressed" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="b530d91d-fbc1-4346-882e-7ea99a35307e" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
-    <Variable DataTypeName="Boolean" Name="init" Address="" Length="" Retained="false" InitialValue="False" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="4e7645ac-c17b-4ba8-9688-76af10819732" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
-  </VariableGroup>
-</Variables>

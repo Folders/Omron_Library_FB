@@ -1,0 +1,21 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:DesignerCore="clr-namespace:Omron.Cxap.Modules.Designer.Core;assembly=Omron.Cxap.Modules.Designer.Core"
+                    xmlns:DeviceHmiCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Core"
+                    xmlns:Resources="clr-namespace:Omron.Cxap.Modules.DeviceHmi.PageElements.Resources;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:ResourcesCore="clr-namespace:Omron.Cxap.Modules.DeviceHmi.Resources.Core;assembly=Omron.Cxap.Modules.DeviceHmi.Module"
+                    xmlns:Specialized="clr-namespace:System.Collections.Specialized;assembly=System"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <System:String x:Key="{x:Static DesignerCore:Constants.ResourceIdentifierKey}">Omron_IAG</System:String>
+
+    <ResourcesCore:RegistrationCollection x:Key="903f7152-35e5-48d9-89f0-0269280272e6">
+		<Resources:CommandsBehaviourExtension CanFlip="True" ScaleChildren="True"/>
+		<Resources:ExcludedCollectionsFromUniqueName>
+			<Specialized:StringCollection>
+				<x:Static Member="DeviceHmiCore:Constants+ElementKeys.IagControls"/>
+				<x:Static Member="DeviceHmiCore:Constants+ElementKeys.Events"/>
+			</Specialized:StringCollection>
+		</Resources:ExcludedCollectionsFromUniqueName>
+	</ResourcesCore:RegistrationCollection>
+</ResourceDictionary>
