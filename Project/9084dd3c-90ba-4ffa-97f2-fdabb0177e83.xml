@@ -1,0 +1,49 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=clearing_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=clearing_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=starting_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=starting_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=stopping_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=stopping_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=aborting_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=aborting_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=suspending_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=suspending_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=unsuspending_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=unsuspending_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=resetting_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=resetting_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=holding_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=holding_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=unholding_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=unholding_SlaveExit	G=VAR	Com=Slave active state is finish
+++D=BOOL	N=completing_MasterExit	G=VAR	Com=Master is after state OR state is not used
+++D=BOOL	N=completing_SlaveExit	G=VAR	Com=Slave active state is finish
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\STATE	N=MySlave	Ord=1	G=VAR_IN_OUT	Com=Slave state
+++D=OBJ\STATE	N=MyMaster	Ord=2	G=VAR_IN_OUT	Com=Master state, give order to slave state
+++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT	Com=Enabled link between master and slave
+++D=BOOL	N=NotUseMaster_Abort	Ord=4	G=VAR_INPUT	Com=Not use "Abort" order from master
+++D=BOOL	N=NotUseMaster_Clear	Ord=5	G=VAR_INPUT	Com=Not use "Clear" order from master
+++D=BOOL	N=NotUseMaster_Reset	Ord=6	G=VAR_INPUT	Com=Not use "Reset" order from master
+++D=BOOL	N=NotUseMaster_Start	Ord=7	G=VAR_INPUT	Com=Not use "Start" order from master
+++D=BOOL	N=NotUseMaster_Stop	Ord=8	G=VAR_INPUT	Com=Not use "Stop" order from master
+++D=BOOL	N=NotUseMaster_Hold	Ord=9	G=VAR_INPUT	Com=Not use "Hold" order from master
+++D=BOOL	N=NotUseMaster_UnHold	Ord=10	G=VAR_INPUT	Com=Not use "UnHold" order from master
+++D=BOOL	N=NotUseMaster_Suspend	Ord=11	G=VAR_INPUT	Com=Not use "Suspend" order from master
+++D=BOOL	N=NotUseMaster_Unsuspend	Ord=12	G=VAR_INPUT	Com=Not use "Unsuspend" order from master
+++D=BOOL	N=NotUseMaster_Complete	Ord=13	G=VAR_INPUT	Com=Not use "Complete" order from master
+++D=BOOL	N=Interlock_Aborting	Ord=14	G=VAR_INPUT	Com=The master waits until the slave's "Aborting" state is finished.
+++D=BOOL	N=Interlock_Clearing	Ord=15	G=VAR_INPUT	Com=The master waits until the slave's "Clear" state is finished.
+++D=BOOL	N=Interlock_Resetting	Ord=16	G=VAR_INPUT	Com=The master waits until the slave's "Resetting" state is finished.
+++D=BOOL	N=Interlock_Starting	Ord=17	G=VAR_INPUT	Com=The master waits until the slave's "Starting" state is finished.
+++D=BOOL	N=Interlock_Stopping	Ord=18	G=VAR_INPUT	Com=The master waits until the slave's "Stopping" state is finished.
+++D=BOOL	N=Interlock_Holding	Ord=19	G=VAR_INPUT	Com=The master waits until the slave's "Holding" state is finished.
+++D=BOOL	N=Interlock_Unholding	Ord=20	G=VAR_INPUT	Com=The master waits until the slave's "Unholding" state is finished.
+++D=BOOL	N=Interlock_Suspending	Ord=21	G=VAR_INPUT	Com=The master waits until the slave's "Suspending" state is finished.
+++D=BOOL	N=Interlock_Unsuspending	Ord=22	G=VAR_INPUT	Com=The master waits until the slave's "Unsupending" state is finished.
+++D=BOOL	N=Interlock_Completing	Ord=23	G=VAR_INPUT	Com=The master waits until the slave's "Completing" state is finished.
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
