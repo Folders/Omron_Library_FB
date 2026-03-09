@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data Version="1">
   <DataType Name="Data Types" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BuzzerTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="25" OffsetType="NJ">
+    <DataType Name="BuzzerTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="46" OffsetType="NJ">
       <DataType Name="Enable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Output" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal to buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Output_Zone1" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal to buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -16,7 +16,7 @@
       <DataType Name="Running_4" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 4 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Running_5" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound effect 5 is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="FlashlampTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="24" OffsetType="NJ">
+    <DataType Name="FlashlampTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="45" OffsetType="NJ">
       <DataType Name="Config_NbStack" BaseType="INT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Select the number of stack used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Config_InvertUpDown" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Invert up/down direction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Config_Link" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Write stack 3 order in stack 4 if priority is higher" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -39,21 +39,21 @@
       <DataType Name="LevelA" BaseType="FlashlampTest_Lvl" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Manual test of level A" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="LevelB" BaseType="FlashlampTest_Lvl" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Manual test of level B" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="FlashlampTest_Cmd" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="17" OffsetType="NJ">
+    <DataType Name="FlashlampTest_Cmd" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="34" OffsetType="NJ">
       <DataType Name="Order" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Color" BaseType="OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Select the number of stack used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Effect" BaseType="OBJ\eEffect" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Invert up/down direction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Rank" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Write stack 3 order in stack 4 if priority is higher" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Running" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to ES the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="FlashlampTest_Lvl" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="NJ">
+    <DataType Name="FlashlampTest_Lvl" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="33" OffsetType="NJ">
       <DataType Name="Order" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="ColorFill" BaseType="OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Select the number of stack used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="ColorBack" BaseType="OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Select the number of stack used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Rank" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Write stack 3 order in stack 4 if priority is higher" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Running" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to ES the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="23" OffsetType="NJ">
+    <DataType Name="PneuTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="44" OffsetType="NJ">
       <DataType Name="Enable_ConfigSimple" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose simple acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Enable_ConfigDouble" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Choose double acting for cylinder 1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CmdOut" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Digital output to go out" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -72,7 +72,41 @@
       <DataType Name="SensorIN_Used" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor IN is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="SensorIN_Value" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simu of sensor IN" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="VibratorTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="22" OffsetType="NJ">
+    <DataType Name="StateTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="43" OffsetType="NJ">
+      <DataType Name="ES" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Machine is setted" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseA" BaseType="StateTest_Use" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="States used of machine A" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseB" BaseType="StateTest_Use" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="States used of machine B" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdA" BaseType="StateTest_Cmd" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="States command of machine A" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CmdB" BaseType="StateTest_Cmd" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="States command of machine B" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="StateTest_Use" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="32" OffsetType="NJ">
+      <DataType Name="Aborting" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Machine is setted" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Clearing" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Resetting" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Starting" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Stopping" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Held" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Holding" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Unholding" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Suspended" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Suspending" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UnSuspending" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Completed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Completing" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NoSuspsendToHeld" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="StateTest_Cmd" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="31" OffsetType="NJ">
+      <DataType Name="Reset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Start" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Stop" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Hold" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UnHold" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Suspend" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UnSuspend" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Complete" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SC" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="VibratorTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="42" OffsetType="NJ">
       <DataType Name="Enable_Analog" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable analog config" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Enable_Sinus" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable sinus generator config" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="OUT_Run" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -80,6 +114,31 @@
       <DataType Name="Order_Run" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Order_Power" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Power" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Power setoint [0..100%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Completing" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Machine" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="41" OffsetType="NJ">
+      <DataType Name="S" BaseType="Machine_S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="R" BaseType="Machine_R" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="State" BaseType="OBJ\STATE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Machine_S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Datas send by machine (Feedbacks)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="30" OffsetType="NJ">
+      <DataType Name="Sta" BaseType="Machine_Sta" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="Machine_Msg" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="message -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MotorTemp" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ex: Temperture of motor [°C]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Pos" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ex: Position of axis [°]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Machine_Sta" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status of the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="8" OffsetType="NJ">
+      <DataType Name="x" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="---" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Machine_Msg" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarms of the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="7" OffsetType="NJ">
+      <DataType Name="x" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="---" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Machine_R" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Datas receive by machine (Setpoints)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="29" OffsetType="NJ">
+      <DataType Name="Cmd" BaseType="Machine_Cmd" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="HomePos" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Setpoint of homing position [°]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Machine_Cmd" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status of the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="6" OffsetType="NJ">
+      <DataType Name="MoveToHome" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to move to home position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>

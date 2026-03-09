@@ -11,6 +11,9 @@ _EN=Variables
 ++D=BOOL	N=T_1s	G=VAR_GLOBAL	Com=Flag 1s
 ++D=BOOL	N=T_2s	G=VAR_GLOBAL	Com=Flag 2s
 ++D=BOOL	N=Commissioning	G=VAR_GLOBAL	Com=Put objects in commissioning
+++D=StateTest	N=State	G=VAR_GLOBAL
+++D=Machine	N=MachineA	G=VAR_GLOBAL	Com=Machine A - Master
+++D=Machine	N=MachineB	G=VAR_GLOBAL	Com=Machine B - Slave
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL
 ++D=OBJ\BUZZER	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
 ++D=OBJ\BUZZER	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)

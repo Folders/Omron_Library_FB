@@ -1,4 +1,7 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
+++D=State_Config	N=Config_MachineA	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=Machine	N=MachineA	G=VAR_EXTERNAL
+++D=StateTest	N=State	G=VAR_EXTERNAL

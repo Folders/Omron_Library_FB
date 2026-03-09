@@ -6,18 +6,18 @@ _EN=Variables
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
 ++D=OBJ\STATE	N=MyState	Ord=1	G=VAR_IN_OUT	Com=State object
 ++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Enabled status machine
-++D=BOOL	N=Use_Aborting	IV=False	Ord=3	G=VAR_INPUT	Com=Use Aborting state
-++D=BOOL	N=Use_Clearing	IV=False	Ord=4	G=VAR_INPUT	Com=Use Clearing state
-++D=BOOL	N=Use_Resetting	IV=False	Ord=5	G=VAR_INPUT	Com=Use Resetting state
-++D=BOOL	N=Use_Starting	IV=False	Ord=6	G=VAR_INPUT	Com=Use Starting state
-++D=BOOL	N=Use_Stopping	IV=False	Ord=7	G=VAR_INPUT	Com=Use Stopping state
-++D=BOOL	N=Use_Held	IV=False	Ord=8	G=VAR_INPUT	Com=Use Held state
-++D=BOOL	N=Use_Holding	IV=False	Ord=9	G=VAR_INPUT	Com=Use Holding state
-++D=BOOL	N=Use_UnHolding	IV=False	Ord=10	G=VAR_INPUT	Com=Use UnHolding state
-++D=BOOL	N=Use_Suspended	IV=False	Ord=11	G=VAR_INPUT	Com=UseSuspended state
-++D=BOOL	N=Use_Suspending	IV=False	Ord=12	G=VAR_INPUT	Com=Use Suspending state
-++D=BOOL	N=Use_UnSuspending	IV=False	Ord=13	G=VAR_INPUT	Com=Use UnSuspended state
-++D=BOOL	N=Use_Completing	IV=False	Ord=14	G=VAR_INPUT	Com=Use Completing state
-++D=BOOL	N=Use_Completed	IV=False	Ord=15	G=VAR_INPUT	Com=Use Completed state
+++D=BOOL	N=Use_Aborting	IV=False	Ord=3	G=VAR_INPUT	Com=Use "Aborting" state
+++D=BOOL	N=Use_Clearing	IV=False	Ord=4	G=VAR_INPUT	Com=Use "Clearing" state
+++D=BOOL	N=Use_Resetting	IV=False	Ord=5	G=VAR_INPUT	Com=Use "Resetting" state
+++D=BOOL	N=Use_Starting	IV=False	Ord=6	G=VAR_INPUT	Com=Use "Starting" state
+++D=BOOL	N=Use_Stopping	IV=False	Ord=7	G=VAR_INPUT	Com=Use "Stopping" state
+++D=BOOL	N=Use_Held	IV=False	Ord=8	G=VAR_INPUT	Com=Use "Held" state
+++D=BOOL	N=Use_Holding	IV=False	Ord=9	G=VAR_INPUT	Com=Use "Holding" state
+++D=BOOL	N=Use_UnHolding	IV=False	Ord=10	G=VAR_INPUT	Com=Use "UnHolding" state
+++D=BOOL	N=Use_Suspended	IV=False	Ord=11	G=VAR_INPUT	Com=Use "Suspended" state
+++D=BOOL	N=Use_Suspending	IV=False	Ord=12	G=VAR_INPUT	Com=Use "Suspending" state
+++D=BOOL	N=Use_UnSuspending	IV=False	Ord=13	G=VAR_INPUT	Com=Use "UnSuspended" state
+++D=BOOL	N=Use_Completed	IV=False	Ord=14	G=VAR_INPUT	Com=Use "Completed" state
+++D=BOOL	N=Use_Completing	IV=False	Ord=15	G=VAR_INPUT	Com=Use "Completing" state
 ++D=BOOL	N=DisableSuspendToHeld	IV=False	Ord=16	G=VAR_INPUT	Com=Disable the change from "Suspend" to "Held"
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

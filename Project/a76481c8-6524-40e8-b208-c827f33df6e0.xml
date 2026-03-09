@@ -6,4 +6,4 @@ _EN=Variables
 ++D=OBJ\STATE	N=MyState	Ord=1	G=VAR_IN_OUT	Com=State object
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 +GN=RETURN	GA=Return	GVT=ReturnGroup
-++D=BOOL	N=StateCmd_Complete	G=RETURN
+++D=BOOL	N=State_Complete	G=RETURN
