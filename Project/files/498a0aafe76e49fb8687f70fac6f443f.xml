@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="0a72afb7-f7b2-484d-8cd2-54652f743a55">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1066" ID="db756771-b1df-4698-becf-62f8baf610ca">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="3b05b42f-b4d3-4775-8a45-e0c0f7e34058">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="C_Red" ID="25a5886e-5cb9-4ab2-92a5-45d85a809b2f">
+      <Localisation Language="en-US" Translation="Red" Default="True" />
+    </Resource>
+    <Resource Name="C_Lime" ID="2b102905-a472-4035-9913-cde8098b0a58">
+      <Localisation Language="en-US" Translation="Lime" Default="True" />
+    </Resource>
+    <Resource Name="C_Yellow" ID="51ece8fb-6b42-4932-8d34-66eff6469b35">
+      <Localisation Language="en-US" Translation="Yellow" Default="True" />
+    </Resource>
+    <Resource Name="C_Blue" ID="9810d5a8-0106-4316-a271-2c2d11859654">
+      <Localisation Language="en-US" Translation="Blue" Default="True" />
+    </Resource>
+    <Resource Name="C_Fushia" ID="8ec89bf6-869f-4a1c-8ee1-6aeedd8e9dc1">
+      <Localisation Language="en-US" Translation="Fushia" Default="True" />
+    </Resource>
+    <Resource Name="C_Aqua" ID="9ca997e3-b001-4641-951b-9f33e2f9a3b7">
+      <Localisation Language="en-US" Translation="Aqua" Default="True" />
+    </Resource>
+    <Resource Name="C_White" ID="88efffe6-1d90-4eb1-a3e4-7de02c8bd931">
+      <Localisation Language="en-US" Translation="White" Default="True" />
+    </Resource>
+    <Resource Name="C_NoColor" ID="4aae36d8-221f-4ff6-85b4-659965948ec0">
+      <Localisation Language="en-US" Translation="No color" Default="True" />
+    </Resource>
+    <Resource Name="FL_NoEffect" ID="2259e13d-2389-496c-91e9-30a0f5048765">
+      <Localisation Language="en-US" Translation="Ne effect" Default="True" />
+    </Resource>
+    <Resource Name="FL_Steady" ID="2f2bc40b-95b6-4106-8350-8d01ad249cd9">
+      <Localisation Language="en-US" Translation="Steady" Default="True" />
+    </Resource>
+    <Resource Name="FL_Flashing" ID="7a00ba10-d43f-4ff9-8e28-e915eaf60879">
+      <Localisation Language="en-US" Translation="Flashing" Default="True" />
+    </Resource>
+    <Resource Name="FL_Blinking" ID="1463d18a-fab7-44a7-b285-15a2676b126e">
+      <Localisation Language="en-US" Translation="Blinking" Default="True" />
+    </Resource>
+    <Resource Name="FL_FastBlinking" ID="c682c16c-c2a0-4297-aa2e-86c03f5ff456">
+      <Localisation Language="en-US" Translation="Fast blinking" Default="True" />
+    </Resource>
+    <Resource Name="FL_Rotating" ID="efce2f35-b0df-4445-99ec-6a442ee729a9">
+      <Localisation Language="en-US" Translation="Rotating" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

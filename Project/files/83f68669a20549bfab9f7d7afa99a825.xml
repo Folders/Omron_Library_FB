@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="c8ade567-7d39-40f3-b9d1-ccdd2685e073">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="9109c574-3b37-441c-8ba4-7986d3730e31">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="8a3bae99-593d-49a9-ab9b-f49d197b4d1b">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="b3b55af7-8693-4438-8658-03e53141ed79">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+    <Resource Name="FontSize0" ID="da21c993-1d04-4b07-b4a4-08aa93fbc75a">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="d9d25a54-0a11-4c4f-a017-7dfe591afb8c">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="8fbe2205-a12c-40c7-8709-64d5a34f963e">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle1" ID="7fc46f28-96b7-486d-bf18-986939e6ad6e">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String100" ID="231a39d5-8e9f-4530-abb3-461123312941">
+      <Localisation Language="en-US" Translation="Releasing" Default="True" />
+    </Resource>
+    <Resource Name="String3" ID="82729a73-a6fc-4aa3-8e38-f2a2ff1e2f7d">
+      <Localisation Language="en-US" Translation="Go IN" Default="True" />
+    </Resource>
+    <Resource Name="String4" ID="40f32767-479b-4aec-9c79-3012b7793d6f">
+      <Localisation Language="en-US" Translation="Go OUT" Default="True" />
+    </Resource>
+    <Resource Name="String0" ID="42fcdc91-676e-40f6-9a6b-8323b95631b4">
+      <Localisation Language="en-US" Translation="Label" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="MB_Warning" ID="5e028a06-9867-452d-a109-1f311fbfedfd">
+      <Localisation Language="en-US" Translation="MB_Warning.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

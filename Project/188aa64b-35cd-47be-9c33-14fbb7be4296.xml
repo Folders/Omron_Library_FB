@@ -1,8 +1,28 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=State_Config	N=Config_Machine	G=VAR
+++D=State_Config	N=configMachine	G=VAR
 ++D=State_SC	N=scDemo	G=VAR
+++D=INT	N=stepResetting	G=VAR	Com=Init sequence
+++D=BOOL	N=condA	G=VAR	Com=dumb
+++D=BOOL	N=condB	G=VAR	Com=dumb
+++D=BOOL	N=cmdFunctionA	G=VAR	Com=Command function A
+++D=BOOL	N=doneFunctionA	G=VAR	Com=Function A is done
+++D=BOOL	N=cmdFunctionB	G=VAR	Com=Command function B
+++D=BOOL	N=doneFunctionB	G=VAR	Com=Function B is done
+++D=State_SC	N=scResetting	G=VAR
+++D=BOOL	N=camRequest	G=VAR	Com=dumb
+++D=REAL	N=dumbA	G=VAR	Com=dumb data
+++D=BOOL	N=camDone	G=VAR	Com=dumb
+++D=REAL	N=dumbB	G=VAR	Com=dumb data
+++D=TON	N=doFunctionA	G=VAR
+++D=TON	N=doFunctionB	G=VAR
+++D=State_SC	N=scStarting	G=VAR
+++D=INT	N=stepExecute	G=VAR	Com=Main sequence
+++D=State_SC	N=scStopping	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=Machine	N=MachineA	G=VAR_EXTERNAL
 ++D=StateTest	N=State	G=VAR_EXTERNAL
+++D=BOOL	N=Info_IOmap	G=VAR_EXTERNAL
+++D=BOOL	N=Info_General	G=VAR_EXTERNAL
+++D=BOOL	N=Info_Dumb	G=VAR_EXTERNAL
