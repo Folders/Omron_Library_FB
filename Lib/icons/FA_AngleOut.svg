@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="ChevronDouble_Extend.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="734.21978"
+     inkscape:cy="605.04164"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path815"
+       d="m 113.17933,293.61931 93.47358,-93.47356 c 4.50815,-4.50815 4.50815,-11.817 0,-16.32466 l -10.9022,-10.90222 c -4.50046,-4.50044 -11.79439,-4.50911 -16.30544,-0.0193 l -74.42851,74.07936 -74.428021,-74.0798 c -4.511037,-4.48988 -11.80498,-4.48123 -16.305427,0.0193 L 3.3811004,183.8206 c -4.5081339,4.50815 -4.5081339,11.817 0,16.32468 l 93.4735636,93.47354 c 4.507686,4.50815 11.816516,4.50815 16.324666,4.9e-4 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:0.48097205" />
+    <path
+       id="path815-9"
+       d="m 113.17935,3.6282655 93.47356,93.4732675 c 4.50815,4.508157 4.50815,11.817017 0,16.324677 l -10.90219,10.90221 c -4.50047,4.50045 -11.7944,4.50912 -16.30544,0.0193 L 105.01679,50.268554 30.588756,124.34811 c -4.51105,4.48988 -11.805,4.48123 -16.30544,-0.0193 L 3.3811059,113.42667 c -4.50814,-4.50815 -4.50814,-11.81701 0,-16.324694 L 96.854696,3.6287563 c 4.507684,-4.50815193 11.816514,-4.50815193 16.324654,-4.908e-4 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:0.48097205" />
+  </g>
+</svg>
