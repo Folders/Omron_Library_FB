@@ -270,7 +270,7 @@ End Sub&#xD;
 Private Sub _Show(text As String, caption As String, icon As eIcon, buttons As eButtons, iconWindows As Object) &#xD;
 &#xD;
 ' Save parameters for the pop-up&#xD;
-	_Text = text&#xD;
+	_Text = text.Replace("{cr}", Environment.NewLine)&#xD;
 	_Caption = caption&#xD;
 	_Icon = icon&#xD;
 	_Buttons = buttons&#xD;
