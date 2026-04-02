@@ -1,0 +1,9 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\STATUSBAR	N=MyStatusBar	Ord=1	G=VAR_IN_OUT	Com=OBJ
+++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Use StatusBar object
+++D=UINT	N=CurrentId	Ord=3	G=VAR_OUTPUT	Com=Id of the currently displayed message
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
