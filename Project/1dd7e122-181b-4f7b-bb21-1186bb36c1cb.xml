@@ -1,0 +1,9 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=receiveOrder	G=VAR	Com=Order is received
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Door unlocked
+++D=OBJ\DOOR\BASE	N=MyDoor	Ord=1	G=VAR_IN_OUT	Com=Door object
+++D=BOOL	N=UnlockRequest	Ord=2	G=VAR_INPUT	Com=Unlocking door request
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

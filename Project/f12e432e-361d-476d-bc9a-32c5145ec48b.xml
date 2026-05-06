@@ -45,3 +45,4 @@ _EN=Variables
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data10	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data11	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data12	G=VAR_GLOBAL
+++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_GLOBAL

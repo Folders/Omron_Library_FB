@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=cmdLock	R=1	G=VAR	Com=Intern order to lock
+++D=BOOL	N=cmdUnlock	G=VAR	Com=Intern order to unlock
+++D=TON	N=timerLocked	G=VAR
+++D=TON	N=timerUnlocked	G=VAR
+++D=TON	N=timerMismatch	G=VAR
+++D=TIME	N=timePulse	IV=T#375ms	G=VAR	Com=Time for pulse cmd
+++D=TP	N=tpLock_A	G=VAR
+++D=TP	N=tpLock_B	G=VAR
+++D=TP	N=tpUnlock_A	G=VAR
+++D=TP	N=tpUnlock_B	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Door is working
+++D=OBJ\DOOR\BASE	N=MyDoor	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Activate	Ord=2	G=VAR_INPUT	Com=Active the door
+++D=Bool	N=io_Close	Ord=3	G=VAR_INPUT	Com=Door is closed
+++D=Bool	N=io_Lock	Ord=4	G=VAR_INPUT	Com=Door is close and locked (From safety)
+++D=BOOL	N=Enabled	IV=True	Ord=5	G=VAR_INPUT	Com=The door is mounted in the machine?
+++D=BOOL	N=Commissioning	Ord=6	G=VAR_INPUT	Com=Put cylinder in commissioning
+++D=Bool	N=io_ChannelA	Ord=7	G=VAR_OUTPUT	Com=Channel A to lock/unlock the door
+++D=Bool	N=io_ChannelB	Ord=8	G=VAR_OUTPUT	Com=Channel B to lock/unlock the door
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

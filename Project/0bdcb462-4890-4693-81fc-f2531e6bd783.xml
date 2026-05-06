@@ -1,0 +1,6 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\DOOR\Door_Config_General	N=configDoor	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_EXTERNAL
