@@ -21,7 +21,7 @@
       <DataType Name="Unlock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="unlock the door" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
-      <DataType Name="Used" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is enabled in the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door control is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Closed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is physically closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Locked" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is closed and locked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

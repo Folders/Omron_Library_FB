@@ -18,6 +18,9 @@ _EN=Variables
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL
 ++D=OBJ\BUZZER	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
 ++D=OBJ\BUZZER	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
+++D=DoorTest	N=Doors	G=VAR_GLOBAL
+++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_GLOBAL	Com=Left door
+++D=OBJ\DOOR\BASE	N=Door_Right	G=VAR_GLOBAL	Com=Right door
 ++D=OBJ\DB_MGR	N=DB_General	G=VAR_GLOBAL	Com=Database general
 ++D=OBJ\DB_MGR	N=DB_Machine	G=VAR_GLOBAL	Com=Database of machine
 ++D=FlatDB\Users	N=UserDB	G=VAR_GLOBAL	Com=User flat structure for DB
@@ -45,4 +48,3 @@ _EN=Variables
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data10	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data11	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data12	G=VAR_GLOBAL
-++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_GLOBAL

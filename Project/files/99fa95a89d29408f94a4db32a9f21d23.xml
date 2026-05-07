@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTypesManifest>
+  <DataType>
+    <Id>d80bbcca-a0f1-4071-b068-e4a9538b1742</Id>
+    <Namespace></Namespace>
+  </DataType>
+  <DataType>
+    <Id>eca5d455-4507-4581-ab48-f5f6a5ebda3a</Id>
+    <Namespace>OBJ</Namespace>
+  </DataType>
+  <DataType>
+    <Id>0c207f03-66cf-4393-89f1-294d5d6a0df9</Id>
+    <Namespace>OBJ\DOOR</Namespace>
+  </DataType>
+</DataTypesManifest>

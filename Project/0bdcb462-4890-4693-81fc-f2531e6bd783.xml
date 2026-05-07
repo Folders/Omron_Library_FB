@@ -1,6 +1,20 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=OBJ\DOOR\Door_Config_General	N=configDoor	G=VAR
+++D=TON	N=waitL	G=VAR
+++D=Bool	N=output_InterlockL	G=VAR	Com=Mapped output to control interlock
+++D=Bool	N=input_LockedL	G=VAR	Com=Input from the safety when door is closed and locked
+++D=Bool	N=output_InterlockR	G=VAR	Com=Mapped output to control interlock
+++D=Bool	N=input_LockedR	G=VAR	Com=Input from the safety when door is closed and locked
+++D=OBJ\DOOR\Door_Config_General	N=configDoorLeft	G=VAR
+++D=OBJ\DOOR\Door_Config_General	N=configDoorRight	G=VAR
+++D=OBJ\DOOR\Door_Lock	N=lockLeft	G=VAR
+++D=OBJ\DOOR\Door_Unlock	N=unlockLeft	G=VAR
+++D=OBJ\DOOR\Door_Lock	N=lockRight	G=VAR
+++D=OBJ\DOOR\Door_Unlock	N=unlockRight	G=VAR
+++D=TON	N=waitR	Ord=1	G=VAR	AOE=1
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_EXTERNAL
+++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
+++D=DoorTest	N=Doors	G=VAR_EXTERNAL
+++D=OBJ\DOOR\BASE	N=Door_Right	G=VAR_EXTERNAL
