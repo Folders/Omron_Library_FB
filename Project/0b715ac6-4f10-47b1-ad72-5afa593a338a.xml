@@ -4,6 +4,6 @@ _EN=Variables
 ++D=BOOL	N=orderReceive	G=VAR	Com=Order is received (on flank)
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Cylinder execute order and is in OUT position
-++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT	Com=Pneumatic object
-++D=BOOL	N=GoOut	Ord=2	G=VAR_INPUT	Com=Move the cylinder OUT
+++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=1	G=VAR_IN_OUT	Com=Pneumatic object
+++D=BOOL	N=Go_Out	Ord=2	G=VAR_INPUT	Com=Move the cylinder OUT
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

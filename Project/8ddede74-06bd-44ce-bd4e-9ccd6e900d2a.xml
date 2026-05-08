@@ -9,7 +9,7 @@ _EN=Variables
 ++D=TON	N=moveIn	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
-++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT
+++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=1	G=VAR_IN_OUT
 ++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Use the cylinder
 ++D=TIME	N=TimeOut	IV=T#0S	Ord=3	G=VAR_INPUT	Com=Moving time maximum
 ++D=BOOL	N=Out_Cmd	Ord=4	G=VAR_IN_OUT	Com=Command to move cylinder in OUT position

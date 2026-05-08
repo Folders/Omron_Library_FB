@@ -1,11 +1,11 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=Pneu_Core_DoNotUse	N=PneuCore	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_Core_DoNotUse	N=pneuCore	G=VAR
 ++D=BOOL	N=notUsed	G=VAR	Com=Not used for single acting
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
-++D=OBJ\PNEUMATIC	N=MyPneu	Ord=1	G=VAR_IN_OUT
+++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=1	G=VAR_IN_OUT
 ++D=BOOL	N=Out_Cmd	Ord=2	G=VAR_IN_OUT	Com=Command to move cylinder in OUT position
 ++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT	Com=Use the cylinder
 ++D=TIME	N=Timeout	IV=T#0S	Ord=4	G=VAR_INPUT	Com=Moving time maximum

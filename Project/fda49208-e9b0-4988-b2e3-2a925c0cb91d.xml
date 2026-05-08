@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flashlamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="48" OffsetType="NJ" Id="230d503f-246b-4e48-95d2-323b536f86bc">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flashlamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="40" OffsetType="NJ" Id="230d503f-246b-4e48-95d2-323b536f86bc">
       <DataType Name="Cfg" BaseType="FB_PLC\OBJ\FLASHLAMP\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="e31563f9-b34e-4cf7-bbd0-5b80753d6c92" />
       <DataType Name="Cmd" BaseType="FB_PLC\OBJ\FLASHLAMP\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="69f4e93f-dab0-40b0-b302-0864881f6fdd" />
       <DataType Name="Sta" BaseType="FB_PLC\OBJ\FLASHLAMP\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="133c7f33-0a42-49eb-96aa-4806ad0688b8" />
       <DataType Name="Xch" BaseType="FB_PLC\OBJ\FLASHLAMP\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="e2785a7c-8522-4251-b450-13acb678d532" />
     </DataType>
-    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ" Id="42a9d40e-eeb4-4861-8303-87635e63a6ae">
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ" Id="42a9d40e-eeb4-4861-8303-87635e63a6ae">
       <DataType Name="IsSchneider" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9920354a-d699-4b26-b7ab-e5c77ee77d41" />
       <DataType Name="IsBalluf" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="e3ec3ff5-2ac8-4167-b962-82d88310faee" />
       <DataType Name="IsRGB" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="6bbdcb5e-a956-4f7e-a81c-ca4bf34c40a5" />
       <DataType Name="IsMurr" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0eb1e061-8e15-4fd8-bab2-0dcae3fc8e73" />
     </DataType>
-    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ" Id="c07a9e7b-0f7d-4f5f-b276-143956cf31e9">
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ" Id="c07a9e7b-0f7d-4f5f-b276-143956cf31e9">
       <DataType Name="Color" BaseType="FB_PLC\OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Chose the color of the light" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="214935a9-b621-4980-b3b4-5ae93ad29519" />
       <DataType Name="Effect" BaseType="FB_PLC\OBJ\eEffect" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Chose the status of the light" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="76ebd956-07a8-41f8-99ad-2b4cbec7bc20" />
       <DataType Name="Progress" BaseType="Single" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Define level in filling mode [0..100%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5c440278-4968-4849-a01b-8f65423af688" />
     </DataType>
-    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ" Id="333a5e12-3d86-4963-a85c-9c848103106a">
-      <DataType Name="Enabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flash lamp is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0c758e9c-d475-48cf-a234-c17c97d7356a" />
-      <DataType Name="Ready" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flash lamp is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5c1141e4-2ae6-44c5-bfc4-8d73ba11cc19" />
-      <DataType Name="Fault" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flash lamp can't display the command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d95d3a2b-0327-4856-988d-7351f817ba10" />
-      <DataType Name="Commissioning" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flash lamp is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="fba76bdf-1d01-49fb-92da-c1b7c840211c" />
-      <DataType Name="LevelMode" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flash lamp is in level mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="8e786d6a-b700-4c0a-bd33-7b5770f8c6d7" />
-    </DataType>
-    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ" Id="708aefac-c9a4-4666-bccf-593565ce4ff5">
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="7" OffsetType="NJ" Id="708aefac-c9a4-4666-bccf-593565ce4ff5">
       <DataType Name="Rank" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current priority level (Priority on low number)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a7f6c8e8-0a61-476e-9616-3ba5a8751c1b" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="14" OffsetType="NJ" Id="333a5e12-3d86-4963-a85c-9c848103106a">
+      <DataType Name="Enabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0c758e9c-d475-48cf-a234-c17c97d7356a" />
+      <DataType Name="Ready" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5c1141e4-2ae6-44c5-bfc4-8d73ba11cc19" />
+      <DataType Name="Fault" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Can't display the command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d95d3a2b-0327-4856-988d-7351f817ba10" />
+      <DataType Name="Commissioning" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="fba76bdf-1d01-49fb-92da-c1b7c840211c" />
+      <DataType Name="LevelMode" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in level mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="8e786d6a-b700-4c0a-bd33-7b5770f8c6d7" />
     </DataType>
   </DataType>
 </data>
