@@ -12,7 +12,7 @@ _EN=Variables
 ++D=BOOL	N=T_1s	G=VAR_GLOBAL	Com=Flag 1s
 ++D=BOOL	N=T_2s	G=VAR_GLOBAL	Com=Flag 2s
 ++D=BOOL	N=Commissioning	G=VAR_GLOBAL	Com=Put objects in commissioning
-++D=StateTest	N=State	G=VAR_GLOBAL
+++D=StateTest	N=States	G=VAR_GLOBAL
 ++D=Machine	N=MachineA	G=VAR_GLOBAL	Com=Machine A - Master
 ++D=Machine	N=MachineB	G=VAR_GLOBAL	Com=Machine B - Slave
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL

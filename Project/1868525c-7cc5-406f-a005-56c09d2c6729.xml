@@ -3,7 +3,7 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
-++D=OBJ\STATE	N=MyState	Ord=1	G=VAR_IN_OUT	Com=State object
+++D=OBJ\STATE\BASE	N=MyState	Ord=1	G=VAR_IN_OUT	Com=State object
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 +GN=RETURN	GA=Return	GVT=ReturnGroup
 ++D=BOOL	N=State_Hold	G=RETURN

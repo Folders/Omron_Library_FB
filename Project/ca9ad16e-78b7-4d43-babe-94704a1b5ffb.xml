@@ -72,11 +72,6 @@
       <DataType Name="Rank" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Write stack 3 order in stack 4 if priority is higher" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="cfce31ea-da05-4765-a629-e8c631f8ee00" />
       <DataType Name="Running" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to ES the machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="070cb66e-f4a4-4caf-baec-2bb7e0450505" />
     </DataType>
-    <DataType Name="Machine" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="49" OffsetType="NJ" Id="2acca691-94cd-411a-a4d8-84425b7430fb">
-      <DataType Name="S" BaseType="FB_PLC\Machine_S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="c06563ed-5fb0-4196-bdd3-16c93374ee00" />
-      <DataType Name="R" BaseType="FB_PLC\Machine_R" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a62798ee-e8ff-47b6-b5c1-768a0e629b27" />
-      <DataType Name="State" BaseType="FB_PLC\OBJ\STATE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="8f5fcc02-aadd-4ae9-864c-8ea9e6789cc6" />
-    </DataType>
     <DataType Name="Machine_S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Datas send by machine (Feedbacks)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="37" OffsetType="NJ" Id="ef2a66ce-4498-4f17-b6c1-11cc5bedde09">
       <DataType Name="Sta" BaseType="FB_PLC\Machine_Sta" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="379afa69-5e93-47c7-8d42-dbaf31cbb032" />
       <DataType Name="Msg" BaseType="FB_PLC\Machine_Msg" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="message -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="ad4c7a6e-6647-433d-92f6-ddc72640213c" />
@@ -177,6 +172,11 @@
       <DataType Name="AsInterlock" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="as interlock" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="662f5801-cd42-4b4f-a572-826dfa6430d9" />
       <DataType Name="Order_Lock" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="- Order to lock" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d0b1de44-3e5c-448d-9765-75497efc4bfc" />
       <DataType Name="Order_Unlock" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="- Order to unlock" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="f45e2fb4-8565-4e28-a8a4-3b96d20088db" />
+    </DataType>
+    <DataType Name="Machine" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="59" OffsetType="NJ" Id="2acca691-94cd-411a-a4d8-84425b7430fb">
+      <DataType Name="S" BaseType="FB_PLC\Machine_S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="c06563ed-5fb0-4196-bdd3-16c93374ee00" />
+      <DataType Name="R" BaseType="FB_PLC\Machine_R" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a62798ee-e8ff-47b6-b5c1-768a0e629b27" />
+      <DataType Name="State" BaseType="FB_PLC\OBJ\STATE\BASE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="8f5fcc02-aadd-4ae9-864c-8ea9e6789cc6" />
     </DataType>
   </DataType>
 </data>

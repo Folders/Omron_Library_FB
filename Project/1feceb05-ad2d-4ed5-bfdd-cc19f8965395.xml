@@ -147,7 +147,7 @@
     <DataType Name="Machine" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="59" OffsetType="NJ">
       <DataType Name="S" BaseType="Machine_S" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="R" BaseType="Machine_R" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="State" BaseType="OBJ\STATE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="State" BaseType="OBJ\STATE\BASE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="Machine_S" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Datas send by machine (Feedbacks)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="40" OffsetType="NJ">
       <DataType Name="Sta" BaseType="Machine_Sta" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
