@@ -1,20 +1,20 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=FlashLamp_Modlight_DoNotUse	N=applyStack1	G=VAR
-++D=FlashLamp_Modlight_DoNotUse	N=applyStack2	G=VAR
-++D=FlashLamp_Modlight_DoNotUse	N=applyStack3	G=VAR
-++D=FlashLamp_Modlight_DoNotUse	N=applyStack4	G=VAR
+++D=OBJ\FLASHLAMP\FL_Modlight_DoNotUse	N=applyStack1	G=VAR
+++D=OBJ\FLASHLAMP\FL_Modlight_DoNotUse	N=applyStack2	G=VAR
+++D=OBJ\FLASHLAMP\FL_Modlight_DoNotUse	N=applyStack3	G=VAR
+++D=OBJ\FLASHLAMP\FL_Modlight_DoNotUse	N=applyStack4	G=VAR
 ++D=USINT	N=nbSeg	G=VAR	Com=Number of segment to write
-++D=FlashLamp_Modlight_DoNotUse	N=fillingClear	G=VAR
-++D=FlashLamp_Modlight_DoNotUse	N=fillingLight	G=VAR
+++D=OBJ\FLASHLAMP\FL_Modlight_DoNotUse	N=fillingClear	G=VAR
+++D=OBJ\FLASHLAMP\FL_Modlight_DoNotUse	N=fillingLight	G=VAR
 ++D=BOOL	N=Enabled	G=VAR	Com=Config are enabled
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config is enabled
-++D=OBJ\FLASHLAMP	N=MyFL_Stack4	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 4
-++D=OBJ\FLASHLAMP	N=MyFL_Stack3	Ord=2	G=VAR_IN_OUT	Com=Object for stack layer 3
-++D=OBJ\FLASHLAMP	N=MyFL_Stack2	Ord=3	G=VAR_IN_OUT	Com=Object for stack layer 2
-++D=OBJ\FLASHLAMP	N=MyFL_Stack1	Ord=4	G=VAR_IN_OUT	Com=Object for stack layer 1
+++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack4	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 4
+++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack3	Ord=2	G=VAR_IN_OUT	Com=Object for stack layer 3
+++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack2	Ord=3	G=VAR_IN_OUT	Com=Object for stack layer 2
+++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack1	Ord=4	G=VAR_IN_OUT	Com=Object for stack layer 1
 ++D=BOOL	N=Enable	Ord=5	G=VAR_INPUT
 ++D=BOOL	N=Invert	Ord=6	G=VAR_INPUT
 ++D=BOOL	N=Commissioning	Ord=7	G=VAR_INPUT	Com=Put object in commissioning
