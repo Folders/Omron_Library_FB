@@ -7,11 +7,11 @@ _EN=Variables
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Door is working
 ++D=OBJ\DOOR\BASE	N=MyDoor	Ord=1	G=VAR_IN_OUT	Com=Door
 ++D=BOOL	N=Activate	Ord=2	G=VAR_INPUT	Com=Active the door
-++D=Bool	N=io_Closed	Ord=3	G=VAR_INPUT	Com=Door is closed
-++D=Bool	N=io_Locked	Ord=4	G=VAR_INPUT	Com=Door is close and locked (From safety)
+++D=Bool	N=IO_Closed	Ord=3	G=VAR_INPUT	Com=Door is closed
+++D=Bool	N=IO_Locked	Ord=4	G=VAR_INPUT	Com=Door is close and locked (From safety)
 ++D=Bool	N=AsInterlock	Ord=5	G=VAR_INPUT	Com=Door as an interlock
 ++D=Bool	N=PowerToLock	Ord=6	G=VAR_INPUT	Com=Power to unlock (=0) or to lock (=1)
 ++D=BOOL	N=Enabled	IV=True	Ord=7	G=VAR_INPUT	Com=The door is mounted in the machine?
 ++D=BOOL	N=Commissioning	Ord=8	G=VAR_INPUT	Com=Put cylinder in commissioning
-++D=Bool	N=io_Interlock	Ord=9	G=VAR_OUTPUT	Com=Lock/unlock the door
+++D=Bool	N=IO_Interlock	Ord=9	G=VAR_OUTPUT	Com=Lock/unlock the door
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

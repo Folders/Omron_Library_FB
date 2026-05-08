@@ -16,8 +16,8 @@ _EN=Variables
 ++D=Machine	N=MachineA	G=VAR_GLOBAL	Com=Machine A - Master
 ++D=Machine	N=MachineB	G=VAR_GLOBAL	Com=Machine B - Slave
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL
-++D=OBJ\BUZZER	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
-++D=OBJ\BUZZER	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
+++D=OBJ\BUZZER\BASE	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
+++D=OBJ\BUZZER\BASE	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
 ++D=DoorTest	N=Doors	G=VAR_GLOBAL
 ++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_GLOBAL	Com=Left door
 ++D=OBJ\DOOR\BASE	N=Door_Right	G=VAR_GLOBAL	Com=Right door
