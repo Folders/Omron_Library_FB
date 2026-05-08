@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types3" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="48" OffsetType="NJ">
+      <DataType Name="Cmd" BaseType="OBJ\DB\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\DB\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\DB\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="message -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Nb_Connection" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of object requesting DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DBConnection" BaseType="DWORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection ID" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
+      <DataType Name="Request" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection is requested" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Need_DB" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection is requested, but already busy" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Close" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection can be closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Handshake of done given by a function" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="GetStatus" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Get status of DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection is ready to work " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Connected" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connected to DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Closed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Unconnected to DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection request is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Need_DB" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Another DB Connection is requested" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Instance ID of current connection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Connection" BaseType="_sDBC_CONNECTION_STATUS" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Service" BaseType="_sDBC_SERVICE_STATUS" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Serrvice status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
+      <DataType Name="TooMuchMgr" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="More then one manager are instantiated" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TooMuchDB" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="More then one DB manager are instantiated" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TooMuchCfg" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Too much config are used - You need to increase the array size" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

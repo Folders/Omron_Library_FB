@@ -12,7 +12,7 @@ _EN=Variables
 ++D=OBJ\DOOR\Door_Unlock	N=unlockLeft	G=VAR
 ++D=OBJ\DOOR\Door_Lock	N=lockRight	G=VAR
 ++D=OBJ\DOOR\Door_Unlock	N=unlockRight	G=VAR
-++D=TON	N=waitR	Ord=1	G=VAR	AOE=1
+++D=TON	N=waitR	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_EXTERNAL
 ++D=BOOL	N=Commissioning	G=VAR_EXTERNAL

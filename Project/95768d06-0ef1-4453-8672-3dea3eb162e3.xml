@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types2" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="47" OffsetType="NJ">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="49" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\DOOR\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Cmd" BaseType="OBJ\DOOR\Cmd" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command - Request to" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd" BaseType="OBJ\DOOR\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command - Request to" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\DOOR\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Xch" BaseType="OBJ\DOOR\Cmd" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private - Interlock request to" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsOpen" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is open " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsClosed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\DOOR\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private - Interlock request to" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsOpen" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="is open " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsClosed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="is closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
-      <DataType Name="AsInterlock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door uses a locking system" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsMovable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door can be opened and closed by PLC" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="InZone" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door belongs to a multi-door safety zone" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="14" OffsetType="NJ">
+      <DataType Name="AsInterlock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Uses a locking system" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsMovable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Can be opened and closed by PLC" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="InZone" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Belongs to a multi-door safety zone" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Cmd" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="13" OffsetType="NJ">
       <DataType Name="Open" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="open the door" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Close" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="close the door" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Lock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="lock the door" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Unlock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="unlock the door" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
-      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door control is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Closed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is physically closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Locked" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is closed and locked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Openable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door can currently be opened" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Closable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door can currently be closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Lockable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door can currently be locked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Unlockable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door can currently be unlocked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Door is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Closed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is physically closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Locked" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is closed and locked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Openable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Can currently be opened" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Closable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Can currently be closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Lockable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Can currently be locked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Unlockable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Can currently be unlocked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Error_Interlock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Interlock safety condition failed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
