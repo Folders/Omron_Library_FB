@@ -8,6 +8,6 @@ _EN=Variables
 ++D=BOOL	N=toggleMode	G=VAR
 ++D=BOOL	N=a	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
-++D=OBJ\VIBRATOR\BASE	N=Vib_Rail1	G=VAR_EXTERNAL
+++D=OBJ\VIBRATOR\BASE	N=Vib_Rail	G=VAR_EXTERNAL
 ++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
 ++D=VibratorTest	N=Vib	G=VAR_EXTERNAL
