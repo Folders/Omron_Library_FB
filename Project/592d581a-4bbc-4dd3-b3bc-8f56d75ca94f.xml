@@ -1,0 +1,20 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\FORCE	N=myForce	Ord=0	G=VAR_IN_OUT	Com=Load cell object
+++D=WORD	N=Command	Ord=1	G=VAR_OUTPUT	Com=Calibration command
+++D=UINT	N=Command_SID	Ord=2	G=VAR_OUTPUT	Com=Calibration command SID
+++D=REAL	N=Data	Ord=3	G=VAR_OUTPUT	Com=Calibration data
+++D=BOOL	N=Execute	Ord=4	G=VAR_OUTPUT	Com=Load cell is used
+++D=REAL	N=Rate	Ord=5	G=VAR_OUTPUT	Com=Percentage of load [%]
+++D=BOOL	N=OverRange	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=UnderRange	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Disconnected	Ord=8	G=VAR_OUTPUT
+++D=REAL	N=ForceFB	Ord=9	G=VAR_INPUT	Com=Force measurement value [u]
+++D=UINT	N=Response_SID	Ord=10	G=VAR_INPUT	Com=Calibration command response SID
+++D=WORD	N=DetectSta	Ord=11	G=VAR_INPUT	Com=Detection status
+++D=WORD	N=ExecuteSta	Ord=12	G=VAR_INPUT	Com=Executing status
+++D=BOOL	N=Enabled	Ord=13	G=VAR_INPUT	Com=Use this load cell
+++D=REAL	N=Max_Force	Ord=14	G=VAR_INPUT	Com=Maximum force of load cell [u]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

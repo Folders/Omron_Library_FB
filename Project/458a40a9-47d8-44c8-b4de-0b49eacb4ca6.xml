@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=TON	N=timeOn	G=VAR
+++D=TON	N=TimeOff	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\SENSOR\BASE	N=MySensor	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=IO_Input	Ord=2	G=VAR_IN_OUT	Com=Sensor input
+++D=BOOL	N=Enabled	Ord=3	G=VAR_INPUT	Com=Sensor is used
+++D=TIME	N=TimeDetection	Ord=4	G=VAR_INPUT	Com=Time of detection for define state [s]
+++D=BOOL	N=Commissioning	Ord=5	G=VAR_INPUT	Com=Put sensor in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

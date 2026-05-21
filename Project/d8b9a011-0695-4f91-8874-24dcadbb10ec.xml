@@ -8,10 +8,10 @@ _EN=Variables
 ++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=1	G=VAR_IN_OUT
 ++D=BOOL	N=Out_Cmd	Ord=2	G=VAR_IN_OUT	Com=Command to move cylinder in OUT position
 ++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT	Com=Use the cylinder
-++D=TIME	N=Timeout	IV=T#0S	Ord=4	G=VAR_INPUT	Com=Moving time maximum
+++D=TIME	N=Timeout	IV=T#0S	Ord=4	G=VAR_INPUT	Com=Moving time maximum [s]
 ++D=BOOL	N=Out_SensorMounted	IV=False	Ord=5	G=VAR_INPUT	Com=Sensor for cylinder in position OUT is mounted
 ++D=BOOL	N=Out_Sensor	IV=False	Ord=6	G=VAR_INPUT	Com=Sensor OUT position
-++D=TIME	N=Out_MoveTime	Ord=7	G=VAR_INPUT	Com=Time to move in OUT position without sensor
+++D=TIME	N=Out_MoveTime	Ord=7	G=VAR_INPUT	Com=Time to move in OUT position without sensor [s]
 ++D=BOOL	N=In_SensorMounted	IV=False	Ord=8	G=VAR_INPUT	Com=Sensor for cylinder in position IN is mounted
 ++D=BOOL	N=In_Sensor	IV=False	Ord=9	G=VAR_INPUT	Com=Sensor IN position
 ++D=TIME	N=In_MoveTime	Ord=10	G=VAR_INPUT	Com=Time to move in IN position without sensor
