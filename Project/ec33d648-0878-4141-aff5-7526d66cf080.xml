@@ -17,7 +17,7 @@ _EN=Variables
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=DB
-++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Enable DB
+++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Use the DB connection
 ++D=STRING[32]	N=Name	Ord=3	G=VAR_INPUT	Com=Name of the connection (In Sysmac - DB Connection settings)
 ++D=WORD	N=ErrorID	Ord=4	G=VAR_OUTPUT	Com=Connection error ID
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

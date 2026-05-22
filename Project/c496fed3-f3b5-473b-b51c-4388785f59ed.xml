@@ -13,7 +13,7 @@ _EN=Variables
 ++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack3	Ord=1	G=VAR_IN_OUT	Com=Object for stack layer 3
 ++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack2	Ord=2	G=VAR_IN_OUT	Com=Object for stack layer 2
 ++D=OBJ\FLASHLAMP\BASE	N=MyFL_Stack1	Ord=3	G=VAR_IN_OUT	Com=Object for stack layer 1
-++D=BOOL	N=Enable	Ord=4	G=VAR_INPUT	Com=Flash lamp is used
+++D=BOOL	N=Enable	Ord=4	G=VAR_INPUT	Com=Use the flash lamp
 ++D=BOOL	N=Invert	Ord=5	G=VAR_INPUT
 ++D=BOOL	N=Commissioning	Ord=6	G=VAR_INPUT	Com=Put object in commissioning
 ++D=ARRAY[0..1] OF Byte	N=Data01	Ord=7	G=VAR_OUTPUT	Com=IO-Link output data 1

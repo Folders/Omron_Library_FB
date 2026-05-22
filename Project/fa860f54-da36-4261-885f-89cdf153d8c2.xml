@@ -18,6 +18,8 @@
     <AssociatedProgramData ProgramName="Door" InstanceName="Door" IniFileTrackingId="8aef99be278b4801bf330490f3bf5740" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="Sensor" InstanceName="Sensor" IniFileTrackingId="729a78d18d414df69c749d6ef3049b8b" StartupSetting="TRUE" SequenceNumber="8" IsDebugProgram="false" />
   </Programs>
-  <RefreshUnitIds />
+  <RefreshUnitIds>
+    <RefreshUnitId RefreshUnitId="4d53af8f-f555-47d4-af58-d36ea044e4ca" />
+  </RefreshUnitIds>
   <TaskInterfaceVariables version="1" />
 </data>

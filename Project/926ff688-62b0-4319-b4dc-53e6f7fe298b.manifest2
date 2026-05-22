@@ -8,6 +8,7 @@
       <ApplicationFeature name="V102Project" />
       <ApplicationFeature name="DBCon V2.01" />
       <ApplicationFeature name="SetUnit NX102-9020 Ver. 1.64" />
+      <ApplicationFeature name="SetUnit V1_11IncompatibleNXUnit Ver. 1.0" />
       <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
     </ApplicationFeatures>
   </Solution>

@@ -8,6 +8,6 @@ _EN=Variables
 ++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=0	G=VAR_IN_OUT
 ++D=BOOL	N=Interlock	Ord=1	G=VAR_INPUT	Com=Interlock order
 ++D=BOOL	N=Interlocked	Ord=2	G=VAR_OUTPUT	Com=Movement are interlocked
-++D=OBJ\ePneu_Interlock	N=Movement	Ord=3	G=VAR_INPUT	Com=Movement selection
+++D=OBJ\PNEUMATIC\eInterlockPneu	N=Movement	Ord=3	G=VAR_INPUT	Com=Movement selection
 ++D=BOOL	N=Disabled	Ord=4	G=VAR_INPUT	Com=Disabled interlock function in commissioning
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

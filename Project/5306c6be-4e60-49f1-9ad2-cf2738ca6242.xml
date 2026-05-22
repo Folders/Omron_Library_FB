@@ -8,7 +8,7 @@ _EN=Variables
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Sensor is used on machine
 ++D=OBJ\SENSOR\BASE	N=MySensor	Ord=1	G=VAR_IN_OUT
 ++D=ARRAY[0..1] OF BYTE	N=IO_Array	Ord=2	G=VAR_IN_OUT	Com=Analog sensor input (from array)
-++D=BOOL	N=Enabled	Ord=3	G=VAR_INPUT	Com=Use sensor on the machines
+++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT	Com=Use the sensor
 ++D=REAL	N=Input_Min	IV=-9999	Ord=4	G=VAR_INPUT	Com=Minimum input value (init) [analog]
 ++D=REAL	N=Input_Max	IV=-9999	Ord=5	G=VAR_INPUT	Com=Maximum input value (init) [analog]
 ++D=REAL	N=Output_Min	IV=0	Ord=6	G=VAR_INPUT	Com=Output value at minimum input value [u]

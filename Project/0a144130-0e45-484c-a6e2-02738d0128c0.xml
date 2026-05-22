@@ -8,5 +8,5 @@ _EN=Variables
 ++D=BOOL	N=Active	Ord=2	G=VAR_INPUT	Com=Active this effect
 ++D=USINT	N=Rank	IV=110	Ord=3	G=VAR_INPUT	Com=Priority of this effect (lower value = higher priority) [1..125]
 ++D=OBJ\eColor	N=Color	IV=Black	Ord=4	G=VAR_INPUT	Com=Color command of flash lamp
-++D=OBJ\eEffect	N=Effect	IV=Off	Ord=5	G=VAR_INPUT	Com=Effect of flash lamp
+++D=OBJ\FLASHLAMP\eLampEffect	N=Effect	Ord=5	G=VAR_INPUT	Com=Effect of flash lamp
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

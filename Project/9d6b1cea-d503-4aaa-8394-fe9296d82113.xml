@@ -14,7 +14,7 @@ _EN=Variables
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Config used
 ++D=OBJ\VIBRATOR\BASE	N=MyVibrator	Ord=1	G=VAR_IN_OUT	Com=Object
-++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Vibrator is used
+++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Use the vibrator
 ++D=REAL	N=MaxAnalog	IV=4000	Ord=3	G=VAR_INPUT	Com=Maximun analog value for 100% [DA max]
 ++D=BOOL	N=IsBowl	IV=True	Ord=4	G=VAR_INPUT	Com=It's a bowl or a linear rail?
 ++D=BOOL	N=Commissioning	Ord=5	G=VAR_INPUT	Com=Put vibrator in commissioning

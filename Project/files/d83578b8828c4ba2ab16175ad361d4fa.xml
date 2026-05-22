@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types2" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="26" OffsetType="" Id="1ca2ad67-26d2-4725-8810-176c260f428e">
+      <DataType Name="Cmd" BaseType="OBJ\BUZZER\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="dc789f5c-0bdd-4c79-9dbd-e20a00d9d828" />
+      <DataType Name="Sta" BaseType="OBJ\BUZZER\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d1dda731-7e0e-4ddc-b706-7978a169032b" />
+      <DataType Name="Xch" BaseType="OBJ\BUZZER\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="272cfa73-83ee-476d-ab5b-3c624d730146" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="17" OffsetType="" Id="1c48bc08-8cc0-4769-a14c-c817d991603c">
+      <DataType Name="Enabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b1c535c9-3d52-4aae-a20f-5520a669b48e" />
+      <DataType Name="Ready" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="e261e8eb-798e-4462-8c15-3b3dd21628c5" />
+      <DataType Name="Commissioning" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="eb33e952-b20c-4bb3-ba9a-91ba926cb7ba" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="" Id="d483a4f5-30cb-41a2-91f4-b919f5cfd211">
+      <DataType Name="Rank" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current priority level (Priority on low number)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="41d1f006-625d-4639-94e2-8a881b1c7e06" />
+      <DataType Name="Sensor_Lock" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="External sensor detection locked by a sensor" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="639da3d3-5264-437f-9f72-aedde5fc9f1c" />
+      <DataType Name="Sensor_Run" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Request from sensor to buzz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="13349975-ecb8-4215-9ce1-e8d333d05fcd" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="18" OffsetType="" Id="fb2cae7d-7149-436d-ba13-fba46bd85ff5">
+      <DataType Name="Sound" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound request" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="be39f21c-c67f-496f-a092-97334814b860" />
+      <DataType Name="Sensor_Lock" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="External sensor detection locked by a sensor" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="cc716cd4-ba82-4cfa-a6f9-eed92e3e9437" />
+      <DataType Name="Sensor_Run" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Request from sensor to buzz" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="20cd5980-73c7-4a38-9996-8427416d1de9" />
+    </DataType>
+  </DataType>
+</data>

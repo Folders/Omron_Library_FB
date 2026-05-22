@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="374766f8-62bf-4379-920f-48b1e6038f20">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1066" ID="451a9011-92f7-4a01-8175-b6779b712fa7">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1263" ID="023d7ad7-08c0-4c0e-9c30-a076bf5e6c65">
+      <Localisation Language="en-US" Translation="20" Default="True" />
+    </Resource>
+    <Resource Name="FontSize4" ID="7e113efd-dbba-465a-8a21-295152873564">
+      <Localisation Language="en-US" Translation="14" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="affbb6c1-333e-4425-a56b-1909fa3a813e">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="552fa47c-e5b2-495a-82ad-387367888960">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String259" ID="a5c1a7da-9583-4cd9-b6ed-ef61ab199f90">
+      <Localisation Language="en-US" Translation="Lock" Default="True" />
+    </Resource>
+    <Resource Name="String260" ID="2a688441-4606-4ab3-917b-475363447adb">
+      <Localisation Language="en-US" Translation="Unlock" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="Image0" ID="3783f151-8836-4851-aa83-f7ad255b5e22">
+      <Localisation Language="en-US" Translation="FA_Lock.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image14" ID="f602ecd3-d41b-4219-97e0-d55a6d072f2f">
+      <Localisation Language="en-US" Translation="FA_LockOpen.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image15" ID="54d6a01d-8044-4348-b2fa-80900d481c85">
+      <Localisation Language="en-US" Translation="FA_DoorOpen - White.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image16" ID="219eb65b-67b3-4511-b741-1cbed215ac0f">
+      <Localisation Language="en-US" Translation="FA_DoorClosed_White.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image17" ID="2c87ce32-48bd-450c-998d-62c5177d31b7">
+      <Localisation Language="en-US" Translation="FA_DoorClosed_Green.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Lock_Gray" ID="e8c2e79a-c40e-4d22-8381-bc7a460995f6">
+      <Localisation Language="en-US" Translation="FA_Lock_Grey.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Unlock_Gray" ID="4ae93905-7f21-42cb-a49c-02eb78195cde">
+      <Localisation Language="en-US" Translation="FA_LockOpen_Grey.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

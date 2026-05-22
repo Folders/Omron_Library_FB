@@ -28,10 +28,11 @@ _EN=Variables
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
 ++D=SensorTest	N=Sensors	G=VAR_GLOBAL
-++D=OBJ\SENSOR\BASE	N=Sensor_1	G=VAR_GLOBAL	Com=Sensor object 1
-++D=OBJ\SENSOR\BASE	N=Sensor_2	G=VAR_GLOBAL	Com=Sensor object 2
-++D=OBJ\SENSOR\BASE	N=Sensor_3	G=VAR_GLOBAL	Com=Sensor object 3
-++D=OBJ\SENSOR\BASE	N=Sensor_4	G=VAR_GLOBAL	Com=Sensor object 4
+++D=ARRAY[0..999] OF SensorGraph	N=Sensor_Graph	G=VAR_GLOBAL
+++D=OBJ\SENSOR\BASE	N=Sensor_ID_Simple	G=VAR_GLOBAL	Com=Sensor object 1
+++D=OBJ\SENSOR\BASE	N=Sensor_ID_TriState	G=VAR_GLOBAL	Com=Sensor object 2
+++D=OBJ\SENSOR\BASE	N=Sensor_ID_ToAnalog	G=VAR_GLOBAL	Com=Sensor object 3
+++D=OBJ\SENSOR\BASE	N=Sensor_AD_Analog	G=VAR_GLOBAL	Com=Sensor object 4
 ++D=OBJ\STATUSBAR	N=StatusBar	G=VAR_GLOBAL	Com=Status bar object
 ++D=VibratorTest	N=Vib	G=VAR_GLOBAL
 ++D=OBJ\VIBRATOR\BASE	N=Vib_Rail	G=VAR_GLOBAL	Com=Vibrator object 1
@@ -54,3 +55,11 @@ _EN=Variables
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data11	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=Port1_Output_Data12	G=VAR_GLOBAL
 ++D=ARRAY[0..1] OF BYTE	N=IOL_FromILM	G=VAR_GLOBAL
+++D=REAL	N=Loadcell_Calibration_Data	AT=IOBus://unit#1/Ch1 Calibration Data	G=VAR_GLOBAL
+++D=WORD	N=Loadcell_Detection_Status	AT=IOBus://unit#1/Ch1 Detection Status	G=VAR_GLOBAL
+++D=WORD	N=Loadcell_Executing_Status	AT=IOBus://unit#1/Ch1 Executing Status	G=VAR_GLOBAL
+++D=REAL	N=Loadcell_Measurement_Value	AT=IOBus://unit#1/Ch1 Gross Weight Value/Force Measurement Value REAL	G=VAR_GLOBAL
+++D=UINT	N=Loadcell_Calibration_Command_Response_SID	AT=IOBus://unit#1/Ch1 Calibration Command Response SID	G=VAR_GLOBAL
+++D=UINT	N=Loadcell_Calibration_Command_SID	AT=IOBus://unit#1/Ch1 Calibration Command SID	G=VAR_GLOBAL
+++D=WORD	N=Loadcell_Calibration_Command	AT=IOBus://unit#1/Ch1 Calibration Command	G=VAR_GLOBAL
+++D=OBJ\LOADCELL\BASE	N=Loadcell_Weight	G=VAR_GLOBAL

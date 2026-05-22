@@ -1,0 +1,84 @@
+<Canvas Height="1441.00001525879" Width="1793" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Path Fill="#FF000000" Stroke="{x:Null}" StrokeThickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <Path.Data>
+            <PathGeometry FillRule="EvenOdd">
+                <PathFigure StartPoint="352.5,736.500015258789" IsClosed="True">
+                    <BezierSegment Point1="361.166656494141,736.500015258789" Point2="368.666656494141,739.666702270508" Point3="375,746.000015258789"/>
+                    <BezierSegment Point1="381.333343505859,752.33332824707" Point2="384.5,759.83332824707" Point3="384.5,768.500015258789"/>
+                    <LineSegment Point="384.5,960.500015258789"/>
+                    <LineSegment Point="1760.5,960.500015258789"/>
+                    <BezierSegment Point1="1769.16662597656,960.500015258789" Point2="1776.66662597656,963.666641235349" Point3="1783,970.000015258789"/>
+                    <BezierSegment Point1="1789.33337402344,976.333389282229" Point2="1792.5,983.833389282229" Point3="1792.5,992.500015258789"/>
+                    <LineSegment Point="1792.5,1184.50001525879"/>
+                    <BezierSegment Point1="1792.5,1193.16664123535" Point2="1789.33337402344,1200.66664123535" Point3="1783,1207.00001525879"/>
+                    <BezierSegment Point1="1776.66662597656,1213.33338928223" Point2="1769.16662597656,1216.50001525879" Point3="1760.5,1216.50001525879"/>
+                    <LineSegment Point="384.5,1216.50001525879"/>
+                    <LineSegment Point="384.5,1408.50001525879"/>
+                    <BezierSegment Point1="384.5,1417.16664123535" Point2="381.333343505859,1424.66664123535" Point3="375,1431.00001525879"/>
+                    <BezierSegment Point1="368.666656494141,1437.33338928223" Point2="361.166656494141,1440.50001525879" Point3="352.5,1440.50001525879"/>
+                    <BezierSegment Point1="344.5,1440.50001525879" Point2="336.5,1437.16664123535" Point3="328.5,1430.50001525879"/>
+                    <LineSegment Point="9.49999237060547,1110.50001525879"/>
+                    <BezierSegment Point1="3.5,1104.50001525879" Point2="0.5,1097.16664123535" Point3="0.5,1088.50001525879"/>
+                    <BezierSegment Point1="0.5,1079.16664123535" Point2="3.5,1071.50001525879" Point3="9.49999237060547,1065.50001525879"/>
+                    <LineSegment Point="329.5,745.500015258789"/>
+                    <BezierSegment Point1="335.5,739.500015258789" Point2="343.166656494141,736.500015258789" Point3="352.5,736.500015258789"/>
+                </PathFigure>
+                <PathFigure StartPoint="1440.5,96.5000152587891" IsClosed="True">
+                    <BezierSegment Point1="1448.5,96.5000152587891" Point2="1456.5,99.833358764648" Point3="1464.5,106.500015258789"/>
+                    <LineSegment Point="1783.5,425.500015258789"/>
+                    <BezierSegment Point1="1789.5,431.500015258789" Point2="1792.5,439.166702270508" Point3="1792.5,448.500015258789"/>
+                    <BezierSegment Point1="1792.5,457.83332824707" Point2="1789.5,465.500015258789" Point3="1783.5,471.500015258789"/>
+                    <LineSegment Point="1463.5,791.500015258789"/>
+                    <BezierSegment Point1="1457.5,797.500015258789" Point2="1449.83337402344,800.500015258789" Point3="1440.5,800.500015258789"/>
+                    <BezierSegment Point1="1431.83337402344,800.500015258789" Point2="1424.33337402344,797.33332824707" Point3="1418,791.000015258789"/>
+                    <BezierSegment Point1="1411.66662597656,784.666702270508" Point2="1408.5,777.166702270508" Point3="1408.5,768.500015258789"/>
+                    <LineSegment Point="1408.5,576.500015258789"/>
+                    <LineSegment Point="32.5000114440918,576.500015258789"/>
+                    <BezierSegment Point1="23.8333339691162,576.500015258789" Point2="16.3333330154419,573.33332824707" Point3="10.0000038146973,567.000015258789"/>
+                    <BezierSegment Point1="3.66666674613953,560.666702270508" Point2="0.5,553.166702270508" Point3="0.5,544.500015258789"/>
+                    <LineSegment Point="0.5,352.500015258789"/>
+                    <BezierSegment Point1="0.5,343.83332824707" Point2="3.66666674613953,336.33332824707" Point3="10.0000038146973,330.000015258789"/>
+                    <BezierSegment Point1="16.3333330154419,323.666702270508" Point2="23.8333339691162,320.500015258789" Point3="32.5000114440918,320.500015258789"/>
+                    <LineSegment Point="1408.5,320.500015258789"/>
+                    <LineSegment Point="1408.5,128.500015258789"/>
+                    <BezierSegment Point1="1408.5,119.16667175293" Point2="1411.5,111.500015258789" Point3="1417.5,105.500015258789"/>
+                    <BezierSegment Point1="1423.5,99.5000152587891" Point2="1431.16662597656,96.5000152587891" Point3="1440.5,96.5000152587891"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+    <Path Fill="#FFFF0000" Stroke="{x:Null}" StrokeThickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <Path.Data>
+            <PathGeometry FillRule="EvenOdd">
+                <PathFigure StartPoint="768.5,1056.50001525879" IsClosed="True">
+                    <LineSegment Point="1024.5,1056.50001525879"/>
+                    <BezierSegment Point1="1041.83337402344,1056.50001525879" Point2="1056.83337402344,1062.83338928223" Point3="1069.5,1075.50001525879"/>
+                    <BezierSegment Point1="1082.16662597656,1088.16664123535" Point2="1088.5,1103.16664123535" Point3="1088.5,1120.50001525879"/>
+                    <LineSegment Point="1088.5,1344.50001525879"/>
+                    <BezierSegment Point1="1088.5,1361.83338928223" Point2="1082.16662597656,1376.83338928223" Point3="1069.5,1389.50001525879"/>
+                    <BezierSegment Point1="1056.83337402344,1402.16664123535" Point2="1041.83337402344,1408.50001525879" Point3="1024.5,1408.50001525879"/>
+                    <LineSegment Point="768.5,1408.50001525879"/>
+                    <BezierSegment Point1="751.166687011719,1408.50001525879" Point2="736.166687011719,1402.16664123535" Point3="723.5,1389.50001525879"/>
+                    <BezierSegment Point1="710.833374023438,1376.83338928223" Point2="704.5,1361.83338928223" Point3="704.5,1344.50001525879"/>
+                    <LineSegment Point="704.5,1120.50001525879"/>
+                    <BezierSegment Point1="704.5,1103.16664123535" Point2="710.833374023438,1088.16664123535" Point3="723.5,1075.50001525879"/>
+                    <BezierSegment Point1="736.166687011719,1062.83338928223" Point2="751.166687011719,1056.50001525879" Point3="768.5,1056.50001525879"/>
+                </PathFigure>
+                <PathFigure StartPoint="736.5,0.500000000000057" IsClosed="True">
+                    <LineSegment Point="1056.5,0.500000000000057"/>
+                    <BezierSegment Point1="1073.83337402344,0.500000000000057" Point2="1088.66662597656,6.83334350585906" Point3="1101,19.5000000000001"/>
+                    <BezierSegment Point1="1113.33337402344,32.1666717529301" Point2="1119.16662597656,47.1666717529301" Point3="1118.5,64.5000152587891"/>
+                    <LineSegment Point="1090.5,832.500015258789"/>
+                    <BezierSegment Point1="1089.83337402344,849.833389282229" Point2="1083,864.833389282229" Point3="1070,877.500015258789"/>
+                    <BezierSegment Point1="1057,890.166641235349" Point2="1041.83337402344,896.500015258789" Point3="1024.5,896.500015258789"/>
+                    <LineSegment Point="768.5,896.500015258789"/>
+                    <BezierSegment Point1="751.166687011719,896.500015258789" Point2="736,890.166641235349" Point3="723,877.500015258789"/>
+                    <BezierSegment Point1="710,864.833389282229" Point2="703.166687011719,849.833389282229" Point3="702.5,832.500015258789"/>
+                    <LineSegment Point="674.5,64.5000152587891"/>
+                    <BezierSegment Point1="673.833374023438,47.1666717529301" Point2="679.666687011719,32.1666717529301" Point3="692,19.5000000000001"/>
+                    <BezierSegment Point1="704.333374023438,6.83334350585906" Point2="719.166687011719,0.500000000000057" Point3="736.5,0.500000000000057"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+</Canvas>

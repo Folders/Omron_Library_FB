@@ -1,17 +1,14 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=DI_Sensor_1	G=VAR
-++D=BOOL	N=DI_Sensor_2	G=VAR
-++D=BOOL	N=DI_Sensor_3	G=VAR
-++D=BOOL	N=DI_Sensor_5	G=VAR
-++D=Sensor_Force	N=Config_Loadcell	G=VAR
 ++D=OBJ\SENSOR\Sensor_Simple	N=configSimple	G=VAR
 ++D=OBJ\SENSOR\Sensor_ToAnalog	N=configToAnalog	G=VAR
+++D=OBJ\SENSOR\Sensor_TriState	N=configTriState	G=VAR
+++D=OBJ\SENSOR\Sensor_Analog	N=configAnalog	G=VAR
+++D=OBJ\SENSOR\Sensor_WithBuzzer	N=sensorToBuzzer	G=VAR
 ++D=ARRAY[0..23] OF TIME	N=t	IV=[T#1.0s, T#1.7S, T#1.1s, T#0.1S, T#0.2s, T#0.1S, T#0.1s, T#0.1S, T#0.42s, T#0.2S, T#0.3s, T#0.1S, T#0.2s, T#0.1S, T#0.1s, T#0.3S, T#0.1s, T#0.6S, T#0.5s, T#0.5S, T#5.0s, T#0.02S, T#0.02s, T#0.02S]	G=VAR	Com=Sound profil
 ++D=INT	N=i	G=VAR	Com=Indix of profil
 ++D=TON	N=cycle	G=VAR
-++D=OBJ\SENSOR\Sensor_TriState	N=configTriState	G=VAR
 ++D=TON	N=waitTarget	G=VAR
 ++D=TON	N=waitVariation	G=VAR
 ++D=Rand	N=randTarget	G=VAR
@@ -21,8 +18,6 @@ _EN=Variables
 ++D=LREAL	N=stepTarget	G=VAR
 ++D=BOOL	N=newUpdate	G=VAR
 ++D=TON	N=waitUpdate	G=VAR
-++D=OBJ\SENSOR\Sensor_Analog	N=configAnalog	G=VAR
-++D=OBJ\SENSOR\Sensor_WithBuzzer	N=sensorToBuzzer	G=VAR
 ++D=Rand	N=randUpdate	G=VAR
 ++D=LREAL	N=valNoise	G=VAR
 ++D=Rand	N=randVariation	G=VAR
@@ -30,16 +25,30 @@ _EN=Variables
 ++D=BOOL	N=newVariation	G=VAR
 ++D=LREAL	N=valSin	G=VAR
 ++D=LREAL	N=sinRot	G=VAR
+++D=INT	N=graphPos	G=VAR
+++D=TIME	N=debounceTime	G=VAR
+++D=TIME	N=livingTime	G=VAR
+++D=TIME	N=transitionTime	G=VAR
+++D=TIME	N=pulseTime	G=VAR
+++D=OBJ\LOADCELL\Sensor_Force	N=configLoadcell	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=Info_General	G=VAR_EXTERNAL
 ++D=BOOL	N=Info_ToDo	G=VAR_EXTERNAL
 ++D=OBJ\BUZZER\BASE	N=Buzzer_General	G=VAR_EXTERNAL
-++D=BOOL	N=Info_IOmap	G=VAR_EXTERNAL
-++D=OBJ\SENSOR\BASE	N=Sensor_1	G=VAR_EXTERNAL
 ++D=SensorTest	N=Sensors	G=VAR_EXTERNAL
 ++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
 ++D=BOOL	N=T_100ms	G=VAR_EXTERNAL
-++D=OBJ\SENSOR\BASE	N=Sensor_2	G=VAR_EXTERNAL
-++D=OBJ\SENSOR\BASE	N=Sensor_3	G=VAR_EXTERNAL
-++D=ARRAY[0..1] OF BYTE	N=IOL_FromILM	G=VAR_EXTERNAL
-++D=OBJ\SENSOR\BASE	N=Sensor_4	G=VAR_EXTERNAL
+++D=OBJ\SENSOR\BASE	N=Sensor_ID_Simple	G=VAR_EXTERNAL
+++D=OBJ\SENSOR\BASE	N=Sensor_ID_TriState	G=VAR_EXTERNAL
+++D=OBJ\SENSOR\BASE	N=Sensor_ID_ToAnalog	G=VAR_EXTERNAL
+++D=OBJ\SENSOR\BASE	N=Sensor_AD_Analog	G=VAR_EXTERNAL
+++D=ARRAY[0..999] OF SensorGraph	N=Sensor_Graph	G=VAR_EXTERNAL
+++D=BOOL	N=Info_IOmap	G=VAR_EXTERNAL
+++D=WORD	N=Loadcell_Calibration_Command	G=VAR_EXTERNAL
+++D=WORD	N=Loadcell_Detection_Status	G=VAR_EXTERNAL
+++D=WORD	N=Loadcell_Executing_Status	G=VAR_EXTERNAL
+++D=REAL	N=Loadcell_Measurement_Value	G=VAR_EXTERNAL
+++D=UINT	N=Loadcell_Calibration_Command_Response_SID	G=VAR_EXTERNAL
+++D=UINT	N=Loadcell_Calibration_Command_SID	G=VAR_EXTERNAL
+++D=REAL	N=Loadcell_Calibration_Data	G=VAR_EXTERNAL
+++D=OBJ\LOADCELL\BASE	N=Loadcell_Weight	G=VAR_EXTERNAL

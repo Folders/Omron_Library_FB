@@ -11,7 +11,7 @@ _EN=Variables
 ++D=OBJ\SENSOR\BASE	N=MySensor	Ord=1	G=VAR_IN_OUT
 ++D=BOOL	N=IO_Input	Ord=2	G=VAR_IN_OUT	Com=Sensor input
 ++D=BOOL	N=Run	Ord=3	G=VAR_INPUT	Com=Process to convert in analog
-++D=BOOL	N=Enabled	Ord=4	G=VAR_INPUT	Com=Sensor is used on the machines
+++D=BOOL	N=Enable	Ord=4	G=VAR_INPUT	Com=Use the sensor
 ++D=TIME	N=Pulse	Ord=5	G=VAR_INPUT	Com=Time of a cycle to compute analog value [s]
 ++D=REAL	N=AnalogOut	Ord=6	G=VAR_OUTPUT	Com=Analog value of sensor [%]
 ++D=REAL	N=Level_On	Ord=7	G=VAR_INPUT	Com=Analog level for "Detection" digital value [%]

@@ -6,5 +6,5 @@ _EN=Variables
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
 ++D=OBJ\SENSOR\BASE	N=MySensor	Ord=1	G=VAR_IN_OUT
 ++D=OBJ\BUZZER\BASE	N=MyBuzzer	Ord=2	G=VAR_IN_OUT
-++D=BOOL	N=Enabled	Ord=3	G=VAR_INPUT	Com=Link a sensor to a buzzer
+++D=BOOL	N=Enable	Ord=3	G=VAR_INPUT	Com=Link a sensor to a buzzer
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

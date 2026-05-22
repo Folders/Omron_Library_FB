@@ -1,4 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CpuRackNXBusMaster>
-  <CpuRackNXBusMaster VenderID="1" ProductCode="455672320" Revision="20971520" IONodeID="3d753a97-4a1f-4560-a364-5251e5690d27" WaitTimeForAddition="3" CheckSerialNo="0" FailSoftOperation="0" />
+  <CpuRackNXBusMaster VenderID="1" ProductCode="455672320" Revision="20971520" IONodeID="3d753a97-4a1f-4560-a364-5251e5690d27" WaitTimeForAddition="3" CheckSerialNo="0" FailSoftOperation="0">
+    <DirectIOPort IOPortID="57a6a42a-b252-45b4-843d-a2fe5f1635a9" UnitNumber="1" RelativeAtPath="status/registration" />
+    <DirectIOPort IOPortID="e62abfca-3df5-4860-9be5-82c2e854e871" UnitNumber="1" RelativeAtPath="status/msg:enabled" />
+    <DirectIOPort IOPortID="073b511d-324f-4a63-8ecb-85a48d6e50e9" UnitNumber="1" RelativeAtPath="status/io:active" />
+    <DirectIOPort IOPortID="e9fe24ac-d690-4d9e-9e7b-0d0b02911799" UnitNumber="1" RelativeAtPath="status/error" />
+    <DirectIOPort IOPortID="a8dec1c2-6edb-4138-83b7-790c0c60e224" UnitNumber="1" RelativeAtPath="status/synctime:in" />
+    <DirectIOPort IOPortID="f4262576-1fb4-4ae8-8c7f-5a0f955ba87a" UnitNumber="1" RelativeAtPath="status/synctime:out" />
+  </CpuRackNXBusMaster>
 </CpuRackNXBusMaster>

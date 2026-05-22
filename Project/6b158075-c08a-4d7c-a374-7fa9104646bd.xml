@@ -1,22 +1,21 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=OBJ\PNEUMATIC\Pneu_Config_Cylinder_SimpleActing	N=Cylinder1_Simple	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_Config_Cylinder_DoubleActing	N=Cylinder1_Double	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_GoOut	N=Out1	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_GoIn	N=In1	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_Config_Cylinder_SimpleActing	N=configSimple	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_Config_Cylinder_DoubleActing	N=configDouble	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoOut	N=out1	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoIn	N=in1	G=VAR
 ++D=TON	N=waitSeq1	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_GoOut	N=Out2	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_GoIn	N=In2	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoOut	N=out2	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoIn	N=in2	G=VAR
 ++D=TON	N=waitSeq2	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_GoOut	N=Out3	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_GoIn	N=In3	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoOut	N=out3	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoIn	N=in3	G=VAR
 ++D=TON	N=waitSeq3	G=VAR
 ++D=OBJ\PNEUMATIC\Pneu_Coil	N=CoilCmd	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_Interlock	N=Config_Interlock_1	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_Interlock	N=Config_Interlock_2	G=VAR
-++D=OBJ\PNEUMATIC\Pneu_Interlock	N=Config_Interlock_3	G=VAR
-++D=BOOL	N=GENE	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_Interlock	N=configInterlock_1	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_Interlock	N=configInterlock_2	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_Interlock	N=configInterlock_3	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=PneuTest	N=Pneu	G=VAR_EXTERNAL
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder1	G=VAR_EXTERNAL
