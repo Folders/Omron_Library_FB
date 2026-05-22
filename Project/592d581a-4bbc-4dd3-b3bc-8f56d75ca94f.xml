@@ -17,9 +17,9 @@ _EN=Variables
 ++D=UINT	N=EC_CalibCommandSID	Ord=5	G=VAR_IN_OUT	Com=Calibration command SID
 ++D=WORD	N=EC_CalibCommand	Ord=6	G=VAR_IN_OUT	Com=Calibration command
 ++D=REAL	N=EC_CalibData	Ord=7	G=VAR_IN_OUT	Com=Calibration data
-++D=BOOL	N=Enable	Ord=8	G=VAR_INPUT	Com=Use this load cell
+++D=BOOL	N=Enable	Ord=8	G=VAR_INPUT	Com=Use the loadcell
 ++D=REAL	N=Max_Force	Ord=9	G=VAR_INPUT	Com=Maximum force of load cell [u]
 ++D=BOOL	N=Execute	Ord=10	G=VAR_OUTPUT	Com=Load cell is used
-++D=REAL	N=Mesure	Ord=11	G=VAR_OUTPUT	Com=Percentage of load [%]
+++D=REAL	N=Force	Ord=11	G=VAR_OUTPUT	Com=Measured force [u]
 ++D=BOOL	N=Commissioning	Ord=12	G=VAR_INPUT	Com=Put sensor in commissioning
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

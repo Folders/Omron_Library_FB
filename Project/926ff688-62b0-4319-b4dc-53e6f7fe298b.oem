@@ -766,7 +766,7 @@
                         <AccessInfos />
                         <ChildEntities />
                       </Entity>
-                      <Entity type="Variables" subtype="Ladder" id="f515506b-a101-4a46-a6b5-7bc09784d5d7" name="Variables" version="0" dateCreated="03/14/2024 16:26:11" dateLastModified="05/22/2026 10:46:06" trackingId="db65d924-b27f-4466-878c-df9d97edb40b" hash="d590b85aaad88a2b2186b3ab54e5e07d">
+                      <Entity type="Variables" subtype="Ladder" id="f515506b-a101-4a46-a6b5-7bc09784d5d7" name="Variables" version="0" dateCreated="03/14/2024 16:26:11" dateLastModified="05/22/2026 11:33:32" trackingId="db65d924-b27f-4466-878c-df9d97edb40b" hash="c934703fb8313a6769e0e78c5928c4a5">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="090a0097-ecff-4a59-814d-9eae0974c733" name="Source" version="0" dateCreated="03/14/2024 16:26:11" trackingId="a7925e89-ac71-4989-800f-426d9d5f3d27">
@@ -801,7 +801,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="e921273d-3236-4024-91e7-28baa9d92d38" name="Loadcell" version="0" dateCreated="05/22/2026 08:39:02" dateLastModified="05/22/2026 10:46:06" trackingId="c974e381-bb48-4329-838c-e48d39a6cc92" DN="Loadcell" hash="e4e523b1d0bb76cfa21b26a96318845c">
+                      <Entity type="PouBody" subtype="Ladder" id="e921273d-3236-4024-91e7-28baa9d92d38" name="Loadcell" version="0" dateCreated="05/22/2026 08:39:02" dateLastModified="05/22/2026 12:39:09" trackingId="c974e381-bb48-4329-838c-e48d39a6cc92" DN="Loadcell" hash="acbe6fc227fa8e01bac00dcf1acf1f66">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="d77790ce-1d81-4e41-8f8a-220de35f8f01" name="Source" version="0" dateCreated="05/22/2026 08:39:02" trackingId="69b2571e-c976-4756-995f-d06927fdd315">
@@ -1938,7 +1938,7 @@
                   <Entity type="FunctionBlock" subtype="Ladder" id="cf61d84c-a0e6-4264-8671-eb62cc79091b" name="Door_Zone" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="05/08/2026 14:07:27" label="6.0.0" author="PClo" comment="Zone management with a door and a button." namespace="OBJ\DOOR" trackingId="bbbaddd3-23c7-408b-92b8-b5f0ed3b29b5" DN="Door_Zone {OBJ\DOOR}">
                     <AccessInfos />
                     <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="fa96978a-609b-47ec-85a8-f235155de18b" name="Variables" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="05/06/2026 14:24:39" trackingId="95bc8521-7945-477e-8e86-a642df33b99d" hash="02fbf7910007d01c7444208a1ac95ab2">
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="fa96978a-609b-47ec-85a8-f235155de18b" name="Variables" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="05/22/2026 13:48:47" trackingId="95bc8521-7945-477e-8e86-a642df33b99d" hash="f24e80c7a830e5b7aaf8aa94a4e2945f">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="PouIFLibraryHolder" subtype="" id="23be7f0c-2f52-4c89-86ac-3f311c95f3ec" name="PouIFLibrary" version="NaN" dateCreated="03/28/2022 08:45:23" trackingId="6c3e97d0-59ed-4bcb-95bf-e50eb1e25921">
@@ -1951,7 +1951,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="24479759-5fe6-4eec-9dd3-58c7a6138695" name="LadderBody" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="05/08/2026 11:06:36" trackingId="8798eb21-64d0-4351-97ca-fe3a6d25e706" hash="86e7bd8f0e50a29455bf7504402ea5d7">
+                      <Entity type="PouBody" subtype="Ladder" id="24479759-5fe6-4eec-9dd3-58c7a6138695" name="LadderBody" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="05/22/2026 13:48:47" trackingId="8798eb21-64d0-4351-97ca-fe3a6d25e706" hash="9e179e9f02e45c90e3d49526fcac3304">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="ed2423bc-4522-48d9-9890-480d01adf3da" name="Source" version="0" dateCreated="03/28/2022 08:45:23" trackingId="55d514f2-482a-4580-8402-5901c8e14794">
@@ -2863,6 +2863,41 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="05534e18-3744-442f-be2b-0a20546c6f28" name="Loadcell_Config_Omron" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 12:39:09" label="6.0.0" author="StV" comment="Configuration of a load cell from NX-RS1201 card." namespace="OBJ\LOADCELL" trackingId="b4865909-15bb-415f-af9f-64c4dbba9eeb" DN="Loadcell_Config_Omron {OBJ\LOADCELL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="592d581a-4bbc-4dd3-b3bc-8f56d75ca94f" name="Variables" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 12:39:09" trackingId="dd8c3f01-a87b-413c-b3b8-37f2e5ae6ad1" hash="e58533c8465b1e30ab6faa6b75cea6f2">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="1abb4524-bb43-4acc-93f6-629269ec82d1" name="PouIFLibrary" version="NaN" dateCreated="11/07/2019 09:32:53" trackingId="c6467735-1c82-4afd-bcc2-c99b4d1c00aa">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="4bcec56e-1a40-4b48-b71b-45e10f71e64b" name="Source" version="0" dateCreated="11/07/2019 09:32:53" trackingId="c233fd8a-afe0-4081-834d-dbb0d571228c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="58c49e84-ccb7-497d-b2e1-3e3ad13d5cf9" name="LadderBody" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 12:39:09" trackingId="8caa971c-2155-4376-88da-65720c193987" hash="bb2de9e9c959b4241f7df5c2025d7cc7">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="479594cc-2b50-43b6-a512-ebc550665471" name="Source" version="0" dateCreated="11/07/2019 09:32:53" trackingId="4319bc6e-1d25-48fa-9b77-64365c5985e2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="d2bcce2d-7630-4e7f-936e-577a8254a165" name="PouBodySourceHolder" version="0" dateCreated="11/07/2019 09:32:53" trackingId="6bd4ffce-be21-4361-a0b8-cf268e2916c4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="3d1d4b46-ebb3-4133-8045-639f5eddb446" name="65c9eb6c-d864-435a-8c82-3f3d6f5cba6a" version="0" dateCreated="11/27/2019 14:08:38" dateLastModified="05/22/2026 12:39:09" trackingId="1bd306be-b5cb-4528-9403-07c93206fa6c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                   <Entity type="FunctionBlock" subtype="Ladder" id="9bb7c894-3eae-4f30-966b-9b865d8867f1" name="Pneu_Config_Cylinder_SimpleActing" version="0" dateCreated="11/10/2017 11:13:09" dateLastModified="05/08/2026 16:33:33" label="6.0.0" author="PClo" comment="Simple acting cylinder.&#xD;&#xA;One output is used to go out." namespace="OBJ\PNEUMATIC" trackingId="0baa4876-d998-4754-88e1-db9802e5447a" DN="Pneu_Config_Cylinder_SimpleActing {OBJ\PNEUMATIC}">
                     <AccessInfos />
                     <ChildEntities>
@@ -3298,41 +3333,6 @@
                             <ChildEntities />
                           </Entity>
                           <Entity type="PouBodySourceHolder" subtype="" id="46767252-f4f8-41e8-96aa-e8c503f502bb" name="PouBodySourceHolder" version="0" dateCreated="05/09/2018 09:32:09" trackingId="bc254c29-3320-48c6-94d0-0df788305b28">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                        </ChildEntities>
-                      </Entity>
-                    </ChildEntities>
-                  </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="05534e18-3744-442f-be2b-0a20546c6f28" name="Sensor_Force" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 10:46:06" label="6.0.0" author="StV" comment="Configuration of a load cell from NX-RS1201 card." namespace="OBJ\LOADCELL" trackingId="b4865909-15bb-415f-af9f-64c4dbba9eeb" DN="Sensor_Force {OBJ\LOADCELL}">
-                    <AccessInfos />
-                    <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="592d581a-4bbc-4dd3-b3bc-8f56d75ca94f" name="Variables" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 10:46:06" trackingId="dd8c3f01-a87b-413c-b3b8-37f2e5ae6ad1" hash="9f9b8c125cf6e4acab986cda611900c4">
-                        <AccessInfos />
-                        <ChildEntities>
-                          <Entity type="PouIFLibraryHolder" subtype="" id="1abb4524-bb43-4acc-93f6-629269ec82d1" name="PouIFLibrary" version="NaN" dateCreated="11/07/2019 09:32:53" trackingId="c6467735-1c82-4afd-bcc2-c99b4d1c00aa">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="SourceHolder" subtype="" id="4bcec56e-1a40-4b48-b71b-45e10f71e64b" name="Source" version="0" dateCreated="11/07/2019 09:32:53" trackingId="c233fd8a-afe0-4081-834d-dbb0d571228c">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                        </ChildEntities>
-                      </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="58c49e84-ccb7-497d-b2e1-3e3ad13d5cf9" name="LadderBody" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 10:48:12" trackingId="8caa971c-2155-4376-88da-65720c193987" hash="9d812bd47e76b96d37f86be6cd447d50">
-                        <AccessInfos />
-                        <ChildEntities>
-                          <Entity type="SourceHolder" subtype="" id="479594cc-2b50-43b6-a512-ebc550665471" name="Source" version="0" dateCreated="11/07/2019 09:32:53" trackingId="4319bc6e-1d25-48fa-9b77-64365c5985e2">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="PouBodySourceHolder" subtype="" id="d2bcce2d-7630-4e7f-936e-577a8254a165" name="PouBodySourceHolder" version="0" dateCreated="11/07/2019 09:32:53" trackingId="6bd4ffce-be21-4361-a0b8-cf268e2916c4">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="3d1d4b46-ebb3-4133-8045-639f5eddb446" name="65c9eb6c-d864-435a-8c82-3f3d6f5cba6a" version="0" dateCreated="11/27/2019 14:08:38" dateLastModified="05/22/2026 10:48:12" trackingId="1bd306be-b5cb-4528-9403-07c93206fa6c">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -3867,7 +3867,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="c4809942-7da0-4cda-95e3-fe26c785b13f" name="Data Types0" version="0" dateCreated="01/21/2025 13:39:45" dateLastModified="05/22/2026 10:46:06" namespace="OBJ" trackingId="28447cca-18cb-4926-8046-4845eb275f0a" hash="db736bb4ff25a7b24f1c8d716ed80ee6">
+              <Entity type="DataType" subtype="" id="c4809942-7da0-4cda-95e3-fe26c785b13f" name="Data Types0" version="0" dateCreated="01/21/2025 13:39:45" dateLastModified="05/22/2026 11:33:32" namespace="OBJ" trackingId="28447cca-18cb-4926-8046-4845eb275f0a" hash="cbc1fcb1edadc3b07b140c44e396bc7e">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="4952aa0e-8dc8-46e9-9174-737cc6422672" name="Source" version="0" dateCreated="01/21/2025 13:39:45" trackingId="9c9e33a3-dc3e-4ee4-a594-d72bb4d1b8b3">
@@ -3957,10 +3957,19 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="34447950-4861-4bf6-b4a7-63af4c3e0713" name="Data Types10" version="0" dateCreated="05/22/2026 08:22:59" dateLastModified="05/22/2026 10:46:06" namespace="OBJ\LOADCELL" trackingId="16874e61-8f05-4fcb-8061-8f1bb9722823" hash="94d19182a78b6e216582941c05f79d71">
+              <Entity type="DataType" subtype="" id="34447950-4861-4bf6-b4a7-63af4c3e0713" name="Data Types10" version="0" dateCreated="05/22/2026 08:22:59" dateLastModified="05/22/2026 12:39:09" namespace="OBJ\LOADCELL" trackingId="16874e61-8f05-4fcb-8061-8f1bb9722823" hash="4c8f13d87b5460d460cb97aacfb2f67e">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="31086a05-9327-47e0-9c10-233a112be2e6" name="Source" version="0" dateCreated="05/22/2026 08:22:59" trackingId="a0db6010-1cb4-46b9-805e-281c9b21f628">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="96946b82-fe06-4a79-9365-212c9dc0bcb1" name="Data Types11" version="0" dateCreated="05/22/2026 10:54:36" dateLastModified="05/22/2026 12:39:09" namespace="OBJ\PANEL" trackingId="edf15212-8033-4dc0-a555-820fc2eb97de" hash="051fdc31ca5334ef2f3661834c0d2345">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="7b8a7bcf-d4e9-47ee-b3f6-336d8c068ac7" name="Source" version="0" dateCreated="05/22/2026 10:54:36" trackingId="e5f89e46-a8cc-49cd-b2b2-a67c36e0dd0f">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>

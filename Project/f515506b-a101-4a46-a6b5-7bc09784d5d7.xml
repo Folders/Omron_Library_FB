@@ -30,7 +30,7 @@ _EN=Variables
 ++D=TIME	N=livingTime	G=VAR
 ++D=TIME	N=transitionTime	G=VAR
 ++D=TIME	N=pulseTime	G=VAR
-++D=OBJ\LOADCELL\Sensor_Force	N=configLoadcell	G=VAR
+++D=OBJ\LOADCELL\Loadcell_Config_Omron	N=configLoadcell	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=Info_General	G=VAR_EXTERNAL
 ++D=BOOL	N=Info_ToDo	G=VAR_EXTERNAL

@@ -9,7 +9,7 @@ _EN=Variables
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Door is working
 ++D=OBJ\DOOR\BASE	N=MyDoor_1	Ord=1	G=VAR_IN_OUT
-++D=OBJ\HMI	N=myHMI	Ord=2	G=VAR_IN_OUT
+++D=OBJ\PANEL\BASE	N=MyPanel	Ord=2	G=VAR_IN_OUT
 ++D=BOOL	N=Activate	Ord=3	G=VAR_INPUT	Com=The door can be changed
 ++D=BOOL	N=Enabled	IV=True	Ord=4	G=VAR_INPUT	Com=The door is mounted in the machine?
 ++D=BOOL	N=AutoLock	IV=True	Ord=5	G=VAR_INPUT	Com=When all doors are closed, lock the doors
