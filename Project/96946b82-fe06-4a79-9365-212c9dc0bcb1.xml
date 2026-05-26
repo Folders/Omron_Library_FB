@@ -13,7 +13,7 @@
       <DataType Name="AsSwitch" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a switch button" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="AsKey" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a key switch" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="IsSafe" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="It's safe button - No usable from HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LampColor" BaseType="BYTE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color of lamp for HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LampColor" BaseType="OBJ\PANEL\eLampColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color of lamp for HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
       <DataType Name="ButtonOn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="External command for button (from HMI)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -24,6 +24,14 @@
       <DataType Name="Lamp" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Switch_Left" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Switch is in left position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Switch_Right" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Switch is in right position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="eLampColor" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="NoColor" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Not define" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="White" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="White lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Green lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Red lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Blue lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ES" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="Emergency stop lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>

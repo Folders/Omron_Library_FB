@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB started
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\PANEL\BASE	N=MyHMI	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Object is used
+++D=BOOL	N=Input_Left	Ord=3	G=VAR_INPUT	Com=Left input of the switch
+++D=BOOL	N=Input_Right	Ord=4	G=VAR_INPUT	Com=Right input of the switch
+++D=BOOL	N=IsNC	IV=False	Ord=5	G=VAR_INPUT	Com=Invert  comportement of switch
+++D=BOOL	N=Lamp_Used	Ord=6	G=VAR_INPUT	Com=Lamp of button is used
+++D=BOOL	N=Lamp	Ord=7	G=VAR_OUTPUT	Com=Light command
+++D=OBJ\PANEL\eLampColor	N=Color	Ord=8	G=VAR_INPUT	Com=Lamp color (1: white, 2: green, 3: red, 4:blue)
+++D=BOOL	N=TestLamp	Ord=9	G=VAR_INPUT	Com=Test lamp
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=T_100ms	G=VAR_EXTERNAL

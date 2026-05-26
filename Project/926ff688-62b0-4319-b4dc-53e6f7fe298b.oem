@@ -2898,6 +2898,223 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="7bdd0f05-ec8d-411b-bb4a-3821d81101e4" name="Panel_ButtonLight" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PClo" comment="Manage a physical button and lamp." namespace="OBJ\PANEL" trackingId="7962c439-4513-4349-8115-08173eeed398" DN="Panel_ButtonLight {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d66e60ff-dbb0-4d41-8741-2ecae4ea1165" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="1301c39d-ea5e-4e99-a1bd-936be02fcf9a" hash="453ec876e8690744637c55ad2f4467f3">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="0a415762-9331-4f9c-81f6-8d80c1e5fb0e" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="dfe39351-e665-434e-aeb4-daf8ace71203">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="e4cc43f3-b87a-499e-8200-134233004b2a" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="31257747-9f29-4593-8d10-bce4f863d4ca">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="6eb7e966-ed5b-4cce-844e-53e0225cee88" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="2f47821f-7b0d-41cb-9c68-c5ba86e84a3e" hash="dcf5d6a0734b1b9a4597ed61fa08157e">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="02e0df3c-bc73-4dc4-95de-88ea829d78ce" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="b0b4eea1-69fc-4a0e-867a-8f7933294e93">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="0ac33fa7-025a-4c71-92cb-1d2a73df9a21" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="18bdf6b0-3e96-4b02-8bc1-9a93672f40c6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="0b5a1aaf-bbf5-44da-bb3b-f8743a5497e9" name="Panel_ButtonLight_Slave" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PClo" comment="Link a new physical button/light with an existing HMI_ButtonLight.&#xD;&#xA;&#xD;&#xA;This button will as the same function" namespace="OBJ\PANEL" trackingId="c4fedc00-81b6-4adc-a84e-1c21ab811405" DN="Panel_ButtonLight_Slave {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="ac3ed0a3-fe0b-4363-b7bb-16645ed8556d" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="6926d301-fa05-4020-86be-40c0f44c781e" hash="7fe80a4a7d4c38219864a0f4d3346e34">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="545b4cc4-3cc3-4eb2-86fd-a071b11f13b4" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="183e93d0-f3c1-4714-b26f-31b9c803c125">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="81eb1646-2924-4a54-8240-28dc0c184864" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="d4334dfb-9917-4666-9f51-6706899a8d8c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="e48159bd-351f-467a-bd2b-39f139fcfc46" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="1fec2d4e-f72a-4965-a6e3-fa5d26a768e3" hash="072da60bbef4fed6ca7a3b295fcf7db8">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="b0e545f6-6f6e-47f9-af92-59490be1454e" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="c9d850c4-2f28-4864-8ce7-caa48f77b9e8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="e275b1cb-ee74-46a3-85bd-87035958cf3f" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="ae6a9a36-9fc8-48ca-bfb2-b7929ddfa80e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="2a74664b-1ac9-4b11-907a-935ddec89b2f" name="Panel_ButtonLight_ES" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PC" comment="Emergency stop button configuration." namespace="OBJ\PANEL" trackingId="9d266dbe-cbeb-4f05-8fdd-54a853647c1c" DN="Panel_ButtonLight_ES {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="fa135d69-511d-4ef9-91dc-df33cf31e67d" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" trackingId="6adb22da-308f-445d-8565-dcb39db59ba6" hash="7124a2d63c58e84fe51c8da96194e083">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="eaf96656-8b75-47c1-838a-c4f53113ff49" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="6ba8de9f-0ecd-41b1-aedb-f4f14457a321">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="45ce41aa-e575-4b63-908c-c0b382a7eca1" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="db56fe9c-9e55-4276-827d-c34393dc2f79">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="c374da8f-2418-4b58-af4a-2ca68c0a9fca" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="fb6b83e8-f455-42aa-85dc-41c0b1ce9a86" hash="7228552899bea274989eb32236ae863d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="0f337350-84d7-4ec2-ba71-116cf6289e4a" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="fa64972d-37d3-4149-8018-7b4f397f7afb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="fd8d34ef-d78a-4f6c-a5c6-27e4691e8a5e" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="35580e30-3584-49e6-ad9b-460ad886042a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="ae2f7249-de94-4120-bcba-1805c84ca8e0" name="Panel_ButtonLight_Set" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PClo" comment="Set/reset button configuration." namespace="OBJ\PANEL" trackingId="575b3120-761b-4379-ac81-7d043546ca3b" DN="Panel_ButtonLight_Set {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="a02a177c-95db-4632-a031-d41df41f0656" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="b8a262cf-38d0-4058-ada4-ebc25d6d8ffc" hash="316e1b6ec3aece02a8c280ddb151ad07">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="8f699a7a-bfd5-41ca-afc2-614d39ae814f" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="0fbc6c08-c4de-43a8-8c59-7c0b4a696591">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f4d6b484-8300-4f7b-9b8c-4174835c0040" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="895cceb0-7d4b-43c0-b201-11cab777e404">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="1a8fdb82-baca-48e9-8910-c8397952f6d1" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="d405b271-1735-445a-a3ca-d2dd2952b664" hash="9f13e035205f3d2f9c44830f83bf0ca5">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="b0f18adc-7eaf-4962-97e6-a0af221aec87" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="4a4a3ad2-9037-4fb9-aff2-0dc0c6b25e8b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="d0340aee-70dd-4f72-9459-719ddafced9f" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="ac256870-4e0a-43ee-8dc5-be9de10adcba">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="6e73f71c-c106-403e-92c0-91f743e3e0c5" name="Panel_ButtonLight_Set_2x" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PClo" comment="Set/reset button configuration for two machine." namespace="OBJ\PANEL" trackingId="6edbb35c-cd90-47ca-a06f-2f8667c17fc6" DN="Panel_ButtonLight_Set_2x {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="daf7deac-674f-4e21-8426-fb7552745ba4" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="3bcb9963-9291-4707-b46f-a2939395cc94" hash="d012ccaf566d8d11e87108cff0271c6f">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="dac0b0fe-31a2-4104-997a-ef9c4d50023a" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="451b9eb6-6656-4d24-80ca-043a081ddbd0">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="c20e7b17-4197-4736-bed2-e2a6cdc552d6" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="653b77dc-695a-4cc7-8d40-57db4a5aac7c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="61d8e057-87a5-48d3-a8b1-4e42ceaf3ad6" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="b7397fed-d185-4911-8abf-b77c238f0b1f" hash="e560826b8e1687e2a9d8b030636c4cee">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="82554d92-5fde-45fc-854b-e3bb258cc377" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="07bd9da8-1175-4dc4-9a72-c9e7f869d8cf">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="0768ead2-2586-4079-95cd-abc144787ab2" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="f02e9077-5334-4f09-ab1b-5c17f8ae20aa">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="eb5b4b74-c21e-4a72-ae7e-8035a809dbdc" name="Panel_Switch_1ch" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PClo" comment="Switch with two position." namespace="OBJ\PANEL" trackingId="b20524ba-6bf9-4b63-9e9b-eccf6485469d" DN="Panel_Switch_1ch {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="e686204b-605f-45dd-a637-dd7fd3e03e53" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="2085e96e-e649-4ef7-9965-408227f44e18" hash="a696817a3718f7c2757c0eb7fe7a0af5">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="b53bb4f6-63f2-4bda-bfb3-a45fef29f5a6" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="9ff45fca-6f04-4b48-9e93-78b219c930bc">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="0c25bf0f-86a5-428f-9093-b78e6d352779" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="d3bf52de-8c07-4b12-b9c1-83af08421856">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="13ceb8d0-b360-4abf-a8b5-4ac424d27b40" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="a42896c9-8782-492f-9a7b-7d7900a0f6a1" hash="c63576cf41452d6ea244664a4f9c0542">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="6d213435-8b50-4bba-a1f3-640415109a00" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="30df8302-89f0-4944-97c8-4315cb1b2108">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="cb6460fe-1717-4c2c-8a1b-664e7681ca54" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="c9b89df0-ea64-406a-8f65-81737a38041a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="892a3e1d-d51a-43d9-826b-d553964cb3b5" name="Panel_Switch_2ch" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:31:23" label="6.0.0" author="PClo" comment="Switch with two position." namespace="OBJ\PANEL" trackingId="259c2d4e-367b-47c6-aebe-cf9600c0affb" DN="Panel_Switch_2ch {OBJ\PANEL}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="bfc9c977-0eda-415b-9b0b-4d233b69344c" name="Variables" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="4045e1fd-da9b-4c72-a4db-ae120fdcc0a0" hash="d2fcae628950d5d84f49ee5f00ad807c">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="b82c46be-8952-4e81-a169-c654a876b2ea" name="PouIFLibrary" version="NaN" dateCreated="05/30/2018 17:36:36" trackingId="63ab020e-d272-4395-8d96-b9fe942094ed">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="5662f1c0-f725-4df8-b42e-3154981a4764" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="7a5e8bfb-ea66-4920-892a-0fd31d54c296">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="925b53db-d2a2-430a-a631-4eb32350bb07" name="LadderBody" version="0" dateCreated="05/30/2018 17:36:36" dateLastModified="05/26/2026 09:54:57" trackingId="d42a73ad-e6f3-472e-abf8-8aa62a9c5c3a" hash="a5acb36578eb9fc44999528c042566d9">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="4dcd3576-62ff-4d43-9074-22da6a4a4f9a" name="Source" version="0" dateCreated="05/30/2018 17:36:36" trackingId="67ff30e1-2910-42d6-b700-2ae9a257942b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="8fc7ecd2-1e75-4b22-99f6-ab08d895b1e4" name="PouBodySourceHolder" version="0" dateCreated="05/30/2018 17:36:36" trackingId="49fe625a-1649-42b0-8196-3716be7f4064">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                   <Entity type="FunctionBlock" subtype="Ladder" id="9bb7c894-3eae-4f30-966b-9b865d8867f1" name="Pneu_Config_Cylinder_SimpleActing" version="0" dateCreated="11/10/2017 11:13:09" dateLastModified="05/08/2026 16:33:33" label="6.0.0" author="PClo" comment="Simple acting cylinder.&#xD;&#xA;One output is used to go out." namespace="OBJ\PNEUMATIC" trackingId="0baa4876-d998-4754-88e1-db9802e5447a" DN="Pneu_Config_Cylinder_SimpleActing {OBJ\PNEUMATIC}">
                     <AccessInfos />
                     <ChildEntities>
@@ -3966,7 +4183,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="96946b82-fe06-4a79-9365-212c9dc0bcb1" name="Data Types11" version="0" dateCreated="05/22/2026 10:54:36" dateLastModified="05/22/2026 12:39:09" namespace="OBJ\PANEL" trackingId="edf15212-8033-4dc0-a555-820fc2eb97de" hash="051fdc31ca5334ef2f3661834c0d2345">
+              <Entity type="DataType" subtype="" id="96946b82-fe06-4a79-9365-212c9dc0bcb1" name="Data Types11" version="0" dateCreated="05/22/2026 10:54:36" dateLastModified="05/26/2026 09:54:57" namespace="OBJ\PANEL" trackingId="edf15212-8033-4dc0-a555-820fc2eb97de" hash="8ae641df38b5a9d6572c368a72341c30">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="7b8a7bcf-d4e9-47ee-b3f6-336d8c068ac7" name="Source" version="0" dateCreated="05/22/2026 10:54:36" trackingId="e5f89e46-a8cc-49cd-b2b2-a67c36e0dd0f">
