@@ -28,28 +28,5 @@
       <DataType Name="Silver" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="23" Comment="Silver (Light white)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="2e1b1245-5b91-4576-9ff7-f9e4ba2abe96" />
       <DataType Name="NoUpdate" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="32" Comment="No update of color" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="33b0ef94-74b3-4e75-8b62-d8bbd462f180" />
     </DataType>
-    <DataType Name="STATUSBAR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="50" OffsetType="NJ" Id="5add85b7-aff2-4045-ac73-0f2a3e0737c2">
-      <DataType Name="Cfg" BaseType="FB_PLC\OBJ\StatusBar_Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d074d64c-1d08-4e41-86b0-fc763593f178" />
-      <DataType Name="Cmd" BaseType="FB_PLC\OBJ\StatusBar_Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="58a537d6-6c44-4b91-af90-e71ff8591bd5" />
-      <DataType Name="Sta" BaseType="FB_PLC\OBJ\StatusBar_Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="051848cb-df74-4f0f-bcda-4a5d5ec06326" />
-      <DataType Name="Xch" BaseType="FB_PLC\OBJ\StatusBar_Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="dc52ec25-9579-4b95-8301-f804d60a70b0" />
-    </DataType>
-    <DataType Name="StatusBar_Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="33" OffsetType="NJ" Id="2fb18154-008d-4db5-aa1f-f287662110b4">
-      <DataType Name="NbObject" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of object requesting DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1935b38d-cf56-4946-befd-1ff5453a1607" />
-      <DataType Name="HasState" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Has a STATE writing status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="8b5997de-edaf-4d31-8b84-cd2b41fd9928" />
-      <DataType Name="HasStatus" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Has a STATUS writing status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="cf01301c-2e59-4a58-b320-8b1faeb20988" />
-    </DataType>
-    <DataType Name="StatusBar_Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="32" OffsetType="NJ" Id="870ae20a-23a4-4754-8729-f4e20f13f336">
-      <DataType Name="Color" BaseType="FB_PLC\OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Chose the color of the status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="147b3196-2fde-4597-bfe3-09498d10e5e2" />
-      <DataType Name="RessourceID" BaseType="String" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Name of the resource of the text to be displayed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="59c65792-2954-46ac-bddc-6664af8010ae" />
-    </DataType>
-    <DataType Name="StatusBar_Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="31" OffsetType="NJ" Id="0123ce87-a996-482c-b08d-2d75923ed29f">
-      <DataType Name="Enabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status bar is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="111d6d23-f512-4e8f-b357-11ed64346f12" />
-      <DataType Name="Update" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status bar is updated" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1f395f4e-9b31-46d0-af22-92fc07c95d36" />
-    </DataType>
-    <DataType Name="StatusBar_Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="30" OffsetType="NJ" Id="88a79452-a5a5-463e-84a4-e63e7db1b02f">
-      <DataType Name="Id" BaseType="UShort" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Instance ID of current requester" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="ec6b4d63-5ea0-4407-b70d-c28836f801d3" />
-      <DataType Name="Rank" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current priority level (Priority on low number)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="d2176b2f-e1e0-42ff-bca5-ead648a906b7" />
-    </DataType>
   </DataType>
 </data>

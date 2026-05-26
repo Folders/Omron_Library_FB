@@ -33,7 +33,7 @@ _EN=Variables
 ++D=OBJ\SENSOR\BASE	N=Sensor_ID_TriState	G=VAR_GLOBAL	Com=Sensor object 2
 ++D=OBJ\SENSOR\BASE	N=Sensor_ID_ToAnalog	G=VAR_GLOBAL	Com=Sensor object 3
 ++D=OBJ\SENSOR\BASE	N=Sensor_AD_Analog	G=VAR_GLOBAL	Com=Sensor object 4
-++D=OBJ\STATUSBAR	N=StatusBar	G=VAR_GLOBAL	Com=Status bar object
+++D=OBJ\STATUSBAR\BASE	N=StatusBar	G=VAR_GLOBAL	Com=Status bar object
 ++D=VibratorTest	N=Vib	G=VAR_GLOBAL
 ++D=OBJ\VIBRATOR\BASE	N=Vib_Rail	G=VAR_GLOBAL	Com=Vibrator object 1
 ++D=FlashlampTest	N=FL	G=VAR_GLOBAL
