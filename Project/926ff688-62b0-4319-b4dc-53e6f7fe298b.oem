@@ -2863,6 +2863,104 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="3c3bb660-a35a-4140-9d27-09b4c228317d" name="Histo_Manager_Alarms" version="0" dateCreated="04/05/2024 16:20:12" dateLastModified="05/26/2026 16:18:42" label="6.0.0" author="PClo" comment="Manage insertion of alarms in database.&#xD;&#xA;&#xD;&#xA;You must create a global variable &quot;HistoAlarm&quot; as &quot;OBJ\HISTO\ALARM\BASE&quot;." namespace="OBJ\HISTO\ALARM" usingNamespaces="OBJ\DB&#xD;&#xA;" trackingId="1af0bfaa-10c4-49f9-85db-32a6ee26cb12" DN="Histo_Manager_Alarms {OBJ\HISTO\ALARM}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="9e8b05f0-4d73-4aef-ad93-c22416069dab" name="Variables" version="0" dateCreated="04/05/2024 16:20:12" dateLastModified="05/26/2026 16:18:42" trackingId="5d4c9e0f-f186-4133-b07d-338bcdb9d692" hash="17f1dbd9db573c6eb68911c88e4efd1f">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="f4bad094-d465-4bf2-9efd-169e34a0b557" name="PouIFLibrary" version="NaN" dateCreated="04/05/2024 16:20:12" trackingId="7ed9f4f8-8e47-49bb-a2bc-0f5db2601384">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="bad09d78-72c7-42e2-8b12-e3778a1627b8" name="Source" version="0" dateCreated="04/05/2024 16:20:12" trackingId="ee1827bf-7075-4f00-845b-b9aa6d0b3fd5">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="2f221744-f6a5-402f-86f5-0aca737f94f1" name="LadderBody" version="0" dateCreated="04/05/2024 16:20:12" dateLastModified="05/26/2026 16:18:42" trackingId="b7aa088b-5c40-4116-8aaf-aeb3fb1a1804" hash="8a66f3e0afebac0d3e8244554158249d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a35dc0cb-93f2-49c6-a9d7-600a850a2927" name="Source" version="0" dateCreated="04/05/2024 16:20:12" trackingId="687f0889-6446-460a-809d-85a05a6241cb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="21edf60e-ded6-4c7f-b601-7234b5e8e074" name="PouBodySourceHolder" version="0" dateCreated="04/05/2024 16:20:12" trackingId="71dee521-c655-4481-8374-e6a1d0821804">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="9253a26b-d37b-4bf1-a0b9-20035a2aa8c1" name="942255e5-21d3-4017-9a15-7ec6971e09fe" version="0" dateCreated="05/16/2024 14:36:19" dateLastModified="05/26/2026 16:18:42" trackingId="8f218a29-b511-4849-9f8e-afc5301ef8ea">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="75c02294-cc57-4088-93db-3ed62901722d" name="554fec1f-b2dd-41f6-a448-9b75071e7d0b" version="0" dateCreated="05/16/2024 14:36:19" dateLastModified="05/26/2026 16:18:42" trackingId="114b8c6b-c36a-44e4-9a74-039ecbcfa9a4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="ff1c0859-1b30-4d39-b18f-a8d37d62ac18" name="ab74a935-a6af-42c9-9393-97d7a53b0299" version="0" dateCreated="06/14/2024 11:10:22" dateLastModified="05/26/2026 16:18:42" trackingId="dc979e4c-363e-4771-8c50-78e91c2c9513">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="216e5c08-7ebc-4be1-9cf2-7ed353384104" name="94a08490-a195-4a31-9ab7-ce7df75c4a99" version="0" dateCreated="06/14/2024 11:10:23" dateLastModified="05/26/2026 16:18:42" trackingId="078f7c3a-a553-40a3-9412-e103ee94949d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="c6f801ae-41d0-48c6-bb47-06705efdddf5" name="Histo_Alarm" version="0" dateCreated="04/05/2024 16:20:12" dateLastModified="05/26/2026 16:18:42" label="6.0.0" author="PClo" comment="Log an alarm in DB.&#xD;&#xA;Optimized for ladder" namespace="OBJ\HISTO\ALARM" usingNamespaces="OBJ\DB&#xD;&#xA;" trackingId="a401f949-5d64-47c7-939b-5a948a2c0d3f" DN="Histo_Alarm {OBJ\HISTO\ALARM}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="9cd28bfa-385e-499a-ae93-97654239546b" name="Variables" version="0" dateCreated="04/05/2024 16:20:12" dateLastModified="05/26/2026 16:18:42" trackingId="6f24507e-d037-4397-85ba-e552faa9d424" hash="deba6910e52b1692b06c20c4e93edbd3">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="b5596eb7-988b-4a17-b5b9-cf99bd45d2c4" name="PouIFLibrary" version="NaN" dateCreated="04/05/2024 16:20:12" trackingId="604ce665-4caa-4156-a91f-1f81528286e7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f115b164-b480-4fbe-81da-642c38f72b52" name="Source" version="0" dateCreated="04/05/2024 16:20:12" trackingId="5659114f-5a1d-40f9-8437-77c02d5c5d53">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="e3d2750d-91c4-4017-9550-4d50ad4d9100" name="LadderBody" version="0" dateCreated="04/05/2024 16:20:12" dateLastModified="05/26/2026 16:18:42" trackingId="e469c097-cd6c-4b7d-9117-cab089ae90e9" hash="90127c17a475ef31423db945fbf7d9f7">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="f8b4edcd-ba21-41ba-8544-1a6932c6fb74" name="Source" version="0" dateCreated="04/05/2024 16:20:12" trackingId="375da754-f648-428d-b146-12496dafad10">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="12b79377-d3e0-4c66-95f8-42bcf7d63d14" name="PouBodySourceHolder" version="0" dateCreated="04/05/2024 16:20:12" trackingId="016449a9-dbfe-4d07-a5b1-1308b8c732e5">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="5247af8d-24ff-4372-9955-ea96024ae234" name="b2e73769-50d3-4769-ac72-dc4e2972ac8d" version="0" dateCreated="05/16/2024 16:34:16" dateLastModified="05/26/2026 16:18:42" trackingId="4ec2d04d-c4cc-44f5-a895-0879f73a9938">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="2ea75835-0ceb-4034-b4cc-7aa705d80a9d" name="37250a9d-27e5-4d23-8636-a98d08758025" version="0" dateCreated="05/16/2024 16:39:11" dateLastModified="05/26/2026 16:18:42" trackingId="fea08bbc-4711-4830-989d-20a69511319c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="432b43ba-e864-49b1-8f04-56fada386d31" name="2dedc3c8-2204-4993-b1ae-cb1390d6bad3" version="0" dateCreated="05/16/2024 16:49:48" dateLastModified="05/26/2026 16:18:42" trackingId="0372e013-3e60-47ae-9615-345ca7241dbd">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="3fa795de-a5b3-4a1b-a6fe-bba439511407" name="7934c6a6-9ad1-4bce-af3e-fe4650eec10f" version="0" dateCreated="05/17/2024 09:00:44" dateLastModified="05/26/2026 16:18:42" trackingId="87322c4e-7ea5-4dc2-9849-ff80f53b8287">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="5ee82ec9-c02d-4d11-982b-f84083320f8e" name="4af8158c-662b-4af1-a275-2c206927719f" version="0" dateCreated="05/17/2024 09:26:50" dateLastModified="05/26/2026 16:18:42" trackingId="e3e55a8c-a4e6-4f78-8bb5-4d5de0fca2c1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                   <Entity type="FunctionBlock" subtype="Ladder" id="05534e18-3744-442f-be2b-0a20546c6f28" name="Loadcell_Config_Omron" version="0" dateCreated="11/07/2019 09:32:53" dateLastModified="05/22/2026 12:39:09" label="6.0.0" author="StV" comment="Configuration of a load cell from NX-RS1201 card." namespace="OBJ\LOADCELL" trackingId="b4865909-15bb-415f-af9f-64c4dbba9eeb" DN="Loadcell_Config_Omron {OBJ\LOADCELL}">
                     <AccessInfos />
                     <ChildEntities>
@@ -3214,7 +3312,7 @@
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="8ddede74-06bd-44ce-bd4e-9ccd6e900d2a" name="Variables" version="0" dateCreated="01/22/2025 11:22:26" dateLastModified="05/08/2026 14:30:06" trackingId="19a6ff6a-dd91-4342-99bb-b4399a9f2e30" hash="fb88bf5f5d8aedfe37c698028dea38de">
                         <AccessInfos />
                         <ChildEntities>
-                          <Entity type="PouIFLibraryHolder" subtype="" id="f078b11d-8d47-4ac1-91cb-622c7d50067e" name="PouIFLibrary" version="0" dateCreated="01/22/2025 11:22:26" trackingId="5744fd27-6c18-42b4-a610-78414fca05ba">
+                          <Entity type="PouIFLibraryHolder" subtype="" id="f078b11d-8d47-4ac1-91cb-622c7d50067e" name="PouIFLibrary" version="NaN" dateCreated="01/22/2025 11:22:26" trackingId="5744fd27-6c18-42b4-a610-78414fca05ba">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -4075,7 +4173,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="Variables" subtype="Global" id="f12e432e-361d-476d-bc9a-32c5145ec48b" name="Global Variables" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="05/26/2026 10:01:05" trackingId="177f5ffd-6b0e-4616-a96f-d8942908e985" DN="Global Variables" hash="1615c7c100b2d5beabd7495fe98bb85c">
+              <Entity type="Variables" subtype="Global" id="f12e432e-361d-476d-bc9a-32c5145ec48b" name="Global Variables" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="05/26/2026 16:18:42" trackingId="177f5ffd-6b0e-4616-a96f-d8942908e985" DN="Global Variables" hash="af9e1f3ff88c2734914d965a53850af2">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="25eecdf0-8666-458e-bc93-4030b5684327" name="Source" version="0" dateCreated="01/21/2025 13:32:53" trackingId="9ebef0b2-958d-4742-9de9-c84ded0107f7">
@@ -4201,6 +4299,42 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
+              <Entity type="DataType" subtype="" id="5a05b66f-156d-4199-96ac-15e287c2facf" name="Data Types13" version="0" dateCreated="05/26/2026 14:13:55" dateLastModified="05/26/2026 14:45:43" namespace="OBJ\HISTO" trackingId="df2cc435-6271-4241-b889-c8d8998c8cf5" hash="21292954f0bc6f1e2b9cb7e5e687b6cb">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="5df3a573-9217-4cba-be78-294c7df660f8" name="Source" version="0" dateCreated="05/26/2026 14:13:55" trackingId="55f202a3-6acf-401c-81be-7d4da0d19242">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="6c85b3cf-7749-4847-9996-f96aff65d2fb" name="Data Types14" version="0" dateCreated="05/26/2026 14:15:04" dateLastModified="05/26/2026 16:18:42" namespace="OBJ\HISTO\ALARM" trackingId="0c7f6c26-e13e-4744-9c83-809302dfb9d0" hash="b4a3ead6cb58397b6a28b60ec30ebd32">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="ff8c331b-eb9b-4da0-9038-fca572dd94fe" name="Source" version="0" dateCreated="05/26/2026 14:15:04" trackingId="85282997-f694-4611-ad7c-d15576b9d2af">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="ace31bb2-2d2e-4dda-b941-e59a56d148ac" name="Data Types15" version="0" dateCreated="05/26/2026 14:15:20" dateLastModified="05/26/2026 14:45:43" namespace="OBJ\HISTO\PARAM" trackingId="0ca5db56-3978-44eb-b0b2-82eace78a8e9" hash="cbc5b7a55dcb379c285beaae617bcf7b">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="e5158e9d-1f9d-4d35-81c9-98ee1d29aba5" name="Source" version="0" dateCreated="05/26/2026 14:15:20" trackingId="56d52f2a-4d4b-4bea-853a-a60b99c9881c">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="dd60963e-bef0-4325-b3a1-b449d3026b6b" name="Data Types16" version="0" dateCreated="05/26/2026 14:15:31" dateLastModified="05/26/2026 14:45:43" namespace="OBJ\HISTO\STATE" trackingId="10b1318b-79a1-4010-8d47-67781dafa4b8" hash="120ef5d125e8d765270f50c1d7c8f904">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="ee023a35-3d7a-49b0-b150-08b6b0b271b9" name="Source" version="0" dateCreated="05/26/2026 14:15:31" trackingId="a3497749-7d7a-4164-bead-d86576538389">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
             </ChildEntities>
           </Entity>
           <Entity type="Group" subtype="NexIecTasks" id="3237385a-430b-43ba-8fa5-3d6ee597b8ba" name="Tasks" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="01/21/2025 13:32:54" trackingId="64954ea6-7bcc-440b-95cf-a0c385e36621" DN="Tasks">
@@ -4255,7 +4389,7 @@
           </Entity>
         </ChildEntities>
       </Entity>
-      <Entity type="Device" subtype="NA" id="4c4ac903-cd50-44aa-9088-dd18be0af5ae" name="FB_HMI" version="0" dateCreated="01/22/2025 16:14:23" dateLastModified="01/22/2025 16:16:49" trackingId="7d549946-83f1-438a-b513-0e0d64a7d4a5" DN="FB_HMI" hash="1153baba1b5286328427decb6a841e38" DHS="42ab0f85fdd3b31a6aef3d7bbbb46cfa" TH="b7628c69e917052d3689df23e2069783">
+      <Entity type="Device" subtype="NA" id="4c4ac903-cd50-44aa-9088-dd18be0af5ae" name="FB_HMI" version="0" dateCreated="01/22/2025 16:14:23" dateLastModified="01/22/2025 16:16:49" trackingId="7d549946-83f1-438a-b513-0e0d64a7d4a5" DN="FB_HMI" hash="1153baba1b5286328427decb6a841e38" DHS="64ea6357943523a130072d4e2e02b067" TH="61896699acce8a912eac30a424b38d7d">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="c6e9c845-1b40-436f-8858-49e7e0fff7b1" name="Watch" version="0" dateCreated="01/22/2025 16:14:23" trackingId="e310bd40-47a1-42a6-a94e-80ad801aebae">
@@ -4387,6 +4521,24 @@
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="de247acd-0d87-45fa-8803-8c8f74dec509" name="Source" version="0" dateCreated="05/26/2026 10:01:05" dateLastModified="05/26/2026 10:01:05" trackingId="2fed7a4b-3dcc-4ee4-9502-04db5bea6ca2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="DataType" subtype="" id="e7129c34-892b-4a90-92b5-25c84b162df9" name="Data Types13" version="0" dateCreated="05/26/2026 16:18:42" dateLastModified="05/26/2026 16:18:42" namespace="OBJ\HISTO\ALARM" trackingId="3ca88e73-a8d2-4ab5-992e-db620ea74b73">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="62549c94-27a5-4dcb-9913-9ab6db5aa8d5" name="Source" version="0" dateCreated="05/26/2026 16:18:42" dateLastModified="05/26/2026 16:18:42" trackingId="9b9fbfde-dce8-436b-9ecc-c6e161eed2d0">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="DataType" subtype="" id="58875675-2a07-4a58-b6c7-72fa869413e9" name="Data Types14" version="0" dateCreated="05/26/2026 16:18:42" dateLastModified="05/26/2026 16:18:42" namespace="OBJ\HISTO" trackingId="7ebed2f2-13a2-4ca6-9325-bc12d5683361" hash="26416cd269e690bb5ae8103595b6dc9d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="7756fc09-7bd1-4b9b-b763-a4b2d1648adf" name="Source" version="0" dateCreated="05/26/2026 16:18:42" dateLastModified="05/26/2026 16:18:42" trackingId="48c3ff87-408f-4c9d-8c27-888c924a8316">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>

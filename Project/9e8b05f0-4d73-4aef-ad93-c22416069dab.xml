@@ -1,0 +1,57 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=_eDBC_SQLTYPE	N=SELECT	IV=_DBC_SQLTYPE_SELECT	Const=1	G=VAR	Com=SQLTYPE_SELECT
+++D=_eDBC_SQLTYPE	N=INS	IV=_DBC_SQLTYPE_INSERT	Const=1	G=VAR	Com=SQLTYPE_INSERT
+++D=BOOL	N=started	G=VAR	Com=FB started info
+++D=UINT	N=limitAlarm	G=VAR	Com=Limit size to generate alarms
+++D=STRING[100]	N=where	G=VAR	Com=WHERE SQL parameter
+++D=STRING[15]	N=TABLE_MESSAGE	IV='AlarmMessage'	Const=1	G=VAR	Com=Name of table in general DB with alarms text
+++D=OBJ\DB\DB_Connect_withMgr	N=msgConnect	G=VAR
+++D=BOOL	N=msgNewLine	G=VAR	Com=Get insert Id
+++D=OBJ\HISTO\ALARM\FlatDB_Text_Select	N=msgMap	G=VAR
+++D=DB_CreateMapping	N=msgMapping	G=VAR
+++D=DB_Select	N=msgSelect	G=VAR	Com=Check if the message is found in DB
+++D=DINT	N=msgCount	G=VAR	Com=Number of message found
+++D=OBJ\HISTO\ALARM\FlatDB_Text_Insert	N=msgMap_Insert	G=VAR
+++D=DB_CreateMapping	N=msgMapping_Insert	G=VAR
+++D=DB_Insert	N=msgInsert	G=VAR
+++D=OBJ\DB\DB_Close_withMgr	N=msgClose	G=VAR
+++D=STRING[15]	N=TABLE_GROUP	IV='AlarmGroup'	Const=1	G=VAR	Com=Name of table in general DB with alarms group
+++D=OBJ\DB\DB_Connect_withMgr	N=grpConnect	G=VAR
+++D=BOOL	N=grpNewLine	G=VAR	Com=Get insert Id
+++D=OBJ\HISTO\ALARM\FlatDB_Text_Select	N=grpMap	G=VAR
+++D=DB_CreateMapping	N=grpMapping	G=VAR
+++D=DB_Select	N=grpSelect	G=VAR	Com=Check if the group is found in DB
+++D=DINT	N=grpCound	G=VAR	Com=Number of group found
+++D=OBJ\HISTO\ALARM\FlatDB_Text_Insert	N=grpMap_Insert	G=VAR
+++D=DB_CreateMapping	N=grpMapping_Insert	G=VAR
+++D=DB_Insert	N=grpInsert	G=VAR
+++D=OBJ\DB\DB_Close_withMgr	N=grpClose	G=VAR
+++D=STRING[15]	N=TABLE_ALARM	IV='HistoAlarm'	Ord=3	Const=1	G=VAR	Com=Name of table in machine DB to log alarms
+++D=INT	N=s	G=VAR	Com=Step
+++D=OBJ\DB\DB_Connect_withMgr	N=connectDB	G=VAR
+++D=BOOL	N=externalRequest	G=VAR	Com=DB connection is requested by other instance
+++D=BOOL	N=connected	G=VAR	Com=Connected to DB
+++D=OBJ\HISTO\ALARM\Buffer	N=outVal	G=VAR	Com=First alarm from buffer to log
+++D=OBJ\HISTO\ALARM\FlatDB	N=mapVar	G=VAR	Com=Flat DB structure
+++D=DB_CreateMapping	N=mappingVar	G=VAR
+++D=DB_Insert	N=insertVar	G=VAR
+++D=OBJ\DB\DB_Close_withMgr	N=closeDB	G=VAR
+++D=TON	N=ltFault	G=VAR
+++D=UINT	N=pos	G=VAR
+++D=STRING[4]	N=currentChar	G=VAR
+++D=BOOL	N=insertionFault	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=Machine DB
+++D=OBJ\DB\BASE	N=MyDB_General	Ord=2	G=VAR_IN_OUT	Com=Global DB
+++D=DINT	N=Id_Reference	Ord=3	G=VAR_INPUT	Com=Id of product reference
+++D=DINT	N=Id_Order	Ord=4	G=VAR_INPUT	Com=Id of fabrication order
+++D=DINT	N=Id_Machine	Ord=5	G=VAR_INPUT	Com=Id of the machine
+++D=DINT	N=Id_User	Ord=6	G=VAR_INPUT	Com=Id of user logged in machine
+++D=BOOL	N=Enable	Ord=7	G=VAR_INPUT	Com=Enabled the history manager
+++D=BOOL	N=Intervention	Ord=8	G=VAR_INPUT	Com=Machine state to get the time before intervention
+++D=BOOL	N=MachineRestart	Ord=9	G=VAR_INPUT	Com=Machine state to get the intervention duration
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\HISTO\ALARM\BASE	N=HistoAlarm	G=VAR_EXTERNAL

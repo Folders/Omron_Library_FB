@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB started info
+++D=BOOL	N=active	G=VAR	Com=Alarm is active
+++D=INT	N=s	G=VAR	Com=Step
+++D=OBJ\HISTO\ALARM\Buffer	N=data	G=VAR	Com=Data to log in buffer
+++D=UINT	N=id	G=VAR	Com=Local id of instance
+++D=USINT	N=intervention	Ord=6	G=VAR	Com=Machine state to get the time before intervention
+++D=USINT	N=machineRestart	Ord=6	G=VAR	Com=Machine state to get the intervention duration
+++D=DATE_AND_TIME	N=interventionTime	G=VAR
+++D=BOOL	N=ready	G=VAR	Com=FB is ready to work
+++D=UINT	N=id_Msg	R=1	G=VAR	Com=Index of message in DB
+++D=UINT	N=id_Group	R=1	G=VAR	Com=Index of group in DB
+++D=BOOL	N=request_MsgId	G=VAR	Com=FB request the id of a message
+++D=BOOL	N=request_GrpId	G=VAR	Com=FB request the id of a group
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Msg	Ord=0	G=VAR_OUTPUT	Com=Output for coil message
+++D=BOOL	N=Alarm	Ord=1	G=VAR_INPUT	Com=Alarm to log
+++D=BOOL	N=Ack	IV=False	Ord=2	G=VAR_INPUT	Com=Alarm must be acknowledged
+++D=STRING[100]	N=Group	Ord=3	G=VAR_INPUT	Com=Group of the alarm
+++D=STRING[100]	N=Message	Ord=4	G=VAR_INPUT	Com=Message of the alarm
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\HISTO\ALARM\BASE	N=HistoAlarm	G=VAR_EXTERNAL

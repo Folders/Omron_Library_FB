@@ -23,6 +23,7 @@ _EN=Variables
 ++D=OBJ\DOOR\BASE	N=Door_Right	G=VAR_GLOBAL	Com=Right door
 ++D=OBJ\DB\BASE	N=DB_General	G=VAR_GLOBAL	Com=Database general
 ++D=OBJ\DB\BASE	N=DB_Machine	G=VAR_GLOBAL	Com=Database of machine
+++D=OBJ\HISTO\ALARM\BASE	N=HistoAlarm	G=VAR_GLOBAL	Com=Database of machine
 ++D=FlatDB\Users	N=UserDB	G=VAR_GLOBAL	Com=User flat structure for DB
 ++D=PneuTest	N=Pneu	G=VAR_GLOBAL
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
