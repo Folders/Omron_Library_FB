@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="74" OffsetType="NJ" Id="29dd47ea-04fc-45c6-be07-c1eadfcfcc41">
+      <DataType Name="Cfg" BaseType="FB_PLC\OBJ\STATUSBAR\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="89340995-b03b-459f-9248-2579cbb71485" />
+      <DataType Name="Cmd" BaseType="FB_PLC\OBJ\STATUSBAR\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b95aeb98-f19a-49c5-a8d5-adbd257d692c" />
+      <DataType Name="Sta" BaseType="FB_PLC\OBJ\STATUSBAR\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5809e150-d34f-48e6-bf8a-61c53816daf7" />
+      <DataType Name="Xch" BaseType="FB_PLC\OBJ\STATUSBAR\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="0881abe5-c175-4bc2-800e-333ff9e936dc" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="23" OffsetType="NJ" Id="641fb83f-4923-4e25-bb88-7c1f0af533b3">
+      <DataType Name="NbObject" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of object requesting DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="fa1b255b-deab-4f96-b796-afa098350428" />
+      <DataType Name="HasState" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Has a STATE writing status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="67d4153a-f623-412c-9563-263ada0e2aac" />
+      <DataType Name="HasStatus" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Has a STATUS writing status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="17ae7876-994f-432b-a3ec-6ed09c8b4c36" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="22" OffsetType="NJ" Id="4dd55dc4-121b-435c-b9ed-c690c94d95f7">
+      <DataType Name="Color" BaseType="FB_PLC\OBJ\eColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Chose the color of the status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="c2022058-48cc-44ba-9cbe-289cb607239e" />
+      <DataType Name="RessourceID" BaseType="String" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Name of the resource of the text to be displayed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5584db6c-9301-435e-b370-6cf5a6d50317" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="21" OffsetType="NJ" Id="c15496f9-bc23-4c67-973c-210c1ede923e">
+      <DataType Name="Enabled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status bar is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="46effc69-ceab-4622-9cc9-72dd5418d9a0" />
+      <DataType Name="Update" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status bar is updated" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="5981f618-844c-42f4-accf-6c8d0ce7fcd8" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ" Id="06d30a6d-b8e0-4189-8785-923c048ca181">
+      <DataType Name="Id" BaseType="UShort" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Instance ID of current requester" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b3608aed-5a9d-4343-b71f-ef0d8b303770" />
+      <DataType Name="Rank" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current priority level (Priority on low number)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b507a568-adf4-4ba7-bf72-7f2cc75b59e5" />
+    </DataType>
+  </DataType>
+</data>

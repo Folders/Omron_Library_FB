@@ -1,0 +1,16 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB started info
+++D=BOOL	N=run	G=VAR	Com=Comparaison is running
+++D=BOOL	N=ready	G=VAR	Com=FB is parametred and ready to work
+++D=OBJ\HISTO\PARAM\Buffer	N=data	G=VAR
+++D=STRING[100]	N=valueBackup	G=VAR	Com=Backup of value
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT	Com=Enabled the history manager
+++D=BOOL	N=OnChange	Ord=1	G=VAR_OUTPUT	Com=Value as changed
+++D=STRING[100]	N=Value	Ord=2	G=VAR_INPUT	Com=Variable to watch
+++D=STRING[100]	N=Name	Ord=3	G=VAR_INPUT	Com=Name of the parameter
+++D=OBJ\HISTO\PARAM\eCatergoryParam	N=Category	Ord=4	G=VAR_INPUT	Com=Familly of the parameter
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\HISTO\PARAM\BASE	N=HistoParam	G=VAR_EXTERNAL

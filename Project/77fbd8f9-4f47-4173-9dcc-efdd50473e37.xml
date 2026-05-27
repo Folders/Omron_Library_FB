@@ -1,0 +1,33 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=Started	G=VAR	Com=FB started info
+++D=INT	N=S	G=VAR	Com=Step
+++D=UINT	N=Ind_Pos	G=VAR	Com=Index of the readed parameter
+++D=OBJ\HISTO\PARAM\FlatDB	N=MapVar	G=VAR	Com=Flat structure for DB writting
+++D=DB_CreateMapping	N=Map_Insert	G=VAR
+++D=DB_Insert	N=Save_Insert	G=VAR
+++D=OBJ\DB\DB_Connect_WithMgr	N=ConnDB	G=VAR
+++D=OBJ\DB\DB_Close_WithMgr	N=CloseDB	G=VAR
+++D=BOOL	N=Connected	G=VAR	Com=Connected to DB
+++D=OBJ\HISTO\PARAM\Buffer	N=Data	G=VAR
+++D=BOOL	N=ExternalRequest	G=VAR	Com=An external DB request is ask
+++D=WORD	N=ErreurID	G=VAR
+++D=BOOL	N=Error	G=VAR	Com=Mapping error
+++D=TON	N=LT_Fault	G=VAR
+++D=STRING[15]	N=TableName	IV='HistoParam'	Ord=2	Const=1	G=VAR	Com=Name of the table in DB
+++D=OBJ\DB\DB_Connect_WithMgr	N=dbConnect	G=VAR
+++D=DB_CreateMapping	N=dbMapping	G=VAR
+++D=DB_Insert	N=dbInsert	G=VAR
+++D=OBJ\DB\DB_Close_WithMgr	N=dbClose	G=VAR
+++D=BOOL	N=fault	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=History manager object
+++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Enabled the history manager
+++D=DINT	N=Id_Reference	Ord=3	G=VAR_INPUT	Com=Id of product reference
+++D=DINT	N=Id_WorkOrder	Ord=4	G=VAR_INPUT	Com=Id of work order
+++D=DINT	N=Id_Machine	Ord=5	G=VAR_INPUT	Com=Id of the machine
+++D=DINT	N=Id_User	Ord=6	G=VAR_INPUT	Com=Id of user logged in machine
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\HISTO\PARAM\BASE	N=HistoParam	G=VAR_EXTERNAL
