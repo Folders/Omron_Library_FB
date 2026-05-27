@@ -1,0 +1,29 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=Started	G=VAR	Com=FB started info
+++D=UINT	N=limitAlarm	G=VAR	Com=Limit size to generate alarms
+++D=OBJ\STATE\eState	N=backupState	G=VAR	Com=Backup of machine state to check for update
+++D=OBJ\HISTO\STATE\FlatDB	N=data	G=VAR	Com=Flat DB structure
+++D=INT	N=s	G=VAR	Com=Step
+++D=OBJ\HISTO\STATE\FlatDB	N=mapVar	G=VAR	Com=Flat DB structure
+++D=BOOL	N=connected	G=VAR	Com=Connected to DB
+++D=BOOL	N=externalRequest	G=VAR	Com=DB connection is requested by other instance
+++D=STRING[15]	N=TABLE	IV='HistoState'	Ord=2	Const=1	G=VAR	Com=Name of the table in DB
+++D=OBJ\DB\DB_Connect_WithMgr	N=dbConnect	G=VAR
+++D=DB_CreateMapping	N=dbMapping	G=VAR
+++D=DB_Insert	N=dbInsert	G=VAR
+++D=OBJ\DB\DB_Close_WithMgr	N=CloseDB	G=VAR
+++D=TON	N=LT_Fault	G=VAR
+++D=BOOL	N=default	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=DB manager object
+++D=DINT	N=Id_WorkOrder	Ord=2	G=VAR_INPUT	Com=Current work order identifier
+++D=DINT	N=Id_Product	Ord=3	G=VAR_INPUT	Com=Current manufactured product identifier
+++D=DINT	N=Id_Machine	Ord=4	G=VAR_INPUT	Com=Current machine identifier
+++D=DINT	N=Id_User	Ord=5	G=VAR_INPUT	Com=Current logged user identifier
+++D=BOOL	N=Enable	Ord=6	G=VAR_INPUT	Com=Enabled the history manager
+++D=OBJ\STATE\BASE	N=MachineState	Ord=7	G=VAR_INPUT	Com=Machine state to log
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\HISTO\STATE\BASE	N=HistoState	G=VAR_EXTERNAL

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types14" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Histo alarms" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="73" OffsetType="NJ">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Histo alarms" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="78" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\HISTO\ALARM\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd" BaseType="OBJ\HISTO\ALARM\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\HISTO\ALARM\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Msg" BaseType="OBJ\HISTO\ALARM\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="message -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\HISTO\ALARM\Messages" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="message -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Buffer" BaseType="ARRAY[0..19] OF OBJ\HISTO\ALARM\Buffer" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="buffer -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Size" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Size of buffer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Num" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of alarms in buffer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="19" OffsetType="NJ">
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="23" OffsetType="NJ">
       <DataType Name="AsMgr" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Manager is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="NbAlarms" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current number of alarms watched" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="18" OffsetType="NJ">
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="22" OffsetType="NJ">
       <DataType Name="Request_GrpId" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Request id for a group" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Request_MsgId" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Request id for a message" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="UpdateText" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Every FB will update the text Id" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Group" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Group of the alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Message" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Message of the alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="NJ">
+    <DataType Name="Messages" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ">
       <DataType Name="TooMuchMgr" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="More then one manager are instantiated" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="BufferFull" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Too much alarm in buffer - Alarm not log" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="BufferAlmostFull" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buffer is almost full - Incrase the size of buffer?" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -29,7 +29,7 @@
       <DataType Name="Id_Group" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id in DB of group" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_Message" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id in DB of group" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="17" OffsetType="NJ">
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="21" OffsetType="NJ">
       <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="History alarms manager is ready to work " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Busy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="History alarms manager is sending datas to DB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Running" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="History manager is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -44,7 +44,7 @@
       <DataType Name="Id_Message" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id in DB of group" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Counter" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Counter of alarms" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Buffer" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ">
+    <DataType Name="Buffer" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="19" OffsetType="NJ">
       <DataType Name="Id" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Local id of alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="StartTime" BaseType="DATE_AND_TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="DT when alarm is active" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_Group" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id in DB of group" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -53,23 +53,23 @@
       <DataType Name="Duration_Intervention" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Intervention duration [s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Duration_Alarm" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm duration [s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="FlatDB" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flat structure for DB mapping" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="72" OffsetType="NJ">
+    <DataType Name="FlatDB" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Flat structure for DB mapping" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="77" OffsetType="NJ">
       <DataType Name="DateLOC" BaseType="DATE_AND_TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="DT when parameter value change" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Id_Reference" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of product reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Id_OF" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of fabrication order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Id_User" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of current user logged" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Id_Machine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of current machine" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_WorkOrder" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of the current production work order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_Product" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of product reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_Machine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of the machine generating the event" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_User" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of the currently logged user" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_Group" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm - Id of the alarm family" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_Message" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm - Id of the message alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Duration_Waiting" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Duration before intervention [s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Duration_Intervention" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Duration of the intervention [s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Duration_Alarm" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Duration of the alarms [s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="FlatDB_Text_Select" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Get Id of alarm text" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="71" OffsetType="NJ">
+    <DataType Name="FlatDB_Text_Select" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Get Id of alarm text" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="76" OffsetType="NJ">
       <DataType Name="Id" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm Id" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Value" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm message" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="FlatDB_Text_Insert" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Create new alarm text" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="70" OffsetType="NJ">
+    <DataType Name="FlatDB_Text_Insert" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Create new alarm text" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="75" OffsetType="NJ">
       <DataType Name="Value" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Alarm message" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>

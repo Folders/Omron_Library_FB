@@ -17,7 +17,7 @@ _EN=Variables
 ++D=REAL	N=Output_Min	IV=0	Ord=6	G=VAR_INPUT	Com=Output value at minimum input value [u]
 ++D=REAL	N=Output_Max	IV=100	Ord=7	G=VAR_INPUT	Com=Output value at maximum input value [u]
 ++D=REAL	N=Offset	IV=0.0	Ord=8	G=VAR_INPUT	Com=Offset added to output value [u]
-++D=STRING[6]	N=Unit	Ord=9	G=VAR_INPUT	Com=User unity of output
+++D=STRING[6]	N=Unit	Ord=9	G=VAR_INPUT	Com=User unity of output (init)
 ++D=REAL	N=Average	IV=0	Ord=10	G=VAR_INPUT	Com=Number of value to average
 ++D=BOOL	N=Use_Teaching	Ord=11	G=VAR_INPUT	Com=The sensor can be teached
 ++D=BOOL	N=Use_Limit	Ord=12	G=VAR_INPUT	Com=The output is limited with the min and max value

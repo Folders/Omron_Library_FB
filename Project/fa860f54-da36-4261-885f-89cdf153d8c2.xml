@@ -8,15 +8,16 @@
     </ExecutionConditionCJUnit>
   </GeneralSettingsData>
   <Programs>
-    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="7" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Pneumatic" InstanceName="Pneumatic" IniFileTrackingId="de515813177c425c84378ba1591f6b28" StartupSetting="TRUE" SequenceNumber="8" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="Buzzer" InstanceName="Buzzer" IniFileTrackingId="9b87520733154c7c909a48b1560cbe4d" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="Vibrator" InstanceName="Vibrator" IniFileTrackingId="69ae199d0c2f4f34828319d36eccf4a3" StartupSetting="TRUE" SequenceNumber="9" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Vibrator" InstanceName="Vibrator" IniFileTrackingId="69ae199d0c2f4f34828319d36eccf4a3" StartupSetting="TRUE" SequenceNumber="10" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="FlashLamp" InstanceName="FlashLamp" IniFileTrackingId="4b25aca3ad164e3d88d306b3d3d5443d" StartupSetting="TRUE" SequenceNumber="4" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="DataBase" InstanceName="DataBase" IniFileTrackingId="b7565ef957e740a7ab1fbb233eb5efce" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="MachineState_A" InstanceName="MachineState_A" IniFileTrackingId="a91e480b1bf24248ac03fa6cbbc4642d" StartupSetting="TRUE" SequenceNumber="5" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="MachineState_B" InstanceName="MachineState_B" IniFileTrackingId="102e280f0d7b4214a648138d8dcd361e" StartupSetting="TRUE" SequenceNumber="6" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="MachineState_A" InstanceName="MachineState_A" IniFileTrackingId="a91e480b1bf24248ac03fa6cbbc4642d" StartupSetting="TRUE" SequenceNumber="6" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="MachineState_B" InstanceName="MachineState_B" IniFileTrackingId="102e280f0d7b4214a648138d8dcd361e" StartupSetting="TRUE" SequenceNumber="7" IsDebugProgram="false" />
     <AssociatedProgramData ProgramName="Door" InstanceName="Door" IniFileTrackingId="8aef99be278b4801bf330490f3bf5740" StartupSetting="TRUE" SequenceNumber="3" IsDebugProgram="false" />
-    <AssociatedProgramData ProgramName="Sensor" InstanceName="Sensor" IniFileTrackingId="729a78d18d414df69c749d6ef3049b8b" StartupSetting="TRUE" SequenceNumber="8" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="Sensor" InstanceName="Sensor" IniFileTrackingId="729a78d18d414df69c749d6ef3049b8b" StartupSetting="TRUE" SequenceNumber="9" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="History" InstanceName="History" IniFileTrackingId="3e6a63e00df644239596f8d00b18e043" StartupSetting="FALSE" SequenceNumber="5" IsDebugProgram="false" />
   </Programs>
   <RefreshUnitIds>
     <RefreshUnitId RefreshUnitId="4d53af8f-f555-47d4-af58-d36ea044e4ca" />

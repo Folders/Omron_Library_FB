@@ -16,7 +16,7 @@ _EN=Variables
 ++D=BOOL	N=request_GrpId	G=VAR	Com=FB request the id of a group
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=Msg	Ord=0	G=VAR_OUTPUT	Com=Output for coil message
-++D=BOOL	N=Alarm	Ord=1	G=VAR_INPUT	Com=Alarm to log
+++D=BOOL	N=InAlarm	Ord=1	G=VAR_INPUT	Com=Alarm to log
 ++D=BOOL	N=Ack	IV=False	Ord=2	G=VAR_INPUT	Com=Alarm must be acknowledged
 ++D=STRING[100]	N=Group	Ord=3	G=VAR_INPUT	Com=Group of the alarm
 ++D=STRING[100]	N=Message	Ord=4	G=VAR_INPUT	Com=Message of the alarm

@@ -46,10 +46,10 @@ _EN=Variables
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=Machine DB
 ++D=OBJ\DB\BASE	N=MyDB_General	Ord=2	G=VAR_IN_OUT	Com=Global DB
-++D=DINT	N=Id_Reference	Ord=3	G=VAR_INPUT	Com=Id of product reference
-++D=DINT	N=Id_Order	Ord=4	G=VAR_INPUT	Com=Id of fabrication order
-++D=DINT	N=Id_Machine	Ord=5	G=VAR_INPUT	Com=Id of the machine
-++D=DINT	N=Id_User	Ord=6	G=VAR_INPUT	Com=Id of user logged in machine
+++D=DINT	N=Id_WorkOrder	Ord=3	G=VAR_INPUT	Com=Current work order identifier
+++D=DINT	N=Id_Product	Ord=4	G=VAR_INPUT	Com=Current manufactured product identifier
+++D=DINT	N=Id_Machine	Ord=5	G=VAR_INPUT	Com=Current machine identifier
+++D=DINT	N=Id_User	Ord=6	G=VAR_INPUT	Com=Current logged user identifier
 ++D=BOOL	N=Enable	Ord=7	G=VAR_INPUT	Com=Enabled the history manager
 ++D=BOOL	N=Intervention	Ord=8	G=VAR_INPUT	Com=Machine state to get the time before intervention
 ++D=BOOL	N=MachineRestart	Ord=9	G=VAR_INPUT	Com=Machine state to get the intervention duration

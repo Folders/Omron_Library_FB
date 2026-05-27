@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\HISTO\ALARM\Histo_Manager_Alarms	N=managerAlarms	G=VAR
+++D=BOOL	N=intervention	G=VAR
+++D=BOOL	N=restart	G=VAR
+++D=OBJ\HISTO\ALARM\Histo_Alarm	N=msg001	G=VAR
+++D=BOOL	N=faultDetected	G=VAR
+++D=OBJ\HISTO\ALARM\Histo_Alarm	N=msg002	G=VAR
+++D=OBJ\HISTO\PARAM\Histo_Manager_Param	N=managerParam	G=VAR
+++D=OBJ\HISTO\PARAM\Histo_BOOL	N=histo001	G=VAR
+++D=OBJ\HISTO\PARAM\Histo_INT	N=histo002	G=VAR
+++D=BOOL	N=myBool	G=VAR
+++D=INT	N=myInt	G=VAR
+++D=OBJ\HISTO\STATE\Histo_Manager_State	N=managerState	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=Info_General	G=VAR_EXTERNAL
+++D=BOOL	N=Info_Global	G=VAR_EXTERNAL
+++D=OBJ\DB\BASE	N=DB_Machine	G=VAR_EXTERNAL
+++D=OBJ\DB\BASE	N=DB_General	G=VAR_EXTERNAL
+++D=OBJ\HISTO\ALARM\BASE	N=HistoAlarm	G=VAR_EXTERNAL
+++D=BOOL	N=Info_Struct	G=VAR_EXTERNAL
+++D=Machine	N=MachineA	G=VAR_EXTERNAL
+++D=BOOL	N=Info_CreateDB	G=VAR_EXTERNAL

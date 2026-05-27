@@ -5,7 +5,7 @@ _EN=Variables
 ++D=REAL	N=valMin	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
-++D=REAL	N=In	Ord=1	G=VAR_INPUT	Com=Current value to be compared
+++D=REAL	N=Input	Ord=1	G=VAR_INPUT	Com=Current value to be compared
 ++D=REAL	N=Ref	Ord=2	G=VAR_INPUT	Com=Comparison reference
 ++D=REAL	N=Tol_Plus	Ord=3	G=VAR_INPUT	Com=Tolerance positive of the comparison
 ++D=REAL	N=Tol_Minus	Ord=4	G=VAR_INPUT	Com=Tolerance negative of the comparison
