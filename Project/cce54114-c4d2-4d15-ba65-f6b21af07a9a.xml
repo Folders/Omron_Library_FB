@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=ReceiveOrder	G=VAR	Com=Retain order
+++D=BOOL	N=Run	G=VAR	Com=Run coil order
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\PNEUMATIC\ANALOG\BASE	N=MyPneuReg	Ord=1	G=VAR_IN_OUT	Com=Regulator object
+++D=BOOL	N=Order	Ord=2	G=VAR_INPUT	Com=Active the cylinder
+++D=BOOL	N=Enabled	IV=True	Ord=3	G=VAR_INPUT	Com=Enabled the order (default at TRUE)
+++D=REAL	N=Setpoint	Ord=4	G=VAR_INPUT	Com=Regulator setpoint [u] (on flank)
+++D=USINT	N=SelectOutput	IV=0	Ord=5	G=VAR_INPUT	Com=Selected output (used if more than one valve are used
+++D=BOOL	N=InRange	Ord=6	G=VAR_OUTPUT	Com=Regulator in range
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

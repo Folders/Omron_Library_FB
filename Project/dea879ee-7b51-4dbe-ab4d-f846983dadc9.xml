@@ -1,7 +1,7 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=orderReceive	G=VAR	Com=Order is received (on flanck)
+++D=BOOL	N=orderReceive	G=VAR	Com=Order is received
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Cylinder execute order and is in IN position
 ++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=1	G=VAR_IN_OUT	Com=Pneumatic object

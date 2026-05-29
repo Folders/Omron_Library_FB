@@ -1,0 +1,21 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=WORD	N=temp	G=VAR
+++D=OBJ\PNEUMATIC\ANALOG\PneuReg_Config_Analog	N=configAnalog	G=VAR
+++D=INT	N=feedback	G=VAR	Com=Analog from ARY
+++D=INT	N=sertpoint	G=VAR	Com=Analog to ARY
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\PNEUMATIC\ANALOG\BASE	N=MyPneuReg	Ord=1	G=VAR_IN_OUT	Com=Gaz regulation object
+++D=ARRAY[0..1] OF BYTE	N=IOL_Setpoint	Ord=2	G=VAR_IN_OUT	Com=Raw analog command [0..4000]
+++D=ARRAY[0..1] OF BYTE	N=IOL_Feedback	Ord=3	G=VAR_IN_OUT	Com=Raw analog feedback [0..4000]
+++D=BOOL	N=Enable	IV=True	Ord=4	G=VAR_INPUT	Com=Use the analog regulator
+++D=STRING[8]	N=Unit	Ord=5	G=VAR_INPUT	Com=Engineering unit displayed by the regulator [u]
+++D=REAL	N=Analog_Max	IV=4000	Ord=6	G=VAR_INPUT	Com=Maximum raw analog value @Unit_Max [0..4000]
+++D=REAL	N=Unit_Max	IV=10.0	Ord=7	G=VAR_INPUT	Com=Maximum engineering value @Analog_Max [u]
+++D=REAL	N=Limit_User	Ord=8	G=VAR_INPUT	Com=Maximum operator setpoint (Init) [u]
+++D=REAL	N=Tolerance	Ord=9	G=VAR_INPUT	Com=Tolerance accepted (Init) [±u]
+++D=BOOL	N=Commissioning	Ord=10	G=VAR_INPUT	Com=Put the object in commissioning
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT	Com=Fault in gaz bloc
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

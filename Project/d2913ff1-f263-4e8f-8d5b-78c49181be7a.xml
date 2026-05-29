@@ -1,0 +1,32 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR
+++D=REAL	N=tolMax	IV=1	G=VAR	Com=High limit for tolerance [u]
+++D=REAL	N=tolMin	IV=1	G=VAR	Com=Low limit for tolerance [u]
+++D=REAL	N=factor	G=VAR	Com=Convert AD to [unit] [u/AD]
+++D=REAL	N=factorInv	G=VAR	Com=Convert [unit] to AD [AD/u]
+++D=TON	N=Wait_Min_Alarm	G=VAR
+++D=TON	N=Wait_Max_Alarm	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoOut	N=Start_Gas_1	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoIn	N=Stop_Gas_1	G=VAR
+++D=TON	N=Debounce_InRange	G=VAR
+++D=BOOL	N=Order_Start	G=VAR	Com=Order to open valve
+++D=BOOL	N=Order_Stop	G=VAR	Com=Order to stop
+++D=BOOL	N=Started	G=VAR	Com=FB is started
+++D=WORD	N=Temp	G=VAR	Com=Convert BYTE to WORD
+++D=BOOL	N=out	G=VAR	Com=Local command
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\PNEUMATIC\ANALOG\BASE	N=MyPneuReg	Ord=1	G=VAR_IN_OUT	Com=Gaz regulation object
+++D=INT	N=IO_Setpoint	Ord=2	G=VAR_IN_OUT	Com=Raw analog command [0..4000]
+++D=INT	N=IO_Feedback	Ord=3	G=VAR_IN_OUT	Com=Raw analog feedback [0..4000]
+++D=BOOL	N=Enable	IV=True	Ord=4	G=VAR_INPUT	Com=Use the analog regulator
+++D=STRING[8]	N=Unit	Ord=5	G=VAR_INPUT	Com=Engineering unit displayed by the regulator [u]
+++D=REAL	N=Analog_Max	IV=4000	Ord=6	G=VAR_INPUT	Com=Maximum raw analog value @Unit_Max [0..4000]
+++D=REAL	N=Unit_Max	IV=10.0	Ord=7	G=VAR_INPUT	Com=Maximum engineering value @Analog_Max [u]
+++D=REAL	N=Limit_User	Ord=8	G=VAR_INPUT	Com=Maximum operator setpoint (Init) [u]
+++D=REAL	N=Tolerance	Ord=9	G=VAR_INPUT	Com=Tolerance accepted (Init) [±u]
+++D=BOOL	N=Commissioning	Ord=10	G=VAR_INPUT	Com=Put the object in commissioning
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT	Com=Fault in gaz bloc
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -32,6 +32,11 @@ _EN=Variables
 ++D=PneuTest	N=Pneu	G=VAR_GLOBAL
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
+++D=PneuRegTest	N=PneuReg	G=VAR_GLOBAL
+++D=OBJ\PNEUMATIC\ANALOG\BASE	N=PneuReg_Pressure	G=VAR_GLOBAL	Com=Pneumatic pressure regulator
+++D=OBJ\PNEUMATIC\BASE	N=Pneu_Valve1	G=VAR_GLOBAL	Com=Supply regulator with gaz °1
+++D=OBJ\PNEUMATIC\BASE	N=Pneu_Valve2	G=VAR_GLOBAL	Com=Supply regulator with gaz °2
+++D=OBJ\PNEUMATIC\BASE	N=Pneu_Valve3	G=VAR_GLOBAL	Com=Supply regulator with gaz °3
 ++D=SensorTest	N=Sensors	G=VAR_GLOBAL
 ++D=ARRAY[0..999] OF SensorGraph	N=Sensor_Graph	G=VAR_GLOBAL
 ++D=OBJ\SENSOR\BASE	N=Sensor_ID_Simple	G=VAR_GLOBAL	Com=Sensor object 1

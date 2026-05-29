@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=run	G=VAR
+++D=BOOL	N=openCmd	G=VAR	Com=order to open the valve
+++D=OBJ\PNEUMATIC\Pneu_GoOut	N=openValve	G=VAR
+++D=OBJ\PNEUMATIC\Pneu_GoIn	N=closeValve	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\PNEUMATIC\ANALOG\BASE	N=MyPneuReg	Ord=1	G=VAR_IN_OUT	Com=Regulator object
+++D=OBJ\PNEUMATIC\BASE	N=MyPneu	Ord=2	G=VAR_IN_OUT	Com=Valve object
+++D=BOOL	N=Enable	IV=True	Ord=3	G=VAR_INPUT	Com=Link the valve with the regulator
+++D=USINT	N=Index	IV=0	Ord=4	G=VAR_INPUT	Com=Index of valve [0..x]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

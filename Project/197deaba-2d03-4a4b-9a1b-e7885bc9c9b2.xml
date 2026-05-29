@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=orderReceive	G=VAR	Com=Order is received
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Regulator in range
+++D=OBJ\PNEUMATIC\ANALOG\BASE	N=MyPneuReg	Ord=1	G=VAR_IN_OUT	Com=Regulator object
+++D=BOOL	N=Start	Ord=2	G=VAR_INPUT	Com=Start regulator
+++D=REAL	N=Setpoint	Ord=3	G=VAR_INPUT	Com=Regulator setpoint [u] (on flank)
+++D=USINT	N=SelectOutput	IV=0	Ord=4	G=VAR_INPUT	Com=Selected output (used if more than one valve are used
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
