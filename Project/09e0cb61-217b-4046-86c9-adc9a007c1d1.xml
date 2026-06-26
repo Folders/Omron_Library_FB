@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types9" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="56" OffsetType="NJ">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="88" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\SENSOR\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd" BaseType="OBJ\SENSOR\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\SENSOR\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -11,7 +11,7 @@
       <DataType Name="Transition" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Transition of state (Up and Down)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Analog" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="44" OffsetType="NJ">
       <DataType Name="Simple" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Simple sensor, with living time and debounce" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DtoA" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Convert numerical sensor in &quot;analog&quot; value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="TriState" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="With time input, give Transition state, detection and no detection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -21,19 +21,19 @@
       <DataType Name="AnalogTeached" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Analog sensor with teaching" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="WithSound" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sound output is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="10" OffsetType="NJ">
-      <DataType Name="Used" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used on the machines" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="42" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="InTeaching" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Teaching is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Buzzer_Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor can use buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Input_Di" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor value without treatment" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Input_An" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor value without treatment" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="43" OffsetType="NJ">
       <DataType Name="Teach" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Teaching command of sensor" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Buzzer_Order" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Detection is signaled with buzzer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="9" OffsetType="NJ">
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="41" OffsetType="NJ">
       <DataType Name="Max" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum input value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Min" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Minumum input value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Normalized" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Analog output in 0-100 [%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

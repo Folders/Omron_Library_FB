@@ -6,6 +6,7 @@ _EN=Variables
 ++D=REAL	N=countOn	G=VAR	Com=Counte time at ON
 ++D=REAL	N=countCycle	G=VAR	Com=Counte time of a cycle
 ++D=REAL	N=analogOld	G=VAR	Com=Old analog value [0..100%]
+++D=BOOL	N=started	Ord=1	G=VAR	AOE=1	Com=Startup info
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
 ++D=OBJ\SENSOR\BASE	N=MySensor	Ord=1	G=VAR_IN_OUT

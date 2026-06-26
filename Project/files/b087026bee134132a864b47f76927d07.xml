@@ -1,0 +1,28 @@
+<CodeEditorModel xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.DeviceHmi.CodeEditor.Core" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><CodingLanguageName>VBNET</CodingLanguageName><HiddenFooter>&#xD;
+End Class</HiddenFooter><HiddenHeader>Partial Public Class Vibrator&#xD;
+</HiddenHeader><SerialData i:nil="true"/><SerialDeviceHmiId i:nil="true"/><SerialScaleData i:nil="true"/><Text>'IAG Code behind - Add local subroutines for the IAG.&#xD;
+&#xD;
+Sub StepPlus&#xD;
+	&#xD;
+	' Apply step&#xD;
+	Setpoint = Setpoint + StepButton&#xD;
+	&#xD;
+	' Check limit&#xD;
+	If Setpoint &gt;100 Then&#xD;
+		Setpoint = 100&#xD;
+	End If&#xD;
+	&#xD;
+End Sub&#xD;
+&#xD;
+&#xD;
+Sub StepMinus&#xD;
+		&#xD;
+	' Apply step&#xD;
+	Setpoint = Setpoint - StepButton&#xD;
+	&#xD;
+	' Check limit&#xD;
+	If Setpoint &lt; 0 Then&#xD;
+		Setpoint = 0&#xD;
+	End If&#xD;
+End Sub&#xD;
+</Text></CodeEditorModel>

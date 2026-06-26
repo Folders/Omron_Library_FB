@@ -1,7 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types0" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="STATUS" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="68" OffsetType="NJ">
+    <DataType Name="uWord" BaseType="UNION" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="Bool_Data" BaseType="ARRAY[0..15] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Byte_Data" BaseType="ARRAY[0..1] OF BYTE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Word_Data" BaseType="WORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="eColor" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color selection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="NoColor" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Off" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Red" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Lime" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Lime" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Yellow" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Yellow" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Blue" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Fuchsia" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="Fuchsia" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Aqua" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="Aqua" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="White" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="7" Comment="White" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Black" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="8" Comment="Black" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Brown" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="Brown (Dark red)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="10" Comment="Green (Dark lime)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Orange" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="11" Comment="Orange (Dark yellow)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Navy" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="12" Comment="Navy (Dark blue)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Purple" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="13" Comment="Purple (Dark fuchsia)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SteelBlue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="14" Comment="SteelBlue (Dark aqua)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Gray" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="15" Comment="Gray (Dark white)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="DimGray" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="16" Comment="DimGray (Light black)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LightCoral" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="17" Comment="LightCoral (Light red)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LightGreen" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="18" Comment="LightGreen (Light lime)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LightYellow" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="19" Comment="LightYellow (Light yellow)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LightBlue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="20" Comment="LightBlue (Light blue)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Plum" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="21" Comment="Plum (Light fuchsia)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="LightSteelBlue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="22" Comment="LightSteelBlue (Light aqua)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Silver" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="23" Comment="Silver (Light white)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NoUpdate" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="32" Comment="No update of color" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="RAMP" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="97" OffsetType="NJ">
+      <DataType Name="Setpoint" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Setpoint of ramp [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Maximum" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum value of ramp [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Value" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of ramp [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsOn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is working" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsOff" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is stoped" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsUp" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp increases" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsDown" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp decreases" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsTransition" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp increases or decreases" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsUsed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="STATUS" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="96" OffsetType="NJ">
       <DataType Name="EmergencyStop" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Emergency Stop is actived" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="FastStop" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Fast Stop is actived" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="SlowDown" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Slow Down is actived" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -34,38 +78,6 @@
       <DataType Name="Sta213" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta214" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Update" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Status update" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-    </DataType>
-    <DataType Name="uWord" BaseType="UNION" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-      <DataType Name="Bool_Data" BaseType="ARRAY[0..15] OF BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Byte_Data" BaseType="ARRAY[0..1] OF BYTE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Word_Data" BaseType="WORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-    </DataType>
-    <DataType Name="eColor" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color selection" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-      <DataType Name="NoColor" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Off" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Red" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Lime" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Lime" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Yellow" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Yellow" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Blue" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Fuchsia" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="Fuchsia" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Aqua" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="Aqua" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="White" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="7" Comment="White" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Black" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="8" Comment="Black" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Brown" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="Brown (Dark red)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="10" Comment="Green (Dark lime)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Orange" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="11" Comment="Orange (Dark yellow)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Navy" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="12" Comment="Navy (Dark blue)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Purple" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="13" Comment="Purple (Dark fuchsia)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="SteelBlue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="14" Comment="SteelBlue (Dark aqua)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Gray" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="15" Comment="Gray (Dark white)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="DimGray" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="16" Comment="DimGray (Light black)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LightCoral" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="17" Comment="LightCoral (Light red)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LightGreen" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="18" Comment="LightGreen (Light lime)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LightYellow" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="19" Comment="LightYellow (Light yellow)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LightBlue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="20" Comment="LightBlue (Light blue)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Plum" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="21" Comment="Plum (Light fuchsia)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LightSteelBlue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="22" Comment="LightSteelBlue (Light aqua)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Silver" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="23" Comment="Silver (Light white)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="NoUpdate" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="32" Comment="No update of color" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>

@@ -7,6 +7,8 @@ _EN=Variables
 ++D=REAL	N=sumAvg	IV=-1	G=VAR	Com=Sum of average
 ++D=REAL	N=outputAvg	G=VAR	Com=Averaged out value [u]
 ++D=BOOL	N=limitUsed	G=VAR	Com=Limit function is used
+++D=REAL	N=savedMin	R=1	IV=0.0	G=VAR	Com=Backup of min input value [analog]
+++D=REAL	N=savedMax	R=1	IV=0.0	G=VAR	Com=Backup of max input value [analog]
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Sensor is used on machine
 ++D=OBJ\SENSOR\BASE	N=MySensor	Ord=1	G=VAR_IN_OUT

@@ -1,8 +1,8 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=ReceiveOrder	G=VAR	Com=Retain order
-++D=BOOL	N=Run	G=VAR	Com=Run coil order
+++D=BOOL	N=receiveOrder	G=VAR	Com=Retain order
+++D=BOOL	N=run	G=VAR	Com=Run coil order
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\PNEUMATIC\ANALOG\BASE	N=MyPneuReg	Ord=1	G=VAR_IN_OUT	Com=Regulator object

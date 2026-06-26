@@ -14,13 +14,13 @@ _EN=Variables
 ++D=BOOL	N=T_1s	G=VAR_GLOBAL	Com=Flag 1s
 ++D=BOOL	N=T_2s	G=VAR_GLOBAL	Com=Flag 2s
 ++D=BOOL	N=Commissioning	G=VAR_GLOBAL	Com=Put objects in commissioning
-++D=StateTest	N=States	G=VAR_GLOBAL
+++D=StateTest	N=States	G=VAR_GLOBAL	Com=Sample:
 ++D=Machine	N=MachineA	G=VAR_GLOBAL	Com=Machine A - Master
 ++D=Machine	N=MachineB	G=VAR_GLOBAL	Com=Machine B - Slave
-++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL
+++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\BUZZER\BASE	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
 ++D=OBJ\BUZZER\BASE	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
-++D=DoorTest	N=Doors	G=VAR_GLOBAL
+++D=DoorTest	N=Doors	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_GLOBAL	Com=Left door
 ++D=OBJ\DOOR\BASE	N=Door_Right	G=VAR_GLOBAL	Com=Right door
 ++D=OBJ\DB\BASE	N=DB_General	G=VAR_GLOBAL	Com=Database general
@@ -29,10 +29,10 @@ _EN=Variables
 ++D=OBJ\HISTO\PARAM\BASE	N=HistoParam	G=VAR_GLOBAL	Com=Manager of parameter histo
 ++D=OBJ\HISTO\STATE\BASE	N=HistoState	G=VAR_GLOBAL	Com=Manager of parameter histo
 ++D=FlatDB\Users	N=UserDB	G=VAR_GLOBAL	Com=User flat structure for DB
-++D=PneuTest	N=Pneu	G=VAR_GLOBAL
+++D=PneuTest	N=Pneu	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2
-++D=PneuRegTest	N=PneuReg	G=VAR_GLOBAL
+++D=PneuRegTest	N=PneuReg	IV=(Enable := True, Feedback := 0, Setpoint := 0, OUT_Valve1 := False, OUT_Valve2 := False, OUT_Valve3 := False, Cmd_Start := False, Cmd_Stop := False, Cmd_Setpoint := 2.5, Cmd_VavleSelection := 0)	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\PNEUMATIC\ANALOG\BASE	N=PneuReg_Pressure	G=VAR_GLOBAL	Com=Pneumatic pressure regulator
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Valve1	G=VAR_GLOBAL	Com=Supply regulator with gaz °1
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Valve2	G=VAR_GLOBAL	Com=Supply regulator with gaz °2
