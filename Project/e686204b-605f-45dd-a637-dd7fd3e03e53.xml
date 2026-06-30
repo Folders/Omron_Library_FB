@@ -4,7 +4,7 @@ _EN=Variables
 ++D=BOOL	N=started	G=VAR	Com=FB started
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
-++D=OBJ\PANEL\BASE	N=MyHMI	Ord=1	G=VAR_IN_OUT
+++D=OBJ\PANEL\BASE	N=MyPanel	Ord=1	G=VAR_IN_OUT
 ++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Object is used
 ++D=BOOL	N=Input	Ord=3	G=VAR_INPUT	Com=Input of switch
 ++D=BOOL	N=Invert	IV=False	Ord=4	G=VAR_INPUT	Com=Invert  comportement of switch

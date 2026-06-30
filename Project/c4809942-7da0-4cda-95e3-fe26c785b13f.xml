@@ -33,19 +33,7 @@
       <DataType Name="Silver" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="23" Comment="Silver (Light white)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="NoUpdate" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="32" Comment="No update of color" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="RAMP" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="97" OffsetType="NJ">
-      <DataType Name="Setpoint" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Setpoint of ramp [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Maximum" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum value of ramp [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Value" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of ramp [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsOn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is working" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsOff" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is stoped" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsUp" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp increases" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsDown" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp decreases" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsTransition" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp increases or decreases" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="IsUsed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ramp is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-    </DataType>
-    <DataType Name="STATUS" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="96" OffsetType="NJ">
+    <DataType Name="STATUS" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="97" OffsetType="NJ">
       <DataType Name="EmergencyStop" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Emergency Stop is actived" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="FastStop" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Fast Stop is actived" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="SlowDown" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Slow Down is actived" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

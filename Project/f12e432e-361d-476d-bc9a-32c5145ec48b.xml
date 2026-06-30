@@ -29,6 +29,15 @@ _EN=Variables
 ++D=OBJ\HISTO\PARAM\BASE	N=HistoParam	G=VAR_GLOBAL	Com=Manager of parameter histo
 ++D=OBJ\HISTO\STATE\BASE	N=HistoState	G=VAR_GLOBAL	Com=Manager of parameter histo
 ++D=FlatDB\Users	N=UserDB	G=VAR_GLOBAL	Com=User flat structure for DB
+++D=PanelTest	N=Panels	G=VAR_GLOBAL	Com=Sample:
+++D=OBJ\PANEL\BASE	N=Panel_Order	G=VAR_GLOBAL	Com=Panel order
+++D=OBJ\PANEL\BASE	N=Panel_Green	G=VAR_GLOBAL	Com=Green button
+++D=OBJ\PANEL\BASE	N=Panel_Red	G=VAR_GLOBAL	Com=Red button
+++D=OBJ\PANEL\BASE	N=Panel_Blue	G=VAR_GLOBAL	Com=Blue button
+++D=OBJ\PANEL\BASE	N=Panel_ES	G=VAR_GLOBAL	Com=Emergency stop button
+++D=OBJ\PANEL\BASE	N=Panel_Set	G=VAR_GLOBAL	Com=Set button
+++D=OBJ\PANEL\BASE	N=Panel_Switch_TwoPos	G=VAR_GLOBAL	Com=Set button
+++D=OBJ\PANEL\BASE	N=Panel_Switch_ThreePos	G=VAR_GLOBAL	Com=Set button
 ++D=PneuTest	N=Pneu	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder1	G=VAR_GLOBAL	Com=Cylinder object 1
 ++D=OBJ\PNEUMATIC\BASE	N=Pneu_Cylinder2	G=VAR_GLOBAL	Com=Cylinder object 2

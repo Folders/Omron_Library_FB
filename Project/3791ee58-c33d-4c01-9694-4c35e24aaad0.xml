@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\PANEL\Panel_ButtonLight	N=configOrder_MachineA	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight	N=configOrder_MachineB	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight_Slave	N=configSlave_MachineC	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight	N=configGreen	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight	N=configRed	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight	N=configBlue	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight_ES	N=configES	G=VAR
+++D=OBJ\PANEL\Panel_ButtonLight_Set	N=configSet	G=VAR
+++D=OBJ\PANEL\Panel_Switch_1ch	N=configSwitch1	G=VAR
+++D=OBJ\PANEL\Panel_Switch_2ch	N=configSwitch2	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=PanelTest	N=Panels	G=VAR_EXTERNAL
+++D=BOOL	N=Info_General	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Order	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Green	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Red	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Blue	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_ES	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Set	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Switch_TwoPos	G=VAR_EXTERNAL
+++D=OBJ\PANEL\BASE	N=Panel_Switch_ThreePos	G=VAR_EXTERNAL

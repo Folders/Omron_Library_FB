@@ -25,8 +25,8 @@ _EN=Variables
 ++D=OBJ\PNEUMATIC\Pneu_Config_Valve	N=configValve3	G=VAR
 ++D=OBJ\PNEUMATIC\ANALOG\PneuReg_Start	N=cmdStart	G=VAR
 ++D=OBJ\PNEUMATIC\ANALOG\PneuReg_Stop	N=cmdStop	G=VAR
-++D=RampGenerator	N=analogSimu	G=VAR
-++D=OBJ\RAMP	N=ramp	G=VAR
+++D=OBJ\RAMP\RampGenerator	N=analogSimu	G=VAR
+++D=OBJ\RAMP\BASE	N=ramp	G=VAR
 ++D=REAL	N=rampSP	G=VAR
 ++D=REAL	N=rampFB	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -5,7 +5,7 @@ _EN=Variables
 ++D=BOOL	N=localButton	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
-++D=OBJ\PANEL\BASE	N=MyHMI	Ord=1	G=VAR_IN_OUT	Com=Master button object
+++D=OBJ\PANEL\BASE	N=MyPanel	Ord=1	G=VAR_IN_OUT	Com=Master button object
 ++D=BOOL	N=Enabled	Ord=2	G=VAR_INPUT	Com=Object is used
 ++D=BOOL	N=Button	Ord=3	G=VAR_INPUT	Com=Button value
 ++D=BOOL	N=IsNC	IV=False	Ord=4	G=VAR_INPUT	Com=Set if button is normaly close

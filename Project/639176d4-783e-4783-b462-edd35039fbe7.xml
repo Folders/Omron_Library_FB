@@ -1,0 +1,2 @@
+﻿{"CLs":[{"__type":"LD","Not":true,"Var":"Panels.SI_ES"},{"__type":"ST","Ix":1,"RS":true,"Var":"Panels.S_Machine_ES","X":1}],"CMT":"Simu ES","LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Panels.SI_ES"},{"__type":"LD","Ix":1,"Not":true,"Var":"Panels.S_Machine_ES","X":1},{"__type":"ST","Ix":3,"Var":"Panels.S_Machine_NeedReset","X":2},{"__type":"LD","Ix":2,"Var":"Panel_Set.Value","X":2,"Y":1},{"__type":"ST","Ix":4,"S":true,"Var":"Panels.S_Machine_ES","X":3,"Y":1},{"__type":"HL","X":3}],"CMT":"Simu Set","LRI":5,"RRI":6,"VLs":[{"Ix":7,"X":2}]}

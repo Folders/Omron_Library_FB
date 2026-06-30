@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types8" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Panel" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="30" OffsetType="" Id="dc3ec38f-4f4e-4a44-85ab-2eff3f6de5ec">
+      <DataType Name="Cfg" BaseType="OBJ\PANEL\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="configuration -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="69064bef-66fb-4752-9f31-89912a05ea23" />
+      <DataType Name="Cmd" BaseType="OBJ\PANEL\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b8d3743c-4a0c-4044-827f-e19a792cbeda" />
+      <DataType Name="Sta" BaseType="OBJ\PANEL\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="9467c544-a657-4b54-a84d-02bf865e7bb8" />
+      <DataType Name="Value" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="main value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="1044dbf7-a7cb-4c6d-aca8-59ddbe4f142d" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="2" OffsetType="" Id="5096498d-87ac-41bc-9fd1-f751f0e1e320">
+      <DataType Name="AsButton" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a button" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="26b99251-59ad-4e1e-94d9-2a961fc5d243" />
+      <DataType Name="AsLamp" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="With a lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b6e65f4e-8fe3-4cb4-8227-82af6060bf67" />
+      <DataType Name="AsSwitch" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a switch button" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="34860f92-fc53-4dfb-bf19-dd578e17e0b4" />
+      <DataType Name="AsKey" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is a key switch" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="ac705ccd-9893-4396-ba5d-330a667c1a2b" />
+      <DataType Name="IsSafe" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="It's safe button - No usable from HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="aa1dfad8-a6f3-4381-acc0-198d964c3bd8" />
+      <DataType Name="LampColor" BaseType="OBJ\PANEL\eLampColor" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Color of lamp for HMI" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="145231b7-ea7f-419e-ab5a-bb284321331b" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="" Id="5e797e71-e434-4a5a-9304-9eb1da1f923b">
+      <DataType Name="ButtonOn" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="External command for button (from HMI)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="bd515aba-9bee-4f27-b1ae-c150590be166" />
+      <DataType Name="LightOn" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command for light" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="58cee905-6a95-419c-b068-1312d671247d" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="df687383-37be-4894-9cdb-0f074cbe000a">
+      <DataType Name="Button" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of button" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="2e319d72-7d7e-4f18-8b2e-9d6065513452" />
+      <DataType Name="Lamp" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="bfcc4282-7bdc-482e-8b72-931bfbf9333f" />
+      <DataType Name="Switch_Left" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Switch is in left position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="96ffc0c6-9de5-4135-9bf6-9efacf7f2293" />
+      <DataType Name="Switch_Right" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Switch is in right position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="2b16f331-04dc-4c02-9f41-dabb9703a953" />
+    </DataType>
+    <DataType Name="eLampColor" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="2ca0c360-b85e-4425-b6a4-a44905374ba1">
+      <DataType Name="NoColor" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Not define" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="059a2ee2-5b16-4e2c-bb00-5048900169c3" />
+      <DataType Name="White" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="White lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="30ceaa27-3c6f-4e9b-b746-f23438406c79" />
+      <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Green lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="8cd238ea-6111-4ad5-8fa5-dccad2d1e2e4" />
+      <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Red lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="46851a3c-0ae4-4655-a38b-9e47edf2289a" />
+      <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Blue lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="693a7bdc-287b-4afa-a14f-c08fdc438d53" />
+      <DataType Name="ES" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="Emergency stop lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="34d08f31-84a7-4d6f-865c-01ce3bed09d9" />
+    </DataType>
+  </DataType>
+</data>
