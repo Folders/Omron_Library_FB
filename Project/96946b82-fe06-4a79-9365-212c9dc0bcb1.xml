@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types11" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Panel" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="86" OffsetType="NJ">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Panel" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="87" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\PANEL\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="configuration -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd" BaseType="OBJ\PANEL\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\PANEL\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -21,7 +21,7 @@
     </DataType>
     <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="33" OffsetType="NJ">
       <DataType Name="Button" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of button" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Lamp" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value of lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Lamp" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Lamp output state" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Switch_Left" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Switch is in left position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Switch_Right" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Switch is in right position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
@@ -31,7 +31,7 @@
       <DataType Name="Green" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Green lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Red" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Red lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Blue" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Blue lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="ES" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="Emergency stop lamp" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ES" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="Emergency stop indication for IAG" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>
