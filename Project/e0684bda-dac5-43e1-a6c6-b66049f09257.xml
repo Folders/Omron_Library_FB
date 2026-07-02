@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types21" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="94" OffsetType="NJ">
+      <DataType Name="Cfg" BaseType="OBJ\ROBOT\PALETTE\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd" BaseType="OBJ\ROBOT\PALETTE\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\ROBOT\PALETTE\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\ROBOT\PALETTE\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="alarms -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Pose" BaseType="OBJ\ROBOT\PALETTE\Pose" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="location of " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\ROBOT\PALETTE\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ">
+      <DataType Name="NumberColumns" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of columns in palette [1..999]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NumberRows" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of rows in palette [1..999]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PalletConfig" BaseType="OBJ\ROBOT\PALETTE\ePalletPattern" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Pallet configuration type [0..4]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TravDirection" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Counting return to first row (=0) or serpentine (=1)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="19" OffsetType="NJ">
+      <DataType Name="MoveToHome" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to move in home reference position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveToColumn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to move in column reference position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveToRow" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to move in row reference position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SaveHome" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Save current pose as home position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SaveColumn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Save current pose as column position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SaveRow" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Save current pose as row position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="18" OffsetType="NJ">
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SavedHome" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current pose saved as home position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SavedColumn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current pose saved as column position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SavedRow" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Current pose saved as row position" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IndexMax" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of position in palette" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="17" OffsetType="NJ">
+      <DataType Name="Alarms" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Pose" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="NJ">
+      <DataType Name="Home" BaseType="OBJ\ROBOT\sPOSE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="home reference [Pose]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Column" BaseType="OBJ\ROBOT\sPOSE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="column reference [Pose]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Row" BaseType="OBJ\ROBOT\sPOSE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="row reference [Pose]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="ePalletPattern" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="Grid" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Square palette shape" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OffsetRight" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Odd row are offsetted to right" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OffsetLeft" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Odd row are offsetted to left" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Long" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="Odd row are longer (Number of row + 1)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Short" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="Odd row are shorter (Number of row - 1)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ">
+      <DataType Name="StepCol" BaseType="OBJ\ROBOT\sPOSE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Step vector of column [Pose]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="StepColHalf" BaseType="OBJ\ROBOT\sPOSE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Step vector of half column [Pose]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="StepRow" BaseType="OBJ\ROBOT\sPOSE" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Step vector of row [Pose]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

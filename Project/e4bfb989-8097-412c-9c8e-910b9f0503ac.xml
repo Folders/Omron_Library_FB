@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=0	G=VAR_IN_OUT	Com=Robot object
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT	Com=Done
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT	Com=Executing
+++D=BOOL	N=Error	Ord=4	G=VAR_OUTPUT	Com=Error
+++D=OBJ\ROBOT\COMM\eRobot_Error	N=ErrorID	Ord=5	G=VAR_OUTPUT	Com=Error code
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
