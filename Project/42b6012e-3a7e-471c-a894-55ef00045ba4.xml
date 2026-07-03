@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\INVERTER\Inverter_Config_Analogic	N=configAnalog	G=VAR
+++D=OBJ\INVERTER\Inverter_MoveVelocity	N=runInverter	G=VAR
+++D=OBJ\RAMP\RampGenerator	N=simRamp	G=VAR
+++D=OBJ\RAMP\BASE	N=ramp	G=VAR
+++D=INT	N=diff	G=VAR
+++D=BOOL	N=testDir	Ord=1	G=VAR	AOE=1
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=WORD	N=Inv_Command	G=VAR_EXTERNAL
+++D=UINT	N=Inv_Frequency_Reference	G=VAR_EXTERNAL
+++D=UINT	N=Inv_Output_Frequency_Monitor	G=VAR_EXTERNAL
+++D=WORD	N=Inv_Status	G=VAR_EXTERNAL
+++D=OBJ\INVERTER\BASE	N=Inverter_Pump	G=VAR_EXTERNAL
+++D=InverterTest	N=Inverters	G=VAR_EXTERNAL
+++D=BOOL	N=Commissioning	G=VAR_EXTERNAL

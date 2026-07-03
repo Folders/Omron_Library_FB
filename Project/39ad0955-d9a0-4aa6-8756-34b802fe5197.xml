@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types19" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Inverter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="83" OffsetType="NJ">
+      <DataType Name="Cfg" BaseType="OBJ\INVERTER\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\INVERTER\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd" BaseType="OBJ\INVERTER\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command :" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\INVERTER\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="alarms -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\INVERTER\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Vel" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Velocity feedback [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Trq" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Torque feedback [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ">
+      <DataType Name="Corr" BaseType="OBJ\INVERTER\LinearScaling" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Linear scaling correction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Factor" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Factor of convertion [Hz/x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Unit" BaseType="STRING[6]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Unit of user command [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Max_Velocity" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value max of setpoint velocity for limit [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Max_MotorCmd" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Value max of command motor for limit [Hz or 4000]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsAnalog" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Analog drive is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsEtherCAT" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="EtherCAT drive is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UsePower" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Power function is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseFeedback" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Feedback is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseReset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset function is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseSpeed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Speed command function is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseOverspeed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Overspeed is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="13" OffsetType="NJ">
+      <DataType Name="Vel" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Velocity command [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Trq" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Torque command [%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Overspeed" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Overspeed setpoint" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RunVel" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run - Velocity" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RunTrq" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run - Torque" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Power" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Power the drive" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Reset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset the drive" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CW" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="run in normal direction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CCW" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="run in other direction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="LinearScaling" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="NJ">
+      <DataType Name="SP_a" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A value of setpoint" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SP_b" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="B value of setpoint" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FB_a" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="A value of feedback" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FB_b" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="B value of feedback" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="14" OffsetType="NJ">
+      <DataType Name="Powered" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive is powered" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive is ready to run" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Run" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive is running" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CW" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Rotation of motor in clockwise" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CCW" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Rotation of motor in counter clockwise" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="InVelocity" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motor is in velocity" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Stopped" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motor is stopped" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Warning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive in warning" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Fault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive in fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motor is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Inverter is on machine (for option)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
+      <DataType Name="DriveFault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Error or trip occurred for the unit or Inverter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Remote" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Operations from EtherCAT are disabled" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Optional_Board" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Error on optional board EtherCAT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Reset_NotWork" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset don't work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Warning_Drive" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Warning occurred for the unit or Inverter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd_Limited" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motor command is limited" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="VelocityTooHigh" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Input velocity is higher of max" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Feedback_TooHigh" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output velocity is higher of max" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
+      <DataType Name="Motor_SP" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command motor value [Hz]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Motor_FB" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Feedback motor value [Hz]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

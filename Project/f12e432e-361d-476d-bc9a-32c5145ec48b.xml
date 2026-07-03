@@ -28,6 +28,8 @@ _EN=Variables
 ++D=OBJ\HISTO\ALARM\BASE	N=HistoAlarm	G=VAR_GLOBAL	Com=Manager of alarm histo
 ++D=OBJ\HISTO\PARAM\BASE	N=HistoParam	G=VAR_GLOBAL	Com=Manager of parameter histo
 ++D=OBJ\HISTO\STATE\BASE	N=HistoState	G=VAR_GLOBAL	Com=Manager of parameter histo
+++D=InverterTest	N=Inverters	IV=(Enable_Analog := False, AD_SpeedFeedback := 0, DA_SpeedSetpoint := 0, DO_CW := False, DO_CCW := False, DO_Reset := False, Volt := 8.0, AtVel := 200.0, Volt_Max := 10.0, Vel_Max := 220.0, Cmd_Run := False, Cmd_Speed := 0.0, Cmd_Overspeed := 0.0)	G=VAR_GLOBAL	Com=Sample:
+++D=OBJ\INVERTER\BASE	N=Inverter_Pump	G=VAR_GLOBAL	Com=Invert pump object
 ++D=FlatDB\Users	N=UserDB	G=VAR_GLOBAL	Com=User flat structure for DB
 ++D=PanelTest	N=Panels	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\PANEL\BASE	N=Panel_Order	G=VAR_GLOBAL	Com=Panel order
@@ -82,3 +84,7 @@ _EN=Variables
 ++D=UINT	N=Loadcell_Calibration_Command_SID	AT=IOBus://unit#1/Ch1 Calibration Command SID	G=VAR_GLOBAL
 ++D=WORD	N=Loadcell_Calibration_Command	AT=IOBus://unit#1/Ch1 Calibration Command	G=VAR_GLOBAL
 ++D=OBJ\LOADCELL\BASE	N=Loadcell_Weight	G=VAR_GLOBAL
+++D=UINT	N=Inv_Output_Frequency_Monitor	AT=ECAT://node#1/Output Frequency Monitor	G=VAR_GLOBAL
+++D=WORD	N=Inv_Command	AT=ECAT://node#1/Command	G=VAR_GLOBAL
+++D=UINT	N=Inv_Frequency_Reference	AT=ECAT://node#1/Frequency Reference	G=VAR_GLOBAL
+++D=WORD	N=Inv_Status	AT=ECAT://node#1/Status	G=VAR_GLOBAL

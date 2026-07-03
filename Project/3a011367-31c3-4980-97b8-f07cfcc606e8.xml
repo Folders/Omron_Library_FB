@@ -1,0 +1,14 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=RUN	G=VAR
+++D=BOOL	N=Reset	G=VAR
+++D=BOOL	N=Error_Reset_NotWork	G=VAR	Com=Error : Reset don't work
+++D=BOOL	N=Error_Reset_Try	G=VAR	Com=Error : Try to do a reset of invertor
+++D=CTU	N=Int_MX2_Reset	G=VAR	Com=Counter for try reset X time
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\INVERTER\BASE	N=Axis	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=ResetDrive	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Fault_Status	Ord=3	G=VAR_OUTPUT	Com=Drive or FB in fault (=1)
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
