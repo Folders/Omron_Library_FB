@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="c3390f01-d9af-43a2-b5dd-3d8380964160">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="071b27f8-b46e-4b2f-9012-4aaff341189b">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="7d4f92aa-947a-46d4-89d8-ad1c9a9fed66">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="83bff612-b860-4169-bd57-c3fb5ec9d1b0">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="FA_Home" ID="32885e6a-baa0-46fa-8354-584bc485a076">
+      <Localisation Language="en-US" Translation="FA_Home.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

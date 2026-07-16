@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="ff8a408c-4c4b-402c-af76-c061b967f98d">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="8c9e0b2a-a259-44bc-b53b-e052019ab44e">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="ac5fad59-b002-4270-bbe0-8f1c59c82211">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="19e68583-52c1-4e3c-bdc5-918849a8a8fa">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="d1fd9125-bdd6-4755-9b38-23ecdee0addc">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="192b9241-d078-401a-b450-e91a32c6e7c8">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String100" ID="4c188ad4-82b8-47db-9ea4-00858d0b660f">
+      <Localisation Language="en-US" Translation="Releasing" Default="True" />
+    </Resource>
+    <Resource Name="String3" ID="5d262287-4f2b-4e25-be7b-2984ae020d9d">
+      <Localisation Language="en-US" Translation="Go IN" Default="True" />
+    </Resource>
+    <Resource Name="String4" ID="87ecbb37-334d-4bc8-b2bc-1aa48d452f01">
+      <Localisation Language="en-US" Translation="Go OUT" Default="True" />
+    </Resource>
+    <Resource Name="String0" ID="5055ae81-8320-4ecc-8ea6-8465a9086459">
+      <Localisation Language="en-US" Translation="/" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="MB_Warning" ID="52b54795-36c8-4cae-bc71-724656a291f4">
+      <Localisation Language="en-US" Translation="MB_Warning.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

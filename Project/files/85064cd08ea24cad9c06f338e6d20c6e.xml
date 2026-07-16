@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTypesManifest>
+  <DataType>
+    <Id>e43f4482-f776-4b4e-8ff6-0110b2ef6735</Id>
+    <Namespace></Namespace>
+  </DataType>
+  <DataType>
+    <Id>0ff24033-7461-4524-b2b8-e21c1bd1fa90</Id>
+    <Namespace>OBJ</Namespace>
+  </DataType>
+  <DataType>
+    <Id>8241333b-4582-4342-a750-51eb4c9b7930</Id>
+    <Namespace>OBJ\DOOR</Namespace>
+  </DataType>
+  <DataType>
+    <Id>74be8db3-1537-4cb0-ac46-26c4a7a3c666</Id>
+    <Namespace>OBJ\BUZZER</Namespace>
+  </DataType>
+  <DataType>
+    <Id>07c3f92c-bf00-4259-a24a-9049ec37277b</Id>
+    <Namespace>OBJ\FLASHLAMP</Namespace>
+  </DataType>
+  <DataType>
+    <Id>301f091e-5fd6-4f8b-9f0d-548098e56e41</Id>
+    <Namespace>OBJ\STATE</Namespace>
+  </DataType>
+  <DataType>
+    <Id>b7edf9c6-5a6f-46f9-a4b7-ff7f7c575176</Id>
+    <Namespace>OBJ\PNEUMATIC</Namespace>
+  </DataType>
+  <DataType>
+    <Id>e4f87cb0-df1f-4cad-86ce-7a244ac81fb6</Id>
+    <Namespace>OBJ\SENSOR</Namespace>
+  </DataType>
+  <DataType>
+    <Id>8a19faae-9698-42f1-ba1a-5d108564b736</Id>
+    <Namespace>OBJ\VIBRATOR</Namespace>
+  </DataType>
+  <DataType>
+    <Id>a11d7980-3ffe-4b32-9449-d0afd047f736</Id>
+    <Namespace>OBJ\PANEL</Namespace>
+  </DataType>
+  <DataType>
+    <Id>13d56889-427f-41b2-be2b-9bf70cab034c</Id>
+    <Namespace>OBJ\INVERTER</Namespace>
+  </DataType>
+</DataTypesManifest>

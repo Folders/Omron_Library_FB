@@ -1,0 +1,27 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB is started
+++D=OBJ\INVERTER\LinearScaling	N=scalingBackup	R=1	IV=(SP_a := 1.0, SP_b := 0.0, FB_a := 1.0, FB_b := 0.0)	G=VAR	Com=Backup of linear scaling
+++D=REAL	N=velocitySP	G=VAR	Com=Velocity setpoint of invertor [x]
+++D=REAL	N=velocityFB	G=VAR	Com=Velocity feedback of invertor [x]
+++D=BOOL	N=cmdRun	G=VAR	Com=Run command
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enable inverter
+++D=OBJ\INVERTER\BASE	N=MyInverter	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Enabled the invertor
+++D=INT	N=SpeedSetpoint	Ord=3	G=VAR_OUTPUT	Com=Raw drive speed command [DriveUnit]
+++D=INT	N=SpeedFeedback	Ord=4	G=VAR_INPUT	Com=Raw drive speed feedback [DriveUnit]
+++D=BOOL	N=Input_DriveFault	Ord=5	G=VAR_INPUT	Com=Drive fault input
+++D=REAL	N=UserRef	IV=100	Ord=6	G=VAR_INPUT	Com=User velocity reference corresponding to MotorRef [UserUnit]
+++D=REAL	N=MotorRef	IV=50	Ord=7	G=VAR_INPUT	Com=Motor command reference corresponding to UserRef [MotorUnit]
+++D=STRING[6]	N=UserUnit	Ord=8	G=VAR_INPUT	Com=User velocity unit [rpm, m/min, pcs/min]
+++D=REAL	N=UserMax	IV=0	Ord=9	G=VAR_INPUT	Com=Maximum user velocity [UserUnit] (Disabled = 0)
+++D=REAL	N=MotorMax	IV=50	Ord=10	G=VAR_INPUT	Com=Command maximum of motor [V]/[Hz]
+++D=REAL	N=DriveFactor	IV=400	Ord=11	G=VAR_INPUT	Com=Conversion factor from motor command to raw drive command [DriveUnit/MotorUnit]
+++D=BOOL	N=Feedback_Used	Ord=12	G=VAR_INPUT	Com=Speed feedback is used
+++D=BOOL	N=Commissioning	IV=False	Ord=13	G=VAR_INPUT	Com=Put inverter in commissioning
+++D=BOOL	N=Output_CW	Ord=14	G=VAR_OUTPUT	Com=CW order
+++D=BOOL	N=Output_CCW	Ord=15	G=VAR_OUTPUT	Com=CCW order
+++D=BOOL	N=Output_Reset	Ord=16	G=VAR_OUTPUT	Com=Reset drive order
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

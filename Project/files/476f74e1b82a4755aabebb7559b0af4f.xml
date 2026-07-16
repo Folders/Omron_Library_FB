@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="1f8b6eac-ce58-441e-866a-ef6014f2eb3d">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="4429c1f7-81e8-41b8-9480-b4b76e00c88d">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="74cb140d-f129-4156-a293-5367dd2fd8a0">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="997064ea-5453-4a47-82a8-e0eb47a2ab3b">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+    <Resource Name="FontSize844" ID="13d73ec1-9111-42fe-a8e5-b30a14084f1c">
+      <Localisation Language="en-US" Translation="25" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1263" ID="3077fd54-5ee3-485c-8ff5-c9dcc7b2ff8e">
+      <Localisation Language="en-US" Translation="20" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="cef9758a-939d-4769-b45e-f2a166454ec7">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="eb026b37-1168-4f33-a4b0-f370acb0f573">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String0" ID="9f0963bf-e954-4faf-a52a-0bc64bab759c">
+      <Localisation Language="en-US" Translation="/" Default="True" />
+    </Resource>
+    <Resource Name="btnMinus" ID="71c1d352-ec34-4e76-adc3-dba3adc072dd">
+      <Localisation Language="en-US" Translation="-" Default="True" />
+    </Resource>
+    <Resource Name="btnPlus" ID="97cad3cd-f9cc-4fb1-810c-2dae99a45020">
+      <Localisation Language="en-US" Translation="+" Default="True" />
+    </Resource>
+    <Resource Name="strOFF" ID="50a53417-a3ee-42e3-90d6-ea789c9a4340">
+      <Localisation Language="en-US" Translation="OFF" Default="True" />
+    </Resource>
+    <Resource Name="strON" ID="57b18c87-0dea-4b3b-8e8f-d257c2ed73b6">
+      <Localisation Language="en-US" Translation="ON" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

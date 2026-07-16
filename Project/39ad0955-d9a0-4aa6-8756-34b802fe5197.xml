@@ -11,6 +11,7 @@
       <DataType Name="Trq" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Torque feedback [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ">
+      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Configuration is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Corr" BaseType="OBJ\INVERTER\LinearScaling" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Linear scaling correction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Factor" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Factor of convertion [Hz/x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Unit" BaseType="STRING[6]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Unit of user command [x]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -63,6 +64,7 @@
       <DataType Name="Cmd_Limited" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motor command is limited" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="VelocityTooHigh" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Input velocity is higher of max" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Feedback_TooHigh" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output velocity is higher of max" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TooMuchConfig" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Too much configuration bloc" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
     <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
       <DataType Name="Motor_SP" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command motor value [Hz]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

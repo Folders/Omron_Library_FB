@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataTraceConfigModel>
+    <TraceType>Continuous</TraceType>
+    <TriggerType></TriggerType>
+    <SamplePeriod>00:02:00</SamplePeriod>
+    <SampleRate>1</SampleRate>
+    <ExternalFileStorage>false</ExternalFileStorage>
+    <MaxSamplesPerFile>4500</MaxSamplesPerFile>
+    <MaxDataSetSize>100</MaxDataSetSize>
+    <TargetDirectory>C:\OMRON\Data\DataTrace\</TargetDirectory>
+    <FilePrefix></FilePrefix>
+  </DataTraceConfigModel>
+</data>

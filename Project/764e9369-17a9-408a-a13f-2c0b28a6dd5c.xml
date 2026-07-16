@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexDataTraceConfigModel>
+    <TaskName>BaseControl</TaskName>
+    <TraceId>0</TraceId>
+    <SampleTimingType>cyclic</SampleTimingType>
+    <SamplingInterval>1</SamplingInterval>
+    <SamplingTime>2</SamplingTime>
+    <PostTriggerDataRatio>100</PostTriggerDataRatio>
+    <StartOnRun>False</StartOnRun>
+    <EnableRealTimeDisplay>True</EnableRealTimeDisplay>
+    <BehaviorWhenMax>Stop</BehaviorWhenMax>
+    <NumSamplingRecords>10000</NumSamplingRecords>
+    <NexDataTraceTriggerModel>
+      <Enabled>false</Enabled>
+      <SymbolId></SymbolId>
+      <SymbolName></SymbolName>
+      <Condition></Condition>
+      <Value></Value>
+    </NexDataTraceTriggerModel>
+  </NexDataTraceConfigModel>
+</data>

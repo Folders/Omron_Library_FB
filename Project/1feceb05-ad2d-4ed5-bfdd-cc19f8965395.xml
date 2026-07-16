@@ -66,16 +66,20 @@
     </DataType>
     <DataType Name="InverterTest" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="113" OffsetType="NJ">
       <DataType Name="Enable_Analog" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable analog inverter config" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Enable_EtherCAT" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Enable analog inverter config" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="AD_SpeedFeedback" BaseType="INT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Input from drive" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DA_SpeedSetpoint" BaseType="INT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Output to drive" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DO_CW" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run in CW" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DO_CCW" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to run in CCW" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DO_Reset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to reset the drive" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Volt" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ratio cmd" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="AtVel" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Ratio vel" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Volt" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Tension reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Frequency" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Frequency reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Velocity" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Velocity reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Volt_Max" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Frequency_Max" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Vel_Max" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum vel" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd_Run" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Run invert" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd_Invert" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Invert motor rotation direction" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd_Speed" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Inverter speed [rpm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd_Overspeed" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Inverter speed [%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>

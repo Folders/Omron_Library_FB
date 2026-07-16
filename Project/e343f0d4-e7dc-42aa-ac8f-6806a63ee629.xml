@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=REAL	N=Sum	IV=-1	G=VAR	Com=Sum of average
+++D=BOOL	N=EndOfTimmer	G=VAR	Com=Refresh computation
+++D=REAL	N=MV	G=VAR
+++D=TON	N=Update	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Run the average
+++D=REAL	N=Input	Ord=2	G=VAR_INPUT	Com=Input value to average
+++D=REAL	N=NumberVal	Ord=3	G=VAR_INPUT	Com=Number of value for average
+++D=TIME	N=RefreshTime	IV=T#100ms	Ord=4	G=VAR_INPUT	Com=Calculation refresh time [ms]
+++D=BOOL	N=Reset	E=UpDirection	Ord=5	G=VAR_INPUT	Com=Reset average
+++D=REAL	N=Reset_Value	Ord=6	G=VAR_INPUT	Com=Value of average when reseted
+++D=REAL	N=OutAvg	Ord=7	G=VAR_OUTPUT	Com=Average value in REAL
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

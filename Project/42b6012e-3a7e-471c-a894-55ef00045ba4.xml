@@ -6,7 +6,9 @@ _EN=Variables
 ++D=OBJ\RAMP\RampGenerator	N=simRamp	G=VAR
 ++D=OBJ\RAMP\BASE	N=ramp	G=VAR
 ++D=INT	N=diff	G=VAR
-++D=BOOL	N=testDir	Ord=1	G=VAR	AOE=1
+++D=BOOL	N=testDir	G=VAR
+++D=BOOL	N=toggle	G=VAR
+++D=OBJ\INVERTER\Inverter_Config_EtherCAT	N=configMX2	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=WORD	N=Inv_Command	G=VAR_EXTERNAL
 ++D=UINT	N=Inv_Frequency_Reference	G=VAR_EXTERNAL

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="dc4e2935-38e0-4e9a-97e2-5e9d6ddda835">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="7f130ed8-6240-4414-a421-5876064267d6">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize84" ID="9e7ef495-afec-4240-99ab-ffd4e1c87de5">
+      <Localisation Language="en-US" Translation="10" Default="True" />
+    </Resource>
+    <Resource Name="FontSize600" ID="68e856e6-47cb-4727-8366-ce73dd28d85f">
+      <Localisation Language="en-US" Translation="13" Default="True" />
+    </Resource>
+    <Resource Name="FontSize4" ID="685c2db6-8de8-45ee-97a2-870be11e5438">
+      <Localisation Language="en-US" Translation="14" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="ef6a4660-66bc-4925-a400-6a6e42e6bf25">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="cdf68d2b-c2c9-4edc-8156-d5b2a7ae4dbd">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="Clearing" ID="3d430eb6-a274-4bb4-9a1f-c1f4fdc1451b">
+      <Localisation Language="en-US" Translation="Clearing" Default="True" />
+    </Resource>
+    <Resource Name="Stopped" ID="578214a2-48e5-48df-bd35-151144b2cce3">
+      <Localisation Language="en-US" Translation="Stopped" Default="True" />
+    </Resource>
+    <Resource Name="Starting" ID="9556a5fd-ba07-4021-9dcc-f0387d25f979">
+      <Localisation Language="en-US" Translation="Starting" Default="True" />
+    </Resource>
+    <Resource Name="Idle" ID="678409f6-56ec-469f-81f4-3483d0d35e3b">
+      <Localisation Language="en-US" Translation="Idle" Default="True" />
+    </Resource>
+    <Resource Name="Suspended" ID="b16ebde5-4ca5-4f4e-9a89-950a03863430">
+      <Localisation Language="en-US" Translation="Suspended" Default="True" />
+    </Resource>
+    <Resource Name="Execute" ID="c151b207-153a-4c52-8749-d18ab40963e3">
+      <Localisation Language="en-US" Translation="Execute" Default="True" />
+    </Resource>
+    <Resource Name="Stopping" ID="d9c99da7-c39f-41aa-ad8d-1285bc36d919">
+      <Localisation Language="en-US" Translation="Stopping" Default="True" />
+    </Resource>
+    <Resource Name="Aborting" ID="22d9b60c-fb6c-424e-ab28-1f8aa802bf6a">
+      <Localisation Language="en-US" Translation="Aborting" Default="True" />
+    </Resource>
+    <Resource Name="Aborted" ID="45f64152-97f9-48a2-bfa1-b3409d05c073">
+      <Localisation Language="en-US" Translation="Aborted" Default="True" />
+    </Resource>
+    <Resource Name="Holding" ID="e7cf8e1b-c8d7-4d16-a301-00f82def00dd">
+      <Localisation Language="en-US" Translation="Holding" Default="True" />
+    </Resource>
+    <Resource Name="Held" ID="9ff06137-40b0-4e35-9ec5-4d62ca417c82">
+      <Localisation Language="en-US" Translation="Held" Default="True" />
+    </Resource>
+    <Resource Name="Unholding" ID="4d0487fd-b3dc-4e89-b42f-f73ef36c138c">
+      <Localisation Language="en-US" Translation="Unholding" Default="True" />
+    </Resource>
+    <Resource Name="Suspending" ID="2a130e73-1297-44ae-b5ea-262bf1a246f6">
+      <Localisation Language="en-US" Translation="Suspending" Default="True" />
+    </Resource>
+    <Resource Name="Unsuspending" ID="cf0f6644-086a-44f9-b4bf-7e5082aa0b11">
+      <Localisation Language="en-US" Translation="Unsuspending" Default="True" />
+    </Resource>
+    <Resource Name="Resetting" ID="a04ff544-4e66-4224-b887-94ab6ddd4a1d">
+      <Localisation Language="en-US" Translation="Resetting" Default="True" />
+    </Resource>
+    <Resource Name="Completing" ID="48786ab8-c455-4548-a9a2-0888a95e9f78">
+      <Localisation Language="en-US" Translation="Completing" Default="True" />
+    </Resource>
+    <Resource Name="Completed" ID="c3a261bf-0ad0-4caa-ba76-6878412b5175">
+      <Localisation Language="en-US" Translation="Completed" Default="True" />
+    </Resource>
+    <Resource Name="String6" ID="ff660652-5084-4975-a0c0-70b96beb8f15">
+      <Localisation Language="en-US" Translation="Run" Default="True" />
+    </Resource>
+    <Resource Name="String7" ID="ba80f6dc-efbd-4a60-92d7-c17e753d837b">
+      <Localisation Language="en-US" Translation="Ready" Default="True" />
+    </Resource>
+    <Resource Name="String8" ID="c948d80d-d6db-41a2-b3e5-1a9e1ffaff03">
+      <Localisation Language="en-US" Translation="Work" Default="True" />
+    </Resource>
+    <Resource Name="SC" ID="8c4ea375-b3b8-4bc8-b161-25e374414be7">
+      <Localisation Language="en-US" Translation="SC" Default="True" />
+    </Resource>
+    <Resource Name="String9" ID="826153b5-66e5-440b-92a3-9ca97312fc0d">
+      <Localisation Language="en-US" Translation="Hold" Default="True" />
+    </Resource>
+    <Resource Name="String10" ID="8745377c-0b6e-4b66-9ecb-277f94300c00">
+      <Localisation Language="en-US" Translation="UnHold" Default="True" />
+    </Resource>
+    <Resource Name="String11" ID="afd4f250-f405-4aa5-aabe-144d8aced0ba">
+      <Localisation Language="en-US" Translation="Unsus- pend" Default="True" />
+    </Resource>
+    <Resource Name="Start" ID="94158813-27d2-4b44-89a9-fd20fcc4b78a">
+      <Localisation Language="en-US" Translation="Start" Default="True" />
+    </Resource>
+    <Resource Name="Reset" ID="6a6f3b0e-4541-4897-b989-f73833d3187c">
+      <Localisation Language="en-US" Translation="Reset" Default="True" />
+    </Resource>
+    <Resource Name="Abort" ID="843dc557-6f3b-48b6-8f3b-7d0acf485c19">
+      <Localisation Language="en-US" Translation="Abort" Default="True" />
+    </Resource>
+    <Resource Name="String13" ID="4581c261-9b83-4b75-96df-a3c632cbd59e">
+      <Localisation Language="en-US" Translation="Clear" Default="True" />
+    </Resource>
+    <Resource Name="String14" ID="923f2a43-af1d-4505-9d3c-e5fab07076b4">
+      <Localisation Language="en-US" Translation="Suspend" Default="True" />
+    </Resource>
+    <Resource Name="String15" ID="1f959582-ecc8-4899-9d60-e59d7639a10c">
+      <Localisation Language="en-US" Translation="Unsuspend" Default="True" />
+    </Resource>
+    <Resource Name="String16" ID="7865f12d-ca3e-4ab5-bd59-33503c165974">
+      <Localisation Language="en-US" Translation="Stop" Default="True" />
+    </Resource>
+    <Resource Name="String18" ID="d3d9fe86-a5f8-4d19-8918-a868a4925b5a">
+      <Localisation Language="en-US" Translation="Complete" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="LE_MB_Success" ID="861dcf5b-5008-4efa-9f82-25a7943cb8b3">
+      <Localisation Language="en-US" Translation="MB_Success.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

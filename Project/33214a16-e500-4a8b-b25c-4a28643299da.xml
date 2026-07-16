@@ -3,6 +3,7 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=REAL	N=vel	G=VAR	Com=Velocity computed value of invertor [x]
 ++D=REAL	N=overspeedFactor	G=VAR	Com=Overspeed for invertor in REAL [%]
+++D=BOOL	N=runVel	G=VAR	Com=Order to run to a velocity
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=OBJ\INVERTER\BASE	N=MyAxis	Ord=0	G=VAR_IN_OUT	Com=Inverter
 ++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute co

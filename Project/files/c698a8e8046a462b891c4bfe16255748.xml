@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="bc83c4ef-09a5-47c1-993e-fc33b0306cfb">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="8ba3f900-1257-472e-8fab-2c1a1870d52b">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="97d26e6e-02db-4dac-85df-11dbce1f89f5">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1263" ID="93f1cc20-8d2a-4151-beaf-0c454c768960">
+      <Localisation Language="en-US" Translation="20" Default="True" />
+    </Resource>
+    <Resource Name="FontSize4" ID="4f086071-fb76-4e40-b3ab-9a21c39e3142">
+      <Localisation Language="en-US" Translation="14" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="7d3beb9c-d0d1-4d80-9bc9-3141318d2ad4">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="5ea42376-5f5c-421a-839a-b4700fda41dc">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String0" ID="0da0577d-79b5-4b11-82aa-b9d93c8eaeb9">
+      <Localisation Language="en-US" Translation="/" Default="True" />
+    </Resource>
+    <Resource Name="String226" ID="1f38950e-6496-41af-9652-8d0ae1865b5d">
+      <Localisation Language="en-US" Translation="Rising:" Default="True" />
+    </Resource>
+    <Resource Name="String238" ID="3132bef6-714b-4d25-9238-a860438e663f">
+      <Localisation Language="en-US" Translation="Falling:" Default="True" />
+    </Resource>
+    <Resource Name="String240" ID="bd670a4f-a04e-4fa4-83e5-ab35d4736a07">
+      <Localisation Language="en-US" Translation="True value :" Default="True" />
+    </Resource>
+    <Resource Name="String241" ID="cda38bb3-2ef6-47df-b211-9d95b4eda435">
+      <Localisation Language="en-US" Translation="Input min:" Default="True" />
+    </Resource>
+    <Resource Name="String242" ID="bc907865-45df-4c15-8699-3755bf43f108">
+      <Localisation Language="en-US" Translation="Input max:" Default="True" />
+    </Resource>
+    <Resource Name="String243" ID="f1e93064-3138-41cb-823c-2c96a70790e8">
+      <Localisation Language="en-US" Translation="Input:" Default="True" />
+    </Resource>
+    <Resource Name="String244" ID="1b8b2aaa-97bd-4e1e-9a14-c41bd52a4b32">
+      <Localisation Language="en-US" Translation="Output:" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="FA_Volume" ID="5d1ad0b9-68c7-4b4e-ad4e-656f80da15b9">
+      <Localisation Language="en-US" Translation="FA_Volume.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_VolumeSlash" ID="791c35a2-da94-46ee-bbc3-d6b5b7de1b05">
+      <Localisation Language="en-US" Translation="FA_VolumeSlash.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Teaching" ID="453614aa-2c5d-44ad-88a7-62646295d3fe">
+      <Localisation Language="en-US" Translation="FA_Teaching.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image13" ID="7970468d-2c6a-4fa6-a822-e6ebee4267a8">
+      <Localisation Language="en-US" Translation="FA_AngleDown.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

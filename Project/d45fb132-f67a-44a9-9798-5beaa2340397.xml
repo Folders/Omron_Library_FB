@@ -2,28 +2,26 @@
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=BOOL	N=started	G=VAR	Com=FB started info
-++D=REAL	N=velocitySP	G=VAR	Com=Velocity setpoint of invertor [x]
-++D=REAL	N=velocityFB	G=VAR	Com=Velocity feedback of invertor [x]
-++D=BOOL	N=cmdRun	G=VAR	Com=Run command
-++D=OBJ\uWord	N=Int_Fault_Code	G=VAR	Com=Value of faut code
-++D=TON	N=Timer_Reset	G=VAR
-++D=OBJ\INVERTER\LinearScaling	N=scalingBackup	R=1	IV=(SP_a := 1.0, SP_b := 0.0, FB_a := 1.0, FB_b := 0.0)	G=VAR	Com=Backup of linear scaling
+++D=MovingAverageReset	N=avgSpeed	G=VAR
+++D=REAL	N=velAvg	G=VAR
+++D=OBJ\INVERTER\Inverter_PRIVATE	N=inverterCore	G=VAR
+++D=BOOL	N=coreENO	G=VAR	Com=Inherit ENO
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
-++D=OBJ\INVERTER\BASE	N=MyAxis	Ord=1	G=VAR_IN_OUT	Com=Inverter
+++D=OBJ\INVERTER\BASE	N=MyInverter	Ord=1	G=VAR_IN_OUT	Com=Inverter
 ++D=BOOL	N=Enable	Ord=2	G=VAR_INPUT	Com=Enabled the invertor
-++D=INT	N=IO_SpeedFeedback	IV=-9999	Ord=3	G=VAR_INPUT	Com=Analog motor speed feedback [0..4000]
-++D=INT	N=IO_SpeedSetpoint	Ord=4	G=VAR_OUTPUT	Com=Analog motor speed command [0..4000]
-++D=BOOL	N=IO_DriveFault	Ord=5	G=VAR_INPUT	Com=Drive in fault
-++D=REAL	N=Volt	IV=50	Ord=6	G=VAR_INPUT	Com=Volt of motor for define speed [V] (Empty = 10)
-++D=REAL	N=AtVelocity	IV=100	Ord=7	G=VAR_INPUT	Com=Speed of moteur for define frequency [x] (Empty = 100)
-++D=STRING[6]	N=Unit	Ord=8	G=VAR_INPUT	Com=User unity of velocity
-++D=REAL	N=Volt_Max	IV=50	Ord=9	G=VAR_INPUT	Com=Volt maximum of motor [V] [10]
-++D=REAL	N=Velocity_Max	IV=0	Ord=10	G=VAR_INPUT	Com=Velocity maximum of motor [x] (Disabled = 0)
-++D=REAL	N=FactorAD	IV=400	Ord=11	G=VAR_INPUT	Com=Factor AD/tension [4000/10V]
-++D=BOOL	N=Feedback_Used	Ord=12	G=VAR_INPUT
+++D=INT	N=AD_SpeedFeedback	IV=-9999	Ord=3	G=VAR_INPUT	Com=Analog motor speed feedback [0..4000]
+++D=INT	N=DA_SpeedSetpoint	Ord=4	G=VAR_OUTPUT	Com=Analog motor speed command [0..4000]
+++D=BOOL	N=ID_DriveFault	Ord=5	G=VAR_INPUT	Com=Drive in fault
+++D=REAL	N=VelocityRef	IV=100	Ord=6	G=VAR_INPUT	Com=User velocity reference corresponding to TensionRef [UserUnit]
+++D=REAL	N=TensionRef	IV=10	Ord=7	G=VAR_INPUT	Com=Motor command reference corresponding to VelocityRef [V]
+++D=STRING[6]	N=VelocityUnit	Ord=8	G=VAR_INPUT	Com=User velocity unit [rpm, m/min, pcs/min]
+++D=REAL	N=VelocityMax	IV=0	Ord=9	G=VAR_INPUT	Com=Maximum user velocity [UserUnit] (Disabled = 0)
+++D=REAL	N=TensionMax	IV=10	Ord=10	G=VAR_INPUT	Com=Volt maximum of motor [V]
+++D=REAL	N=FactorAD	IV=400	Ord=11	G=VAR_INPUT	Com=Conversion factor from motor command to raw drive command [4000/10V]
+++D=BOOL	N=Feedback_Used	Ord=12	G=VAR_INPUT	Com=Speed feedback is used
 ++D=BOOL	N=Commissioning	IV=False	Ord=13	G=VAR_INPUT	Com=Put inverter in commissioning
-++D=BOOL	N=IO_CW	Ord=14	G=VAR_OUTPUT	Com=CW order
-++D=BOOL	N=IO_CCW	Ord=15	G=VAR_OUTPUT	Com=CCW order
-++D=BOOL	N=IO_Reset	Ord=16	G=VAR_OUTPUT	Com=Reset drive order
+++D=BOOL	N=OD_CW	Ord=14	G=VAR_OUTPUT	Com=CW order
+++D=BOOL	N=OD_CCW	Ord=15	G=VAR_OUTPUT	Com=CCW order
+++D=BOOL	N=OD_Reset	Ord=16	G=VAR_OUTPUT	Com=Reset drive order
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

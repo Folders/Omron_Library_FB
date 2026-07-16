@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="ba838983-a447-4cb3-b7e8-02c9c87d543d">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="3f8b90d7-4e03-4a9f-8db7-5e69d07a47ef">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="4298ffaa-369f-42d4-8ad1-3ce43fe2d9e9">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="31b2e2f8-b0b1-4501-8ba1-40e0a88c5ac2">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="0ab3f0cc-cbff-4727-8a10-bb56352d4dcc">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String0" ID="edd468fc-e007-487e-9321-c49a45762272">
+      <Localisation Language="en-US" Translation="/" Default="True" />
+    </Resource>
+    <Resource Name="S_Edit" ID="7294bfc7-6a6e-4c49-bc7b-d49fc5e38abe">
+      <Localisation Language="en-US" Translation="Edit" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="LE_MB_Success" ID="6dea3949-afc0-4d31-97a4-32db100b4a59">
+      <Localisation Language="en-US" Translation="MB_Success.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Warning" ID="ae68439b-244d-4cf5-a3fa-71dd5d409495">
+      <Localisation Language="en-US" Translation="FA_Warning.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Thermo_TooHot" ID="cba5c3a5-67ac-4560-89df-7875e21ad8b8">
+      <Localisation Language="en-US" Translation="FA_Thermo_TooHot.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Thermo_TooCold" ID="5f6a3a17-5676-4b66-8d08-d0808735c822">
+      <Localisation Language="en-US" Translation="FA_Thermo_TooCold.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_CommError" ID="50bd43bb-75c9-43f7-ae44-40642b228596">
+      <Localisation Language="en-US" Translation="FA_CommError.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Error" ID="8f786dbe-568c-4248-9cfd-fd85ac9fb4d3">
+      <Localisation Language="en-US" Translation="FA_Error.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Material" ID="1b345191-f6d2-4355-8163-e1586c4a0a57">
+      <Localisation Language="en-US" Translation="FA_Material.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Wrench" ID="d9799e99-acb6-41a9-be10-558da2d106db">
+      <Localisation Language="en-US" Translation="FA_Wrench.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Door_Open" ID="ccd91bcf-c47e-4c83-a017-a8662dd83b0b">
+      <Localisation Language="en-US" Translation="FA_DoorOpen.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Air_Error" ID="c985b0f9-35fc-483a-b8f7-950e109f5d96">
+      <Localisation Language="en-US" Translation="FA_Air_Error.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Tint_Error" ID="153b6752-d849-4f15-906a-8fa5dc915d52">
+      <Localisation Language="en-US" Translation="FA_Tint_Error.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image0" ID="af2370b5-15d2-44a7-8e52-3e02e1db82c6">
+      <Localisation Language="en-US" Translation="FA_Lock.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Key_Orange" ID="6882288e-7fbb-4f60-819c-ccaaa288c47f">
+      <Localisation Language="en-US" Translation="FA_Key_Orange.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>
