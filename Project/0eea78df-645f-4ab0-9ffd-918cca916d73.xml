@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=SINT	N=S	G=VAR	Com=Step of writing command
+++D=BOOL	N=Order_Write	G=VAR
+++D=REAL	N=Data_Backup	G=VAR	Com=Backup of data value
+++D=SINT	N=Id_Local	IV=-1	G=VAR	Com=Id of function bloc
+++D=REAL	N=Ratio_Backup	G=VAR	Com=Backup of ratio value
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\CAMERA\FH\BASE	N=My_FH	Ord=0	G=VAR_IN_OUT
+++D=BOOL	N=Enabled	Ord=1	G=VAR_INPUT	Com=Order to set data
+++D=USINT	N=Macro	Ord=2	G=VAR_INPUT	Com=Macro id to execute
+++D=REAL	N=Data	Ord=3	G=VAR_INPUT	Com=Data to send
+++D=REAL	N=Ratio	IV=1.0	Ord=4	G=VAR_INPUT	Com=Ratio of data
+++D=BOOL	N=Done	Ord=5	G=VAR_OUTPUT
+++D=BOOL	N=Fault	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

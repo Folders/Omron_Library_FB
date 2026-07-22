@@ -2370,7 +2370,408 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="8cad3801-d202-4e82-9137-076a599f78ee" name="FL_Config_XVU" version="0" dateCreated="01/16/2019 15:51:45" dateLastModified="05/08/2026 17:10:06" label="6.0.0" author="PClo" comment="Flash lamp configuration for Schneider Harmony XVUC29P lamp.&#xD;&#xA;The color/effect will be controled by PWM output." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="2116f7f3-877d-4242-b6eb-c0b4806c7acc" DN="FL_Config_XVU {OBJ\FLASHLAMP}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="8dcbd858-44d0-41e7-8934-7d28228a9456" name="FH_Config" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="PClo" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="123c0439-c25e-4a62-8c62-0b0ec6c45289" DN="FH_Config {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="2ccb141f-ee94-4f30-a64a-43ba9d00ce15" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="ebf25d4c-614f-44e3-86a9-8030835416cf" hash="cf864a2ed3daf27889b9851e45003b87">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="8d95dae8-ede3-4eb1-9e23-9624d520a21f" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="18d8bbb4-6017-45a0-9e77-cf8489baa542">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="82ccedd0-f614-4dea-bf8e-06ac7ab488bf" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="0a801e0a-a3d8-4bd5-a2dd-106c6d40d8c3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="2f11169c-be68-4350-97a6-a7651fa51507" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="461213a3-f758-4cf5-ae17-01315b3b1895" hash="9e40e4a590c9dcadc66038bc43a612bf">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="7edef6f4-1997-4832-9d8e-a01533d17142" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="21e2fb0a-6d31-4ca5-83ee-7dd25c96c1c7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="ba08f946-0826-4a33-b977-f5244abcf1e7" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="40e20072-3033-4587-b90a-b1a01a0424cb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="569c3188-60dd-4c37-b1d7-5bc6b4165cc1" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="04ecdfcf-e12d-4495-8482-6fca0cf5e333">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f2b6d06f-236c-4504-ae78-b99ef33d765f" name="2607070e-24f2-43ab-a495-f0127af71011" version="0" dateCreated="12/17/2019 15:21:29" dateLastModified="07/20/2026 09:53:02" trackingId="0fa6538d-e5c0-4224-8d00-4c7d8f22abce">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="c4bcdeb2-c3ea-41be-a693-2ae8dc76f7ad" name="FH_GetUnitData" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="PClo" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="4c3541d1-b27e-4a70-b1c3-9ae292bac63e" DN="FH_GetUnitData {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="665d53b1-758d-4f8d-8c02-85ca04c1d278" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="b21af94e-d5b8-4c5d-ac4b-0f6a4b52fc4c" hash="409a54b7945b19727a623b34ef0300a9">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="81021aa7-cbf9-49d7-bc90-0838f372c99a" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="ad41dae2-8a4e-4943-b62f-1454fb3d1fb6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="cad6361d-0da3-4efa-8b7e-b76d131325ed" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="31e5cf55-638f-46f0-b2fe-def2bcfb6f9c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="8f8289e4-fcba-458c-9685-8ae7073b51ff" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="7dd3b20f-5609-4fef-893c-fef7d7717dc2" hash="203c3f1a322e8d0a9b3dc954d8f8ebb6">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="868c2c66-6382-430e-87b1-3f70d76c205a" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="d60318fb-4abf-4add-90a4-866c06d34e2a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="a5ebb0b6-0948-4aaa-b287-b07b53f3f7cc" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="99dca3d2-8cd7-4c60-92ee-31a8db858fc8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="68a662d5-6952-4a23-aa1f-5df6aa6f5e5e" name="827e7107-d815-41da-9714-dd45ebc31817" version="0" dateCreated="12/18/2019 08:21:59" dateLastModified="07/20/2026 09:53:02" trackingId="1c2a1c42-b10c-45c0-8e1f-53fe445fac34">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="7e89577a-9a90-4b87-ac0e-d25472b5edbd" name="d6e4ae83-7e4d-4a0d-b73a-37f91407dc38" version="0" dateCreated="12/18/2019 08:45:03" dateLastModified="07/20/2026 09:53:02" trackingId="9ca3a4c1-e765-4a78-83c7-57cf50c4992d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="9ff50403-a34c-499e-9cf5-f89e44726dd3" name="FH_SetUnitData" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="cp" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="da284f9f-5729-44bd-afe0-a41830dedd06" DN="FH_SetUnitData {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="c893226d-ad36-41d9-9f1d-c84186e0370f" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="b6ad8239-e641-4007-b534-a6e893aa2cf3" hash="4cbfdca92b80d8acc72c581f89347b92">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="32301310-cdad-417b-a07a-5bca26ddc5ee" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="ed274380-0b72-4dde-8d74-22dc896e1dc7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="2b109f9b-c481-4295-acb3-9ad1ef0ad159" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="560e30e6-b7e0-486e-bee5-3e50e41f4a26">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="e95392da-3104-41c8-9e60-0d5b26300c03" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="3681f706-3d6b-4dc6-9f8d-e584148ed22e" hash="4ecbfddad9e4a26d0a9d3f96b3709e98">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="56ab24b2-e2de-4741-940b-b33b23ee4579" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="5f3688b1-7b5f-4116-86dc-f83659c5f2e6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="55e81b5a-12d2-4a2f-805b-f31803174161" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="b222ae00-0bfa-4266-b1ec-7d3c142af59a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="580f3962-f1e0-4cae-8d8c-2acbd071b786" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="52d99935-f033-47e0-925a-df279b864804">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="287948ba-86c1-4442-9989-6f1d3becae96" name="FH_SetUnitData_Follow" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="cp" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="1506ec01-ef0e-4dcd-8f98-00e6d411803a" DN="FH_SetUnitData_Follow {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="0a5c6340-a3ad-43eb-9460-5702526c2752" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="5f00d5fe-7af7-460f-bbbd-bf40b80c9d01" hash="ff2e647f81ba4ef155523c9f2120f816">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="bfa3ea37-aa88-45be-8dbf-ba160dfe1c21" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="63267acf-9974-425c-8afc-6b13b7a6d481">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f9c3647a-7275-4776-a8a1-0417fb7dd51a" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="fd43b7cc-384d-4377-b8d4-85bc655d920b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="6e8ac5b8-0a87-4ea9-ab4f-90090bc98a39" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="c372edda-571c-4ab7-8921-3a1dc17c5853" hash="cef6d89a45d09986fb026435c9e718fd">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="d72fc559-b6fd-43a0-af20-00bea5673b9e" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="b3ecdd15-c416-489b-931b-5a18a4792391">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="2ce8fa24-4470-4a07-a496-db009e31a577" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="def76f52-fbf1-411c-8b95-ef4a885c00f5">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f2c99cde-1110-4ba9-bd59-22896d472e67" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="e44419a6-63de-41e4-8aa5-7e8f080d7567">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f2bbaf3c-ad05-4dd3-b536-dfe22be9fd49" name="d209cf6a-c581-4b40-aaa6-e1ee8f014718" version="0" dateCreated="12/18/2019 09:37:03" dateLastModified="07/20/2026 09:53:02" trackingId="7a34cbe1-dfe0-460b-a6cd-7412b4663007">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="7d225d46-5c92-4d8a-a2ec-37ea4d6e6fea" name="271f7e92-ff54-4d81-a5d7-2518ed28b4c7" version="0" dateCreated="12/18/2019 09:37:03" dateLastModified="07/20/2026 09:53:02" trackingId="bd59f0dc-a460-488c-8ab0-8354cb687473">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="3e03ec1f-f754-46cd-ac07-541bb7c57590" name="FH_SwitchScene" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="PClo" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="ca62677d-a8b1-468b-bdc3-b45e594387c7" DN="FH_SwitchScene {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="fad89e35-b406-449a-a055-d231e69a24c6" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="fe1e361c-0c19-48e5-8399-eb3cd5926158" hash="d894d39c6b3d80e908ececfafe9e0816">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="b0d1ca5e-e2eb-4c50-90d9-d3771bccbb8b" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="1073b39f-63da-4c73-bf1a-60ca3986b1df">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="b16b02f2-5632-4eae-9e7c-67f5dd1b0a87" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="ea86756c-349f-42c2-9999-91eb84164308">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="4d9f0eaf-03ba-4ba1-8c4d-28d847642eac" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="05b51fc8-7440-481e-a65d-a1c03440df1e" hash="5a0d9a6e640e77bd5cfabfea0cc25b55">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="46c80632-5caa-4626-9f45-37df4037fa39" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="1012d80c-2be4-45b1-b9de-156fd31a25ad">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="04a0bb00-75e7-43b4-8291-8414e7749286" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="49a79e74-249b-485f-bbf7-434865ef11f3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="ef97e116-9622-4189-9c76-4e9879a740bf" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="9ec901f4-3a9e-4caf-a335-9179b8dc936a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="6b139e9e-626e-4156-a154-49ae4c7aec73" name="FH_SwitchSceneGroup" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="cp" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="b8ab2313-58b3-4618-9cb9-bd35639e84ea" DN="FH_SwitchSceneGroup {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="e7f9b6be-2a49-4605-93c9-67967d3e6f93" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="f9e23800-3165-4919-a9cc-0cd66b0692be" hash="777f6d8fdb37ff4d6703c66d61b69b26">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="2fe98690-c72d-4c94-8acf-dab2c0c1ef94" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="33d2cbd5-38f5-4c1c-ad34-65c74a20a1d3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="d255af0d-78e7-40be-99e4-118b38fab50f" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="f84b48ed-8433-4136-bfcb-645b18954a4b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="0d3ddb9b-9ae0-4c5b-aa23-cd9341c434be" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="337bc6d9-3bed-4c40-bfdd-8e9dd45d49ce" hash="cebce54c780df8900e05b15e9b390bc1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="6ded612f-bf51-45f5-9d0d-2d67be825d1e" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="35136477-0580-48d0-87e8-76e633f0c671">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="e31b2b2a-0f81-4747-b518-8634a4d2249b" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="c36574d9-a8e7-439d-9483-0c423bc13650">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="c847e855-dd16-41ee-a190-bf38909a2796" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="c05c7ddf-e73a-4a5d-8917-dcb848370ae9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="fd027e39-6d11-47ad-839c-5ac72ff3f7b8" name="FH_SetLayout" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="cp" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="42e72e71-571a-4984-b704-839b7bcc4596" DN="FH_SetLayout {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="1ac85cbc-f01f-43cf-8c65-79911d69e4ac" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="254b7594-a952-4021-9077-e76ce5912381" hash="087f3f625c2ec4b2285bd217a4cabb32">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="0f8fe1e3-ed73-4e08-ae4d-7deb31692981" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="05384e18-9cd6-4bfe-89a2-e486727d27dc">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f9b45b9c-c468-45a6-b09e-508ebae8f57e" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="c5140d22-32d2-45cd-a950-182e0f6682c6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="eff9baf7-abc8-4c5a-8fe0-588ba54ae7c9" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="84764fca-e4d8-4bac-8cff-a0481b8cdfc1" hash="228f1a5cbfe0e0d92104301a2dd81df7">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="66beb71f-2c1c-4fb0-9e72-2825ef54099b" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="4b9e6342-028e-4372-99ec-bb6a19154ea3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="dbc82ec1-b9e1-4136-b821-1e674d35e97c" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="1a2bcb49-a9b1-42fa-b433-cb34f5cbc4a1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f58d0e36-3ca8-4097-b1d4-518123c593c6" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="1426617f-41b4-43b7-af5a-a0c847499fd0">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="9ed01f43-fdca-437f-b3dd-325eb8072d6a" name="FH_Save" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="PClo" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="72240cb0-fe8f-497a-906d-ad19887c535f" DN="FH_Save {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="0188e925-cbbd-4802-9ada-993e7482e31f" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="2642c273-4365-4d65-b018-b5c8f7f805ea" hash="311843ab4b84fc9ebac17b02ccaee674">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="7afce248-a64b-4c06-8db0-9510fc624b24" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="ed046076-5e24-4155-840a-c5a5b3de3224">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f0b130ed-5e57-471c-9580-1473522c896e" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="35d9a37b-28ca-4d4a-af20-5e250cdaee94">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="931b96c3-396f-4527-8040-9e8f996e2649" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="89d07a70-72e6-4300-b479-5537c3d02649" hash="287db1cd968594a21dcd280349e73d97">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="8e38c063-fb66-4d17-8b73-27f98aca572f" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="73dcecfa-f6c9-4a5a-a822-c1eb540408ff">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="cf9f9284-3504-41f2-9cf7-78c6c487ef49" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="6b3af435-28dc-4d6f-b60e-f38547d32edb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="5ea54df6-ba00-4da2-bbaa-417ba72d3caa" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="67c2d2a7-8df8-4886-a771-0d1df199d049">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="fd073c90-ade6-4f22-bf6a-a2a80062981b" name="FH_Restart" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="cp" comment="S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="1bf40760-9b4c-4b02-96fd-921bc72017c4" DN="FH_Restart {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d33c7040-a0b2-4444-bd35-93b9e3692241" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="4c1adfb5-9c3b-4476-8fe3-8f5ae782b5d2" hash="311843ab4b84fc9ebac17b02ccaee674">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="975122f3-3824-4f0e-b2af-14bbce166029" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="a43c94a3-26c6-4096-a7b5-7b60e7c1b6a9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="0960337b-9cfd-4ad3-8f6e-cf556278476b" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="70d5f798-8a5c-4371-8248-d1fcfae54add">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="83c31cbb-8f72-494a-a009-3d186aeaacd7" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="dc1d6764-6edb-483c-9d47-dba0a2edfcf4" hash="fd4498a2c7f15dd9fabecd4830b3a071">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a5db35d8-d5de-43e4-91ac-b22776397074" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="a6098ea7-721b-4832-9da5-4bfbeaae21df">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="be0f6fa2-dde7-4583-9b6b-d61d595c1304" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="c632e75c-dcb0-4a98-b3e0-36591cab9121">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="ebf01015-2105-4106-8f66-7201882af0f7" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="33fe2a60-54b0-49e3-aab3-b3fe233dd3c7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="2025a42e-839e-4d0e-b9c0-40ca71c98d28" name="FH_Macro" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="PClo" comment="Execute macro one time, use this macro on FH side:&#xD;&#xA;SY.MyVar##=ARGUMENTVALUE#(0)/1000&#xD;&#xA;&#xD;&#xA;S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="9a5cad54-767e-4789-8ee4-a52f9bf4b409" DN="FH_Macro {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d8535201-c8c4-43f5-bd0e-1bb926a28aa3" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="2e39823a-8ca8-4d2c-8a7d-d0d8003ec9d2" hash="abdebe3c8a870cb256c0a331c329279a">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="e1f61a3b-3895-4cce-ab8a-abe3abe92971" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="87a9268d-1bbe-4994-97cc-9eb0453253d8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="f8774612-9e93-4b58-87ce-45bd0ea402de" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="e85f2f91-43cb-4107-a837-73c22bfc8abe">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="32532ef4-e23b-4786-984e-4c88479a5b07" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="ed311416-3073-4dcd-b840-f195c032a92f" hash="d0a2d72e0614d7a39863a079803b8e95">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="028b5af8-7c37-4cbb-a5fc-334cc875a4d2" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="23f9d9ab-0450-43c4-8e34-4b51946e6fd1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="50e6ee4a-6c57-4d8f-b7b6-acee1d75bbb2" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="cdd16471-723f-4dba-a056-1d91709d0018">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="96aebace-4b8f-4317-b69b-80124495243b" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="9ce41cc6-9957-46db-9eb5-b412c4c122b6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="869b01b3-ce1d-46dc-b75e-1dae41bd881c" name="FH_Macro_Follow" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" label="6.1.0" author="PClo" comment="Use this macro on FH side:&#xD;&#xA;SY.MyVar##=ARGUMENTVALUE#(0)/1000&#xD;&#xA;&#xD;&#xA;S04V00R00 - 2023.11.14 - PC&#xD;&#xA;- New namespace&#xD;&#xA;&#xD;&#xA;S02V00R00 - 2023.08.25 - PC&#xD;&#xA;- Multiply by 1'000 the sending value, but must be divided on macro side.&#xD;&#xA;&#xD;&#xA;S01V02R00 - 2023.01.04 - PC&#xD;&#xA;- The update of value must be done with a change of ratio&#xD;&#xA;&#xD;&#xA;S01V01R00 - 2022.03.10 - PC&#xD;&#xA;- Create ID system&#xD;&#xA;&#xD;&#xA;S01V00R00 - PC&#xD;&#xA;Manage send commande to FH with the management of a multi-call from several blocks " namespace="OBJ\CAMERA\FH" trackingId="0e27db59-5cda-4e56-bfbf-53a844387acd" DN="FH_Macro_Follow {OBJ\CAMERA\FH}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="0eea78df-645f-4ab0-9ffd-918cca916d73" name="Variables" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="e8b4e8b7-8fe2-4e6b-8441-34429c9b5f23" hash="5ea4c0c4b0c505a498c73068804bf077">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="8cf9ead1-5530-44a9-8d43-191e7604c947" name="PouIFLibrary" version="NaN" dateCreated="12/17/2019 14:00:24" trackingId="44c849f5-c212-414a-b9e7-30e779a52c2b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="374232f7-48bb-4775-b2d9-d98d1f263c8c" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="473113fe-d9e4-4c1e-94c2-bf0ac2c7ba90">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="070ee2ad-a4a7-4f11-bab6-5c319862da32" name="LadderBody" version="0" dateCreated="12/17/2019 14:00:24" dateLastModified="07/20/2026 09:53:02" trackingId="00be62f7-be14-49b2-be09-d25f0750d54d" hash="f758e0744af1919ddfce4fdfee9ecd3b">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="7198772b-42eb-481d-ae3a-cf9717180d7f" name="Source" version="0" dateCreated="12/17/2019 14:00:24" trackingId="08f8ee20-69a8-4a0e-b355-03c5a7686649">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="e6ae5e28-4465-49db-8a8c-8106ce9bf5c2" name="PouBodySourceHolder" version="0" dateCreated="12/17/2019 14:00:24" trackingId="f1e1a875-1ce8-4a9d-bded-c0d3098822b2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="fb74a874-7e19-4d19-a70c-656b6b66fbf8" name="97479781-f186-44ea-8ff3-a352f677d375" version="0" dateCreated="12/17/2019 14:59:06" dateLastModified="07/20/2026 09:53:02" trackingId="07a5c856-3adb-4c88-bb4b-8aacbc0cfc37">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="8cad3801-d202-4e82-9137-076a599f78ee" name="FL_Config_XVU" version="0" dateCreated="01/16/2019 15:51:45" dateLastModified="07/20/2026 09:53:02" label="6.0.0" author="PClo" comment="Flash lamp configuration for Schneider Harmony XVUC29P lamp.&#xD;&#xA;The color/effect will be controled by PWM output." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="2116f7f3-877d-4242-b6eb-c0b4806c7acc" DN="FL_Config_XVU {OBJ\FLASHLAMP}">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="5dcd3177-1199-4383-98ec-5e801fb122f6" name="Variables" version="0" dateCreated="01/16/2019 15:51:45" dateLastModified="06/29/2026 16:18:37" trackingId="f49183da-25fc-4707-9374-fe78285c1214" hash="ba2377187db3cef981f1b6ed68b5e9e1">
@@ -2405,7 +2806,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="4fccfc86-bc50-4bca-a72a-027eca684f04" name="FL_Config_BNI_3stacks" version="0" dateCreated="07/10/2024 10:33:07" dateLastModified="05/08/2026 17:10:06" label="6.0.0" author="PClo" comment="Flash lamp configuration for Balluff  BNI IOL-8xx lamp.&#xD;&#xA;The color/effect will be controled by  datas on IO-Link." namespace="OBJ\FLASHLAMP" trackingId="e2692dfb-4424-4f9d-91d4-c2a64dac3a7b" DN="FL_Config_BNI_3stacks {OBJ\FLASHLAMP}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="4fccfc86-bc50-4bca-a72a-027eca684f04" name="FL_Config_BNI_3stacks" version="0" dateCreated="07/10/2024 10:33:07" dateLastModified="07/20/2026 09:53:02" label="6.0.0" author="PClo" comment="Flash lamp configuration for Balluff  BNI IOL-8xx lamp.&#xD;&#xA;The color/effect will be controled by  datas on IO-Link." namespace="OBJ\FLASHLAMP" trackingId="e2692dfb-4424-4f9d-91d4-c2a64dac3a7b" DN="FL_Config_BNI_3stacks {OBJ\FLASHLAMP}">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="f31b2e47-d56f-4a96-93b7-574a5d2d84d2" name="Variables" version="0" dateCreated="07/10/2024 10:33:07" dateLastModified="05/22/2026 10:46:06" trackingId="2940d890-f2b3-46ac-a6b8-e476a94b1190" hash="0d323f02f3c7ccc346934fa97c10e6e0">
@@ -2436,7 +2837,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="2fcbc6ef-6cf6-43fb-b26a-462270272795" name="FL_Config_RGB" version="0" dateCreated="07/10/2024 10:33:11" dateLastModified="05/08/2026 17:10:06" label="6.0.0" author="PClo" comment="Flash lamp configuration for RGB digital control." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="57ec0386-3dc5-466d-89e4-175d2b00fe5e" DN="FL_Config_RGB {OBJ\FLASHLAMP}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="2fcbc6ef-6cf6-43fb-b26a-462270272795" name="FL_Config_RGB" version="0" dateCreated="07/10/2024 10:33:11" dateLastModified="07/20/2026 09:53:02" label="6.0.0" author="PClo" comment="Flash lamp configuration for RGB digital control." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="57ec0386-3dc5-466d-89e4-175d2b00fe5e" DN="FL_Config_RGB {OBJ\FLASHLAMP}">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="fbe6e1ab-a984-4929-86ad-d187f1d78b5f" name="Variables" version="0" dateCreated="07/10/2024 10:33:11" dateLastModified="05/22/2026 10:46:06" trackingId="3773c041-9dc9-4ad1-b959-d0aebe7bc812" hash="5e806e778fd474bb3fcab8e5419c2dbf">
@@ -2471,7 +2872,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="c5982f20-2c62-4105-8850-c238d5afec11" name="FL_Config_Modlight_5stacks" version="0" dateCreated="02/17/2025 14:18:14" dateLastModified="05/08/2026 12:40:17" label="6.0.0" author="NWil" comment="Flash lamp configuration for Murr MODLIGHT60 Pro lamp.&#xD;&#xA;The color/effect will be controled by  datas on IO-Link." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="a4ea2da9-caac-496f-9e71-0bf68aab0c4b" DN="FL_Config_Modlight_5stacks {OBJ\FLASHLAMP}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="c5982f20-2c62-4105-8850-c238d5afec11" name="FL_Config_Modlight_5stacks" version="0" dateCreated="02/17/2025 14:18:14" dateLastModified="07/20/2026 09:53:02" label="6.0.0" author="NWil" comment="Flash lamp configuration for Murr MODLIGHT60 Pro lamp.&#xD;&#xA;The color/effect will be controled by  datas on IO-Link." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="a4ea2da9-caac-496f-9e71-0bf68aab0c4b" DN="FL_Config_Modlight_5stacks {OBJ\FLASHLAMP}">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="f7525a7c-cf29-45d6-a464-95b95e17ee75" name="Variables" version="0" dateCreated="02/17/2025 14:18:14" dateLastModified="05/22/2026 10:46:06" trackingId="1f8bd49a-7a23-4d82-b1e0-03df15c48bae" hash="43fb891012c155be965e99d7a67decdc">
@@ -2510,7 +2911,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="ffd798bc-6f89-4fe0-994f-ab36ad7f1a9a" name="FL_Config_Modlight_4stacks" version="0" dateCreated="02/17/2025 14:18:14" dateLastModified="05/08/2026 12:40:17" label="6.0.0" author="NWil" comment="Flash lamp configuration for Murr MODLIGHT60 Pro lamp.&#xD;&#xA;The color/effect will be controled by  datas on IO-Link." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="7d310f2a-e559-452d-91a1-709876b0e7b1" DN="FL_Config_Modlight_4stacks {OBJ\FLASHLAMP}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="ffd798bc-6f89-4fe0-994f-ab36ad7f1a9a" name="FL_Config_Modlight_4stacks" version="0" dateCreated="02/17/2025 14:18:14" dateLastModified="07/20/2026 09:53:02" label="6.0.0" author="NWil" comment="Flash lamp configuration for Murr MODLIGHT60 Pro lamp.&#xD;&#xA;The color/effect will be controled by  datas on IO-Link." namespace="OBJ\FLASHLAMP" usingNamespaces="OBJ&#xD;&#xA;" trackingId="7d310f2a-e559-452d-91a1-709876b0e7b1" DN="FL_Config_Modlight_4stacks {OBJ\FLASHLAMP}">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="da7ef849-85a3-4d0e-a0c2-970b98601b5d" name="Variables" version="0" dateCreated="02/17/2025 14:18:14" dateLastModified="05/22/2026 10:46:06" trackingId="ef2b50bf-fcf1-468e-87d3-9a403c2c5c24" hash="0a8104d44fac63d6ff94787282961de6">
@@ -3810,84 +4211,6 @@
                             <ChildEntities />
                           </Entity>
                           <Entity type="PouBodySourceHolder" subtype="" id="97e75bfb-65d3-43b6-8ed1-e9fc976ad3f1" name="PouBodySourceHolder" version="0" dateCreated="06/02/2014 10:10:35" trackingId="0b0f3f78-d90d-47d6-a243-ff688071d51d">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                        </ChildEntities>
-                      </Entity>
-                    </ChildEntities>
-                  </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="a6994c83-693b-4ce0-a2b9-9d2448ddf861" name="Inverter_Config_Analogic_OLD" version="0" dateCreated="06/02/2014 10:10:35" dateLastModified="07/15/2026 16:24:35" label="6.1.0" author="PC" namespace="OBJ\INVERTER" trackingId="86724ca4-4538-4e20-a4e1-3eb292cc6f79" DN="Inverter_Config_Analogic_OLD {OBJ\INVERTER}">
-                    <AccessInfos />
-                    <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="074ee1b0-6701-4517-b896-dc6da1d6b625" name="Variables" version="0" dateCreated="06/02/2014 10:10:35" dateLastModified="07/15/2026 16:24:35" trackingId="251b833c-49a8-468d-8d83-89d7acf42b8f" hash="7f2b060d5415f140f9b8895a313ad7bc">
-                        <AccessInfos />
-                        <ChildEntities>
-                          <Entity type="PouIFLibraryHolder" subtype="" id="14cdce7f-0f8d-409b-8815-408fda4cfb86" name="PouIFLibrary" version="NaN" dateCreated="06/02/2014 10:10:35" trackingId="165ca60a-c04b-4f2e-a60c-88b40da57965">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="SourceHolder" subtype="" id="f12ba89c-9fdd-49d6-9b0e-d0c7311226de" name="Source" version="0" dateCreated="06/02/2014 10:10:35" trackingId="4d4c156c-4076-4ac5-913f-5d94ce4b18ed">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                        </ChildEntities>
-                      </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="81128dbd-745e-48b7-82fd-a0736685ac7b" name="LadderBody" version="0" dateCreated="06/02/2014 10:10:35" dateLastModified="07/15/2026 16:24:35" trackingId="74691558-41d6-47b4-9bd5-d63bfa8df1bf" hash="12a985293c314e11c8dd0e21c4c39f4d">
-                        <AccessInfos />
-                        <ChildEntities>
-                          <Entity type="SourceHolder" subtype="" id="41ddcf6e-fdf1-463c-92b4-e0dca6ed1a2d" name="Source" version="0" dateCreated="06/02/2014 10:10:35" trackingId="bce3a4fc-256e-4251-bd97-09eb572c95b4">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="PouBodySourceHolder" subtype="" id="6c241dc2-e07f-454e-a2d6-b7e56638b56c" name="PouBodySourceHolder" version="0" dateCreated="06/02/2014 10:10:35" trackingId="a03e3ee9-6b91-4dc9-be00-86e0dd6408b1">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="8947fd6a-8916-4362-bbef-9b98905444c2" name="11015935-5e16-4b59-844e-c93939bd5909" version="0" dateCreated="02/27/2015 10:02:52" dateLastModified="07/15/2026 16:24:35" trackingId="a5414d17-a1ce-4fe1-8463-c1cf56a8a93d">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="19a2633b-e749-4cc4-8beb-7702158b4374" name="869f493c-5a1d-475e-bb2c-0f6517081984" version="0" dateCreated="12/27/2018 13:24:04" dateLastModified="07/15/2026 16:24:35" trackingId="beff4809-f65d-4e88-9206-94f8b39d3084">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                        </ChildEntities>
-                      </Entity>
-                    </ChildEntities>
-                  </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="50dd5e27-7edd-4db1-93be-33ac8821ef3b" name="Inverter_Config_EtherCAT_OLD" version="0" dateCreated="06/02/2014 10:10:35" dateLastModified="07/15/2026 16:24:35" label="6.1.0" author="PC" comment="Invert configuration on EtherCAT (MX2, RX and 1M)" namespace="OBJ\INVERTER" trackingId="2a7b1352-9cac-4836-8991-55b363bbcf60" DN="Inverter_Config_EtherCAT_OLD {OBJ\INVERTER}">
-                    <AccessInfos />
-                    <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="c80a7759-a122-436f-84f4-69dbbef692d9" name="Variables" version="0" dateCreated="06/02/2014 10:10:35" dateLastModified="07/03/2026 15:56:10" trackingId="9133702f-822b-4b55-b0b5-d56df0a6834e" hash="446aa79443837fe33d54cba1b0ae7794">
-                        <AccessInfos />
-                        <ChildEntities>
-                          <Entity type="PouIFLibraryHolder" subtype="" id="3b1bfd8b-51a5-483c-af4b-3148ac310a96" name="PouIFLibrary" version="NaN" dateCreated="06/02/2014 10:10:35" trackingId="9c6ebca5-890c-4cd0-b631-86d7acb268f3">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="SourceHolder" subtype="" id="693e54a2-97f9-4a24-b7c3-a1861b360599" name="Source" version="0" dateCreated="06/02/2014 10:10:35" trackingId="4a3c3788-3776-470a-bd14-7f11578d09e8">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                        </ChildEntities>
-                      </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="6e6875b5-6b9d-4eda-ae92-1c0d9302cec6" name="LadderBody" version="0" dateCreated="06/02/2014 10:10:35" dateLastModified="07/03/2026 15:56:10" trackingId="e8441702-ceba-4e4d-b214-62925c51cc9e" hash="afbec53edd964660560647a52d48f0f1">
-                        <AccessInfos />
-                        <ChildEntities>
-                          <Entity type="SourceHolder" subtype="" id="f333c3cc-0fcd-4575-93e5-51946a7a7f9e" name="Source" version="0" dateCreated="06/02/2014 10:10:35" trackingId="6a2977a2-3cad-448e-a220-b256a74fc594">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="PouBodySourceHolder" subtype="" id="6809a286-5ec2-43c4-80f3-0efd2b0ba38b" name="PouBodySourceHolder" version="0" dateCreated="06/02/2014 10:10:35" trackingId="e0fd709b-7f64-4290-82f1-3514e268e61b">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="91b933ef-0642-4c63-a847-ce0d98eb9938" name="11015935-5e16-4b59-844e-c93939bd5909" version="0" dateCreated="02/27/2015 10:02:52" dateLastModified="07/03/2026 15:56:10" trackingId="821722d7-42c9-45b9-9d04-ad8734288b7e">
-                            <AccessInfos />
-                            <ChildEntities />
-                          </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="cd547fa6-f2d4-4dea-8270-dc85fa1c8879" name="22f4f96a-937c-479f-b23f-50bd0ee06bfd" version="0" dateCreated="02/27/2015 10:15:39" dateLastModified="07/03/2026 15:56:10" trackingId="6d5a1fc1-64cb-4dc8-8025-3f175dad651f">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -5680,6 +6003,24 @@
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="6c750738-76bd-4ea0-b7ae-962a79ad204b" name="Source" version="0" dateCreated="07/02/2026 08:30:37" trackingId="ab4d61db-c113-41b5-a18c-51e3f46950f4">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="bb8279d7-c6d4-4b4b-94c4-a0b6ce2a727b" name="Data Types20" version="0" dateCreated="07/20/2026 08:16:40" dateLastModified="07/20/2026 09:53:02" namespace="OBJ\CAMERA" trackingId="91b41d05-8ce8-4623-8749-581eb4ea80f7" hash="77a99654fe274ab69d03f97e4c7239d0">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="b2ffa9a7-8cfb-429b-8afc-7a87e6fed203" name="Source" version="0" dateCreated="07/20/2026 08:16:40" trackingId="c9aaf18b-4e0e-4dd7-85c2-2c4647e3546a">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="b70ea7dd-6d15-4309-9b31-e2497c97faf1" name="Data Types21" version="0" dateCreated="07/20/2026 08:16:50" dateLastModified="07/20/2026 09:53:02" namespace="OBJ\CAMERA\FH" trackingId="c2e8a396-5cd9-4e16-9561-af3f27ca2e51" hash="2ec3c3528d0a37cbf7336606759b49d5">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="05f9d043-b6a8-45cd-af6a-393603ed2e28" name="Source" version="0" dateCreated="07/20/2026 08:16:50" trackingId="d56f09ff-7cbd-4f81-af91-8bded093ea0a">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>
