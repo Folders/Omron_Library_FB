@@ -1,0 +1,27 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\ROBOT\Robot_PRIVATE_Core	N=coreRobot	G=VAR
+++D=TON	N=waitCheckComm	G=VAR
+++D=BOOL	N=commFault	G=VAR	Com=Communication in fault
+++D=OBJ\ROBOT\COMM\TO_ROBOT	N=ecCmd	Ord=5	G=VAR	Com=Command to send
+++D=OBJ\ROBOT\COMM\FROM_ROBOT	N=ecSta	Ord=5	G=VAR	Com=Status received
+++D=BOOL	N=toogle	G=VAR	Com=Get the toggle bit
+++D=BOOL	N=onUpdate	G=VAR	Com=Every update of status
+++D=UINT	N=SIZE_RECEIVE	IV=60	G=VAR	Com=Size of BYTE array to receive status
+++D=UINT	N=SIZE_SEND	IV=40	G=VAR	Com=Size of BYTE array to send command
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Robot is used
+++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=1	G=VAR_IN_OUT	Com=Robot object
+++D=ARRAY[0..255] OF BYTE	N=EC_ToRobot	Ord=2	G=VAR_IN_OUT	Com=Command to send in ARRAY
+++D=ARRAY[0..255] OF BYTE	N=EC_FromRobot	Ord=3	G=VAR_IN_OUT	Com=Status received in ARRAY
+++D=REAL	N=EC_X_Position	Ord=4	G=VAR_IN_OUT	Com=Robot X position [mm]
+++D=REAL	N=EC_Y_Position	Ord=5	G=VAR_IN_OUT	Com=Robot Y position [mm]
+++D=REAL	N=EC_Z_Position	Ord=6	G=VAR_IN_OUT	Com=Robot Z position [mm]
+++D=REAL	N=EC_Yaw	Ord=7	G=VAR_IN_OUT	Com=Robot Yaw position [°]
+++D=REAL	N=EC_Pitch	Ord=8	G=VAR_IN_OUT	Com=Robot Pitch position [°]
+++D=REAL	N=EC_Roll	Ord=9	G=VAR_IN_OUT	Com=Robot Roll position [°]
+++D=REAL	N=EC_MotionProgress	Ord=10	G=VAR_IN_OUT	Com=Robot actual movement progress [°]
+++D=BOOL	N=Enable	Ord=11	G=VAR_INPUT	Com=Use the robot
+++D=BOOL	N=Commissioning	Ord=12	G=VAR_INPUT	Com=Put robot in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

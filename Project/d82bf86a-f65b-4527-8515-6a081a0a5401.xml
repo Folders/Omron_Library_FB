@@ -1,0 +1,26 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\ROBOT\COMM\TO_ROBOT	N=data	G=VAR
+++D=INT	N=s	G=VAR	Com=Step
+++D=BOOL	N=run	G=VAR	Com=FB is running
+++D=BOOL	N=enabled	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=0	G=VAR_IN_OUT	Com=Robot object
+++D=BOOL	N=Request	Ord=1	G=VAR_INPUT	Com=Command request
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT	Com=Command done
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT	Com=Command is send
+++D=BOOL	N=IsPrimary	IV=False	Ord=4	G=VAR_INPUT	Com=Define is command is on Primary or Auxiliary process
+++D=BOOL	N=WaitForMotion	IV=False	Ord=5	G=VAR_INPUT	Com=Wait the end of movement to accept new primary order
+++D=OBJ\ROBOT\eCmd	N=Cmd	IV=NoCommand	Ord=6	G=VAR_INPUT	Com=Command category
+++D=REAL	N=Arg1	IV=0.0	Ord=7	G=VAR_INPUT	Com=Command argument 1
+++D=REAL	N=Arg2	IV=0.0	Ord=8	G=VAR_INPUT	Com=Command argument 2
+++D=REAL	N=Arg3	IV=0.0	Ord=9	G=VAR_INPUT	Com=Command argument 3
+++D=REAL	N=Arg4	IV=0.0	Ord=10	G=VAR_INPUT	Com=Command argument 4
+++D=REAL	N=Arg5	IV=0.0	Ord=11	G=VAR_INPUT	Com=Command argument 5
+++D=REAL	N=Arg6	IV=0.0	Ord=12	G=VAR_INPUT	Com=Command argument 6
+++D=REAL	N=Arg7	IV=0.0	Ord=13	G=VAR_INPUT	Com=Command argument 7
+++D=BOOL	N=SendToRobot	Ord=14	G=VAR_OUTPUT	Com=Command is send to the robot
+++D=BOOL	N=Error	Ord=15	G=VAR_OUTPUT	Com=Error
+++D=OBJ\ROBOT\COMM\eRobot_Error	N=ErrorID	Ord=16	G=VAR_OUTPUT	Com=Error code
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

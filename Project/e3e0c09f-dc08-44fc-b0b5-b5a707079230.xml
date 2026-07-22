@@ -1,0 +1,49 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\ROBOT\Robot_PRIVATE_Core	N=coreRobot	G=VAR
+++D=_sSOCKET	N=socket	G=VAR	Com=TCP socket
+++D=SktTCPConnect	N=tcpConnect	G=VAR
+++D=BOOL	N=rcvBusy	G=VAR
+++D=BOOL	N=rcvError	G=VAR
+++D=WORD	N=rcvErrorId	G=VAR
+++D=UINT	N=rcvSize	G=VAR
+++D=SktTCPRcv	N=tcpReceive	G=VAR
+++D=SktTCPSend	N=tcpSend	G=VAR
+++D=BOOL	N=sendBusy	G=VAR
+++D=BOOL	N=sendError	G=VAR
+++D=WORD	N=sendErrorID	G=VAR
+++D=BOOL	N=test	G=VAR
+++D=BOOL	N=coB	G=VAR
+++D=BOOL	N=coE	G=VAR
+++D=WORD	N=coID	G=VAR
+++D=SktGetTCPStatus	N=tcpStatus	G=VAR
+++D=BOOL	N=b	G=VAR
+++D=BOOL	N=e	G=VAR
+++D=WORD	N=id	G=VAR
+++D=BOOL	N=f	G=VAR
+++D=_eCONNECTION_STATE	N=tcpSta	G=VAR
+++D=TON	N=waitCheckComm	G=VAR
+++D=BOOL	N=commFault	G=VAR	Com=Communication in fault
+++D=TP	N=tpFault	G=VAR
+++D=UDINT	N=idBackup	G=VAR	Com=Last command done
+++D=ARRAY[0..511] OF BYTE	N=rcvData	G=VAR
+++D=BOOL	N=dataSend	G=VAR	Com=Datas are sended to robot
+++D=BOOL	N=dataReceive	G=VAR	Com=Datas from robot is received
+++D=SktClose	N=tcpClose	G=VAR
+++D=BOOL	N=closed	G=VAR	Com=Connection is closed
+++D=BOOL	N=closing	G=VAR
+++D=UINT	N=SIZE_S	IV=40	G=VAR	Com=Size of datas to send
+++D=UINT	N=SIZE_R	IV=60	G=VAR	Com=Size of datas to receive
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Robot is used
+++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=1	G=VAR_IN_OUT	Com=Robot object
+++D=OBJ\ROBOT\COMM\TO_ROBOT	N=ETH_Cmd	Ord=2	G=VAR_IN_OUT	Com=Command to send
+++D=ARRAY[0..39] OF BYTE	N=ETH_CmdArray	Ord=3	G=VAR_IN_OUT	Com=Command to send in ARRAY
+++D=OBJ\ROBOT\COMM\FROM_ROBOT	N=ETH_Sta	Ord=4	G=VAR_IN_OUT	Com=Status received
+++D=ARRAY[0..59] OF BYTE	N=ETH_StaArray	Ord=5	G=VAR_IN_OUT	Com=Command to send in ARRAY
+++D=BOOL	N=Enable	Ord=6	G=VAR_INPUT	Com=Use the robot
+++D=UINT	N=Port	IV=502	Ord=7	G=VAR_INPUT	Com=Port of TCP protocol
+++D=STRING[16]	N=Ip	Ord=8	G=VAR_INPUT	Com=Ip adress of robot
+++D=BOOL	N=Commissioning	Ord=9	G=VAR_INPUT	Com=Put robot in commissioning
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -11,7 +11,7 @@ _EN=Variables
 ++D=BOOL	N=writing	G=VAR	Com=Writing sequence is running
 ++D=BOOL	N=writingDone	G=VAR	Com=Writing is done
 ++D=BOOL	N=started	G=VAR	Com=FB started info
-++D=WORD	N=errorCode	G=VAR	Com=Erorr code of drive
+++D=WORD	N=errorCodeId	G=VAR	Com=Erorr code of drive
 ++D=WORD	N=ACK	IV=16#DEC0	G=VAR	Com=Acknowledge is write with "C0DE" en hex, but comm is swapped
 ++D=OBJ\VIBRATOR\Vibrator_ParamFollow	N=frequencyParam	G=VAR
 ++D=BOOL	N=tooMuchConfig	G=VAR	Com=Too much configuration detected

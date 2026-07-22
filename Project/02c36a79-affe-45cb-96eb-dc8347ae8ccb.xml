@@ -1,0 +1,24 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=stepPrimary	G=VAR	Com=Step sending command
+++D=INT	N=stepAuxiliary	G=VAR	Com=step
+++D=BOOL	N=started	G=VAR	Com=Robot is started
+++D=OBJ\ROBOT\COMM\TO_ROBOT	N=order	G=VAR	Com=Next order to send
+++D=UDINT	N=idPrimary	G=VAR	Com=Id of command send as primary
+++D=INT	N=i	G=VAR
+++D=OBJ\ROBOT\COMM\TO_ROBOT	N=orderAux	G=VAR
+++D=UDINT	N=idAuxiliary	G=VAR
+++D=BOOL	N=BusyAuxiliary	G=VAR
+++D=BOOL	N=pause	G=VAR
+++D=BOOL	N=busyPrimary	G=VAR
+++D=BOOL	N=isPrimary	G=VAR
+++D=INT	N=stepReset	G=VAR	Com=Reset
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Robot is used
+++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=1	G=VAR_IN_OUT	Com=Robot object
+++D=OBJ\ROBOT\COMM\TO_ROBOT	N=Cmd	Ord=2	G=VAR_IN_OUT	Com=Command to send
+++D=OBJ\ROBOT\COMM\FROM_ROBOT	N=Sta	Ord=3	G=VAR_IN_OUT	Com=Status received
+++D=BOOL	N=Enable	Ord=4	G=VAR_INPUT	Com=Enable robot object
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

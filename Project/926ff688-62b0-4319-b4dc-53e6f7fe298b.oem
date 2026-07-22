@@ -1752,6 +1752,130 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="Function" subtype="Ladder" id="617f8981-6c06-48f1-8acb-e800d5c0e416" name="VectorADD" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" label="1.0.0" author="PClo" comment="Addition of vector" namespace="OBJ\ROBOT" trackingId="02f27f9f-66d7-4875-ae84-e9f6b4776082" DN="VectorADD {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="88d92cfd-1b2c-430b-8196-4c23b0048cf3" name="Variables" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="264369e3-f7a8-4c1e-8ee7-e32a6ccaf8d5" hash="4108f3b7fc6742580c4188d50109a508">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="5d91da9d-2b7f-4354-beb3-48100459f4be" name="PouIFLibrary" version="NaN" dateCreated="04/22/2026 14:16:54" trackingId="585b2fa6-97a7-4f2a-b271-14471ed56e4c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="df9cc976-db9a-434b-a9b5-6c5ff4a082c3" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="f1d2c75d-57f6-4ca6-8702-1ef5a367494d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="c3023bd5-8722-4c8f-989b-e55b4d41e3ae" name="LadderBody" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="4bc47ae9-3750-4e4c-992c-1b401faf26bf" hash="e99575478cb809e9ef7b3cc9a50e815d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="90cd7667-c469-41a3-8f6a-dda8395c6984" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="7e8dc4eb-b5e5-4460-8cd1-ea290a0de0d6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="6d1de128-34fc-4b0a-b910-c98061ebd90c" name="PouBodySourceHolder" version="0" dateCreated="04/22/2026 14:16:54" trackingId="9b901e3a-b7ca-4d16-8885-6da3fd8cee46">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="Function" subtype="Ladder" id="3a5530d8-8142-4f8c-94c3-1bfbb02d2d40" name="VectorSUB" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" label="1.0.0" author="PClo" comment="Addition of vector" namespace="OBJ\ROBOT" trackingId="9bbe27d2-cd67-47b2-9b1e-fa7f55c56c13" DN="VectorSUB {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="dc763c5c-2ff2-442b-9011-a1e218b4c292" name="Variables" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="2cbb89f4-ea94-4e48-b489-4fbbfad74243" hash="38df3e89dec3b7df01133bafcd402c57">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="d2e451c9-ce65-49d5-9690-e85af58c99cd" name="PouIFLibrary" version="NaN" dateCreated="04/22/2026 14:16:54" trackingId="2e64c6c2-8a01-41eb-8807-23a34ee70134">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="84a8e14c-c2f9-452a-a9f5-9060dc8e4f70" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="e75b98b1-3849-485e-8247-e51397112382">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="1093118c-fbf8-47ee-94f9-8543c61fd957" name="LadderBody" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="097aa4f8-4ca9-4486-b800-94142bc48aaf" hash="e4d94636564404be8fe2f3b5dd4b13e1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="f216842c-a20c-4fa5-9046-4a0a302fba80" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="e491266b-e047-4a85-8e44-eb4eb3c8630a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="4359f555-68be-49a8-ae8f-90fdac75dd0f" name="PouBodySourceHolder" version="0" dateCreated="04/22/2026 14:16:54" trackingId="447c2bce-d0ce-498a-9b3b-e20abc494854">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="Function" subtype="Ladder" id="3e5213ab-e1de-45c0-9811-8a425a0a2f72" name="VectorMUL" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" label="1.0.0" author="PClo" comment="Multiplication of vector" namespace="OBJ\ROBOT" trackingId="33b9a0c8-d8d2-43ab-a36e-4e49e12ae716" DN="VectorMUL {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="335bc616-c1c3-4c7e-bb42-25de71e5fc9a" name="Variables" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="f37fb474-972e-45f5-93fc-6cdaeea7ee95" hash="a06163e41831681ec4e777a37f4b0ebe">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="3805b7f0-6716-4c66-b3b5-2a7bb51f54d8" name="PouIFLibrary" version="NaN" dateCreated="04/22/2026 14:16:54" trackingId="2d1f4a02-a492-4f29-92b3-6df3fa083127">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="eca45b6a-450a-4127-85f1-c06c50fc21ed" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="fba0fa93-a751-4f81-9d2c-86ab8f359f1c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="49c62531-1a33-47a0-9a5a-bde3758c7c5a" name="LadderBody" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="d6913b85-bf5e-43a0-8816-62e6ea6c728b" hash="55be72205d1d788385181cc9ff0f2ce1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="aa6165ca-e1b1-457c-97ba-04c66d3c2ec6" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="181caaf4-540b-460c-a733-10eb74db9ab4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="9814f443-b3ab-4767-9f47-c382ee0a091b" name="PouBodySourceHolder" version="0" dateCreated="04/22/2026 14:16:54" trackingId="60245d11-7b49-4460-a133-6efc393e661b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="Function" subtype="Ladder" id="5e26946e-2cd5-4ec3-b008-07eee37208ba" name="VectorDIV" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" label="1.0.0" author="PClo" comment="Multiplication of vector" namespace="OBJ\ROBOT" trackingId="fd5e4d56-1798-43fd-979a-b2f4047419bd" DN="VectorDIV {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunction" id="2fe24123-d061-43dd-af8f-3b2d95e1ac51" name="Variables" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="62922108-b553-49e8-a5e3-97d884d333f9" hash="0b3e55aae8aa07045d585a222c189911">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="f80672a9-5829-4c8f-8321-4c07f540390b" name="PouIFLibrary" version="NaN" dateCreated="04/22/2026 14:16:54" trackingId="57f60859-15eb-4c0c-ad46-003ad0fb7c03">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="806f5a14-e504-49da-8d96-d3a99b6d2ebb" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="75c613fc-f348-4650-a0bb-323463f4f991">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="9d79e51e-8e01-443b-a9b3-5b313d2cdc32" name="LadderBody" version="0" dateCreated="04/22/2026 14:16:54" dateLastModified="07/01/2026 11:35:57" trackingId="831dd06b-9579-457c-a41c-9e36ed7114fe" hash="82c1b8b656877a410dac450eea39223e">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="feec880a-f39e-426e-a25d-488b7f4b5ddd" name="Source" version="0" dateCreated="04/22/2026 14:16:54" trackingId="d2918230-23ef-44bc-bef8-1411d38e4a74">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="9ef8264f-ddde-4664-9c7b-269b2d1d0326" name="PouBodySourceHolder" version="0" dateCreated="04/22/2026 14:16:54" trackingId="b341f840-fdc1-44b2-9d2e-b2bbfbceb993">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                 </ChildEntities>
               </Entity>
               <Entity type="Group" subtype="IecFunctionBlocks" id="0d5fe9d9-89b8-4c4e-9614-f4899fe50d1a" name="Function Blocks" version="0" dateCreated="01/21/2025 13:32:53" trackingId="ae836cd4-b776-4d10-bbe9-4d6e29b647da" DN="Function Blocks">
@@ -5107,6 +5231,666 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="917a0bb9-4a19-4141-ac2b-d7775d072697" name="Robot_PRIVATE_Core" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="PRIVATE - DO NOT USE&#xD;&#xA;Order management with other object and robot. &#xD;&#xA;Will use standard communication structure &quot;TO_ROBOT&quot; and &quot;FROM_ROBOT&quot;" namespace="OBJ\ROBOT" trackingId="387e5b08-f2fd-4b71-bc3e-76dbfdc00e0d" DN="Robot_PRIVATE_Core {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="02c36a79-affe-45cb-96eb-dc8347ae8ccb" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="67de0911-d4e0-4c33-a24e-2adcc02285e7" hash="7c1df2c1a7d43601bc93d71c6ffe8251">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="46f44359-6df2-43ea-86d5-55bac333bb02" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="1ecb8695-70c1-4d19-9c95-def8365651fa">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="eb4a3a1e-5f39-48b4-bc20-dea483c6e945" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="f1b03b77-08cc-4f43-be9e-a5334095a916">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="040946dd-752e-408e-bc55-290aa36a47b6" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="6248d230-6284-44ab-8266-5f26996d1169" hash="f5edb1fdf3f9bdd78329aa67836dd294">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="eab51310-e830-4a92-8395-a2b33b6b5897" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="3288118d-7f05-4e83-a26f-a952d4802ef1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="10a023ff-84db-4e29-bfe1-d076a9fd6a6e" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="8737c126-a514-4fbf-be6a-7981c79a5eef">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="2535152d-19d8-4c56-9d5b-4115f1fa4ab5" name="86e07bd4-16d1-40c7-a909-02e741b52d1f" version="0" dateCreated="04/20/2026 10:49:28" dateLastModified="07/01/2026 11:35:57" trackingId="3791adda-ae18-4479-84a3-51d7e2249cc8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="c2f1f0d9-85be-4d77-8ee8-0ae4f9ec9950" name="463159ba-d479-40a7-aec0-3a153e3dddb8" version="0" dateCreated="04/20/2026 13:28:01" dateLastModified="07/01/2026 11:35:57" trackingId="34dcfbfc-f31f-4c4f-ba04-0db0fde7e63a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="10c5df51-983d-4927-af79-5121b6ff2ab7" name="400f212e-b8f5-4b0a-8e5c-f14954c78c50" version="0" dateCreated="04/20/2026 13:29:38" dateLastModified="07/01/2026 11:35:57" trackingId="1620df54-8737-44fa-aecf-c802ca38bbb4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="0d512a81-207f-4aef-ae9d-b3169988e864" name="Robot_PRIVATE_Cmd" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="PRIVATE - DO NOT USE&#xD;&#xA;Private low-level command function block used to send a generic robot command with a standardized argument interface. Higher-level command FBs wrap this block by mapping their specific inputs to the generic command arguments." namespace="OBJ\ROBOT" usingNamespaces="OBJ\ROBOT\COMM&#xD;&#xA;" trackingId="c5780e87-406e-4512-a71d-aec74513e5b7" DN="Robot_PRIVATE_Cmd {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d82bf86a-f65b-4527-8515-6a081a0a5401" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="7b3fd8e9-4f39-4773-8e2c-974c444ae11c" hash="8a135e342ee2e89723cfe33d4536f40a">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="4fcfcd25-10a6-4899-9d05-291f68fa498f" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="cdbe946e-e5be-4c41-9c83-30f670f98e7e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="d2a721b6-2594-403a-a82b-7f81ba191b45" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="16b90bd2-eb22-47ad-9b56-8efb0f6ccb48">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="81f9b3c1-a01c-4fea-9750-410f226fa425" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="bf260d70-f26a-41d7-be92-f5dcf7b118d9" hash="bfb3ef763e0a98ba9370dfea8c548924">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="803f068e-86b8-440f-9ad6-14cb13298d28" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="98f1e618-4fab-4ff5-ac52-b6e801e0143b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="2fbb88cf-8a70-4bcd-8589-814af4aaa3f3" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="6a585d41-ab22-44e6-94fc-669204fad50e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="5f71c2f6-3510-4a29-91af-88af8cd39219" name="7406b5e9-179a-4b35-ab5f-2f63a45b2d3d" version="0" dateCreated="04/20/2026 08:13:22" dateLastModified="07/01/2026 11:35:57" trackingId="70e802a4-d1cc-4837-91d8-af52447c8819">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="3f6ccc09-e700-4d6b-ac0e-dfafc4d6fba0" name="Robot_Config_TCP" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Robot configuration for i4L serie robot with a TCP communication." namespace="OBJ\ROBOT" trackingId="6c7501bb-75a1-481e-b601-38a8871c7861" DN="Robot_Config_TCP {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="e3e0c09f-dc08-44fc-b0b5-b5a707079230" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="5af131fb-ef5b-4985-8538-a3352009347a" hash="aee3b89d4428ce5c7e64c83533de11dc">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="91cc4f7f-0f53-4930-8d9d-e3e3929de7fa" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="a693dee2-3d18-4e53-bb5e-e59c27ab3faa">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="7dcdfe82-aa79-437f-b897-5544c4a7ce5b" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="8961fb6d-855d-4250-9828-57fd43e7a68f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="535d9c24-b999-452d-8c2e-f9cdb3edc126" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="f67d4288-3305-413f-8ca7-a22303b59977" hash="7245401081efc3fd90aa45d57e4c6362">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="35385c95-7023-495c-82a1-c50f7c867dd9" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="ca486570-bd53-4919-b3be-164ae4050d60">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="d44fd072-d2be-44ca-a015-6b2db52b233d" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="3018342c-c2ab-45ec-aa97-91f063737ce5">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="ad38ae3d-32fe-4e91-9ccd-d7f7adca0060" name="Robot_Config_EC" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Robot configuration for i4L serie robot with a EtherCAT communication." namespace="OBJ\ROBOT" trackingId="53300fa1-9b43-459d-a529-c8a8470e75f5" DN="Robot_Config_EC {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="37fec21f-1fff-4184-88bb-0596f19cfc31" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="436f2838-2314-46c6-ae08-75c3389bd648" hash="e9453e274dd40472e2084ee6873ce0e2">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="1b43c8f7-1f8d-492a-ba88-bc5825ccb957" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="1d1f1191-fa58-403d-9d49-d7167a707e5f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="79dbbac6-b6b3-40ab-8104-e04231ece60f" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="e15c5655-164f-435b-94de-ca776d52f0bb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="69fbc285-9762-4ccd-b5b7-d8b96b6a92bb" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="2b37fedd-bdb3-4f4a-b3d0-7cfef5ae0b16" hash="cf7a35cbc9e047464c02c93bca84d398">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="123add3d-fc05-4b4d-857e-2b5e29c99830" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="d41d2d75-793a-41d9-ad8e-12e89d3a727e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="72069ab6-82bb-4dd3-bb82-3f3ba44749c2" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="ae6dfcfa-2d1b-4b19-9750-bee3a6db6012">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="6ece408d-a6fc-4d64-8062-d8114fff0c18" name="a98c210f-2f2e-4764-ad6c-07445eaf6e66" version="0" dateCreated="04/30/2026 14:48:09" dateLastModified="07/01/2026 11:35:57" trackingId="ac02c721-3965-4f37-97cb-abc846e17941">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="57b6b189-33ea-4860-8bc7-9ce81e915cf4" name="RC_Power" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_Power instruction enables the robot high power and relase it when order is OFF" namespace="OBJ\ROBOT" usingNamespaces="OBJ\ROBOT\COMM&#xD;&#xA;" trackingId="6b91eaaf-63a2-4df2-acdc-2e901a4e4330" DN="RC_Power {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="f2efbef3-d926-4fdb-a06e-5028af5b54bb" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="4929ca44-089d-4e75-8f7e-f49b9096dfbd" hash="83a00bb994480feed58d0d59ab05ba79">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="1934aa8c-f8c1-4a8f-bfdd-e9fe5597b2f0" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="fdb88bbc-1279-46f2-8991-97baaaeca2c9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="e5268702-a445-44c3-aeaa-805e2dce19a1" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="660e00b7-9d00-4b67-9f42-fbab29a92b1b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="69c86908-505c-4c9d-abee-4f02a50da061" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="933c2ec0-45ee-4d89-b16a-595004137576" hash="89b698f861abe8f793c1c2a559bd6ada">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="32a8897c-5fba-4c98-b024-cb8cfcee6301" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="541ffef5-65a9-449f-bd44-e5885dbc9ca1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="b8a6b89f-48da-46e9-9dc1-0fc3974fda76" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="fc121443-d4db-4f28-bebc-e1bf47a56290">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="3dac5c39-0b1f-44c8-a76b-b20951e9b676" name="RC_Calibrate" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_Calibrate instruction executes the calibration of a robot.&#xD;&#xA;Need to be done one time at startup." namespace="OBJ\ROBOT" trackingId="676dd0c4-3155-43d5-9915-d8cfd24aea64" DN="RC_Calibrate {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="bd59c8c1-1cf7-4a79-85e7-66e803278312" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="0cb95f5f-1244-4b1d-85dc-9e4134113d96" hash="fe414a9bbbd3ed91c24a3746567e55a1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="dc88476d-c67f-434b-a43a-4206afa253fe" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="e98c765a-584b-497a-a552-4570acb31fde">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="ac0788e4-664f-4b27-a189-5e90030e3398" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="88f48340-5acd-4920-a989-1e11022e44de">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="b6ff787b-4d60-4aee-a3a7-1f4e91186859" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="8545baa2-9448-4797-9460-e39e0bee47b4" hash="62913f06f006bf9bf7a61c8e9aafc181">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="9ca1101c-84b8-4561-bcbd-688f1aa6dc35" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="d6c6330c-b3ce-4717-a587-feac388deb8b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="18160f20-76a1-45a2-a312-6c9790467502" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="1366adfb-1407-4b32-91e1-838b2f8c4586">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="7afa4c8e-02f1-4ce1-8620-447c841b4f38" name="RC_Attach" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_Attach instruction attaches a robot to a task and enables to control from a sequence control program." namespace="OBJ\ROBOT" trackingId="1817a39a-b8e5-423b-8505-9aeedaeb8810" DN="RC_Attach {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="4e1eb4e4-b6df-4341-ba90-ce04890b940a" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="2e240c6c-e0c4-4e0d-94ab-86637a9e00a3" hash="fe414a9bbbd3ed91c24a3746567e55a1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="41a48c5d-a7b7-4073-88bd-d0db62b31514" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="37dd2564-b332-4e48-b1c6-bb418deef8fa">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="a7408c94-13e1-4214-a88b-6e802581fbf2" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="30669ef3-bcb4-4633-989e-95f77d42c079">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="3999fa28-4bb4-4dcf-acba-a9a34e51cd20" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="bb5f5d8c-eae4-4aac-889d-8969d4e6787a" hash="7f11147912711af8f9a895043a72f6e2">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="86820162-872e-4341-9adb-530bdc3cd4c3" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="97dfe867-b82b-4672-bf98-fe0aa1c8f19d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="705b3377-a529-414e-81ff-7cefed5122b3" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="f4945e87-1ba6-4bd8-9ebd-e4b1efe0a614">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="68b5c54a-9917-415e-ae2f-814978461c02" name="RC_Detach" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_RC_Detach instruction detache the robot from the main task." namespace="OBJ\ROBOT" trackingId="d697be83-bb61-4de5-83e0-86d280757902" DN="RC_Detach {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="fc5040ae-5998-4870-8444-b8d1b10c2ad6" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="ec008e46-99a1-4747-bdd1-84094b7da6e7" hash="fe414a9bbbd3ed91c24a3746567e55a1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="68b707f2-8110-4586-a711-e51004630cab" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="f58f765c-0d22-4d97-9e7c-3b9f5810e082">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="05cbf0f8-1bcc-403e-aba7-2a5ba6a0b7cd" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="57d388b7-5d09-49c3-9a8f-b802b3ba7dc7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="50c3f3cf-1fb5-412b-a794-1ea803a0bc74" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="acdb3848-f4d2-49e7-bd6d-b201facba365" hash="186c4ac3b9def03cd7080defe59bbb67">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="ce089eac-b70f-481d-bc65-8dbc59176a76" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="f11c62dc-a3a8-4952-9c23-5c8cb9f3da2f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="1648a0b7-716e-4aef-aed6-510c95dbb240" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="89924089-5645-451b-abc8-9a814f946eac">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="a2d77845-b807-4c02-ba86-5a5df156ed1a" name="RC_Reset" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Reset robot error." namespace="OBJ\ROBOT" trackingId="0870691a-e2a3-4add-b3a2-0007842921a7" DN="RC_Reset {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="e4bfb989-8097-412c-9c8e-910b9f0503ac" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="e232c03d-ece6-4bc3-9b8d-77a89e28c0c5" hash="15fe7d12461a62d29917296e56390ed4">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="67bb0712-b266-43ce-8629-bd5a2ccc0cb3" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="6055ae7c-a260-4f9b-8243-835acc635389">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="c20d58e3-42f7-42f3-9d81-bd43a36f73be" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="bd5a39d0-c899-44ee-99c6-4d4563344004">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="f8be7aed-fe69-4fb1-9ac9-a6a858449062" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="d185f432-d980-4da5-9d20-fb56f7cdfb90" hash="76655b39ab25c27e7781b8b5ff51f019">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="35cb46b2-19ab-455b-89ce-ab0920d09cfb" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="089b1b13-b895-491e-a60e-0f373128c80c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="94297159-1c46-4e4c-a1e1-6a64cc37431a" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="b4325dd5-de76-4ddb-814c-64da918c8adb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="c3e44fc7-8a10-4775-b91a-bcca01389f76" name="RC_Stop" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Fast stop of the robot movement." namespace="OBJ\ROBOT" trackingId="2ff987c2-43f5-49fe-9463-6424dacad6a9" DN="RC_Stop {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="7e96c5a7-ef53-4234-a129-1dc7beac7648" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="a16765a5-07ca-4d09-ba1f-74847bbe06b9" hash="fe414a9bbbd3ed91c24a3746567e55a1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="54b4e0d6-1ef0-4b56-bda0-f102d3447fb4" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="376990a0-75b6-4c38-a7b7-91a3cedba5f0">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="e025f090-fbb7-43e1-9ca4-c87adb29fea0" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="ebe3da98-f9e1-4b78-833f-b54390b2d3f2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="7f6050ce-b268-4c81-87cb-4076c5eda681" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="03a94a17-bb0b-441c-920e-572a418e6a46" hash="2623779c48388afb94eb5a03eaadf3e8">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="d808d27b-d44f-4aad-a5fa-06d7e72a830a" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="143a067f-b7c6-4cab-acf6-f6f5ee740359">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="e3915e6e-4912-45fd-9855-bfd06cd11d67" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="d3247651-a24b-42aa-bf7e-91fa0075f5a9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="4aa838e4-80a6-429e-8ac6-620e8282dbb2" name="RC_MoveRelative" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_MoveRelative instruction operates the robot with linear or joint interpolation.&#xD;&#xA;The position is the relative position from the current one" namespace="OBJ\ROBOT" trackingId="091b0eee-7f1c-4983-acb6-ca4b14bda11d" DN="RC_MoveRelative {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="465d292c-13dc-4d61-b4eb-886a00df2e38" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="0f449ab2-1079-4f5b-93d4-1f053c9bf763" hash="eb3b0905526e01f2d23e5599ee420251">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="a1c564d3-b17a-48eb-bcab-6834e8d6e975" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="7825f68b-18c6-47d7-bf33-43e2f24e69ab">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="fb488384-0ce4-4dcb-b2bf-7d5bc3aa243d" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="fdc80d9b-7ccb-4ec0-afa8-3feac090fc4a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="efb4591f-a452-4f08-94b6-21384e966112" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="f176e88b-8718-42d9-970a-95a0b3b51f3e" hash="37c95e164b0bf86fa4066336b97481bb">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="07ba72ff-9349-4d4e-9154-96ee01cf2967" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="93962757-fbf8-4628-b0e9-e6d317b4f2b6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="c0ab46c5-b672-4e61-aef1-e2b80402d8de" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="85ef5265-d208-47e0-aea3-8ed9a687f4da">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="559a2291-2172-4326-b21f-7725778a20c6" name="RC_MoveAbsolute" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_MoveRelative instruction operates the robot with linear or joint interpolation." namespace="OBJ\ROBOT" trackingId="d4a5d1f5-c12b-4869-8ce1-b680beab2bfb" DN="RC_MoveAbsolute {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="73f2b9a1-4a1e-4c3a-b0a1-f6419886267f" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="91f782dd-db16-4943-8354-7313510d1e97" hash="ba0d5188bbabf7610d8ae73d63d44873">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="2b4e2be2-e790-4103-b53b-5e8163acd26b" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="54d8f559-90bb-416f-b112-1de435254da2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="8e06625a-6092-486a-b55c-f0bdd87e9347" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="a4a677ea-c0f2-4c34-9f13-4354c572f22d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="94d1c7a4-45bb-4aec-86c0-31d25e1477b0" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="f8bae77d-930a-4815-bfcb-947085be256b" hash="3c16e74786c8dcab270408698d42b3e1">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a5aafd97-9dc6-4c7e-8a98-2688005db9cc" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="0a6f6cfc-1286-45f8-bd85-cde2508a537b">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="74fb3692-59ec-44cc-827f-fe2c544bf767" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="452119a9-df83-4d9a-8d7d-02de1b1934fc">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="f4ddb71a-2a30-4fde-a40f-a40fa4eb0361" name="RC_MoveZ" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:13:54" label="1.0.0" author="PClo" comment="Only move the robot on Z axis" namespace="OBJ\ROBOT" trackingId="b1970b1b-fa5b-47e0-b2b2-b473b28083cd" DN="RC_MoveZ {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="1cad462e-8d86-4941-9b5c-deec85ce6807" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="bae4578e-e0ba-4b18-b168-0a3ebf028cb5" hash="7650c9f263228244e37865702beed19d">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="cb6ebe41-dd9d-4962-918d-90c2c492461e" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="99ce19bc-557a-407a-8414-34e14feff9f7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="47188b49-d81d-4362-aa3a-1476b22abcc2" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="c7a77c37-33f0-42d4-8e93-9b6bfd326244">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="b84ce019-63b1-40fd-b91b-53c0c2a2f1c4" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="baceb5c2-b328-4c9a-9c74-44487fb39159" hash="e095ffe6aa35e7a9397b1534abd8ee6b">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="ee52cc63-8fc7-4efe-b83d-642f8c3d97d1" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="4313353f-aedf-4e39-beab-b6ed01c7de1d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="1871278a-c9da-43dc-b5fe-986da3b781f7" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="592365e3-07e3-420b-b511-c17ceab2ae46">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="c373a962-9874-4e92-8628-ff119f1f2ed0" name="RC_Posture" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_RC_Posture instruction change the robot posture (lefty or righty)" namespace="OBJ\ROBOT" trackingId="97b78c9e-c144-438c-bba3-49ed8c3c6735" DN="RC_Posture {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="f37bbe86-e271-4365-909c-da62886755ed" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="e9412467-86dd-47e7-9571-2c9a68425ee7" hash="a00ef64ecb5c07d2730600c8ca8091a4">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="b5d1d762-9672-437a-8453-1803d0e8c22b" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="cee47dfb-2528-437b-966c-4a54ed4e0265">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="ebfb6405-5217-49dd-83c1-72c9ffccaf98" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="baa4d43e-e399-4ed9-94a6-cc2e67e74ebf">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="fa8c661a-1a8d-41d9-86f8-a92e9e2fd41b" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="d06c4232-de7f-4cd8-9e74-164063307886" hash="bf30b6694093048f7baaded5d4f087b5">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="0d7f2178-01f2-4ca0-a38e-f82424fbc3ae" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="6263e6c2-5fcb-40a1-bb56-d0dddc8f8863">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="16ba9f4b-b597-4bb1-9d8e-3c00fed921dd" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="b9c7af68-ea32-4b04-92b2-cf14f3d9bc07">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="2942ff06-b657-4e6a-a062-b9201e49aadf" name="RC_Speed" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="The RC_RC_Speed instruction update the robot speed, acceleration and deceleration" namespace="OBJ\ROBOT" trackingId="90b5bfc9-89f5-4d7b-9e62-7a6248e60685" DN="RC_Speed {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="aa6a9169-b249-45b7-9468-e13f9ff36adf" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="a923b034-d1f5-4004-b590-91d891548871" hash="0483954229e8f59cfef6d3fd8d01f579">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="c2f9bdab-03f9-4ef1-9789-adf4aa64e232" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="b3695d54-9f97-4274-9544-83491b6e493f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="0130b250-5b83-4637-aee8-ff0fae29defd" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="1567797e-ba34-4fbb-b8e0-1b6d825e4c60">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="50651bb2-2858-4f44-9b31-9cffcc6bc344" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="7e5b4bba-ec60-4c50-a25e-e676e2df95be" hash="7c694bf8edf6058b66472220c048a994">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="550d009b-e690-4475-ab8a-a6f5c48c5439" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="467deee1-5447-4344-8484-1394f1bd574e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="eed60695-3f3e-48c0-b70f-e69fa9ca44bb" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="f7ccde99-48bd-4561-98e8-da1a622364a3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="16e589bd-9572-4670-a1e0-2d94f8d78d3c" name="RC_OutABit" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Change an output value." namespace="OBJ\ROBOT" trackingId="2258e5a6-e5c4-4094-98e2-2958630c20ab" DN="RC_OutABit {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="c69ffea0-0a42-438e-859d-7876510769f4" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="68841c6d-e734-4d04-b706-0d5845491831" hash="074f11338882338715e549ec7d8c094a">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="c3805d1a-23cc-455c-a1c4-18783d281b23" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="121c53ac-579b-433c-80b6-4ebf41c3237a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="47dc46a2-2d21-42d5-aa5c-cd40340a80e6" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="af66f455-f223-4d05-a044-dca21c3e7353">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="4a5d1a5f-3d5d-4267-9870-70fe6d00ae57" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="e812af2d-c9c3-44b8-8d28-7d6495ea1f4a" hash="e90ad81a321331301c760138ac20a2b7">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="ecba30ca-81c7-4592-96d5-a52996fb52c0" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="bbb2c5ab-d94e-45e5-b69a-ee778b0e309f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="078565d3-06bf-4817-b73e-ffe71a05e892" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="5138ebc0-ac4f-4774-9f1e-587ddd342b3f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="b78c8d16-988c-400e-9ccc-991ce6c32863" name="RC_JogMode" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Put the robot in jog mode." namespace="OBJ\ROBOT" usingNamespaces="OBJ\ROBOT\COMM&#xD;&#xA;" trackingId="8c530424-e161-400d-aec5-b2945593164d" DN="RC_JogMode {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="9a886e1f-6dcd-421d-a667-94f7677e4b1a" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="4e8961ec-613e-4ac9-a531-d0399b766a9f" hash="c1e746d66079ce9eb7b1e4a32c7ce660">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="eb15f18b-04cc-4925-b7fc-fd6b93af131e" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="a3045f31-7bd6-4ebd-b7fc-a6d97eba98fd">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="41bec1f2-2667-4b32-be5b-f5517cbbc60c" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="0d07c6ec-4e9d-450c-b2e3-a631c3893bf6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="c5274760-d3e3-47c1-b494-8a1ac4677e46" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:13:54" trackingId="5eca1223-bad6-4cdf-8641-cad9118ae586" hash="299e1bfd41233fedeb17c12bc0262016">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="2f6a283a-581e-4fd2-8e0b-f9d2e46a4600" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="1bcb8cc2-4a5f-4598-9dcf-1d3b674e2f03">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="5dc9ab47-0301-42a1-8d60-14990547006a" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="6f4041ec-1794-4313-98a1-b949501299e1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="bca3188c-bc20-43bf-be66-0182f2787997" name="RC_MoveJOG" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Jog order in world or joint, for a choosen axis/joint" namespace="OBJ\ROBOT" trackingId="dba19077-583a-4ea0-85e3-76b3d60abb07" DN="RC_MoveJOG {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="677762c0-d071-4641-81b4-6efadb7817dc" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:13:54" trackingId="63ab14e1-aa06-442d-ad70-4e15d1014c79" hash="a40fafbfd15f1961c61d8033a7da5f11">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="6ee5a55d-687b-4b79-a6bf-78aaf478d22d" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="dca664e3-5928-4b0e-abf4-d615391f7cb1">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="a967be5c-aab3-45c8-9e74-57d84cbc0172" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="77ab7c6e-8937-4798-bee5-be98eb19b2c2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="61399488-1fb6-47b0-a84f-907135df9c27" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="cc8facb2-b563-49da-b3cd-24674a630cb3" hash="ba1efa79c1a88b548861f88e28bc6353">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="302e0aef-7a3d-47f7-9efb-413949d0be94" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="79a8c021-f78f-41c9-9002-88579e1889bd">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="9348cfa9-d993-4b01-940d-e19463c8804f" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="fafba7f8-e20b-481d-b449-140139e3818f">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="be65f6fc-8c38-467e-9aa2-8759939516cd" name="d29c21da-9242-4839-8b0b-85e67bd16a15" version="0" dateCreated="05/19/2026 09:19:51" dateLastModified="07/01/2026 11:35:57" trackingId="8dcccca7-30cc-4865-82e9-bd9c88611304">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="7688fa0a-7d20-4d1c-b5a4-30d243057117" name="Robot_Config_Palette" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Create a pallet object with 3 pose." namespace="OBJ\ROBOT" usingNamespaces="OBJ\ROBOT\PALETTE&#xD;&#xA;" trackingId="6014ac02-2667-4f77-bd8b-4fa1ff53b133" DN="Robot_Config_Palette {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="7243cbbe-7087-4504-a870-5e01a38b7957" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="65ee1af8-4bdf-430f-94fa-178f175f30c8" hash="08fe6d31f56604dc186de8f785aa1b98">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="e1330684-2f35-4c20-94ba-64f4142d8d4e" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="ea0aae4c-36d5-48e2-a382-14e17483bbd8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="18d8fd35-e0ce-4f8e-8fd0-79950cd4cb74" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="31d0b4d0-3077-4170-b237-9c7ca3dcaa7a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="de43f0f2-d0f7-48b5-a3ba-ae6f347c1c5e" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="e57abf3b-02a7-4072-b88a-e949b6f89cac" hash="61ac2f701cc0de7c5a52001ee4ed5c32">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="598b826b-7d7c-4a5c-9a5d-3348c287a057" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="5b74ca8b-de28-4b31-a92a-73e8a25c7776">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="dc3bc91e-f3e4-4183-8684-372b8c8bb12d" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="d48bf779-ab7c-420e-807c-643946caf5ee">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="88745915-db61-4fa5-8278-772b740f82bd" name="78fefe8f-6e7a-4870-8b21-7c3880210b79" version="0" dateCreated="05/12/2026 13:49:33" dateLastModified="07/01/2026 11:35:57" trackingId="59d6d8aa-7853-4519-bad8-b3a2327bf92d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="63d2c4f9-4958-4b96-8d13-b565b930ffb2" name="3a13e1fd-a3f2-4401-a2db-f209ce9fc2b1" version="0" dateCreated="05/12/2026 13:54:19" dateLastModified="07/01/2026 11:35:57" trackingId="5e843e16-08ac-4309-b237-d9a7df806c08">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="c7fc4af6-53f4-46ed-8008-3fcd6b1e1812" name="RC_GetPalettePose" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/02/2026 08:20:02" label="1.0.0" author="PClo" comment="Return a pose from an index of a palette." namespace="OBJ\ROBOT" usingNamespaces="OBJ\ROBOT\PALETTE&#xD;&#xA;" trackingId="24db1ae1-063f-4337-99be-341a38d0046f" DN="RC_GetPalettePose {OBJ\ROBOT}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="1d19db34-2244-4648-82a4-e4fe86dc94d1" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="713cf38f-a7fd-44b3-8aa1-a2983ad9d639" hash="cb66dccdbbe4e097b8ee2f8d0e9e8696">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="0a563a86-5ce9-4804-8652-bfe670898393" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="55a276e3-c958-4574-8efc-035acf6fc8d9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="d6c27c3f-d262-43e4-a89b-b9e275e69f55" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="3e8c94f3-85ef-4ce9-bd38-af8eec2f0f6a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="7b3ba24c-4683-462d-a027-2defb2acbca4" name="LadderBody" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="07/01/2026 11:35:57" trackingId="585e7086-7797-4729-add1-baa13f113aa1" hash="482438f872cd2e4929d243fa948158ff">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="835e3c3b-98ef-4b85-b4b3-4bfc9917a1de" name="Source" version="0" dateCreated="04/15/2026 15:23:22" trackingId="ad549e60-37ce-4bfa-9fe5-94e713257eb9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="bd04bd47-f0bf-4fea-8531-c10c535fbadf" name="PouBodySourceHolder" version="0" dateCreated="04/15/2026 15:23:22" trackingId="b2f83ceb-e581-4be3-b820-06d3a2c8611e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="1c63f332-852c-445f-8096-8d21a0e0858a" name="78fefe8f-6e7a-4870-8b21-7c3880210b79" version="0" dateCreated="05/12/2026 13:49:33" dateLastModified="07/01/2026 11:35:57" trackingId="baa121ac-0238-402e-9b3e-0d8b3b03526d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="e5b817f3-bbde-4810-bb0b-2ac58d5a2559" name="19c39dbd-679d-4e30-9765-bcf59f612a35" version="0" dateCreated="05/12/2026 15:00:20" dateLastModified="07/01/2026 11:35:57" trackingId="f5403c65-a822-49a8-abee-42bd877b12a6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                   <Entity type="FunctionBlock" subtype="Ladder" id="14a02e81-6a2f-4169-a6ee-4135d857fc5a" name="Sensor_Simple" version="0" dateCreated="05/09/2018 09:32:09" dateLastModified="05/20/2026 16:19:00" label="6.0.0" author="PClo" comment="Use a digital input as sensor.&#xD;&#xA;The signal can be filtred or use with a living time." namespace="OBJ\SENSOR" trackingId="7fffa98d-3152-4cbe-b8cf-7eb7f4ceb0c2" DN="Sensor_Simple {OBJ\SENSOR}">
                     <AccessInfos />
                     <ChildEntities>
@@ -5572,7 +6356,7 @@
                   <Entity type="FunctionBlock" subtype="Ladder" id="9efa2859-c46a-4e2c-bd80-7d88f875c08f" name="Vibrator_Config_MFS268" version="0" dateCreated="07/12/2024 09:56:48" dateLastModified="05/08/2026 17:10:06" label="6.0.0" author="PClo" comment="Configuration of vibrator driver Reovib MFS268 on EIP/EC" namespace="OBJ\VIBRATOR" trackingId="a3cf26f1-173f-4589-8437-a1fe68cb44ed" DN="Vibrator_Config_MFS268 {OBJ\VIBRATOR}">
                     <AccessInfos />
                     <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="1460b65a-d938-4a22-9fce-6ab1d0248d69" name="Variables" version="0" dateCreated="07/12/2024 09:56:48" dateLastModified="05/22/2026 10:46:06" trackingId="57111720-186d-47f4-b40e-2a6cb4c0c366" hash="29b68e2bff22ba9965f0aba35172f4a5">
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="1460b65a-d938-4a22-9fce-6ab1d0248d69" name="Variables" version="0" dateCreated="07/12/2024 09:56:48" dateLastModified="07/01/2026 11:35:57" trackingId="57111720-186d-47f4-b40e-2a6cb4c0c366" hash="c4592a2ef2273a5f3fb8cc3937daed16">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="PouIFLibraryHolder" subtype="" id="b18721e3-7672-4166-881c-535e7e126c19" name="PouIFLibrary" version="NaN" dateCreated="07/12/2024 09:56:48" trackingId="8112fe82-05b5-4d3c-a156-3dd3933f7f2a">
@@ -5585,7 +6369,7 @@
                           </Entity>
                         </ChildEntities>
                       </Entity>
-                      <Entity type="PouBody" subtype="Ladder" id="188a712b-b16d-4f97-bca8-909211db9493" name="LadderBody" version="0" dateCreated="07/12/2024 09:56:48" dateLastModified="05/22/2026 10:46:06" trackingId="4ec930d7-d660-49de-a3bc-b58aa7d76a57" hash="2f21159e5ab6dec50e9f302a2586153a">
+                      <Entity type="PouBody" subtype="Ladder" id="188a712b-b16d-4f97-bca8-909211db9493" name="LadderBody" version="0" dateCreated="07/12/2024 09:56:48" dateLastModified="07/01/2026 11:35:57" trackingId="4ec930d7-d660-49de-a3bc-b58aa7d76a57" hash="3fd944705d5a6f1a244b554c3aff8bde">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="ceae347c-1159-43eb-bb81-dda23878ff7f" name="Source" version="0" dateCreated="07/12/2024 09:56:48" trackingId="78af03cc-f11d-467d-bd14-a5abdfb908cd">
@@ -5596,31 +6380,31 @@
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="920e496c-7474-4b0f-afad-03dd6b593648" name="21af89e8-f132-4dcf-a413-e9c1d8e6361d" version="0" dateCreated="07/12/2024 10:26:54" dateLastModified="05/22/2026 10:46:06" trackingId="70755703-5741-404a-b4e0-39baffc14843">
+                          <Entity type="Inline" subtype="StructuredText" id="920e496c-7474-4b0f-afad-03dd6b593648" name="21af89e8-f132-4dcf-a413-e9c1d8e6361d" version="0" dateCreated="07/12/2024 10:26:54" dateLastModified="07/01/2026 11:35:57" trackingId="70755703-5741-404a-b4e0-39baffc14843">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="e6bd3ea3-b151-4a3b-ab6c-d309dfd87d3f" name="a57d636c-eb73-4684-83f5-65cffeb18f82" version="0" dateCreated="02/12/2025 10:57:20" dateLastModified="05/22/2026 10:46:06" trackingId="6fd0405b-32e1-45a4-9f83-2d23f7e36ab0">
+                          <Entity type="Inline" subtype="StructuredText" id="e6bd3ea3-b151-4a3b-ab6c-d309dfd87d3f" name="a57d636c-eb73-4684-83f5-65cffeb18f82" version="0" dateCreated="02/12/2025 10:57:20" dateLastModified="07/01/2026 11:35:57" trackingId="6fd0405b-32e1-45a4-9f83-2d23f7e36ab0">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="7006175a-609f-4979-9b4c-3078a6e35af5" name="78531673-15b0-499e-a2e3-81e0343458b7" version="0" dateCreated="02/12/2025 11:56:10" dateLastModified="05/22/2026 10:46:06" trackingId="d89b5ab8-3922-4363-9636-0fdfd1a33bf1">
+                          <Entity type="Inline" subtype="StructuredText" id="7006175a-609f-4979-9b4c-3078a6e35af5" name="78531673-15b0-499e-a2e3-81e0343458b7" version="0" dateCreated="02/12/2025 11:56:10" dateLastModified="07/01/2026 11:35:57" trackingId="d89b5ab8-3922-4363-9636-0fdfd1a33bf1">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="f4273483-e9f5-4bb1-b0a1-69320a200a9d" name="70d760fe-6354-4051-bc6e-97bb59eb8acc" version="0" dateCreated="02/12/2025 15:47:26" dateLastModified="05/22/2026 10:46:06" trackingId="28075514-989a-49f7-9259-87ecadad6fe9">
+                          <Entity type="Inline" subtype="StructuredText" id="f4273483-e9f5-4bb1-b0a1-69320a200a9d" name="70d760fe-6354-4051-bc6e-97bb59eb8acc" version="0" dateCreated="02/12/2025 15:47:26" dateLastModified="07/01/2026 11:35:57" trackingId="28075514-989a-49f7-9259-87ecadad6fe9">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="a592b8c0-e81f-4533-a5a2-7b273a9ec837" name="24c18b20-3690-494a-b7a1-4d26ddce3fc1" version="0" dateCreated="02/12/2025 15:47:26" dateLastModified="05/22/2026 10:46:06" trackingId="eeeeb278-0b95-49bb-954f-f537023a885f">
+                          <Entity type="Inline" subtype="StructuredText" id="a592b8c0-e81f-4533-a5a2-7b273a9ec837" name="24c18b20-3690-494a-b7a1-4d26ddce3fc1" version="0" dateCreated="02/12/2025 15:47:26" dateLastModified="07/01/2026 11:35:57" trackingId="eeeeb278-0b95-49bb-954f-f537023a885f">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="56244dfe-20e4-47df-9e62-6c497caed332" name="9d638c83-d203-45b3-b2f3-fbc424e59e20" version="0" dateCreated="02/13/2025 08:45:21" dateLastModified="05/22/2026 10:46:06" trackingId="f7e83b68-dac9-4d47-8c33-1971166601d8">
+                          <Entity type="Inline" subtype="StructuredText" id="56244dfe-20e4-47df-9e62-6c497caed332" name="9d638c83-d203-45b3-b2f3-fbc424e59e20" version="0" dateCreated="02/13/2025 08:45:21" dateLastModified="07/01/2026 11:35:57" trackingId="f7e83b68-dac9-4d47-8c33-1971166601d8">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
-                          <Entity type="Inline" subtype="StructuredText" id="09672a4d-4788-477e-a71a-02670aafbfe3" name="058bf18c-21d5-4fb7-b428-671d68621e3d" version="0" dateCreated="02/17/2025 10:34:09" dateLastModified="05/22/2026 10:46:06" trackingId="3d6029b7-669e-4e54-92b9-704d28db6d6f">
+                          <Entity type="Inline" subtype="StructuredText" id="09672a4d-4788-477e-a71a-02670aafbfe3" name="058bf18c-21d5-4fb7-b428-671d68621e3d" version="0" dateCreated="02/17/2025 10:34:09" dateLastModified="07/01/2026 11:35:57" trackingId="3d6029b7-669e-4e54-92b9-704d28db6d6f">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
@@ -5994,6 +6778,33 @@
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="5e450823-5c38-4d93-972d-b652bad2002c" name="Source" version="0" dateCreated="06/30/2026 11:59:27" trackingId="c300ace1-142e-46b7-81ef-e68e5005bd7a">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="f8635aa3-b5c3-46b6-a2c6-417882525848" name="Data Types19" version="0" dateCreated="07/01/2026 10:58:08" dateLastModified="07/01/2026 11:35:57" namespace="OBJ\ROBOT" trackingId="76ef0d64-368f-4d45-81d4-4eee2eedb94d" hash="98f80a3bd195f6173b5028810fb54f51">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="86225f39-3254-4b5a-85db-b2f8013b5639" name="Source" version="0" dateCreated="07/01/2026 10:58:08" trackingId="0b8f7922-d3e9-4f7c-92eb-00cb1ae15723">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="15709f49-9b3b-4bd0-9f1a-946114cddcc5" name="Data Types20" version="0" dateCreated="07/01/2026 10:58:08" dateLastModified="07/01/2026 11:35:57" namespace="OBJ\ROBOT\COMM" trackingId="583122e6-5926-4d9d-bc03-da86ee2eefbe" hash="ecae45a82cac2bce7ece9878d9694843">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="0c4580fc-6f89-4806-80a6-52c7ef73f310" name="Source" version="0" dateCreated="07/01/2026 10:58:08" trackingId="8ca0331f-603f-4242-98f5-e3ee35539d0f">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="e0684bda-dac5-43e1-a6c6-b66049f09257" name="Data Types21" version="0" dateCreated="07/01/2026 10:58:08" dateLastModified="07/01/2026 11:35:57" namespace="OBJ\ROBOT\PALETTE" trackingId="e6e36a3f-a280-4b5d-8cc4-bf20dd7279f1" hash="0a4a06f142d5dca004414e11c34d2bd4">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="1d828b35-14c3-48cc-91d5-e2482ca2f830" name="Source" version="0" dateCreated="07/01/2026 10:58:08" trackingId="0faf61a5-b069-46a9-a2f6-503e0fef3e51">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>

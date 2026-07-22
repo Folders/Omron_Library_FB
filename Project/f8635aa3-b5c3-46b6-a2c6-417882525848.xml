@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types19" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="95" OffsetType="NJ">
+      <DataType Name="Cfg" BaseType="OBJ\ROBOT\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd" BaseType="OBJ\ROBOT\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\ROBOT\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="RobotSta" BaseType="OBJ\ROBOT\COMM\FROM_ROBOT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status of robot -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\ROBOT\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="alarms -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\ROBOT\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="26" OffsetType="NJ">
+      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Configuration is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Error" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Configuration is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="25" OffsetType="NJ">
+      <DataType Name="ResetRobot" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset robot fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ResetFB" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset all function bloc" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PowerOn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to power on the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Calibrate" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to calibrate the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Attache" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to attache the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Detache" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to attache the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="JOG" BaseType="OBJ\ROBOT\Jog" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="JOG - " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Jog" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="4" OffsetType="NJ">
+      <DataType Name="s" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset robot fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ResetFB" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reset all function bloc" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PowerOn" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to power on the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Calibrate" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to calibrate the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Attache" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to attache the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Detache" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to attache the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="24" OffsetType="NJ">
+      <DataType Name="Connected" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Connection to robot established" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Powered" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot is powered" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Attached" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot is attached" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="JOG" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot in jog mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CalibrationNeeded" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot calibration is needed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MotionWaiting" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robor in motion and interlocking other command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Fault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Robot in fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Cylinder is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_Send" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id of the order send to the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_Done" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id of the order done by the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="22" OffsetType="NJ">
+      <DataType Name="Alarms" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="eCmd" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command list of robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="NoCommand" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="No order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PowerOn" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1850701648" Comment="Power ON - PwOn" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PowerOff" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1716483920" Comment="Power OFF - PwOf" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Calibrate" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1768710467" Comment="Calibrate order - Cali" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Attach" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1751348289" Comment="Attache order - Atch" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Detache" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1751348292" Comment="Detache order - Dtch" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="SetIO" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1333028179" Comment="Set IO value (Arg0: Output number [+=On, -=Off]) - SetO" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="GetIO" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1333028167" Comment="To do - GetO" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveAbs" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1128361805" Comment="Move to an absolute point - MoAC" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveAbsLine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1279356749" Comment="Move to an absolute point in straight-line - MoAL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveRel" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1129475917" Comment="Move to a relative point - MoRC" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveRelLine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1280470861" Comment="Move to an absolute point in straight-line - MoRL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveZ" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1517711181" Comment="Only move Z axis - MovZ" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Posture" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1702063952" Comment="Set arm posture - Pose" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MoveParam" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1684369491" Comment="Define movement speed and acceleration (Arg1: Speed, Arg2: Acc, Arg3: Dec) - Sped" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ErrorCode" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1919906373" Comment="Error on the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ResetError" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1952805714" Comment="Reset error" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="FastStop" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1886352467" Comment="Fast stop - Stop" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="JogOn" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="828862282" Comment="Jog ON - Jog1" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="JogOff" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="809979722" Comment="Jog OFF - JOG0" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="JogMove" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1296518986" Comment="Make a jog move on world coordinate (Arg1: Mode, Arg2: Axis, Arg3: Speed) - JOGM" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="21" OffsetType="NJ">
+      <DataType Name="Id" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Last id order used, incremented every order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_Ack" BaseType="UDINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Acknowladge " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Buffer" BaseType="ARRAY[0..4] OF OBJ\ROBOT\COMM\TO_ROBOT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buffer of order to the robot" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Size" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Buffer size" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Num" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of element in bufffer" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="sPOSE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="CJ">
+      <DataType Name="X" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position on X axis [mm]" OffsetChannel="0" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Y" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position on Y axis [mm]" OffsetChannel="4" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Z" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position on Z axis [mm]" OffsetChannel="8" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Yaw" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Yaw angle [°]" OffsetChannel="12" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Pitch" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Pitch angle [°]" OffsetChannel="16" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Roll" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Roll angle [°]" OffsetChannel="20" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

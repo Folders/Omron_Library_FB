@@ -1,0 +1,15 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\ROBOT\Robot_PRIVATE_Cmd	N=commandRequest	G=VAR
+++D=REAL	N=sig	G=VAR	Com=Output to use
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=0	G=VAR_IN_OUT	Com=Robot object
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute
+++D=BOOL	N=BitVal	Ord=2	G=VAR_INPUT	Com=Value to set
+++D=UINT	N=Signal	Ord=3	G=VAR_INPUT	Com=Output to use [1..16 for XIO, 17..20 for TIO]
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT	Com=Done
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT	Com=Executing
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT	Com=Error
+++D=OBJ\ROBOT\COMM\eRobot_Error	N=ErrorID	Ord=7	G=VAR_OUTPUT	Com=Error code
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

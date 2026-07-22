@@ -1,0 +1,19 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB is initalized
+++D=BOOL	N=needComputation	G=VAR	Com=Vector computation is needed
+++D=BOOL	N=run	G=VAR	Com=FB is running
+++D=UINT	N=indexCol	G=VAR	Com=Column component of the pallet location index.
+++D=UINT	N=indexRow	G=VAR	Com=Row component of the pallet location index.
+++D=OBJ\ROBOT\sPOSE	N=vctCol	G=VAR
+++D=OBJ\ROBOT\sPOSE	N=vctRow	G=VAR
+++D=BOOL	N=enabled	G=VAR	Com=FB is enabled
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\ROBOT\PALETTE\BASE	N=MyPalette	Ord=0	G=VAR_IN_OUT	Com=Robot object
+++D=BOOL	N=GetPose	Ord=1	G=VAR_INPUT	Com=Use the robot
+++D=UINT	N=Index	IV=0	Ord=2	G=VAR_INPUT	Com=Selected pallet location index [1..IndexMax]
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT	Com=Done
+++D=BOOL	N=Error	Ord=4	G=VAR_OUTPUT	Com=Wrong parameter
+++D=OBJ\ROBOT\sPOSE	N=Location	Ord=5	G=VAR_OUTPUT	Com=Location of the choosen index [Pose]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
