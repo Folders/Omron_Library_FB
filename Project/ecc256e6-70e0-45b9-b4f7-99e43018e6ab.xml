@@ -14,6 +14,18 @@ _EN=Variables
 ++D=BOOL	N=error	G=VAR	Com=Error of connection
 ++D=BOOL	N=resetConn	G=VAR	Com=Reset comm
 ++D=BOOL	N=inFault	G=VAR	Com=Currently in fault
+++D=BOOL	N=testReset	G=VAR
+++D=BOOL	N=autoGet	G=VAR
+++D=BOOL	N=resetCmd	G=VAR	Com=Auto reset for reconnection
+++D=BOOL	N=resetError	G=VAR
+++D=STRING[128]	N=backupMsg	G=VAR
+++D=BOOL	N=forceFaut	G=VAR
+++D=OBJ\DB\FaultMsg	N=faultMsg_Connect	G=VAR
+++D=OBJ\DB\FaultMsg	N=faultMsg_Close	G=VAR
+++D=INT	N=s	G=VAR
+++D=BOOL	N=getStatus	G=VAR	Com=Getting status from error manager
+++D=BOOL	N=busy	G=VAR
+++D=UINT	N=i	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=DB

@@ -7,13 +7,12 @@ _EN=Variables
 ++D=BOOL	N=connected	G=VAR	Com=Connected to DB
 ++D=OBJ\HISTO\PARAM\Buffer	N=data	G=VAR
 ++D=BOOL	N=externalRequest	G=VAR	Com=An external DB request is ask
-++D=TON	N=ltFault	G=VAR
 ++D=STRING[15]	N=TABLE	IV='HistoParam'	Ord=2	Const=1	G=VAR	Com=Name of the table in DB
 ++D=OBJ\DB\DB_Connect_WithMgr	N=dbConnect	G=VAR
 ++D=DB_CreateMapping	N=dbMapping	G=VAR
 ++D=DB_Insert	N=dbInsert	G=VAR
 ++D=OBJ\DB\DB_Close_WithMgr	N=dbClose	G=VAR
-++D=BOOL	N=fault	G=VAR
+++D=OBJ\DB\DB_FaultDetection	N=dbFault	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=History manager object

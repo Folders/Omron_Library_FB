@@ -1,7 +1,7 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=BOOL	N=Started	G=VAR	Com=FB started info
+++D=BOOL	N=started	G=VAR	Com=FB started info
 ++D=UINT	N=limitAlarm	G=VAR	Com=Limit size to generate alarms
 ++D=OBJ\STATE\eState	N=backupState	G=VAR	Com=Backup of machine state to check for update
 ++D=OBJ\HISTO\STATE\FlatDB	N=data	G=VAR	Com=Flat DB structure
@@ -13,9 +13,8 @@ _EN=Variables
 ++D=OBJ\DB\DB_Connect_WithMgr	N=dbConnect	G=VAR
 ++D=DB_CreateMapping	N=dbMapping	G=VAR
 ++D=DB_Insert	N=dbInsert	G=VAR
-++D=OBJ\DB\DB_Close_WithMgr	N=CloseDB	G=VAR
-++D=TON	N=LT_Fault	G=VAR
-++D=BOOL	N=default	G=VAR
+++D=OBJ\DB\DB_FaultDetection	N=dbFault	G=VAR
+++D=OBJ\DB\DB_Close_WithMgr	N=dbClose	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
 ++D=OBJ\DB\BASE	N=MyDB	Ord=1	G=VAR_IN_OUT	Com=DB manager object

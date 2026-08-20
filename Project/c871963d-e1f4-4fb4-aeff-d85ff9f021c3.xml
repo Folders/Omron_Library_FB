@@ -1,0 +1,32 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=test	G=VAR
+++D=INT	N=asfyxc	Ord=3	G=VAR
+++D=OBJ\DB\FaultMsg	N=data	G=VAR
+++D=BOOL	N=doneSelect	G=VAR	Com=To create flank order
+++D=BOOL	N=doneInsert	G=VAR	Com=To create flank order
+++D=BOOL	N=doneUpdate	G=VAR	Com=To create flank order
+++D=BOOL	N=doneSelectMap	G=VAR	Com=To create flank order
+++D=BOOL	N=doneInsertMap	G=VAR	Com=To create flank order
+++D=BOOL	N=doneUpdateMap	G=VAR	Com=To create flank order
+++D=BOOL	N=doneOverall	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\DB\BASE	N=MyDB	Ord=0	G=VAR_IN_OUT	Com=DB
+++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT	Com=Fault detection from "DB_Function"
+++D=BOOL	N=Resetting	Ord=2	G=VAR_OUTPUT	Com=Resetting the connection
+++D=BOOL	N=InFault	Ord=3	G=VAR_OUTPUT	Com=One or more FB are in fault
+++D=STRING[21]	N=SourceName	Ord=4	G=VAR_INPUT	Com=Give user the context of the error
+++D=BOOL	N=Insert_Mapping_Error	Ord=5	G=VAR_INPUT	Com=CreateMapping for insert in fault
+++D=WORD	N=Insert_Mapping_ErrorID	Ord=6	G=VAR_INPUT	Com=CreateMapping for insert fault code
+++D=BOOL	N=Insert_Error	Ord=7	G=VAR_INPUT	Com=Insert in fault
+++D=WORD	N=Insert_ErrorID	Ord=8	G=VAR_INPUT	Com=Insert fault code
+++D=BOOL	N=Select_Mapping_Error	Ord=9	G=VAR_INPUT	Com=CreateMapping for select in fault
+++D=WORD	N=Select_Mapping_ErrorID	Ord=10	G=VAR_INPUT	Com=CreateMapping for select fault code
+++D=BOOL	N=Select_Error	Ord=11	G=VAR_INPUT	Com=Select in fault
+++D=WORD	N=Select_ErrorID	Ord=12	G=VAR_INPUT	Com=Select fault code
+++D=BOOL	N=Update_Mapping_Error	Ord=13	G=VAR_INPUT	Com=CreateMapping for insert in fault
+++D=WORD	N=Update_Mapping_ErrorID	Ord=14	G=VAR_INPUT	Com=CreateMapping for insert fault code
+++D=BOOL	N=Update_Error	Ord=15	G=VAR_INPUT	Com=Insert in fault
+++D=WORD	N=Update_ErrorID	Ord=16	G=VAR_INPUT	Com=Insert fault code
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -28,6 +28,7 @@ _EN=Variables
 ++D=DB_Insert	N=insert_C	G=VAR
 ++D=OBJ\DB\DB_Close_WithMgr	N=Close_C	G=VAR
 ++D=BOOL	N=test_All	G=VAR
+++D=OBJ\DB\DB_FaultDetection	N=error_A	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=OBJ\DB\BASE	N=DB_Machine	G=VAR_EXTERNAL
 ++D=BOOL	N=Info_General	G=VAR_EXTERNAL
