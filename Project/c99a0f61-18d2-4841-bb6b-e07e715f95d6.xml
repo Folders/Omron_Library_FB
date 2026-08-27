@@ -11,6 +11,6 @@ _EN=Variables
 ++D=BOOL	N=OnChange	Ord=1	G=VAR_OUTPUT	Com=Value as changed
 ++D=BOOL	N=Value	Ord=2	G=VAR_INPUT	Com=Variable to watch
 ++D=STRING[100]	N=Name	Ord=3	G=VAR_INPUT	Com=Name of the parameter
-++D=OBJ\HISTO\PARAM\eCatergoryParam	N=Category	Ord=4	G=VAR_INPUT	Com=Familly of the parameter
+++D=OBJ\HISTO\PARAM\eParamCatergory	N=Category	Ord=4	G=VAR_INPUT	Com=Familly of the parameter
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=OBJ\HISTO\PARAM\BASE	N=HistoParam	G=VAR_EXTERNAL

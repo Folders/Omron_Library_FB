@@ -33,8 +33,8 @@
       <DataType Name="Id" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Local id of alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="DateUpdate" BaseType="DATE_AND_TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="DT when parameter value change" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Name" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Name of the alarm" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="CategoryParam" BaseType="OBJ\HISTO\PARAM\eCatergoryParam" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Category of the parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="TypeParam" BaseType="OBJ\HISTO\PARAM\eTypeParam" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Type of the parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamCategory" BaseType="OBJ\HISTO\PARAM\eParamCatergory" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Category of the parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamType" BaseType="OBJ\HISTO\PARAM\eParamType" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Type of the parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Value" BaseType="OBJ\HISTO\PARAM\ValueParameter" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Setpoint" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Old" BaseType="OBJ\HISTO\PARAM\ValueParameter" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Old value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
@@ -57,33 +57,34 @@
       <DataType Name="Id_Product" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of product reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_Machine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of the machine generating the event" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_User" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Prod - Id of the currently logged user" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="CategoryParam" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="ParamName" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="OldValue" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="ancienne valeur de la variable " OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="NewValue" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Category" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Category of the parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Name" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Name of the parameter" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="OldValue" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Previous value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="NewValue" BaseType="STRING[100]" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="New value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="eTypeParam" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Variable type" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-      <DataType Name="NA" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Not assigned" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="BOOL_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="BOOL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="UINT_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="UINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="INT_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="INT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LINT_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="LINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="ULINT_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="ULINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="REAL_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="REAL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LREAL_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="7" Comment="LREAL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="DT_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="8" Comment="DT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="STRING_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="STRING[100]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="USINT_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="10" Comment="USINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="WORD_e" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="11" Comment="WORD" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="eParamType" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Variable type" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="Type_NA" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Not assigned" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_BOOL" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="BOOL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_UINT" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="UINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_INT" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="INT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_LINT" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="4" Comment="LINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_ULINT" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="5" Comment="ULINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_REAL" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="6" Comment="REAL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_LREAL" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="7" Comment="LREAL" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_DT" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="8" Comment="DT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_STRING" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="9" Comment="STRING[100]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_USINT" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="10" Comment="USINT" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Type_WORD" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="11" Comment="WORD" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="eCatergoryParam" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-      <DataType Name="NotDefine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Not define" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="RecipeParameter" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Recipe value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="MachineParameter" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Machine value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="LogInfo" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="10" Comment="Log information" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Login" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="20" Comment="Login" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Maint" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="30" Comment="Maintenance" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="DB_Log" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="40" Comment="Database log" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="eParamCatergory" BaseType="ENUM" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+      <DataType Name="Catergory_NotDefine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="Not define" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_Recipe" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="Recipe value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_Machine" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="Machine value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_User" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="3" Comment="User value" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_LogInfo" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="10" Comment="Log information" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_Login" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="20" Comment="Login" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_Maint" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="30" Comment="Maintenance" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Catergory_DbLog" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="40" Comment="Database log" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
   </DataType>
 </data>
