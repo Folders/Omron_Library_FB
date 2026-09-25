@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types21" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Camera" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="86" OffsetType="NJ">
-      <DataType Name="Cmd" BaseType="OBJ\CAMERA\FH\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command :" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Sta" BaseType="OBJ\CAMERA\FH\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status :" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Respond" BaseType="OBJ\CAMERA\FH\Respond" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="response :" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Camera" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="107" OffsetType="NJ">
+      <DataType Name="Cmd" BaseType="OBJ\CAMERA\FH\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\CAMERA\FH\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\CAMERA\FH\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="13" OffsetType="NJ">
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="21" OffsetType="NJ">
+      <DataType Name="Trigger" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Trigger order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Trigger done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Fault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="19" OffsetType="NJ">
+      <DataType Name="Cmd" BaseType="OBJ\CAMERA\FH\Exchange_Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="FH command order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\CAMERA\FH\Exchange_Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="FH command feedback" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Id_Max" BaseType="SINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of command FB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange_Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="2" OffsetType="NJ">
       <DataType Name="Code" BaseType="DWORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Code of command - Check EtherCAT command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Parameter_0" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameter 0 of command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Parameter_1" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameter 1 of command" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -16,15 +31,12 @@
       <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Handshake of done given by a function" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Id_Currant" BaseType="SINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Id from currant request" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
+    <DataType Name="Exchange_Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="NJ">
       <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="FH ready to receive an ordre" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Execute" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command in execution" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Request" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command in requested" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Fault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Command in fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-      <DataType Name="Id_Max" BaseType="SINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of command FB" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
-    </DataType>
-    <DataType Name="Respond" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="11" OffsetType="NJ">
       <DataType Name="Code_Echo" BaseType="DWORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Feedback of command code" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Code" BaseType="DWORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Response code" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Data" BaseType="DINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Response datas" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />

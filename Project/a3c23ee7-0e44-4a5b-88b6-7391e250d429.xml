@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\CAMERA\FH\FH_PRIVATE_Cmd	N=commandRequest	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\CAMERA\FH\BASE	N=MyFH	Ord=0	G=VAR_IN_OUT
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT	Com=Done
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT	Com=Executing
+++D=BOOL	N=Error	Ord=4	G=VAR_OUTPUT	Com=Error
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -18,4 +18,7 @@ _EN=Variables
 ++D=DINT	N=EC_CommandParameter1	Ord=12	G=VAR_OUTPUT	Com=Parameter 1 of command
 ++D=DINT	N=EC_CommandParameter2	Ord=13	G=VAR_OUTPUT	Com=Parameter 2 of command
 ++D=DINT	N=EC_CommandParameter3	Ord=14	G=VAR_OUTPUT	Com=Parameter 3 of command
+++D=BOOL	N=EC_TriggerReady	Ord=15	G=VAR_INPUT	Com=Trigger is ready
+++D=BOOL	N=EC_Busy	Ord=16	G=VAR_INPUT	Com=Image processing
+++D=BOOL	N=EC_Trigger	Ord=17	G=VAR_OUTPUT	Com=Trigger command
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

@@ -1,14 +1,14 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR	GVT=DefaultGroup
-++D=SINT	N=r	G=VAR	Com=Step of reading command
-++D=SINT	N=idLocal	IV=-1	G=VAR	Com=Id of function bloc
+++D=OBJ\CAMERA\FH\FH_PRIVATE_Cmd	N=commandRequest	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=OBJ\CAMERA\FH\BASE	N=MyFH	Ord=0	G=VAR_IN_OUT
-++D=BOOL	N=GetData	Ord=1	G=VAR_INPUT	Com=Order to get data
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute
 ++D=DINT	N=Unit	Ord=2	G=VAR_INPUT	Com=Function number in the flow
 ++D=DINT	N=External_Ref	Ord=3	G=VAR_INPUT	Com=Data number in the external reference tables
-++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT	Com=Data received
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT	Com=Done
 ++D=REAL	N=Data	Ord=5	G=VAR_OUTPUT	Com=Received value
-++D=BOOL	N=Fault	Ord=6	G=VAR_OUTPUT	Com=Fault
+++D=BOOL	N=Busy	Ord=6	G=VAR_OUTPUT	Com=Executing
+++D=BOOL	N=Error	Ord=7	G=VAR_OUTPUT	Com=Error
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

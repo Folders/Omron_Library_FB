@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=orderReceive	G=VAR	Com=Order is received (on flanck)
+++D=BOOL	N=enabled	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Result ready
+++D=OBJ\CAMERA\FH\BASE	N=MyFH	Ord=1	G=VAR_IN_OUT	Com=FH object
+++D=BOOL	N=Request	Ord=2	G=VAR_INPUT	Com=Trigger request
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
