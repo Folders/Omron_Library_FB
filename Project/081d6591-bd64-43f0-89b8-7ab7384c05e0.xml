@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\ROBOT\sPOSE	N=poseTemp	G=VAR
+++D=REAL	N=sum	Ord=4	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=OBJ\ROBOT\sPOSE	N=In1	Ord=1	G=VAR_INPUT	Com=Vector 1
+++D=OBJ\ROBOT\sPOSE	N=In2	Ord=2	G=VAR_INPUT	Com=Vector 2
+++D=REAL	N=Distance	Ord=3	G=VAR_OUTPUT	Com=Difference
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=VectorDistance	G=RETURN

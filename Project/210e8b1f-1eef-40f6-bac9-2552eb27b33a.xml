@@ -6,12 +6,13 @@ _EN=Variables
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=OBJ\ROBOT\BASE	N=MyRobot	Ord=0	G=VAR_IN_OUT	Com=Robot object
 ++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute
-++D=OBJ\ROBOT\sPOSE	N=Location	Ord=2	G=VAR_INPUT	Com=Destination location [sPose]
+++D=OBJ\ROBOT\sPOSE	N=Location	Ord=2	G=VAR_INPUT	Com=Deplacement location [sPose]
 ++D=REAL	N=Speed	IV=0.0	Ord=3	G=VAR_INPUT	Com=Speed of movement [%]
 ++D=BOOL	N=WaitEndMotion	IV=True	Ord=4	G=VAR_INPUT	Com=Done when the movement is finished
 ++D=BOOL	N=LinearMove	IV=True	Ord=5	G=VAR_INPUT	Com=Make a joint movement (=0) or a linear (=1)
-++D=BOOL	N=Done	Ord=6	G=VAR_OUTPUT	Com=Done
-++D=BOOL	N=Busy	Ord=7	G=VAR_OUTPUT	Com=Executing
-++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT	Com=Error
-++D=OBJ\ROBOT\COMM\eRobot_Error	N=ErrorID	Ord=9	G=VAR_OUTPUT	Com=Error code
+++D=BOOL	N=WorldMove	IV=False	Ord=6	G=VAR_INPUT	Com=Make the movement in frame (=0) or in world (=1)
+++D=BOOL	N=Done	Ord=7	G=VAR_OUTPUT	Com=Done
+++D=BOOL	N=Busy	Ord=8	G=VAR_OUTPUT	Com=Executing
+++D=BOOL	N=Error	Ord=9	G=VAR_OUTPUT	Com=Error
+++D=OBJ\ROBOT\COMM\eRobot_Error	N=ErrorID	Ord=10	G=VAR_OUTPUT	Com=Error code
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
