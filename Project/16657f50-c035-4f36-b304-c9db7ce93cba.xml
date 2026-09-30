@@ -1,0 +1,3 @@
+﻿{"CLs":[{"__type":"LD","Not":true,"Var":"ENO"},{"__type":"JMP","Ix":1,"Label":"eof","X":1}],"LRI":2,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Request"},{"__type":"F","In":[{"__type":"PF","Arg":"EN"},{"__type":"PRM","Arg":"In","Ix":2,"Type":"ANY","Var":"JobID"}],"Ix":4,"Name":"MOVE","Out":[{"__type":"PF","Arg":"ENO"},{"__type":"PRM","Arg":"Out","Ix":3,"Type":"ANY","Var":"MyCamera.Cmd.Job_Id"}],"X":1},{"__type":"ST","Ix":1,"Var":"MyCamera.Cmd.Job_ChangeOrder","X":2}],"LRI":5,"RRI":6,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Request"},{"__type":"LD","Dwn":true,"Id":"c0abbc6d-b230-4e64-9ff7-e5570000000f","Ix":1,"Var":"Request","Y":1},{"__type":"ST","Ix":2,"Var":"ENO","X":1}],"LI":3,"LRI":4,"Label":"eof","RRI":5,"VLs":[{"Ix":6,"X":1}]}

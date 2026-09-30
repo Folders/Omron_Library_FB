@@ -2289,6 +2289,278 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="ff4ba691-74cd-4dcb-b8f6-d925c359cf75" name="Camera_Config_Cognex" version="0" dateCreated="02/18/2026 13:47:15" dateLastModified="09/30/2026 14:03:03" label="0.0.0" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="da404b98-58cb-4ec0-ae68-e921f12dee84" DN="Camera_Config_Cognex {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="edcf34b9-977a-4dc4-acf2-e68b2cc00ee1" name="Variables" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="c4a9245e-bf09-4e4b-ab7e-c2c0d19d821a" hash="e48da76bb255540513fe23298e53c8d0">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="6022f154-a7bc-4a00-8313-2d2533068ea5" name="PouIFLibrary" version="NaN" dateCreated="07/23/2026 11:02:18" trackingId="57453caf-a14b-407a-9aae-f1b1f65f9cdd">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="b7a3945c-7b62-40b8-9312-f3813e93c1f1" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="028ad7c4-35a6-4d7e-9127-2b1f9f82de99">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="e35f4e77-eb97-4153-84e3-a68ef807b701" name="LadderBody" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="318b85bf-87d7-4e69-b246-61b54807d502" hash="70a240bc6bb42902c0ae86be7df01e06">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="2a432e9c-603d-4038-ad6b-71a0225a6963" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="1c41b7e1-ee3c-47e8-b799-cdd1020c20da">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="7632ce83-afa5-4878-872f-e52ecd07d1a3" name="PouBodySourceHolder" version="0" dateCreated="07/23/2026 11:02:18" trackingId="199c81e1-a03c-4150-ac85-25f9ee38dcea">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="75934b5f-c86f-4d43-a27e-ba079017cd61" name="e30fd84f-e948-41fe-bd20-baf920b66360" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="b29aea85-967b-4ee0-a346-74cbb58e4254">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="c1305291-7a76-43b9-8b6e-9662aa4892c6" name="3d810e65-a07b-4520-947e-4a5f3d72cf5f" version="0" dateCreated="07/24/2026 13:08:23" dateLastModified="09/30/2026 14:03:03" trackingId="1e122dbf-a29a-42fa-8398-540e526d6bea">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="c9cd16dc-089d-4130-b092-ae618848eac2" name="50bddc89-e1ed-4709-9416-2054eb739545" version="0" dateCreated="07/29/2026 11:22:54" dateLastModified="09/30/2026 14:03:03" trackingId="48a7fb33-f5ed-4965-8e39-14028da263f2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="f5be0a94-7f4c-499b-9f4e-4a37dac62b19" name="38b29574-46a2-43b4-85f0-75464eeb4f59" version="0" dateCreated="08/05/2026 11:42:37" dateLastModified="09/30/2026 14:03:03" trackingId="49783c18-5ca2-4c3c-b580-37c15f9544e4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="f6e0499e-66bf-4465-a168-b1672075afe6" name="Camera_Sepoint" version="0" dateCreated="02/19/2026 16:49:02" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="2396b07a-5a3a-483c-b0f4-f14e4699e392" DN="Camera_Sepoint {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="009d7c7a-50a0-4544-9eb3-ac026e945eca" name="Variables" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="840bdb1a-c3cc-4242-887e-0ce4e621a3a6" hash="04b318e0d6120679b1c97bc67c4331b5">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="bf0b82c0-8a08-46b3-92e5-47dec6d00b3a" name="PouIFLibrary" version="NaN" dateCreated="07/23/2026 11:02:18" trackingId="5a0923b2-57c7-484b-ab11-2976cf9610f0">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="2234a7c1-13c1-4989-8598-768ed212dea2" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="604fa152-dd15-4c85-b036-81affe463cd7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="4a3821c8-06a7-4512-a1fb-5940298bc5cd" name="LadderBody" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="1de535d7-7f35-430c-91f7-c78f010e3289" hash="fc075571e2c112255dbde65f18f7845f">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="29937059-92d8-43c0-b787-130ce955748d" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="ff42c9b2-69ae-4768-8dc1-b7409a3dee9e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="0743c1c2-0f80-4372-8b15-6490fd3de0a7" name="PouBodySourceHolder" version="0" dateCreated="07/23/2026 11:02:18" trackingId="803163e5-7c78-452e-b3c2-946af41049da">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="7c9529cd-f8e7-4ed3-a8b4-ccf5f02965c8" name="b431c7b7-382e-4411-a2e4-d6c00fee98ab" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="216ee646-735a-4a92-a1e6-a27f919ec0e6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="1794aef7-c08c-4e58-a75a-8f2f085ef4e2" name="Camera_Feedback" version="0" dateCreated="02/19/2026 16:49:02" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="7090e73b-6b64-4413-b0b2-65d6739d385c" DN="Camera_Feedback {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="2c3bcb1f-8cdb-401c-acdf-24f27b3ba70b" name="Variables" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="cb42275c-378e-496c-8474-dc8a8785e777" hash="e61f207a7f0934fd783e3414185e6ef5">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="cd8685a5-d8ea-44ac-aa9f-6ec7fde0e5c4" name="PouIFLibrary" version="NaN" dateCreated="07/23/2026 11:02:18" trackingId="c0eeb3f8-5023-4e93-8045-9500250c1b98">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="7b1e639d-93f2-4cac-9436-89bfa518d2d4" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="3b715558-1ef4-4ed4-92b3-8a6471c17f3e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="c20d0110-9421-40fa-bf05-b2208329048e" name="LadderBody" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="033093e6-0c9e-41ff-b051-dd2b8de9893f" hash="f9ef3a5cc10e0c893562117f6137dbec">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="7f30575a-9aa2-4507-a462-3ee1b6e31840" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="ec635207-ae02-4f21-b9d7-1e12de9a0122">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="9a6c7953-5632-45ed-ba2b-1d5fb5679e46" name="PouBodySourceHolder" version="0" dateCreated="07/23/2026 11:02:18" trackingId="1ee7a767-a2f1-48f5-8250-3489c954c80d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="036ff43e-4f8b-48df-be60-bddf39151839" name="2579ebc0-438e-4516-bd38-5bf08d294fde" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="b7df01eb-ea9e-4143-993a-85c901e0b84d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="64135b3b-a4b0-417e-ab50-3152bd54f7a4" name="Camera_Checker" version="0" dateCreated="02/19/2026 16:49:02" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="072cf2db-dc24-4532-aa2a-101a823b289a" DN="Camera_Checker {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="960c7af0-57eb-46cb-946f-acf2193c9cbc" name="Variables" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="b76cd5a9-4eba-4ff0-8cda-4a5a2aef277c" hash="fd501b8a1f30c211a9cc6c77ce750eaf">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="0a9c2b5c-0cc7-4b63-ba71-cfe73ffb51ef" name="PouIFLibrary" version="NaN" dateCreated="07/23/2026 11:02:18" trackingId="d82ad8ae-8951-43e2-b88c-1c18d049de48">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="7361f1ee-5d84-407d-9eb5-54f4dc6e26be" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="9745b41b-aa89-425d-bb93-ea414d430d86">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="49ea3289-6ddb-4b4b-9888-e1c4e5e48e75" name="LadderBody" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="e3e8cd17-e38c-4793-8dd5-9bbf9718c8e8" hash="7b6f0042fb16f3bb63caafc19c2afae4">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="d6c975a8-79bd-4a6f-9a90-ac356457104d" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="fcda683b-06e4-44c6-9bbf-308a89f1a7d7">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="92f9737c-9a24-409b-9d28-d6202a01f12e" name="PouBodySourceHolder" version="0" dateCreated="07/23/2026 11:02:18" trackingId="2590655a-e91b-4667-b896-4e8dd17ee1d3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="dd91d0df-0791-420e-a874-e682d49faf62" name="Camera_Trigg" version="0" dateCreated="02/19/2026 09:47:07" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="7d60be27-7cf9-4158-9d90-31d4367108f6" DN="Camera_Trigg {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="da76f851-42d6-4fb4-add0-79be04891206" name="Variables" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="1ed6bdb1-56cf-4a3f-8699-b7c52a8eb59c" hash="5879fa50bccefc512ce3512ad5800cc5">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="6ffde675-1964-4d4a-a588-716aa271525b" name="PouIFLibrary" version="NaN" dateCreated="07/23/2026 11:02:18" trackingId="9872566a-ccd3-4239-a66d-431c87e4a703">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="7ad81daf-da7e-4332-8fb6-c2ccdcbe67c4" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="edfefd8e-b22b-47fe-aa29-9f426b873cb5">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="3022216a-8704-454b-9e70-53b2794c2911" name="LadderBody" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="429fde32-8848-4a64-aaae-88213af3eb8d" hash="b24afd67136d882b1234548b614960bf">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a814f518-c9f6-4fd7-83a6-94fdd79210b5" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="7698b445-a333-4338-8112-43d6dd5a5546">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="6f5ec88c-848b-42f0-a0f7-48912e4b64a0" name="PouBodySourceHolder" version="0" dateCreated="07/23/2026 11:02:18" trackingId="3a22029e-1b69-47aa-8b4f-620a8f016be4">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="bd863bea-53f3-40ce-b9ca-b03c3c85295e" name="Camera_WaitTrigg" version="0" dateCreated="02/19/2026 09:47:07" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="9486e7d0-6b76-4d92-9bce-c675321f1081" DN="Camera_WaitTrigg {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="ce13af31-529e-4558-a2d5-efe924fae7f9" name="Variables" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="d7612c2d-c6ca-4a7c-9de4-f6ff23646804" hash="8245d32b2c7b9ffd380d26291053df86">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="32c8e933-f555-48a2-88f0-e6dc0b4f5115" name="PouIFLibrary" version="NaN" dateCreated="07/23/2026 11:02:18" trackingId="9142f731-ec71-44e8-a3d3-64f3d493cde9">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="ec1f19d2-22e1-4b22-844d-2f9b47f06361" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="2a467f31-27b4-42ba-97c4-8700059ba4b2">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="a4977b74-46d6-48e5-bf19-fc2c40da081c" name="LadderBody" version="0" dateCreated="07/23/2026 11:02:18" dateLastModified="09/30/2026 14:03:03" trackingId="610866a9-ea5a-4fca-9686-2775d58cf85e" hash="5c79bdbfba964ccca7f07fce48039193">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="29f9d6fe-6a8a-4806-a1bc-3428e9c250cc" name="Source" version="0" dateCreated="07/23/2026 11:02:18" trackingId="50e263cd-922b-480a-8fe8-4e47ea148d5d">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="366d74ba-d992-487f-89b7-09a802e34813" name="PouBodySourceHolder" version="0" dateCreated="07/23/2026 11:02:18" trackingId="142ed7ef-9a37-480c-818c-ef19d895b828">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="da2f6458-d201-42af-a00d-f193a51cdbd0" name="Camera_SetJob" version="0" dateCreated="08/06/2026 15:21:22" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="8db4e8ec-e398-4d88-945d-d8b67ac92bb3" DN="Camera_SetJob {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="d0674050-d398-478b-b3c3-95f88ea4b652" name="Variables" version="0" dateCreated="08/06/2026 15:21:22" dateLastModified="09/30/2026 14:03:03" trackingId="11017d45-5c32-437a-ad0b-6b02e802d122" hash="cf5fc3d4a36f086c33c3426420234adb">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="9dd43126-0f97-4b37-a904-2b733f6457b8" name="PouIFLibrary" version="NaN" dateCreated="08/06/2026 15:21:23" trackingId="9bf42f22-485e-42dd-b521-d0285a760cd3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="fbdd1295-2499-4636-a4e8-d71643de6876" name="Source" version="0" dateCreated="08/06/2026 15:21:23" trackingId="aa894e69-a112-45a1-a39e-d43303a317af">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="16657f50-c035-4f36-b304-c9db7ce93cba" name="LadderBody" version="0" dateCreated="08/06/2026 15:21:23" dateLastModified="09/30/2026 14:03:03" trackingId="367ea35f-f917-40f3-b6f5-df7f4f43a7a5" hash="21aa1ca8409fe4c82306a0e069b094d6">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="319f150b-b42f-44f3-9c10-d7631ca6bb96" name="Source" version="0" dateCreated="08/06/2026 15:21:23" trackingId="df02e692-4327-4660-8807-c0fb2eeb1407">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="05e2c2d3-166f-4a8c-aa27-4f670d8f3dcc" name="PouBodySourceHolder" version="0" dateCreated="08/06/2026 15:21:23" trackingId="bb111aef-c968-45e6-b97f-4a35a7246415">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="907a3524-e842-483a-aac0-a749bb90c882" name="Camera_ResetError" version="0" dateCreated="08/06/2026 15:21:22" dateLastModified="09/30/2026 14:03:03" author="GRos" namespace="OBJ\CAMERA\COGNEX" trackingId="2f83770f-91ad-447c-9da1-f116363728ad" DN="Camera_ResetError {OBJ\CAMERA\COGNEX}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="cf6527a1-e636-4492-b37a-a145b7ce1bf9" name="Variables" version="0" dateCreated="08/06/2026 15:21:22" dateLastModified="09/30/2026 14:03:03" trackingId="7b79d3c2-2464-4249-8d46-beabf9c1d59d" hash="f06605098b89b3b5fe627d52e8b496cc">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="d6b80416-01b2-4041-9f8a-89de3f57fc86" name="PouIFLibrary" version="NaN" dateCreated="08/06/2026 15:21:23" trackingId="21aeed6d-15f7-4ac9-a69b-89355afba3da">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="e4efc174-6597-406c-9895-cf0adcdc1a07" name="Source" version="0" dateCreated="08/06/2026 15:21:23" trackingId="c999c516-7b59-4c8f-a682-02b0f5be0f7a">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="271d7dec-a7b5-44c6-95ae-8d31c0ee9f23" name="LadderBody" version="0" dateCreated="08/06/2026 15:21:23" dateLastModified="09/30/2026 14:03:03" trackingId="1ec7f2b5-e031-4211-9f12-91819897ea68" hash="f21df8bc283a9c5efac7bc3144c334d3">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="d8933cfc-d3f0-4fa2-a356-fa5fe63dc949" name="Source" version="0" dateCreated="08/06/2026 15:21:23" trackingId="4ef135f6-8c24-4c02-ad1b-b2c4f56f509e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="db492433-5bb0-4e11-a12f-00e1a0ec71d6" name="PouBodySourceHolder" version="0" dateCreated="08/06/2026 15:21:23" trackingId="f2eefd8c-be2c-450d-bdb4-9ec8b9b3f3db">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                   <Entity type="FunctionBlock" subtype="Ladder" id="7a4babce-4472-4811-bdba-99f40467ba98" name="DB_Manager" version="0" dateCreated="05/03/2024 07:59:43" dateLastModified="08/20/2026 15:07:58" label="6.1.0" author="PClo" comment="Manager of the DB connection." namespace="OBJ\DB" usingNamespaces="OBJ\DB&#xD;&#xA;" trackingId="ea7c11a1-1011-477e-9f85-6185d4941b61" DN="DB_Manager {OBJ\DB}">
                     <AccessInfos />
                     <ChildEntities>
@@ -5502,7 +5774,7 @@
                   <Entity type="FunctionBlock" subtype="Ladder" id="3f6ccc09-e700-4d6b-ac0e-dfafc4d6fba0" name="Robot_Config_TCP" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="09/29/2026 08:35:49" label="6.1.0" author="PClo" comment="Robot configuration for i4L serie robot with a TCP communication." namespace="OBJ\ROBOT" trackingId="6c7501bb-75a1-481e-b601-38a8871c7861" DN="Robot_Config_TCP {OBJ\ROBOT}">
                     <AccessInfos />
                     <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="376fe411-5ef5-43bf-968b-e9aa7add1475" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="09/29/2026 08:35:49" trackingId="be659789-da2c-4ad5-be78-dd807cd54884" hash="aee3b89d4428ce5c7e64c83533de11dc">
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="376fe411-5ef5-43bf-968b-e9aa7add1475" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="09/29/2026 16:30:01" trackingId="be659789-da2c-4ad5-be78-dd807cd54884" hash="770217f0d89c68de6af24dce84d0f62c">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="PouIFLibraryHolder" subtype="" id="67df491d-f157-41c8-87a4-8ee8d2ed42e2" name="PouIFLibrary" version="NaN" dateCreated="04/15/2026 15:23:22" trackingId="73b164ef-7dcf-4f8f-9401-ef2ae9c1a399">
@@ -5755,7 +6027,7 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
-                  <Entity type="FunctionBlock" subtype="Ladder" id="cbc84540-0442-465e-b28a-706bbdf6e435" name="RC_SetFrame" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="09/29/2026 08:35:49" label="6.1.0" author="PClo" comment="A tool transformation is a special transformation that is used to account for robot&#xD;&#xA;grippers (or parts held in grippers) that are offset from the center of the robot tool&#xD;&#xA;flange" namespace="OBJ\ROBOT" trackingId="c32d0929-4f9c-44b3-ab39-e5738c92306b" DN="RC_SetFrame {OBJ\ROBOT}">
+                  <Entity type="FunctionBlock" subtype="Ladder" id="cbc84540-0442-465e-b28a-706bbdf6e435" name="RC_SetFrame" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="09/29/2026 16:30:01" label="6.1.0" author="PClo" comment="A frame transformation defines a local coordinate system relative to the robot world coordinate system.&#xD;&#xA;&#xA;The RC_SetFrame instruction applies the specified frame transformation to the robot. When the command is completed, the applied frame is also stored in MyRobot.Cfg.Frame.&#xA;Until RC_SetFrame is executed, the frame position feedback is based on the default frame configuration." namespace="OBJ\ROBOT" trackingId="c32d0929-4f9c-44b3-ab39-e5738c92306b" DN="RC_SetFrame {OBJ\ROBOT}">
                     <AccessInfos />
                     <ChildEntities>
                       <Entity type="Variables" subtype="LadderFunctionBlock" id="6552c13a-6d43-466c-8f5c-938c6945568f" name="Variables" version="0" dateCreated="04/15/2026 15:23:22" dateLastModified="09/29/2026 08:35:49" trackingId="6fe9f9c4-1312-44e3-aea4-ad03e27b3065" hash="ec610f3bbb5608add6b6fffa27586644">
@@ -7119,6 +7391,15 @@
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="05f9d043-b6a8-45cd-af6a-393603ed2e28" name="Source" version="0" dateCreated="07/20/2026 08:16:50" trackingId="d56f09ff-7cbd-4f81-af91-8bded093ea0a">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
+              <Entity type="DataType" subtype="" id="59f39b8a-bb3b-48b8-9b0d-da8c037beda3" name="Data Types22" version="0" dateCreated="09/30/2026 13:59:05" dateLastModified="09/30/2026 14:00:28" namespace="OBJ\CAMERA\COGNEX" trackingId="81342048-b767-409a-866a-b0b90219ff7f" hash="e8f13886de0d2623921955d564aa3bc0">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="b0e291fe-001c-4a7f-96df-be48d070822d" name="Source" version="0" dateCreated="09/30/2026 13:59:05" trackingId="19fb255a-2847-46a9-b9a5-b05cac9a0be2">
                     <AccessInfos />
                     <ChildEntities />
                   </Entity>

@@ -1,0 +1,27 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=stepTrigg	G=VAR	Com=Step trigger
+++D=BOOL	N=started	G=VAR
+++D=BOOL	N=busySendData	G=VAR
+++D=BOOL	N=busyTrigger	G=VAR
+++D=INT	N=stepLoadJob	G=VAR
+++D=INT	N=Job_ID	G=VAR
+++D=BOOL	N=LoadJob	G=VAR
+++D=BOOL	N=busyLoadJob	G=VAR
+++D=ULINT	N=lightOKCounter	G=VAR
+++D=INT	N=i	IV=0	G=VAR
+++D=UINT	N=sizeCheckers	G=VAR
+++D=BOOL	N=testReset	G=VAR
+++D=INT	N=stepSendData	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=OBJ\CAMERA\COGNEX\BASE	N=MyCamera	Ord=1	G=VAR_IN_OUT
+++D=OBJ\CAMERA\COGNEX\EIP_IN	N=EIP_FromCamera	Ord=2	G=VAR_IN_OUT
+++D=OBJ\CAMERA\COGNEX\EIP_OUT	N=EIP_ToCamera	Ord=3	G=VAR_IN_OUT
+++D=BOOL	N=Enable	Ord=4	G=VAR_INPUT
+++D=INT	N=Variant	IV=1	Ord=5	G=VAR_INPUT	Com=Variant Part front of the camera. [1..32]
+++D=REAL	N=Ratio	IV=1.0	Ord=6	G=VAR_INPUT	Com=Ratio [mm/px]
+++D=BOOL	N=IO_LightCommand	Ord=7	G=VAR_OUTPUT	Com=Turn light ON
+++D=BOOL	N=ForceLight	Ord=8	G=VAR_INPUT	Com=Force light ON
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

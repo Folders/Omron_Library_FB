@@ -1,0 +1,3 @@
+﻿{"CLs":[{"__type":"LD","Not":true,"Var":"ENO"},{"__type":"JMP","Ix":1,"Label":"eof","X":1}],"LRI":2,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Reset"},{"__type":"ST","Ix":1,"Var":"MyCamera.Cmd.ResetError","X":1}],"LRI":2,"RRI":3,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Reset"},{"__type":"LD","Dwn":true,"Id":"9b38dd3f-7ba9-4aca-8a31-e8320000000c","Ix":1,"Var":"Reset","Y":1},{"__type":"ST","Ix":2,"Var":"ENO","X":1}],"LI":3,"LRI":4,"Label":"eof","RRI":5,"VLs":[{"Ix":6,"X":1}]}

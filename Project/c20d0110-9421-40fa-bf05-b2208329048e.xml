@@ -1,0 +1,3 @@
+﻿{"CLs":[{"__type":"LD","Not":true,"Var":"ENO"},{"__type":"JMP","Ix":1,"Label":"eof","X":1}],"LRI":2,"VLs":[]}
+{"CLs":[{"__type":"LD","Var":"Enable"},{"__type":"IST","EID":"2579ebc0-438e-4516-bd38-5bf08d294fde","H":135.33333333333334,"Ix":2,"TXT":"Value:=MyCamera.Xch.Feedback[Index]\/MyCamera.Cfg.Ratio;","W":898.66666666666674,"X":1},{"__type":"ST","Ix":1,"Var":"ENO","X":1,"Y":1}],"LRI":3,"RRI":4,"VLs":[{"Ix":5,"X":1}]}
+{"CLs":[{"__type":"LD","Var":"Enable"},{"__type":"LD","Dwn":true,"Id":"1da5bc6d-b109-45d7-a9fb-7d680000000e","Ix":1,"Var":"Enable","Y":1},{"__type":"ST","Ix":2,"Var":"ENO","X":1}],"LI":3,"LRI":4,"Label":"eof","RRI":5,"VLs":[{"Ix":6,"X":1}]}

@@ -1,0 +1,9 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=orderReceive	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\CAMERA\COGNEX\BASE	N=MyCamera	Ord=0	G=VAR_IN_OUT
+++D=BOOL	N=Request	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

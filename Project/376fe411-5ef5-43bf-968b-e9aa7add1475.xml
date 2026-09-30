@@ -43,7 +43,7 @@ _EN=Variables
 ++D=OBJ\ROBOT\COMM\FROM_ROBOT	N=ETH_Sta	Ord=4	G=VAR_IN_OUT	Com=Status received
 ++D=ARRAY[0..59] OF BYTE	N=ETH_StaArray	Ord=5	G=VAR_IN_OUT	Com=Command to send in ARRAY
 ++D=BOOL	N=Enable	Ord=6	G=VAR_INPUT	Com=Use the robot
-++D=UINT	N=Port	IV=502	Ord=7	G=VAR_INPUT	Com=Port of TCP protocol
+++D=UINT	N=Port	IV=5000	Ord=7	G=VAR_INPUT	Com=Port of TCP protocol
 ++D=STRING[16]	N=Ip	Ord=8	G=VAR_INPUT	Com=Ip adress of robot
 ++D=BOOL	N=Commissioning	Ord=9	G=VAR_INPUT	Com=Put robot in commissioning
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
