@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=busy	G=VAR	Com=Connect is busy
+++D=USINT	N=idLocal	G=VAR	Com=Id of the current instance
+++D=BOOL	N=ready	G=VAR	Com=Instance is ready to work
+++D=ULINT	N=span	G=VAR	Com=Count clock [us]
+++D=BOOL	N=started	G=VAR	Com=FB is started
+++D=REAL	N=outputTemp	G=VAR	Com=Tempory out value [u]
+++D=REAL	N=sumAvg	IV=-1	G=VAR	Com=Sum of average
+++D=REAL	N=outputAvg	G=VAR	Com=Averaged out value [u]
+++D=USINT	N=idTask	G=VAR	Com=Id of the Task measured
+++D=BOOL	N=dfsghdsr	G=VAR
+++D=BOOL	N=isMaster	G=VAR	Com=Master function block
+++D=ULINT	N=localCnt	G=VAR	Com=Current counter value [µs]
+++D=UINT	N=i	G=VAR
+++D=UINT	N=SIZE	G=VAR
+++D=BOOL	N=firstCycle	G=VAR
+++D=_sDT	N=timeStruct	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT
+++D=BOOL	N=Enable	Ord=1	G=VAR_INPUT	Com=Task is used
+++D=STRING[32]	N=Name	Ord=2	G=VAR_INPUT	Com=Name of the task
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=OBJ\CLOCK\BASE	N=ClockMgr	G=VAR_EXTERNAL

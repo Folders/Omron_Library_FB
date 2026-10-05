@@ -20,6 +20,7 @@ _EN=Variables
 ++D=BuzzerTest	N=Buzz	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\BUZZER\BASE	N=Buzzer_General	G=VAR_GLOBAL	Com=General buzzer
 ++D=OBJ\BUZZER\BASE	N=Buzzer_Zone1	G=VAR_GLOBAL	Com=Buzzer in zone 1 (and general)
+++D=OBJ\CLOCK\BASE	N=ClockMgr	G=VAR_GLOBAL	Com=Clock manager
 ++D=DoorTest	N=Doors	G=VAR_GLOBAL	Com=Sample:
 ++D=OBJ\DOOR\BASE	N=Door_Left	G=VAR_GLOBAL	Com=Left door
 ++D=OBJ\DOOR\BASE	N=Door_Right	G=VAR_GLOBAL	Com=Right door

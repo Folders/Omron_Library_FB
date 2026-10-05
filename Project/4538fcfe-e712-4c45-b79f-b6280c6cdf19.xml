@@ -3,7 +3,7 @@ _EN=Variables
 +GN=VAR	GVT=DefaultGroup
 ++D=BOOL	N=cmdLock	R=1	G=VAR	Com=Intern order to lock
 ++D=BOOL	N=cmdUnlock	G=VAR	Com=Intern order to unlock
-++D=BOOL	N=started	Ord=1	G=VAR	AOE=1	Com=FB as started
+++D=BOOL	N=started	G=VAR	Com=FB as started
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Door is working
 ++D=OBJ\DOOR\BASE	N=MyDoor	Ord=1	G=VAR_IN_OUT	Com=Door

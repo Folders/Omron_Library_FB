@@ -2561,6 +2561,92 @@
                       </Entity>
                     </ChildEntities>
                   </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="1511e8c5-9024-4b59-b7be-d9c037d9f600" name="Clock_BeginTask" version="0" dateCreated="07/14/2026 11:00:27" dateLastModified="10/05/2026 13:32:54" label="6.1.0" author="PClo" comment="Must be called as the first function block of the task.&#xD;&#xA;&#xA;Initializes the clock manager for the current task cycle and provides the time reference used by the CLOCK object.&#xD;&#xA;&#xA;An external ClockMgr variable of type OBJ\CLOCK\BASE must be instantiated." namespace="OBJ\CLOCK" trackingId="a6e24b17-4777-4a85-a18d-ab42379319e9" DN="Clock_BeginTask {OBJ\CLOCK}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="e9fdb168-7ae9-4f00-8b87-fd49f631f57d" name="Variables" version="0" dateCreated="07/14/2026 11:00:27" dateLastModified="10/05/2026 13:32:54" trackingId="265bc9b8-aeb4-4f9a-a935-00bfc10650c0" hash="041ddf53f0cb702dc6dcebf2ae657a0f">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="39b3295a-dbd5-47d8-9bf9-cb11975f89a5" name="PouIFLibrary" version="NaN" dateCreated="07/14/2026 11:00:27" trackingId="369ed4f7-abfc-4a9e-82c7-8d0a1f4e3c9e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="36a3f988-b870-4c67-9d6c-80dde90df1fe" name="Source" version="0" dateCreated="07/14/2026 11:00:27" trackingId="37639097-98d3-4350-b259-d0cd68a54be3">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="a218c330-37ab-4114-994a-d0bc111dc538" name="LadderBody" version="0" dateCreated="07/14/2026 11:00:27" dateLastModified="10/05/2026 13:32:54" trackingId="81a136f5-c4b4-447c-b0f6-a39f73cf62cc" hash="05675f5a04d06bf6e4fda3f2b5334199">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="7723204b-fcf0-4f5d-a095-b75f89afae10" name="Source" version="0" dateCreated="07/14/2026 11:00:27" trackingId="4e46b0ae-4f9e-42e4-8663-d3dae46e7302">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="e5e9da4d-ee88-4e1a-bb02-d9aa7ab667e3" name="PouBodySourceHolder" version="0" dateCreated="07/14/2026 11:00:27" trackingId="c1d4d7b1-b5c9-4eb1-83d7-409f35a335c6">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="fa1a8ea6-6617-4e2f-becc-bd5429cb45a5" name="f064fd99-0108-4f80-bdfc-94722d49eea2" version="0" dateCreated="08/24/2026 09:39:10" dateLastModified="10/05/2026 13:32:54" trackingId="b959385d-3b70-4eaa-8a2b-610e17a20ec8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="82ccd16a-30a4-4e68-ac8d-f75993d322a2" name="086ab186-8d5c-4f5c-a05b-a9dabc4c8547" version="0" dateCreated="08/24/2026 10:23:25" dateLastModified="10/05/2026 13:32:54" trackingId="14e51d2b-ffc1-4f3e-87ea-2f70e10d5fba">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="460e4ba1-a064-4373-a632-05ecff23a41c" name="1a88c23a-8ddf-4b74-a521-b534d2c5870d" version="0" dateCreated="08/24/2026 10:46:43" dateLastModified="10/05/2026 13:32:54" trackingId="829afa28-c466-4e3f-af79-fb1bbea11b75">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="69133baf-c8de-4006-9471-61226a397be9" name="431f5141-657e-4cb9-81a4-b66043ad15e3" version="0" dateCreated="08/26/2026 14:26:07" dateLastModified="10/05/2026 13:32:54" trackingId="bee28e5f-6fbb-4ead-bdb4-4ac9624c39bb">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="FunctionBlock" subtype="Ladder" id="693ca39d-d9ea-4c85-9c93-1524ab136453" name="Clock_EndTask" version="0" dateCreated="07/14/2026 11:00:27" dateLastModified="10/05/2026 13:32:54" label="6.1.0" author="PClo" comment="Must be called as the last function block of the task.&#xD;&#xA;&#xA;Completes the clock processing for the current task cycle using the same external ClockMgr instance." namespace="OBJ\CLOCK" trackingId="b0e13db9-51c0-4449-9fe9-721919890a7e" DN="Clock_EndTask {OBJ\CLOCK}">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="47bfed3a-1e0f-4c1e-8395-318468a527ca" name="Variables" version="0" dateCreated="07/14/2026 11:00:27" dateLastModified="10/05/2026 13:32:54" trackingId="c775c192-e95f-4e92-925d-b81aa4d1f001" hash="031d61a392b6b5ab85664bb152fd9772">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="PouIFLibraryHolder" subtype="" id="41c7eaf6-dd98-4cb4-9032-4bfb8ff1d71b" name="PouIFLibrary" version="NaN" dateCreated="07/14/2026 11:00:27" trackingId="2732d516-db24-4050-a2e7-b55129ce31b8">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="SourceHolder" subtype="" id="60986dc9-fa52-41de-a08d-6976b549f55e" name="Source" version="0" dateCreated="07/14/2026 11:00:27" trackingId="7e9210b6-d734-470c-af02-460cfb6fa953">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="PouBody" subtype="Ladder" id="b4343ffe-9b6c-44dd-8dda-52e40fa91d8a" name="LadderBody" version="0" dateCreated="07/14/2026 11:00:27" dateLastModified="10/05/2026 13:32:54" trackingId="38dff7ef-f290-4eed-b56f-67642e2c7e74" hash="4604965bd409e025a37fe08760b2d84b">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="f9383518-ebda-4f0f-bd51-7c2941b29706" name="Source" version="0" dateCreated="07/14/2026 11:00:27" trackingId="876f1eea-40ad-4f39-b2e8-0beca19df05e">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="PouBodySourceHolder" subtype="" id="a788cf2c-9aae-42a0-b094-425fd76def8f" name="PouBodySourceHolder" version="0" dateCreated="07/14/2026 11:00:27" trackingId="f33032c2-ac0b-4661-8a0a-68f8ecd86566">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="eaacec13-43c7-4b2b-934d-bcd47993bd95" name="8608936d-9f5a-4cc6-a8af-64b544167eea" version="0" dateCreated="08/24/2026 09:54:26" dateLastModified="10/05/2026 13:32:54" trackingId="e04622ed-6463-4ee9-9476-b9cca6ccd10c">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                          <Entity type="Inline" subtype="StructuredText" id="b24f6d93-a9b9-4aff-a95f-043e1f256dd5" name="59910122-3b9f-4dc8-a88d-9231501cf20f" version="0" dateCreated="08/24/2026 10:35:44" dateLastModified="10/05/2026 13:32:54" trackingId="9cbf0acb-3dfd-458c-9a2f-214a59c40427">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
                   <Entity type="FunctionBlock" subtype="Ladder" id="7a4babce-4472-4811-bdba-99f40467ba98" name="DB_Manager" version="0" dateCreated="05/03/2024 07:59:43" dateLastModified="08/20/2026 15:07:58" label="6.1.0" author="PClo" comment="Manager of the DB connection." namespace="OBJ\DB" usingNamespaces="OBJ\DB&#xD;&#xA;" trackingId="ea7c11a1-1011-477e-9f85-6185d4941b61" DN="DB_Manager {OBJ\DB}">
                     <AccessInfos />
                     <ChildEntities>
@@ -2739,7 +2825,7 @@
                   <Entity type="FunctionBlock" subtype="Ladder" id="d1f84d2c-b03c-4b87-bf64-e3231b48f37f" name="Door_Config_General" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="09/28/2026 09:05:52" label="6.0.0" author="PClo" comment="Configures a generic monitored door." namespace="OBJ\DOOR" trackingId="ef200272-f361-45b2-a8e8-335e0e981dc9" DN="Door_Config_General {OBJ\DOOR}">
                     <AccessInfos />
                     <ChildEntities>
-                      <Entity type="Variables" subtype="LadderFunctionBlock" id="4538fcfe-e712-4c45-b79f-b6280c6cdf19" name="Variables" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="09/28/2026 09:05:52" trackingId="b2eb90be-1772-4799-8719-52449e6c0bb9" hash="77ef32783de01640a85b3c70b63cde00">
+                      <Entity type="Variables" subtype="LadderFunctionBlock" id="4538fcfe-e712-4c45-b79f-b6280c6cdf19" name="Variables" version="0" dateCreated="03/28/2022 08:45:23" dateLastModified="10/05/2026 13:32:54" trackingId="b2eb90be-1772-4799-8719-52449e6c0bb9" hash="7d72957d5c5dcb0f3d2965509a4904be">
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="PouIFLibraryHolder" subtype="" id="694e4441-0b29-41bb-9c88-bd614eab5ebf" name="PouIFLibrary" version="NaN" dateCreated="03/28/2022 08:45:23" trackingId="c080dccc-1569-409f-820e-51dbd9dfa2c6">
@@ -7162,7 +7248,7 @@
                 <AccessInfos />
                 <ChildEntities />
               </Entity>
-              <Entity type="Variables" subtype="Global" id="f12e432e-361d-476d-bc9a-32c5145ec48b" name="Global Variables" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="07/16/2026 16:37:13" trackingId="177f5ffd-6b0e-4616-a96f-d8942908e985" DN="Global Variables" hash="6927ee8a55f807aae74da826e0530061">
+              <Entity type="Variables" subtype="Global" id="f12e432e-361d-476d-bc9a-32c5145ec48b" name="Global Variables" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="10/05/2026 13:32:54" trackingId="177f5ffd-6b0e-4616-a96f-d8942908e985" DN="Global Variables" hash="99a642f01e8ab6db7ca264b2b6b4ed20">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="25eecdf0-8666-458e-bc93-4030b5684327" name="Source" version="0" dateCreated="01/21/2025 13:32:53" trackingId="9ebef0b2-958d-4742-9de9-c84ded0107f7">
@@ -7216,7 +7302,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="DataType" subtype="" id="c4e30ebc-1dd9-4641-9ce8-e3edff8f5e6f" name="Data Types5" version="0" dateCreated="05/08/2026 12:24:03" dateLastModified="05/21/2026 18:32:00" namespace="OBJ\FLASHLAMP" trackingId="2204aa58-cc13-4711-abfe-0adcf9095fc7" hash="03089a534788698f6f50653aa1f27a1e">
+              <Entity type="DataType" subtype="" id="c4e30ebc-1dd9-4641-9ce8-e3edff8f5e6f" name="Data Types5" version="0" dateCreated="05/08/2026 12:24:03" dateLastModified="10/05/2026 13:32:54" namespace="OBJ\FLASHLAMP" trackingId="2204aa58-cc13-4711-abfe-0adcf9095fc7" hash="261b26ec482ae9d7f609a00a8d1f1c90">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="0f9006a1-5690-4db7-a92e-c64ee3c8ecd0" name="Source" version="0" dateCreated="05/08/2026 12:24:03" trackingId="2a625986-0a5d-4e54-b3ec-c437eb99d206">
@@ -7405,6 +7491,15 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
+              <Entity type="DataType" subtype="" id="4cab4159-6fb3-45e1-a469-76dba273db84" name="Data Types23" version="0" dateCreated="10/05/2026 13:19:03" dateLastModified="10/05/2026 13:32:54" namespace="OBJ\CLOCK" trackingId="4459c8f9-f590-4b4d-83fe-9e063247e86c" hash="d60047ef414e1084c4b4379965eb24c1">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="SourceHolder" subtype="" id="db190dde-c250-4c12-9473-4aa66804bca7" name="Source" version="0" dateCreated="10/05/2026 13:19:03" trackingId="da3c297f-58c6-4387-95bb-5c08aa579e7e">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
             </ChildEntities>
           </Entity>
           <Entity type="Group" subtype="NexIecTasks" id="3237385a-430b-43ba-8fa5-3d6ee597b8ba" name="Tasks" version="0" dateCreated="01/21/2025 13:32:53" dateLastModified="01/21/2025 13:32:54" trackingId="64954ea6-7bcc-440b-95cf-a0c385e36621" DN="Tasks">
@@ -7475,7 +7570,7 @@
           </Entity>
         </ChildEntities>
       </Entity>
-      <Entity type="Device" subtype="NA" id="4c4ac903-cd50-44aa-9088-dd18be0af5ae" name="FB_HMI" version="0" dateCreated="01/22/2025 16:14:23" dateLastModified="01/22/2025 16:16:49" trackingId="7d549946-83f1-438a-b513-0e0d64a7d4a5" DN="FB_HMI" hash="1153baba1b5286328427decb6a841e38" DHS="ea9ed21e4d018ff8f507f1903b20f942" TH="8a4d3db5aa958247ec3a6318bb012b87">
+      <Entity type="Device" subtype="NA" id="4c4ac903-cd50-44aa-9088-dd18be0af5ae" name="FB_HMI" version="0" dateCreated="01/22/2025 16:14:23" dateLastModified="01/22/2025 16:16:49" trackingId="7d549946-83f1-438a-b513-0e0d64a7d4a5" DN="FB_HMI" hash="1153baba1b5286328427decb6a841e38" DHS="ea9ed21e4d018ff8f507f1903b20f942" TH="da82503b3859857c845b5b5039cf34a7">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="c6e9c845-1b40-436f-8858-49e7e0fff7b1" name="Watch" version="0" dateCreated="01/22/2025 16:14:23" trackingId="e310bd40-47a1-42a6-a94e-80ad801aebae">
@@ -7670,6 +7765,15 @@
                         <AccessInfos />
                         <ChildEntities>
                           <Entity type="SourceHolder" subtype="" id="97a72c42-f019-4147-b659-5bba4871c549" name="Source" version="0" dateCreated="07/02/2026 12:32:20" dateLastModified="07/02/2026 12:32:20" trackingId="733467d5-e793-4da9-b519-67759fc63e10">
+                            <AccessInfos />
+                            <ChildEntities />
+                          </Entity>
+                        </ChildEntities>
+                      </Entity>
+                      <Entity type="DataType" subtype="" id="dd5fe107-8b40-4f27-a01b-90686a42a542" name="Data Types20" version="0" dateCreated="10/05/2026 13:32:54" dateLastModified="10/05/2026 13:32:54" namespace="OBJ\CLOCK" trackingId="dc03ec10-7b68-4ff9-8d4f-4c3ff19ade92">
+                        <AccessInfos />
+                        <ChildEntities>
+                          <Entity type="SourceHolder" subtype="" id="a38fe1e7-7d2d-461a-b388-3320975f8dc9" name="Source" version="0" dateCreated="10/05/2026 13:32:54" dateLastModified="10/05/2026 13:32:54" trackingId="57145ba2-ed4b-4e0f-bfab-87fa87a54376">
                             <AccessInfos />
                             <ChildEntities />
                           </Entity>
