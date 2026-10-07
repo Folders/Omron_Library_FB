@@ -1,0 +1,19 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB is started
+++D=_sDEVICE_PORT	N=portDevice	G=VAR
+++D=BOOL	N=initalized	G=VAR	Com=Config is initalized
+++D=OBJ\GRIPPER\Gripper_PRIVATE_IEG	N=configIEG	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\GRIPPER\BASE	N=MyGripper	Ord=1	G=VAR_IN_OUT	Com=Gripper
+++D=ARRAY[0..1] OF BYTE	N=IOL_Input_Data01	Ord=2	G=VAR_IN_OUT	Com=Datas input WORD 1
+++D=ARRAY[0..1] OF BYTE	N=IOL_Input_Data02	Ord=3	G=VAR_IN_OUT	Com=Datas input WORD 2
+++D=ARRAY[0..1] OF BYTE	N=IOL_Output_Data01	Ord=4	G=VAR_IN_OUT	Com=Datas output WORD 1
+++D=BOOL	N=Enable	Ord=5	G=VAR_INPUT	Com=Use the gripper
+++D=REAL	N=StrokeMax	Ord=6	G=VAR_INPUT	Com=Stroke of the gripper max [mm]
+++D=BOOL	N=EC_DataEnable	Ord=7	G=VAR_INPUT	Com=IO-Link communication status of the device
+++D=_sNXUNIT_ID	N=EC_NodeLocation	Ord=8	G=VAR_INPUT	Com=Node of NX device (On "I/O map", clic right on the card and clic on "Display node location port")
+++D=USINT	N=PortNumber	Ord=9	G=VAR_INPUT	Com=Number of IOL port [1..8]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

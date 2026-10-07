@@ -1,0 +1,11 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OBJ\SERVO\Servo_1S	N=Servo_Test_Drive1S	G=VAR
+++D=OBJ\SERVO\Servo_JS	N=Servo_Test_DriveJS	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=Commissioning	G=VAR_EXTERNAL
+++D=OBJ\SERVO\BASE	N=Servo_Drive1S	G=VAR_EXTERNAL
+++D=OBJ\SERVO\BASE	N=Servo_DriveJS	G=VAR_EXTERNAL
+++D=_sAXIS_REF	N=Test_Drive1S	Const=1	G=VAR_EXTERNAL
+++D=_sAXIS_REF	N=Test_DriveJS	Const=1	G=VAR_EXTERNAL

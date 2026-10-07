@@ -1,0 +1,17 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BYTE	N=currStep	IV=0	G=VAR	Com=Current step of the sequence
+++D=BOOL	N=interlock_10	G=VAR	Com=Interlock power step 10
+++D=ResetMCError	N=Reset_MC	G=VAR
+++D=BOOL	N=power_50	G=VAR
+++D=MC_Home	N=Home_MC	G=VAR
+++D=BOOL	N=run	G=VAR	Com=Run FB
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAxis_REF	N=MyAxis	Ord=0	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute an axis absolut encoder reset for 1S
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Power_Request	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Power_Interlock	Ord=5	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

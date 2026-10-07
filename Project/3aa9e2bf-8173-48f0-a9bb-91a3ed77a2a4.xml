@@ -1,0 +1,10 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=orderReceive	G=VAR	Com=Order is received (on flanck)
+++D=BOOL	N=started	G=VAR	Com=FB is started
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\GRIPPER\BASE	N=MyGripper	Ord=0	G=VAR_IN_OUT	Com=Gripper
+++D=BOOL	N=Initialize	Ord=1	G=VAR_INPUT	Com=Power request for gripper
+++D=BOOL	N=Initialized	Ord=2	G=VAR_OUTPUT	Com=Gripper powered
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

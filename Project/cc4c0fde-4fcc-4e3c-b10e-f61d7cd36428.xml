@@ -1,0 +1,43 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=USINT	N=nextState	IV=0	G=VAR
+++D=USINT	N=currState	IV=0	G=VAR
+++D=EC_CoESDOWrite	N=EC_SDO_Write_1	G=VAR
+++D=_sSDO_ACCESS	N=sdoObj_modeOfOperationRequest	IV=(Index := 24672, Subindex := 0, IsCompleteAccess := False)	G=VAR
+++D=_sSDO_ACCESS	N=sdoObj_modeOfOperationDisplay	IV=(Index := 24673, Subindex := 0, IsCompleteAccess := False)	G=VAR
+++D=_sSDO_ACCESS	N=sdoObj_psr	IV=(Index := 8198, Subindex := 0, IsCompleteAccess := False)	G=VAR
+++D=DWORD	N=psrValue	G=VAR
+++D=USINT	N=modeOfOperationDisplay_Value	G=VAR
+++D=EC_CoESDORead	N=EC_SDO_Read_1	G=VAR
+++D=DWORD	N=psrReference	G=VAR
+++D=USINT	N=c_modeOfOperation_Reference	IV=6	Const=1	G=VAR
+++D=USINT	N=modeOfOperation_CSP	IV=8	Const=1	G=VAR
+++D=USINT	N=modeOfOperation_NoMode	IV=0	Const=1	G=VAR
+++D=MC_ResetFollowingError	N=Order_ResetFollErr	G=VAR
+++D=BOOL	N=executeOld	G=VAR
+++D=EC_CoESDORead	N=EC_SDO_Read_2	G=VAR
+++D=EC_CoESDOWrite	N=EC_SDO_Write_2	G=VAR
+++D=EC_CoESDORead	N=EC_SDO_Read_3	G=VAR
+++D=DWORD	N=psrError	G=VAR
+++D=EC_CoESDOWrite	N=EC_SDO_Write_4	G=VAR
+++D=EC_CoESDORead	N=EC_SDO_Read_5	G=VAR
+++D=MC_HomeWithParameter	N=Servo_HomeWithParameter	G=VAR
+++D=_sHOMING_REF	N=homeParameter	G=VAR
+++D=_eMC_HOMING_MODE	N=homeMode	IV=_mcHomePreset	Const=1	G=VAR
+++D=LREAL	N=encoderScaled	G=VAR
+++D=LREAL	N=followingError	G=VAR
+++D=LREAL	N=roundingOffset	G=VAR
+++D=LREAL	N=encoderScalingFactor	G=VAR
+++D=LREAL	N=homeOffset	G=VAR
+++D=LREAL	N=homeOffset2	G=VAR
+++D=_eMC_COUNT_MODE	N=rotaryCountMode	IV=_mcCountModeRotary	Const=1	G=VAR
+++D=BOOL	N=run	G=VAR	Com=Run FB
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAxis_REF	N=MyAxis	Ord=0	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=Execute	IV=False	Ord=1	G=VAR_INPUT
+++D=DINT	N=EncoderPositionActual	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

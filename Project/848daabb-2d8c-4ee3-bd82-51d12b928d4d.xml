@@ -1,0 +1,2158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <NexAxisGeneralSetting>
+    <NexAxisAxisNumber>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisAxisNumber>
+    <NexAxisMceTypeSelect>
+      <CurrentValue>NexAxisMceType1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisMceType1</DefaultValue>
+      <Options>
+        <Option>NexAxisMceType1</Option>
+        <Option>NexAxisMceType2</Option>
+      </Options>
+    </NexAxisMceTypeSelect>
+    <NexAxisUseAxis>
+      <CurrentValue>NexAxisUsingAxis</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisUsingAxis</DefaultValue>
+      <Options>
+        <Option>NexAxisNotUsingAxisNotChangable</Option>
+        <Option>NexAxisNotUsingAxisChangable</Option>
+        <Option>NexAxisUsingAxis</Option>
+      </Options>
+    </NexAxisUseAxis>
+    <NexAxisAxisType>
+      <CurrentValue>NexAxisVirtualServoType</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisVirtualServoType</DefaultValue>
+      <Options>
+        <Option>NexAxisServoType</Option>
+        <Option>NexAxisEncoderType</Option>
+        <Option>NexAxisVirtualServoType</Option>
+        <Option>NexAxisVirtualEncoderType</Option>
+      </Options>
+    </NexAxisAxisType>
+    <NexAxisFunctionLimit>
+      <CurrentValue>NexAxisSingleAxisPTP</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisNoLimit</DefaultValue>
+      <Options>
+        <Option>NexAxisNoLimit</Option>
+        <Option>NexAxisSingleAxisPTP</Option>
+      </Options>
+    </NexAxisFunctionLimit>
+    <UsedPDONumber>
+      <CurrentValue>28</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </UsedPDONumber>
+    <NexAxisControlType>
+      <CurrentValue>NexAxisWithoutControlLoop</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisWithoutControlLoop</DefaultValue>
+      <Options>
+        <Option>NexAxisWithoutControlLoop</Option>
+      </Options>
+    </NexAxisControlType>
+    <NexAxisInputDevice1>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisInputDevice1>
+    <NexAxisInputDevice1Channel>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisInputDevice1Channel>
+    <NexAxisInputDevice2>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisInputDevice2>
+    <NexAxisInputDevice2Channel>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisInputDevice2Channel>
+    <NexAxisInputDevice3>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisInputDevice3>
+    <NexAxisInputDevice3Channel>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisInputDevice3Channel>
+    <NexAxisOutputDevice1>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisOutputDevice1>
+    <NexAxisOutputDevice1Channel>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisOutputDevice1Channel>
+    <NexAxisOutputDevice2>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisOutputDevice2>
+    <NexAxisOutputDevice2Channel>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisOutputDevice2Channel>
+    <NexAxisOutputDevice3>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisOutputDevice3>
+    <NexAxisOutputDevice3Channel>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisOutputDevice3Channel>
+    <NexAxisPdoAiosmapVersion>
+      <CurrentValue>1.0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1.0</DefaultValue>
+      <Options />
+    </NexAxisPdoAiosmapVersion>
+    <NexAxisPDOMappingTable>
+      <CurrentValue></CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </NexAxisPDOMappingTable>
+    <PDO0PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO0PDOPathName>
+    <PDO0FunctionNumber>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1</DefaultValue>
+      <Options />
+    </PDO0FunctionNumber>
+    <PDO0ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO0ODBitLocation>
+    <PDO0MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO0MappedDevice>
+    <PDO0MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO0MappedChannel>
+    <PDO0Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO0Indispensable>
+    <PDO1PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO1PDOPathName>
+    <PDO1FunctionNumber>
+      <CurrentValue>3</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>3</DefaultValue>
+      <Options />
+    </PDO1FunctionNumber>
+    <PDO1ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO1ODBitLocation>
+    <PDO1MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO1MappedDevice>
+    <PDO1MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO1MappedChannel>
+    <PDO1Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO1Indispensable>
+    <PDO2PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO2PDOPathName>
+    <PDO2FunctionNumber>
+      <CurrentValue>5</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>5</DefaultValue>
+      <Options />
+    </PDO2FunctionNumber>
+    <PDO2ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO2ODBitLocation>
+    <PDO2MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO2MappedDevice>
+    <PDO2MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO2MappedChannel>
+    <PDO2Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO2Indispensable>
+    <PDO3PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO3PDOPathName>
+    <PDO3FunctionNumber>
+      <CurrentValue>7</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>7</DefaultValue>
+      <Options />
+    </PDO3FunctionNumber>
+    <PDO3ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO3ODBitLocation>
+    <PDO3MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO3MappedDevice>
+    <PDO3MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO3MappedChannel>
+    <PDO3Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO3Indispensable>
+    <PDO4PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO4PDOPathName>
+    <PDO4FunctionNumber>
+      <CurrentValue>9</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>9</DefaultValue>
+      <Options />
+    </PDO4FunctionNumber>
+    <PDO4ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO4ODBitLocation>
+    <PDO4MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO4MappedDevice>
+    <PDO4MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO4MappedChannel>
+    <PDO4Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO4Indispensable>
+    <PDO5PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO5PDOPathName>
+    <PDO5FunctionNumber>
+      <CurrentValue>11</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>11</DefaultValue>
+      <Options />
+    </PDO5FunctionNumber>
+    <PDO5ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO5ODBitLocation>
+    <PDO5MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO5MappedDevice>
+    <PDO5MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO5MappedChannel>
+    <PDO5Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO5Indispensable>
+    <PDO6PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO6PDOPathName>
+    <PDO6FunctionNumber>
+      <CurrentValue>15</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>15</DefaultValue>
+      <Options />
+    </PDO6FunctionNumber>
+    <PDO6ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO6ODBitLocation>
+    <PDO6MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO6MappedDevice>
+    <PDO6MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO6MappedChannel>
+    <PDO6Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO6Indispensable>
+    <PDO7PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO7PDOPathName>
+    <PDO7FunctionNumber>
+      <CurrentValue>16</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>16</DefaultValue>
+      <Options />
+    </PDO7FunctionNumber>
+    <PDO7ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO7ODBitLocation>
+    <PDO7MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO7MappedDevice>
+    <PDO7MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO7MappedChannel>
+    <PDO7Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO7Indispensable>
+    <PDO8PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO8PDOPathName>
+    <PDO8FunctionNumber>
+      <CurrentValue>21</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>21</DefaultValue>
+      <Options />
+    </PDO8FunctionNumber>
+    <PDO8ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO8ODBitLocation>
+    <PDO8MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO8MappedDevice>
+    <PDO8MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO8MappedChannel>
+    <PDO8Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO8Indispensable>
+    <PDO9PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO9PDOPathName>
+    <PDO9FunctionNumber>
+      <CurrentValue>22</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>22</DefaultValue>
+      <Options />
+    </PDO9FunctionNumber>
+    <PDO9ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO9ODBitLocation>
+    <PDO9MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO9MappedDevice>
+    <PDO9MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO9MappedChannel>
+    <PDO9Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO9Indispensable>
+    <PDO10PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO10PDOPathName>
+    <PDO10FunctionNumber>
+      <CurrentValue>23</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>23</DefaultValue>
+      <Options />
+    </PDO10FunctionNumber>
+    <PDO10ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO10ODBitLocation>
+    <PDO10MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO10MappedDevice>
+    <PDO10MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO10MappedChannel>
+    <PDO10Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO10Indispensable>
+    <PDO11PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO11PDOPathName>
+    <PDO11FunctionNumber>
+      <CurrentValue>24</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>24</DefaultValue>
+      <Options />
+    </PDO11FunctionNumber>
+    <PDO11ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO11ODBitLocation>
+    <PDO11MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO11MappedDevice>
+    <PDO11MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO11MappedChannel>
+    <PDO11Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO11Indispensable>
+    <PDO12PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO12PDOPathName>
+    <PDO12FunctionNumber>
+      <CurrentValue>25</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>25</DefaultValue>
+      <Options />
+    </PDO12FunctionNumber>
+    <PDO12ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO12ODBitLocation>
+    <PDO12MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO12MappedDevice>
+    <PDO12MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO12MappedChannel>
+    <PDO12Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO12Indispensable>
+    <PDO13PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO13PDOPathName>
+    <PDO13FunctionNumber>
+      <CurrentValue>27</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>27</DefaultValue>
+      <Options />
+    </PDO13FunctionNumber>
+    <PDO13ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO13ODBitLocation>
+    <PDO13MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO13MappedDevice>
+    <PDO13MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO13MappedChannel>
+    <PDO13Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO13Indispensable>
+    <PDO14PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO14PDOPathName>
+    <PDO14FunctionNumber>
+      <CurrentValue>28</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>28</DefaultValue>
+      <Options />
+    </PDO14FunctionNumber>
+    <PDO14ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO14ODBitLocation>
+    <PDO14MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO14MappedDevice>
+    <PDO14MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO14MappedChannel>
+    <PDO14Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO14Indispensable>
+    <PDO15PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO15PDOPathName>
+    <PDO15FunctionNumber>
+      <CurrentValue>29</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>29</DefaultValue>
+      <Options />
+    </PDO15FunctionNumber>
+    <PDO15ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO15ODBitLocation>
+    <PDO15MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO15MappedDevice>
+    <PDO15MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO15MappedChannel>
+    <PDO15Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO15Indispensable>
+    <PDO16PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO16PDOPathName>
+    <PDO16FunctionNumber>
+      <CurrentValue>30</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>30</DefaultValue>
+      <Options />
+    </PDO16FunctionNumber>
+    <PDO16ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO16ODBitLocation>
+    <PDO16MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO16MappedDevice>
+    <PDO16MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO16MappedChannel>
+    <PDO16Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO16Indispensable>
+    <PDO17PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO17PDOPathName>
+    <PDO17FunctionNumber>
+      <CurrentValue>32</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>32</DefaultValue>
+      <Options />
+    </PDO17FunctionNumber>
+    <PDO17ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO17ODBitLocation>
+    <PDO17MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO17MappedDevice>
+    <PDO17MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO17MappedChannel>
+    <PDO17Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO17Indispensable>
+    <PDO18PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO18PDOPathName>
+    <PDO18FunctionNumber>
+      <CurrentValue>33</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>33</DefaultValue>
+      <Options />
+    </PDO18FunctionNumber>
+    <PDO18ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO18ODBitLocation>
+    <PDO18MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO18MappedDevice>
+    <PDO18MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO18MappedChannel>
+    <PDO18Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO18Indispensable>
+    <PDO19PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO19PDOPathName>
+    <PDO19FunctionNumber>
+      <CurrentValue>37</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>37</DefaultValue>
+      <Options />
+    </PDO19FunctionNumber>
+    <PDO19ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO19ODBitLocation>
+    <PDO19MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO19MappedDevice>
+    <PDO19MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO19MappedChannel>
+    <PDO19Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO19Indispensable>
+    <PDO20PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO20PDOPathName>
+    <PDO20FunctionNumber>
+      <CurrentValue>38</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>38</DefaultValue>
+      <Options />
+    </PDO20FunctionNumber>
+    <PDO20ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO20ODBitLocation>
+    <PDO20MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO20MappedDevice>
+    <PDO20MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO20MappedChannel>
+    <PDO20Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO20Indispensable>
+    <PDO21PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO21PDOPathName>
+    <PDO21FunctionNumber>
+      <CurrentValue>40</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>40</DefaultValue>
+      <Options />
+    </PDO21FunctionNumber>
+    <PDO21ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO21ODBitLocation>
+    <PDO21MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO21MappedDevice>
+    <PDO21MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO21MappedChannel>
+    <PDO21Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO21Indispensable>
+    <PDO22PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO22PDOPathName>
+    <PDO22FunctionNumber>
+      <CurrentValue>41</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>41</DefaultValue>
+      <Options />
+    </PDO22FunctionNumber>
+    <PDO22ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO22ODBitLocation>
+    <PDO22MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO22MappedDevice>
+    <PDO22MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO22MappedChannel>
+    <PDO22Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO22Indispensable>
+    <PDO23PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO23PDOPathName>
+    <PDO23FunctionNumber>
+      <CurrentValue>42</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>42</DefaultValue>
+      <Options />
+    </PDO23FunctionNumber>
+    <PDO23ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO23ODBitLocation>
+    <PDO23MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO23MappedDevice>
+    <PDO23MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO23MappedChannel>
+    <PDO23Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO23Indispensable>
+    <PDO24PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO24PDOPathName>
+    <PDO24FunctionNumber>
+      <CurrentValue>43</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>43</DefaultValue>
+      <Options />
+    </PDO24FunctionNumber>
+    <PDO24ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO24ODBitLocation>
+    <PDO24MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO24MappedDevice>
+    <PDO24MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO24MappedChannel>
+    <PDO24Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO24Indispensable>
+    <PDO25PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO25PDOPathName>
+    <PDO25FunctionNumber>
+      <CurrentValue>44</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>44</DefaultValue>
+      <Options />
+    </PDO25FunctionNumber>
+    <PDO25ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO25ODBitLocation>
+    <PDO25MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO25MappedDevice>
+    <PDO25MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO25MappedChannel>
+    <PDO25Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO25Indispensable>
+    <PDO26PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO26PDOPathName>
+    <PDO26FunctionNumber>
+      <CurrentValue>45</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>45</DefaultValue>
+      <Options />
+    </PDO26FunctionNumber>
+    <PDO26ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO26ODBitLocation>
+    <PDO26MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO26MappedDevice>
+    <PDO26MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO26MappedChannel>
+    <PDO26Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO26Indispensable>
+    <PDO27PDOPathName>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO27PDOPathName>
+    <PDO27FunctionNumber>
+      <CurrentValue>46</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>46</DefaultValue>
+      <Options />
+    </PDO27FunctionNumber>
+    <PDO27ODBitLocation>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO27ODBitLocation>
+    <PDO27MappedDevice>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO27MappedDevice>
+    <PDO27MappedChannel>
+      <CurrentValue />
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue />
+      <Options />
+    </PDO27MappedChannel>
+    <PDO27Indispensable>
+      <CurrentValue>False</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>False</DefaultValue>
+      <Options />
+    </PDO27Indispensable>
+    <CorrectedFunctionIsIndispensable>
+      <CurrentValue>True</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>false</IsVisible>
+      <DefaultValue></DefaultValue>
+      <Options />
+    </CorrectedFunctionIsIndispensable>
+  </NexAxisGeneralSetting>
+  <NexAxisScaling>
+    <NexAxisUnitsConversion>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+        <Option>EnumElement3</Option>
+        <Option>EnumElement4</Option>
+        <Option>EnumElement5</Option>
+        <Option>EnumElement6</Option>
+      </Options>
+    </NexAxisUnitsConversion>
+    <NexAxisUnitsNumerator>
+      <CurrentValue>10000</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10000</DefaultValue>
+      <Options />
+    </NexAxisUnitsNumerator>
+    <NexAxisUnitsNumeratorValue2>
+      <CurrentValue>pulse/rev</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/rev</DefaultValue>
+      <Options />
+    </NexAxisUnitsNumeratorValue2>
+    <NexAxisReducerUse>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexAxisReducerUse>
+    <NexAxisUnitsDenominator>
+      <CurrentValue>10000</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10000</DefaultValue>
+      <Options />
+    </NexAxisUnitsDenominator>
+    <NexAxisUnitsDenominatorValue2>
+      <CurrentValue>pulse/rev</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/rev</DefaultValue>
+      <Options />
+    </NexAxisUnitsDenominatorValue2>
+    <NexAxisPulseDenominator>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1</DefaultValue>
+      <Options />
+    </NexAxisPulseDenominator>
+    <NexAxisPulseDenominatorValue2>
+      <CurrentValue>pulse/pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/pulse</DefaultValue>
+      <Options />
+    </NexAxisPulseDenominatorValue2>
+    <NexAxisTravelDistancePerWorkRotation>
+      <CurrentValue>10000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10000</DefaultValue>
+      <Options />
+    </NexAxisTravelDistancePerWorkRotation>
+    <NexAxisTravelDistancePerWorkRotationValue2>
+      <CurrentValue>pulse/rev</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/rev</DefaultValue>
+      <Options />
+    </NexAxisTravelDistancePerWorkRotationValue2>
+    <NexAxisWorkGearRatio>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1</DefaultValue>
+      <Options />
+    </NexAxisWorkGearRatio>
+    <NexAxisMotorGearRatio>
+      <CurrentValue>1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1</DefaultValue>
+      <Options />
+    </NexAxisMotorGearRatio>
+  </NexAxisScaling>
+  <NexAxisDynamics>
+    <NexAxisMaxVelocity>
+      <CurrentValue>400000000</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>400000000</DefaultValue>
+      <Options />
+    </NexAxisMaxVelocity>
+    <NexAxisMaxVelocityValue2>
+      <CurrentValue>pulse/s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s</DefaultValue>
+      <Options />
+    </NexAxisMaxVelocityValue2>
+    <NexAxisWarningVelocityLimit>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisWarningVelocityLimit>
+    <NexAxisWarningVelocityLimitValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisWarningVelocityLimitValue2>
+    <NexAxisStartVelocity>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisStartVelocity>
+    <NexAxisStartVelocityValue2>
+      <CurrentValue>pulse/s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s</DefaultValue>
+      <Options />
+    </NexAxisStartVelocityValue2>
+    <NexAxisMaxJogVelocity>
+      <CurrentValue>1000000</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1000000</DefaultValue>
+      <Options />
+    </NexAxisMaxJogVelocity>
+    <NexAxisMaxJogVelocityValue2>
+      <CurrentValue>pulse/s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s</DefaultValue>
+      <Options />
+    </NexAxisMaxJogVelocityValue2>
+    <NexAxisMaxAcceleration>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisMaxAcceleration>
+    <NexAxisMaxAccelerationValue2>
+      <CurrentValue>pulse/s^2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s^2</DefaultValue>
+      <Options />
+    </NexAxisMaxAccelerationValue2>
+    <NexAxisWarningAccelerationLimit>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisWarningAccelerationLimit>
+    <NexAxisWarningAccelerationLimitValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisWarningAccelerationLimitValue2>
+    <NexAxisMaxDeceleration>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisMaxDeceleration>
+    <NexAxisMaxDecelerationValue2>
+      <CurrentValue>pulse/s^2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s^2</DefaultValue>
+      <Options />
+    </NexAxisMaxDecelerationValue2>
+    <NexAxisWarningDecelerationLimit>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisWarningDecelerationLimit>
+    <NexAxisWarningDecelerationLimitValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisWarningDecelerationLimitValue2>
+    <NexAxisAccDecOveractive>
+      <CurrentValue>NexAxisNoErrorBlendingBuffered</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisNoErrorBlendingBuffered</DefaultValue>
+      <Options>
+        <Option>NexAxisNoErrorBlendingBuffered</Option>
+        <Option>NexAxisNoErrorStatus</Option>
+        <Option>NexAxisErrorStatus</Option>
+      </Options>
+    </NexAxisAccDecOveractive>
+    <NexAxisReverseMovementMode>
+      <CurrentValue>NexAxisDecreaseVelocityStop</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisDecreaseVelocityStop</DefaultValue>
+      <Options>
+        <Option>NexAxisDecreaseVelocityStop</Option>
+        <Option>NexAxisImmediateStop</Option>
+      </Options>
+    </NexAxisReverseMovementMode>
+    <NexAxisWarningTorqueLimitPositive>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisWarningTorqueLimitPositive>
+    <NexAxisWarningTorqueLimitPositiveValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisWarningTorqueLimitPositiveValue2>
+    <NexAxisWarningTorqueLimitNegative>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisWarningTorqueLimitNegative>
+    <NexAxisWarningTorqueLimitNegativeValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisWarningTorqueLimitNegativeValue2>
+    <NexAxisInPositionBand>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </NexAxisInPositionBand>
+    <NexAxisInPositionBandValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisInPositionBandValue2>
+    <NexAxisInPositionCheckTime>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisInPositionCheckTime>
+    <NexAxisInPositionCheckTimeValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexAxisInPositionCheckTimeValue2>
+    <NexAxisActualVelocityFilterTime>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisActualVelocityFilterTime>
+    <NexAxisActualVelocityFilterTimeValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexAxisActualVelocityFilterTimeValue2>
+    <NexAxisZeroPositionBand>
+      <CurrentValue>10</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10</DefaultValue>
+      <Options />
+    </NexAxisZeroPositionBand>
+    <NexAxisZeroPositionBandValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisZeroPositionBandValue2>
+  </NexAxisDynamics>
+  <NexAxisStopOptions>
+    <NexAxisEmergencyStopMode>
+      <CurrentValue>NexAxisImmediateStopAccumulatedPulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisImmediateStopAccumulatedPulse</DefaultValue>
+      <Options>
+        <Option>NexAxisImmediateStopAccumulatedPulse</Option>
+        <Option>NexAxisImmediateStopErrorReset</Option>
+        <Option>NexAxisImmediateServoUnlock</Option>
+      </Options>
+    </NexAxisEmergencyStopMode>
+    <NexAxisLimitInputStopMode>
+      <CurrentValue>NexAxisImmediateStopAccumulatedPulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisImmediateStopAccumulatedPulse</DefaultValue>
+      <Options>
+        <Option>NexAxisImmediateStopAccumulatedPulse</Option>
+        <Option>NexAxisDecreaseVelocityPulseStop</Option>
+        <Option>NexAxisImmediateStopErrorReset</Option>
+        <Option>NexAxisImmediateServoUnlock</Option>
+      </Options>
+    </NexAxisLimitInputStopMode>
+    <NexAxisDriverAlarmResetTime>
+      <CurrentValue>200</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>200</DefaultValue>
+      <Options />
+    </NexAxisDriverAlarmResetTime>
+    <NexAxisDriverAlarmResetTimeValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexAxisDriverAlarmResetTimeValue2>
+    <NexAxisMaxPositiveTorqueLimit>
+      <CurrentValue>300.0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>300.0</DefaultValue>
+      <Options />
+    </NexAxisMaxPositiveTorqueLimit>
+    <NexAxisMaxPositiveTorqueLimitValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisMaxPositiveTorqueLimitValue2>
+    <NexAxisMaxNegativeTorqueLimit>
+      <CurrentValue>300.0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>300.0</DefaultValue>
+      <Options />
+    </NexAxisMaxNegativeTorqueLimit>
+    <NexAxisMaxNegativeTorqueLimitValue2>
+      <CurrentValue>%</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>%</DefaultValue>
+      <Options />
+    </NexAxisMaxNegativeTorqueLimitValue2>
+    <NexAxisImmediateStopInputLogicInversion>
+      <CurrentValue>NexAxisInversionFalse</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisInversionFalse</DefaultValue>
+      <Options>
+        <Option>NexAxisInversionFalse</Option>
+        <Option>NexAxisInversionTrue</Option>
+      </Options>
+    </NexAxisImmediateStopInputLogicInversion>
+    <NexAxisPositiveLimitInputLogicInversion>
+      <CurrentValue>NexAxisInversionFalse</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisInversionFalse</DefaultValue>
+      <Options>
+        <Option>NexAxisInversionFalse</Option>
+        <Option>NexAxisInversionTrue</Option>
+      </Options>
+    </NexAxisPositiveLimitInputLogicInversion>
+    <NexAxisNegativeLimitInputLogicInversion>
+      <CurrentValue>NexAxisInversionFalse</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisInversionFalse</DefaultValue>
+      <Options>
+        <Option>NexAxisInversionFalse</Option>
+        <Option>NexAxisInversionTrue</Option>
+      </Options>
+    </NexAxisNegativeLimitInputLogicInversion>
+    <NexAxisHomeProximityInputLogicInversion>
+      <CurrentValue>NexAxisInversionFalse</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisInversionFalse</DefaultValue>
+      <Options>
+        <Option>NexAxisInversionFalse</Option>
+        <Option>NexAxisInversionTrue</Option>
+      </Options>
+    </NexAxisHomeProximityInputLogicInversion>
+  </NexAxisStopOptions>
+  <NexAxisLimits>
+    <NexAxisSoftwareLimitMode>
+      <CurrentValue>NexAxisInvalid</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisInvalid</DefaultValue>
+      <Options>
+        <Option>NexAxisInvalid</Option>
+        <Option>NexAxisValidForSpecifiedValueDecreaseStop</Option>
+        <Option>NexAxisValidForSpecifiedValueImmediateStop</Option>
+        <Option>NexAxisValidForFeedbackValueDecreaseStop</Option>
+        <Option>NexAxisValidForFeedbackValueImmediateStop</Option>
+      </Options>
+    </NexAxisSoftwareLimitMode>
+    <NexAxisPositiveSoftwareLimit>
+      <CurrentValue>2147483647</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>2147483647</DefaultValue>
+      <Options />
+    </NexAxisPositiveSoftwareLimit>
+    <NexAxisPositiveSoftwareLimitValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisPositiveSoftwareLimitValue2>
+    <NexAxisNegativeSoftwareLimit>
+      <CurrentValue>-2147483648</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>-2147483648</DefaultValue>
+      <Options />
+    </NexAxisNegativeSoftwareLimit>
+    <NexAxisNegativeSoftwareLimitValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisNegativeSoftwareLimitValue2>
+    <NexAxisFollowingErrorLimit>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisFollowingErrorLimit>
+    <NexAxisFollowingErrorLimitValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisFollowingErrorLimitValue2>
+    <NexAxisFollowingErrorAlarmLimit>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisFollowingErrorAlarmLimit>
+    <NexAxisFollowingErrorAlarmLimitValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisFollowingErrorAlarmLimitValue2>
+  </NexAxisLimits>
+  <NexAxisHoming>
+    <NexAxisHomingMode>
+      <CurrentValue>OriginPreset</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>OriginPreset</DefaultValue>
+      <Options>
+        <Option>BackupAndProximitySignalOff</Option>
+        <Option>BackupAndProximitySignalOn</Option>
+        <Option>ProximitySignalOff</Option>
+        <Option>ProximitySignalOn</Option>
+        <Option>LimitSignalOff</Option>
+        <Option>BackupAndInputMask</Option>
+        <Option>LimitOnly</Option>
+        <Option>BackupAndPressingTime</Option>
+        <Option>WithoutProximitySignalAndPressingSignal</Option>
+        <Option>OriginPreset</Option>
+      </Options>
+    </NexAxisHomingMode>
+    <NexAxisOriginInputMode>
+      <CurrentValue>NexAxisZInput</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisZInput</DefaultValue>
+      <Options>
+        <Option>NexAxisZInput</Option>
+        <Option>NexAxisEXT</Option>
+      </Options>
+    </NexAxisOriginInputMode>
+    <NexAxisStartDirection>
+      <CurrentValue>NexAxisPositiveDirection</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisPositiveDirection</DefaultValue>
+      <Options>
+        <Option>NexAxisPositiveDirection</Option>
+        <Option>NexAxisNegativeDirection</Option>
+      </Options>
+    </NexAxisStartDirection>
+    <NexAxisOperationPositiveLimitInput>
+      <CurrentValue>NexAxisReversedAndMovingRemainingPulsesStop</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisReversedAndMovingRemainingPulsesStop</DefaultValue>
+      <Options>
+        <Option>NexAxisNotReversedAndErrorStop</Option>
+        <Option>NexAxisReversedAndMovingRemainingPulsesStop</Option>
+        <Option>NexAxisReversedAndDecelerationStop</Option>
+      </Options>
+    </NexAxisOperationPositiveLimitInput>
+    <NexAxisOriginInputDetectionDirection>
+      <CurrentValue>NexAxisPositiveDirection</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisPositiveDirection</DefaultValue>
+      <Options>
+        <Option>NexAxisPositiveDirection</Option>
+        <Option>NexAxisNegativeDirection</Option>
+      </Options>
+    </NexAxisOriginInputDetectionDirection>
+    <NexAxisOperationNegativeLimitInput>
+      <CurrentValue>NexAxisReversedAndMovingRemainingPulsesStop</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisReversedAndMovingRemainingPulsesStop</DefaultValue>
+      <Options>
+        <Option>NexAxisNotReversedAndErrorStop</Option>
+        <Option>NexAxisReversedAndMovingRemainingPulsesStop</Option>
+        <Option>NexAxisReversedAndDecelerationStop</Option>
+      </Options>
+    </NexAxisOperationNegativeLimitInput>
+    <NexAxisHomingVelocity>
+      <CurrentValue>10000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10000</DefaultValue>
+      <Options />
+    </NexAxisHomingVelocity>
+    <NexAxisHomingVelocityValue2>
+      <CurrentValue>pulse/s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s</DefaultValue>
+      <Options />
+    </NexAxisHomingVelocityValue2>
+    <NexAxisHomingApproachVelocity>
+      <CurrentValue>1000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1000</DefaultValue>
+      <Options />
+    </NexAxisHomingApproachVelocity>
+    <NexAxisHomingApproachVelocityValue2>
+      <CurrentValue>pulse/s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s</DefaultValue>
+      <Options />
+    </NexAxisHomingApproachVelocityValue2>
+    <NexAxisHomingAcceleration>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisHomingAcceleration>
+    <NexAxisHomingAccelerationValue2>
+      <CurrentValue>pulse/s^2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s^2</DefaultValue>
+      <Options />
+    </NexAxisHomingAccelerationValue2>
+    <NexAxisHomingDeceleration>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisHomingDeceleration>
+    <NexAxisHomingDecelerationValue2>
+      <CurrentValue>pulse/s^2</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s^2</DefaultValue>
+      <Options />
+    </NexAxisHomingDecelerationValue2>
+    <NexAxisHomingJerk>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisHomingJerk>
+    <NexAxisHomingJerkValue2>
+      <CurrentValue>pulse/s^3</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s^3</DefaultValue>
+      <Options />
+    </NexAxisHomingJerkValue2>
+    <NexAxisOriginInputMaskAmount>
+      <CurrentValue>10000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>10000</DefaultValue>
+      <Options />
+    </NexAxisOriginInputMaskAmount>
+    <NexAxisOriginInputMaskAmountValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisOriginInputMaskAmountValue2>
+    <NexAxisOriginPositionOffset>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisOriginPositionOffset>
+    <NexAxisOriginPositionOffsetValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisOriginPositionOffsetValue2>
+    <NexAxisPushTime>
+      <CurrentValue>100</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>100</DefaultValue>
+      <Options />
+    </NexAxisPushTime>
+    <NexAxisPushTimeValue2>
+      <CurrentValue>ms</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>ms</DefaultValue>
+      <Options />
+    </NexAxisPushTimeValue2>
+    <NexAxisOriginCompensationValue>
+      <CurrentValue>0</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>0</DefaultValue>
+      <Options />
+    </NexAxisOriginCompensationValue>
+    <NexAxisOriginCompensationValueValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisOriginCompensationValueValue2>
+    <NexAxisCompensationVelocity>
+      <CurrentValue>1000</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>1000</DefaultValue>
+      <Options />
+    </NexAxisCompensationVelocity>
+    <NexAxisCompensationVelocityValue2>
+      <CurrentValue>pulse/s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse/s</DefaultValue>
+      <Options />
+    </NexAxisCompensationVelocityValue2>
+  </NexAxisHoming>
+  <NexAxisCount>
+    <NexAxisCountMode>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexAxisCountMode>
+    <NexAxisModuloMAXPosition>
+      <CurrentValue>2147483647</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>2147483647</DefaultValue>
+      <Options />
+    </NexAxisModuloMAXPosition>
+    <NexAxisModuloMAXPositionValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisModuloMAXPositionValue2>
+    <NexAxisModuloMINPosition>
+      <CurrentValue>-2147483648</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>-2147483648</DefaultValue>
+      <Options />
+    </NexAxisModuloMINPosition>
+    <NexAxisModuloMINPositionValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisModuloMINPositionValue2>
+    <NexAxisEncoderTypes>
+      <CurrentValue>NexAxisInc</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>NexAxisInc</DefaultValue>
+      <Options>
+        <Option>NexAxisInc</Option>
+        <Option>NexAxisAbs</Option>
+      </Options>
+    </NexAxisEncoderTypes>
+  </NexAxisCount>
+  <NexAxisServoDriverSetting>
+    <NexAxisServoDriverModuloMAXPosition>
+      <CurrentValue>2147483647</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>2147483647</DefaultValue>
+      <Options />
+    </NexAxisServoDriverModuloMAXPosition>
+    <NexAxisServoDriverModuloMAXPositionValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisServoDriverModuloMAXPositionValue2>
+    <NexAxisServoDriverModuloMINPosition>
+      <CurrentValue>-2147483648</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>-2147483648</DefaultValue>
+      <Options />
+    </NexAxisServoDriverModuloMINPosition>
+    <NexAxisServoDriverModuloMINPositionValue2>
+      <CurrentValue>pulse</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>pulse</DefaultValue>
+      <Options />
+    </NexAxisServoDriverModuloMINPositionValue2>
+    <PowerDriveSystemStateControlMethod>
+      <CurrentValue>McPowerSwitchedOn</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>McPowerSwitchedOn</DefaultValue>
+      <Options>
+        <Option>McPowerSwitchedOn</Option>
+        <Option>McPowerReadyToSwitchOn</Option>
+        <Option>McTransitionPdsState</Option>
+      </Options>
+    </PowerDriveSystemStateControlMethod>
+    <MainCircuitPowerObserveEnable>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </MainCircuitPowerObserveEnable>
+  </NexAxisServoDriverSetting>
+</data>

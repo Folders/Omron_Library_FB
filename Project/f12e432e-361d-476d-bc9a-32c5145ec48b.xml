@@ -55,6 +55,8 @@ _EN=Variables
 ++D=OBJ\SENSOR\BASE	N=Sensor_ID_TriState	G=VAR_GLOBAL	Com=Sensor object 2
 ++D=OBJ\SENSOR\BASE	N=Sensor_ID_ToAnalog	G=VAR_GLOBAL	Com=Sensor object 3
 ++D=OBJ\SENSOR\BASE	N=Sensor_AD_Analog	G=VAR_GLOBAL	Com=Sensor object 4
+++D=OBJ\SERVO\BASE	N=Servo_Drive1S	G=VAR_GLOBAL
+++D=OBJ\SERVO\BASE	N=Servo_DriveJS	G=VAR_GLOBAL
 ++D=OBJ\STATUSBAR\BASE	N=StatusBar	G=VAR_GLOBAL	Com=Status bar object
 ++D=VibratorTest	N=Vib	G=VAR_GLOBAL
 ++D=OBJ\VIBRATOR\BASE	N=Vib_Rail	G=VAR_GLOBAL	Com=Vibrator object 1
@@ -89,3 +91,5 @@ _EN=Variables
 ++D=WORD	N=Inv_Command	AT=ECAT://node#1/Command	G=VAR_GLOBAL
 ++D=UINT	N=Inv_Frequency_Reference	AT=ECAT://node#1/Frequency Reference	G=VAR_GLOBAL
 ++D=WORD	N=Inv_Status	AT=ECAT://node#1/Status	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=Test_Drive1S	AT=MC://_MC_AX[0]	RO=1	Const=1	G=VAR_GLOBAL
+++D=_sAXIS_REF	N=Test_DriveJS	AT=MC://_MC_AX[1]	RO=1	Const=1	G=VAR_GLOBAL

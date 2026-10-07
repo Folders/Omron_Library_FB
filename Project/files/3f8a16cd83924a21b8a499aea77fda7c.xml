@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="42b0da00-15cb-4564-95de-ddcf2e985df4">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="41049bbf-ffa6-4eaa-a778-cb4c0b5ecd16">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="2b04d098-d51d-4f59-9d2b-08652039d18e">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="09a3d1ca-0efe-4e75-ac6b-88c641c4003f">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String42" ID="de1522fe-9334-490c-b05d-58f1b7749f57">
+      <Localisation Language="en-US" Translation="Fault" Default="True" />
+    </Resource>
+    <Resource Name="LE_A_Activated" ID="d4346cc1-36d9-44e8-a1c1-dc8bed08c958">
+      <Localisation Language="en-US" Translation="Not Activated" Default="True" />
+    </Resource>
+    <Resource Name="LE_A_Name" ID="0492c055-204b-4df5-a07e-f2ed1bd64ece">
+      <Localisation Language="en-US" Translation="Name" Default="True" />
+    </Resource>
+    <Resource Name="LE_A_NG" ID="defbfd0c-4d2b-448d-92cd-9de533ca7be7">
+      <Localisation Language="en-US" Translation="NG" Default="True" />
+    </Resource>
+    <Resource Name="LE_A_OK" ID="d88094f7-84e8-4bc2-8e32-cadc16e56c50">
+      <Localisation Language="en-US" Translation="OK" Default="True" />
+    </Resource>
+    <Resource Name="LE_A_Selected" ID="3a10e274-72af-4774-af6a-78a8a750343f">
+      <Localisation Language="en-US" Translation="Not Selected" Default="True" />
+    </Resource>
+    <Resource Name="LE_S_Camera_LightCheck" ID="bfc0f04b-0264-4cea-a9bf-70e03cd05e46">
+      <Localisation Language="en-US" Translation="Light check" Default="True" />
+    </Resource>
+    <Resource Name="LE_S_Camera_PartCheck" ID="53bcc9e6-6455-4f0c-8de7-6c6ab11c82d5">
+      <Localisation Language="en-US" Translation="Part check" Default="True" />
+    </Resource>
+    <Resource Name="String81" ID="a9d62675-8a71-437a-a395-a9b8fcc2b248">
+      <Localisation Language="en-US" Translation="The checker indicate a problem with the vision tool. The part does not appear to conform to what the vision tool expects." Default="True" />
+    </Resource>
+    <Resource Name="String82" ID="1f1f7c0b-3b3a-47fc-afec-e1fc9b59e114">
+      <Localisation Language="en-US" Translation="The checker indicate the part is Good, the measure is in the limite." Default="True" />
+    </Resource>
+    <Resource Name="String83" ID="b1f34e6e-d566-4b46-8c2e-018c50cb8768">
+      <Localisation Language="en-US" Translation="The checker indicate the part is Not Good, the measure is out of the limite." Default="True" />
+    </Resource>
+    <Resource Name="String84" ID="fb4070ca-9db4-433d-a7a1-4a6514ce2fb4">
+      <Localisation Language="en-US" Translation="The checker indicate is Not Activated. That mean the previous condition is not conform for activated this checker" Default="True" />
+    </Resource>
+    <Resource Name="String85" ID="24ba785b-31ab-4474-abb4-530d5e457c8f">
+      <Localisation Language="en-US" Translation="The checker is Not Selected for this inspection." Default="True" />
+    </Resource>
+    <Resource Name="String86" ID="b2f0d4cd-b256-475b-81c7-374a48661100">
+      <Localisation Language="en-US" Translation="Info color checkers" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="LE_MB_Info" ID="10f0df1f-865f-48d0-8d15-ae01bf11123f">
+      <Localisation Language="en-US" Translation="MB_Info.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image1" ID="87d974a6-5730-43ae-8c49-a3981ea1dddc">
+      <Localisation Language="en-US" Translation="Info.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

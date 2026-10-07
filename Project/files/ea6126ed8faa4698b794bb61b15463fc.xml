@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="41585c3e-a21b-42ba-80f6-7543d9d7c86d">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1065" ID="97a228ad-fdd6-4c58-9488-fc79d7b2401e">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="3541383c-6752-4104-9e68-a339ba7fa24c">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+    <Resource Name="FontSize844" ID="9dfe7178-718b-4e20-9e80-2741088ad0c1">
+      <Localisation Language="en-US" Translation="25" Default="True" />
+    </Resource>
+    <Resource Name="FontSize600" ID="d97365bc-bee7-4486-87f7-e05c1bfe37f3">
+      <Localisation Language="en-US" Translation="13" Default="True" />
+    </Resource>
+    <Resource Name="FontSize4" ID="cd8e6065-1fbb-4314-81ec-5b6ca1c12258">
+      <Localisation Language="en-US" Translation="14" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1073" ID="a911f88c-0e30-4e41-8e75-a3e0e9858f83">
+      <Localisation Language="en-US" Translation="15" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="87d90aae-a3c1-4390-93c3-65adb639de8d">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="0b8ecc8f-b0db-4f17-adb4-e87ed4da424b">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String1" ID="3bfa222b-abc1-415a-a7dd-6bb2bbbd3f56">
+      <Localisation Language="en-US" Translation="Button" Default="True" />
+    </Resource>
+    <Resource Name="String17" ID="cbd27cac-fc03-4471-a003-6a6af019ce84">
+      <Localisation Language="en-US" Translation="CCW" Default="True" />
+    </Resource>
+    <Resource Name="String19" ID="47db9ae7-a65e-4a57-9864-4d3bb9e3327f">
+      <Localisation Language="en-US" Translation="Feedback" Default="True" />
+    </Resource>
+    <Resource Name="String20" ID="89556706-1ccc-4614-bf27-234396a88d14">
+      <Localisation Language="en-US" Translation="Feedback corr." Default="True" />
+    </Resource>
+    <Resource Name="String21" ID="9a7c12e4-53c3-4809-aa12-079fa7936202">
+      <Localisation Language="en-US" Translation="Limit Order Speed reach" Default="True" />
+    </Resource>
+    <Resource Name="String22" ID="8a79ae3f-9278-406f-9121-2246d365aca3">
+      <Localisation Language="en-US" Translation="CW" Default="True" />
+    </Resource>
+    <Resource Name="String23" ID="1a4a0a00-ffb7-4a10-a1d3-35b11426dae6">
+      <Localisation Language="en-US" Translation="Feedback too high" Default="True" />
+    </Resource>
+    <Resource Name="String224" ID="dd785448-8764-4746-8114-aa9a8de05ec2">
+      <Localisation Language="en-US" Translation="Cancel" Default="True" />
+    </Resource>
+    <Resource Name="String261" ID="c8947255-5a7c-410d-b4c5-feae0260b835">
+      <Localisation Language="en-US" Translation="Want to start a procedure to calculate aX+b?" Default="True" />
+    </Resource>
+    <Resource Name="String262" ID="cc95053d-d417-43ff-9dc1-e2f6b8023e07">
+      <Localisation Language="en-US" Translation="Yes" Default="True" />
+    </Resource>
+    <Resource Name="String263" ID="66c52bdd-9e43-423d-8e8b-d6e0f8fb3d8b">
+      <Localisation Language="en-US" Translation="Current values" Default="True" />
+    </Resource>
+    <Resource Name="String265" ID="cbd223d4-8a98-4c5c-9ddd-dc5531a71da9">
+      <Localisation Language="en-US" Translation="Validate" Default="True" />
+    </Resource>
+    <Resource Name="String266" ID="d5fdc3be-7378-4ea7-9a3a-659619794cf8">
+      <Localisation Language="en-US" Translation="Measured :" Default="True" />
+    </Resource>
+    <Resource Name="String267" ID="08312f5f-b3af-48dc-be95-f3457cea7941">
+      <Localisation Language="en-US" Translation="a" Default="True" />
+    </Resource>
+    <Resource Name="String268" ID="be1a6628-b48e-4bee-89e3-c4d56659770b">
+      <Localisation Language="en-US" Translation="b" Default="True" />
+    </Resource>
+    <Resource Name="String270" ID="920ad333-006c-498c-93d6-9e890c21bc83">
+      <Localisation Language="en-US" Translation="Old values :" Default="True" />
+    </Resource>
+    <Resource Name="String271" ID="4f623458-4144-4048-a957-540a34894ed9">
+      <Localisation Language="en-US" Translation="New values :" Default="True" />
+    </Resource>
+    <Resource Name="String272" ID="5bcfd1a3-8b2e-469b-aed1-1e6bb84b4986">
+      <Localisation Language="en-US" Translation="1.234" Default="True" />
+    </Resource>
+    <Resource Name="String273" ID="78dc0546-dd7c-4b92-a715-8304afb976e3">
+      <Localisation Language="en-US" Translation="Valide new correction" Default="True" />
+    </Resource>
+    <Resource Name="String274" ID="15761ddc-2a0e-4b36-9e9b-d221b5ddb535">
+      <Localisation Language="en-US" Translation="Backup" Default="True" />
+    </Resource>
+    <Resource Name="String275" ID="3310c511-7445-4762-b642-8210e144be46">
+      <Localisation Language="en-US" Translation="Load" Default="True" />
+    </Resource>
+    <Resource Name="String24" ID="2f5fdbce-7ab8-4b19-811a-4ea3f4a5ee37">
+      <Localisation Language="en-US" Translation="Order Speed" Default="True" />
+    </Resource>
+    <Resource Name="String25" ID="8b0c5e51-35ef-420a-8d7a-583facd621b3">
+      <Localisation Language="en-US" Translation="ax + b" Default="True" />
+    </Resource>
+    <Resource Name="String26" ID="0273a49d-ae5f-4bc9-affe-88f097e2dda0">
+      <Localisation Language="en-US" Translation="Setpoint" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="FA_Teaching" ID="fb8e6f81-4626-4945-9282-f7ef16142e24">
+      <Localisation Language="en-US" Translation="FA_Teaching.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image18" ID="ddbedc3a-ad6b-446d-8041-54e8f2da29cf">
+      <Localisation Language="en-US" Translation="FA_Backup_Save.xaml" Default="True" />
+    </Resource>
+    <Resource Name="Image19" ID="cdfbc76c-c8a8-49c2-b02d-7d6eb2397b9c">
+      <Localisation Language="en-US" Translation="FA_Backup_Load.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="18eaab41-21ad-439b-aaea-17b51140a85f">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="401b3933-03b4-4ee0-8607-63cf88a2da64">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="100d3181-4f6b-495a-a131-dbbb65e7b6f0">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="6e21b95b-de73-4708-a595-b55217748dd2">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="LE_A_Name" ID="2b3231c5-6f45-4125-bae2-320726eb28fd">
+      <Localisation Language="en-US" Translation="Name" Default="True" />
+    </Resource>
+    <Resource Name="String88" ID="3eb1695c-6777-49af-aea7-7770c7274f95">
+      <Localisation Language="en-US" Translation="Duration" Default="True" />
+    </Resource>
+    <Resource Name="String89" ID="497eaa0d-1a91-4d59-b4c2-206d09b50bdf">
+      <Localisation Language="en-US" Translation="Min" Default="True" />
+    </Resource>
+    <Resource Name="String90" ID="566a2563-5a8b-4bf1-b48f-4282684660f9">
+      <Localisation Language="en-US" Translation="Avg" Default="True" />
+    </Resource>
+    <Resource Name="String91" ID="f6262ef8-d2b7-4df7-9985-c3c5e8dc0b80">
+      <Localisation Language="en-US" Translation="Max" Default="True" />
+    </Resource>
+    <Resource Name="String92" ID="f5a2d50e-da6b-4d6f-8129-154c70f85c71">
+      <Localisation Language="en-US" Translation="Period" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

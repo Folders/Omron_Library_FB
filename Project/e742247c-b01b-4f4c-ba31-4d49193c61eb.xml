@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Pneumatic" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="131" OffsetType="NJ">
+      <DataType Name="Cfg" BaseType="OBJ\GRIPPER\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd" BaseType="OBJ\GRIPPER\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\GRIPPER\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\GRIPPER\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="alarms -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\GRIPPER\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="24" OffsetType="NJ">
+      <DataType Name="Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Configuration is done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsIEG" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is IEG serie from Weiss" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsSchunk" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is EGP serie from Schunk" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="UseInit" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Init function is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="GripOutside" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Part gripped from outside (closing movement)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="GripInside" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Part gripped from inside (opening movement)" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="StrokeMax" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Stroke of the gripper max [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PosNoPart" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position &quot;No part&quot; [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PosRelease" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position &quot;Release&quot; [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="23" OffsetType="NJ">
+      <DataType Name="Power" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to servolock the gripper" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Initalization" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to initalize the gripper" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Preset" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Used preset [0..7]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Grip" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to grip" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Release" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to release" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Reset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to reset the gripper" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamWrite" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to write parameters" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamRead" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to read parameters" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamSave" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to save parameters" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Torque" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripping force [%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="22" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Connected" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Device is connected" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is ready to work" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Powered" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripper is servolocked" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="InitNeeded" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripper is initalization" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsOpen" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripper is open" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsHolding" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripper is holding part" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsClosed" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripper is closed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PartLost" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripper has lost a part" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Fault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="In fault" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamWrite_Busy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameters writing" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamWrite_Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameters are writed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamRead_Busy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameters reading" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamRead_Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameters are readed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamSave_Busy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameters saving" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ParamSave_Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Parameters are saved" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Preset" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Used preset [0..7]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Pos" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Actual position [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="21" OffsetType="NJ">
+      <DataType Name="TooMuchConfig" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Too much configuration bloc" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TemperatureFault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Temperature inside the gripping exceeds 70 °C" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="TemperatureWarning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Temperature inside the gripping exceeds 60 °C" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MaintenanceRequired" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maintenance of the gripper is requested" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ">
+      <DataType Name="Preset" BaseType="USINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Preset to write [0..7]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PosNoPart" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position &quot;No part&quot; [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="PosRelease" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position &quot;Release&quot; [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Torque" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Gripping force [%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Data_Ready" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Config is ready to send datas" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Data_Read" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to read datas from SDO" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Data_Write" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to write datas in SDO" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Data_Done" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Datas are writed in SDO" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Data_Ack" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Acknowledge of done from instance" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Data_Fault" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to write datas in SDO" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

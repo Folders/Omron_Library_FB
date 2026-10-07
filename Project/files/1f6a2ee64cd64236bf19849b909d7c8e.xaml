@@ -1,0 +1,43 @@
+<Canvas Height="497.000000476837" Width="497.000000476837" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Path Fill="#FFFF0000" Stroke="{x:Null}" StrokeThickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <Path.Data>
+            <PathGeometry FillRule="EvenOdd">
+                <PathFigure StartPoint="248.500000476837,0.499999999999998" IsClosed="True">
+                    <BezierSegment Point1="385.500000476837,0.500000476837158" Point2="496.500000476837,111.500000476837" Point3="496.500000476837,248.500000476837"/>
+                    <BezierSegment Point1="496.500000476837,385.500000476837" Point2="385.500000476837,496.500000476837" Point3="248.500000476837,496.500000476837"/>
+                    <BezierSegment Point1="111.500000476837,496.500000476837" Point2="0.500000476837158,385.500000476837" Point3="0.499999999999998,248.500000476837"/>
+                    <BezierSegment Point1="0.500000476837158,111.500000476837" Point2="111.500000476837,0.500000476837158" Point3="248.500000476837,0.499999999999998"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+    <Path Fill="#FFFFFFFF" Stroke="{x:Null}" StrokeThickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <Path.Data>
+            <PathGeometry FillRule="EvenOdd">
+                <PathFigure StartPoint="174.949219226837,123.325394153595" IsClosed="True">
+                    <BezierSegment Point1="178.024216175079,123.325394153595" Point2="181.099213123321,124.500793933868" Point3="183.449219226837,126.850784778595"/>
+                    <LineSegment Point="248.449219226837,192.550003528595"/>
+                    <LineSegment Point="313.548828601837,126.950394153595"/>
+                    <BezierSegment Point1="318.248840808868,122.250397205353" Point2="325.848816394806,122.250397205353" Point3="330.548828601837,126.950394153595"/>
+                    <LineSegment Point="370.150391101837,166.550003528595"/>
+                    <BezierSegment Point1="374.850403308868,171.250015735626" Point2="374.850403308868,178.850006580353" Point3="370.150391101837,183.550003528595"/>
+                    <LineSegment Point="304.449219226837,248.550018787384"/>
+                    <LineSegment Point="370.048828601837,313.649597644806"/>
+                    <BezierSegment Point1="374.748840808868,318.349609851837" Point2="374.748840808868,325.949585437775" Point3="370.048828601837,330.649597644806"/>
+                    <LineSegment Point="330.449219226837,370.149597644806"/>
+                    <BezierSegment Point1="325.749207019806,374.849609851837" Point2="318.149231433868,374.849609851837" Point3="313.449219226837,370.149597644806"/>
+                    <LineSegment Point="248.449219226837,304.549988269806"/>
+                    <LineSegment Point="183.349609851837,370.149597644806"/>
+                    <BezierSegment Point1="178.649612903595,374.849609851837" Point2="171.049606800079,374.849609851837" Point3="166.349609851837,370.149597644806"/>
+                    <LineSegment Point="126.849609851837,330.549988269806"/>
+                    <BezierSegment Point1="122.149612903595,325.850006580353" Point2="122.149612903595,318.250000476837" Point3="126.849609851837,313.549988269806"/>
+                    <LineSegment Point="192.449219226837,248.550018787384"/>
+                    <LineSegment Point="126.849609851837,183.450394153595"/>
+                    <BezierSegment Point1="122.149612903595,178.750397205353" Point2="122.149612903595,171.150406360626" Point3="126.849609851837,166.450394153595"/>
+                    <LineSegment Point="166.449219226837,126.850784778595"/>
+                    <BezierSegment Point1="168.799225330353,124.500793933868" Point2="171.874222278595,123.325394153595" Point3="174.949219226837,123.325394153595"/>
+                </PathFigure>
+            </PathGeometry>
+        </Path.Data>
+    </Path>
+</Canvas>

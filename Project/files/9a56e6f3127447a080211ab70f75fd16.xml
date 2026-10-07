@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Boolean" Name="showPopUpVision" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="c10101e4-833b-439b-a456-c50c4a67e7a4" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup" />
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup" />
+</Variables>

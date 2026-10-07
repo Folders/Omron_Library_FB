@@ -1,0 +1,36 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=started	G=VAR	Com=FB is started
+++D=BOOL	N=idle	G=VAR	Com=When is ready to be servolocked
+++D=BOOL	N=cmd	G=VAR	Com=Order to grip
+++D=_sIOLOBJ_ACCESS	N=objDevice	G=VAR
+++D=INT	N=dataINT	G=VAR
+++D=IOL_WriteObj	N=writeNoPart	G=VAR
+++D=INT	N=s	G=VAR	Com=Steps
+++D=IOL_WriteObj	N=writeRelease	G=VAR
+++D=UINT	N=dataUINT	G=VAR
+++D=IOL_WriteObj	N=writeForce	G=VAR
+++D=TON	N=waitIdle	G=VAR
+++D=BOOL	N=pause	G=VAR
+++D=IOL_ReadObj	N=readNoPart	G=VAR
+++D=IOL_ReadObj	N=readRelease	G=VAR
+++D=IOL_ReadObj	N=readForce	G=VAR
+++D=INT	N=posINT	G=VAR
+++D=OBJ\GRIPPER\Gripper_GetParam	N=getParam	G=VAR
+++D=TON	N=failRead	G=VAR
+++D=OBJ\GRIPPER\Gripper_SetParam	N=setParam	G=VAR
+++D=IOL_WriteObj	N=writeIOL	G=VAR
+++D=USINT	N=dataUSINT	G=VAR
+++D=SignalStable	N=stableHolding	G=VAR
+++D=REAL	N=testSlope	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=ENO	Ord=0	RO=1	G=VAR_OUTPUT	Com=Enabled
+++D=OBJ\GRIPPER\BASE	N=MyGripper	Ord=1	G=VAR_IN_OUT	Com=Gripper
+++D=ARRAY[0..1] OF BYTE	N=IOL_Input_Data01	Ord=2	G=VAR_IN_OUT	Com=Datas input WORD 1
+++D=ARRAY[0..1] OF BYTE	N=IOL_Input_Data02	Ord=3	G=VAR_IN_OUT	Com=Datas input WORD 2
+++D=ARRAY[0..1] OF BYTE	N=IOL_Output_Data01	Ord=4	G=VAR_IN_OUT	Com=Datas output WORD 1
+++D=BOOL	N=Enable	Ord=5	G=VAR_INPUT	Com=Use the gripper
+++D=_sDEVICE_PORT	N=PortDevice	Ord=6	G=VAR_IN_OUT
+++D=BOOL	N=EC_DataEnable	Ord=7	G=VAR_INPUT	Com=IO-Link communication status of the device
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

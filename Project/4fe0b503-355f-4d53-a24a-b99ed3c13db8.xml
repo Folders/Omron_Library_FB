@@ -1,0 +1,47 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=powerRequest	G=VAR	Com=Request power of drive
+++D=BOOL	N=powerInterlock	G=VAR	Com=Force the drive to be unpowered
+++D=MC_Power	N=Servo_Power	G=VAR
+++D=BOOL	N=init_PR_Request	G=VAR	Com=Power request for init encoder
+++D=BOOL	N=init_PI_Request	G=VAR	Com=Power interlock for init encoder
+++D=MC_MoveJog	N=Servo_Jog	G=VAR
+++D=MC_MoveAbsolute	N=Servo_MoveAbs	G=VAR
+++D=MC_MoveRelative	N=Servo_MoveRel	G=VAR
+++D=BOOL	N=run	G=VAR
+++D=BOOL	N=jogBusy	G=VAR
+++D=BOOL	N=jogCMDAborted	G=VAR
+++D=BOOL	N=jogError	G=VAR
+++D=WORD	N=jogErroID	G=VAR
+++D=MC_MoveVelocity	N=Servo_MoveVel	G=VAR
+++D=_eMC_DIRECTION	N=velDirection	G=VAR
+++D=LREAL	N=velVelocity	G=VAR
+++D=LREAL	N=relVelocity	G=VAR
+++D=LREAL	N=absVelocity	G=VAR
+++D=MC_Stop	N=Servo_Stop	G=VAR
+++D=BOOL	N=forceHome	G=VAR
+++D=MC_Reset	N=Servo_Reset	G=VAR
+++D=MC_Reset	N=Order_Reset	G=VAR
+++D=BOOL	N=homeRequest	G=VAR	Com=Homing request
+++D=MC_Reference_JS	N=Servo_Home	G=VAR
+++D=BOOL	N=referenceJS_Busy	G=VAR
+++D=BOOL	N=referenceJS_Error	G=VAR
+++D=BOOL	N=ser	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAXIS_REF	N=MyAxis	Ord=0	Const=1	G=VAR_IN_OUT
+++D=OBJ\SERVO\BASE	N=MyServo	Ord=1	G=VAR_IN_OUT	EC=<ECs><EC EK="Cmd.Stop" C=" " /></ECs>
+++D=DINT	N=EncoderPos	Ord=2	G=VAR_INPUT	Com=Encoder position from I/O map (Param 6064)
+++D=BOOL	N=Powered	Ord=3	G=VAR_OUTPUT	Com=Drive is servolocked
+++D=BOOL	N=Power	Ord=4	G=VAR_INPUT	Com=Put drive in servolock
+++D=BOOL	N=Active	Ord=5	G=VAR_INPUT
+++D=BOOL	N=Enable	Ord=6	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=S_STO	Ord=8	G=VAR_INPUT	Com=Safety signal is ready
+++D=_eMC_DIRECTION	N=Abs_Direction	Ord=9	G=VAR_INPUT
+++D=LREAL	N=Position_Max	IV=1	Ord=10	G=VAR_INPUT	Com=Maximum postion for IAG [u]
+++D=LREAL	N=Position_Min	IV=1	Ord=11	G=VAR_INPUT	Com=Minimum postion for IAG [u]
+++D=LREAL	N=Velocity_Max	IV=1	Ord=12	G=VAR_INPUT	Com=Maximum speed for IAG [u/s]
+++D=LREAL	N=Acceleration_Max	IV=100	Ord=13	G=VAR_INPUT	Com=Maximum acceleration for IAG [u/s²]
+++D=BOOL	N=Commissioning	Ord=14	G=VAR_INPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

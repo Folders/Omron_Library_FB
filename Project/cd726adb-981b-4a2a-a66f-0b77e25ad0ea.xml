@@ -1,0 +1,16 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=BOOL	N=ready	G=VAR	Com=Instance is ready to work
+++D=BOOL	N=busy	G=VAR	Com=Write is busy
+++D=INT	N=s	G=VAR
+++D=UINT	N=idLocal	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OBJ\GRIPPER\BASE	N=MyGripper	Ord=0	G=VAR_IN_OUT	Com=Gripper
+++D=BOOL	N=Write	Ord=1	G=VAR_INPUT	Com=Write parameter to gripper
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT	Com=Write is done
+++D=USINT	N=Preset	IV=0	Ord=3	G=VAR_INPUT	Com=Preset to write [0..7]
+++D=REAL	N=PosNoPart	IV=0	Ord=4	G=VAR_INPUT	Com=Position "No part" [mm]
+++D=REAL	N=PosRelease	IV=0	Ord=5	G=VAR_INPUT	Com=Position "Release" [mm]
+++D=UINT	N=Torque	IV=0	Ord=6	G=VAR_INPUT	Com=Gripping force [%]
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

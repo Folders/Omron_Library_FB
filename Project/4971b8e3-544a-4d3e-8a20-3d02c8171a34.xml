@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <DataType Name="Data Types24" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Servo -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="126" OffsetType="NJ">
+      <DataType Name="Cfg" BaseType="OBJ\SERVO\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Cmd" BaseType="OBJ\SERVO\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Sta" BaseType="OBJ\SERVO\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Msg" BaseType="OBJ\SERVO\Message" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="alarms -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Xch" BaseType="OBJ\SERVO\Exchange" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="private -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="24" OffsetType="NJ">
+      <DataType Name="Brake_Used" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Brake is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CustomHoming_Used" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Custom homing sequence is used" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsOmron" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is Omron servo" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="IsJennyScience" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is Jenny science servo" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Max_Velocity" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="°/s Or mm/s" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Max_Acceleration" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="°/s² or mm/s²" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Max_Pos" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum position on IAG [°] or [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Min_Pos" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Minimum position on IAG [°] or [mm]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="23" OffsetType="NJ">
+      <DataType Name="Jog_Forward" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Jog forward order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Jog_Backward" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Jog backward order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="ServoLock" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Servolock order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Break_Release" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Release brake order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="InitEncoder" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Init encoder order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Move_Absolute" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Move abs order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Move_Relative" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Move rel order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Move_Velocity" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Move vel order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Home" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Homing order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Stop" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Stop order" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Reset" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to reset the drive" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Vel" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Velocity setpoint [u/s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Jog_Vel" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="JOG velocity setpoint [u/s]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Acc" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Acceleration setpoint [u/s²]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Dec" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Deceleration setpoint [u/s²]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Pos" BaseType="LREAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Position/distance setpoint [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="22" OffsetType="NJ">
+      <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is enabled" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Busy_Overall" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is busy" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="In commissioning status" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Braking" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is braking" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="21" OffsetType="NJ">
+      <DataType Name="Error" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive is in error" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="Drive_Code" BaseType="WORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Drive error code" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="MC_Code" BaseType="WORD" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Motion controle error code" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="20" OffsetType="NJ">
+      <DataType Name="Dummy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Dummy bit" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    </DataType>
+  </DataType>
+</data>

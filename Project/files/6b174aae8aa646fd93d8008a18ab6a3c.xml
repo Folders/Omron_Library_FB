@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="5465df70-274f-43e8-8b4c-36bcd3e57dbe">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+    <Resource Name="FontFamily0" ID="8f5254ca-6fa9-4972-a3f7-c68900057ff8">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize" ID="dc2ce1ad-5fb7-4c83-a385-8945a737224e">
+      <Localisation Language="en-US" Translation="12" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1065" ID="6e3eadf5-acaa-4004-9780-a3c95f4fe075">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="1ac3fa91-3c99-4585-816b-dea5f332c225">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+    <Resource Name="FontSize600" ID="ae051064-b5fd-4857-bdec-dbcbd52d0e55">
+      <Localisation Language="en-US" Translation="13" Default="True" />
+    </Resource>
+    <Resource Name="FontSize4" ID="76adb063-3d62-4b79-8db0-e44d35550bf9">
+      <Localisation Language="en-US" Translation="14" Default="True" />
+    </Resource>
+    <Resource Name="FontSize19" ID="76d4e822-3e3f-4034-a7cb-05eb767057b6">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize20" ID="fe17755f-7862-48b8-9d56-f183a6ea5499">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="d4f599ba-e8c1-48ff-91c8-2daea7ed33a1">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="9cea63e3-ea25-4a0a-89e9-25d005223962">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String100" ID="60fcad44-f41d-4e2e-83bf-8fd68dbeb772">
+      <Localisation Language="en-US" Translation="Releasing" Default="True" />
+    </Resource>
+    <Resource Name="String0" ID="dc653b1a-bd71-4aab-b54c-75566145a93b">
+      <Localisation Language="en-US" Translation="/" Default="True" />
+    </Resource>
+    <Resource Name="Stopping" ID="16707b89-90ab-4212-8e71-213383ede384">
+      <Localisation Language="en-US" Translation="Stopping" Default="True" />
+    </Resource>
+    <Resource Name="String7" ID="198da6e9-1517-4b4a-a6d7-4177440f4fb5">
+      <Localisation Language="en-US" Translation="Ready" Default="True" />
+    </Resource>
+    <Resource Name="String16" ID="84fbb04d-7335-4801-a31f-a7fb421b79b9">
+      <Localisation Language="en-US" Translation="Stop" Default="True" />
+    </Resource>
+    <Resource Name="String224" ID="10c861e6-2d93-4934-8f00-e4543071f0c1">
+      <Localisation Language="en-US" Translation="Cancel" Default="True" />
+    </Resource>
+    <Resource Name="String262" ID="f028e822-1e11-4780-8d4d-ee401a323243">
+      <Localisation Language="en-US" Translation="Yes" Default="True" />
+    </Resource>
+    <Resource Name="String26" ID="6e6b6b1d-c93d-4bf9-a51a-fc06d4ade8fa">
+      <Localisation Language="en-US" Translation="Setpoint" Default="True" />
+    </Resource>
+    <Resource Name="String46" ID="bbfca2ab-6d54-4b8a-95ff-dc123500e69d">
+      <Localisation Language="en-US" Translation="Torque" Default="True" />
+    </Resource>
+    <Resource Name="String53" ID="d743b7a0-1b01-4973-b50f-7d8d721fb53b">
+      <Localisation Language="en-US" Translation="Position" Default="True" />
+    </Resource>
+    <Resource Name="String93" ID="f6dcc669-6fc6-477a-99d6-d5bdaaf56552">
+      <Localisation Language="en-US" Translation="Teach home" Default="True" />
+    </Resource>
+    <Resource Name="String101" ID="f797086a-aa20-49c3-b4f3-8bfca86f6a95">
+      <Localisation Language="en-US" Translation="Jog -" Default="True" />
+    </Resource>
+    <Resource Name="String102" ID="1301a901-2a4b-441c-bfbd-1fbd05917056">
+      <Localisation Language="en-US" Translation="Moving" Default="True" />
+    </Resource>
+    <Resource Name="String103" ID="53136e89-86fe-4f59-889b-bbfa2ce8f76c">
+      <Localisation Language="en-US" Translation="Jog +" Default="True" />
+    </Resource>
+    <Resource Name="String104" ID="9478b0a5-a7b3-43ff-9bc2-12bd4a74ae80">
+      <Localisation Language="en-US" Translation="Mov. Abs." Default="True" />
+    </Resource>
+    <Resource Name="String105" ID="002c67da-a5fe-4c2a-9e8d-6e3ee72a8871">
+      <Localisation Language="en-US" Translation="Mov. Rel." Default="True" />
+    </Resource>
+    <Resource Name="String106" ID="6661d926-48b2-4ef2-9df1-10adad73451e">
+      <Localisation Language="en-US" Translation="Init. Encoder" Default="True" />
+    </Resource>
+    <Resource Name="String107" ID="6d6c284a-05d9-41b2-bec7-f3ec32fc0616">
+      <Localisation Language="en-US" Translation="Init." Default="True" />
+    </Resource>
+    <Resource Name="String108" ID="75e33994-be11-4759-b2b6-4219659dc961">
+      <Localisation Language="en-US" Translation="Mov. Vel." Default="True" />
+    </Resource>
+    <Resource Name="String109" ID="125d6476-f36d-42e6-a8a1-a8460361d7bd">
+      <Localisation Language="en-US" Translation="Velocity" Default="True" />
+    </Resource>
+    <Resource Name="String113" ID="65e240c9-aac5-4e02-a0cd-40a089037965">
+      <Localisation Language="en-US" Translation="Acceleration" Default="True" />
+    </Resource>
+    <Resource Name="String114" ID="0cfd89bf-dc90-49d8-8f46-e81ac3c68753">
+      <Localisation Language="en-US" Translation="Deceleration" Default="True" />
+    </Resource>
+    <Resource Name="String140" ID="b7ffc3b2-40dd-4411-bb91-82102d2ccce9">
+      <Localisation Language="en-US" Translation="Jog Velocity" Default="True" />
+    </Resource>
+    <Resource Name="String94" ID="4d715fde-ec64-41da-b65d-f089d2f7c20a">
+      <Localisation Language="en-US" Translation="Homing" Default="True" />
+    </Resource>
+    <Resource Name="String95" ID="10de7538-453e-4555-99de-b3636dcaa4c7">
+      <Localisation Language="en-US" Translation="Disabled" Default="True" />
+    </Resource>
+    <Resource Name="String276" ID="f5dfd25f-f634-4f95-a399-d74975b568c0">
+      <Localisation Language="en-US" Translation="Brake released" Default="True" />
+    </Resource>
+    <Resource Name="String96" ID="c7c6ee0e-fff0-4ba2-8770-c574fa7f3e96">
+      <Localisation Language="en-US" Translation="Status" Default="True" />
+    </Resource>
+    <Resource Name="String97" ID="3367bcbd-6c00-4836-a8ce-b3a99440b17b">
+      <Localisation Language="en-US" Translation="Node:" Default="True" />
+    </Resource>
+    <Resource Name="String98" ID="3a885ecd-45ec-4ebf-9075-6d7a015741da">
+      <Localisation Language="en-US" Translation="Main Power" Default="True" />
+    </Resource>
+    <Resource Name="String99" ID="6737b4af-342c-4a67-bd4b-75e34b583777">
+      <Localisation Language="en-US" Translation="Servo On" Default="True" />
+    </Resource>
+    <Resource Name="String110" ID="ddb78c41-aeb8-46b1-beab-7514bed0a0f0">
+      <Localisation Language="en-US" Translation="Servo Lock" Default="True" />
+    </Resource>
+    <Resource Name="String111" ID="659faadc-0a72-43bf-84c3-a9ab50624a3c">
+      <Localisation Language="en-US" Translation="Locking" Default="True" />
+    </Resource>
+    <Resource Name="String112" ID="194c5fb9-7273-4f7d-8f30-dfa9b10bf73e">
+      <Localisation Language="en-US" Translation="Brake Release" Default="True" />
+    </Resource>
+    <Resource Name="String281" ID="0be53b99-aed5-4cce-b959-7f06f65f3a99">
+      <Localisation Language="en-US" Translation="Info" Default="True" />
+    </Resource>
+    <Resource Name="String282" ID="26eae525-a4fa-467a-9575-7b07479c444f">
+      <Localisation Language="en-US" Translation="Drive:" Default="True" />
+    </Resource>
+    <Resource Name="String283" ID="3cb3e029-461b-45b6-bbfb-50b6f1f3b638">
+      <Localisation Language="en-US" Translation="MC:" Default="True" />
+    </Resource>
+    <Resource Name="String284" ID="e5b5cb5b-931e-4044-b978-b98b72ff80ec">
+      <Localisation Language="en-US" Translation="Alarms" Default="True" />
+    </Resource>
+    <Resource Name="String285" ID="f8e5381d-b3e3-44c3-aa83-df6fcfb8f559">
+      <Localisation Language="en-US" Translation="Axis:" Default="True" />
+    </Resource>
+    <Resource Name="String286" ID="d4c35e85-0976-49a3-8c87-945a920043b8">
+      <Localisation Language="en-US" Translation="Standstill" Default="True" />
+    </Resource>
+    <Resource Name="String287" ID="93f7e798-7934-4c99-9fc5-22b9dd3661e2">
+      <Localisation Language="en-US" Translation="Discrete" Default="True" />
+    </Resource>
+    <Resource Name="String288" ID="f5253daf-6e70-49a1-9ee5-48eda3f20de1">
+      <Localisation Language="en-US" Translation="Continuous" Default="True" />
+    </Resource>
+    <Resource Name="String289" ID="ea98bcb1-e877-482b-b26d-e13d5e4b4c91">
+      <Localisation Language="en-US" Translation="Synchronized" Default="True" />
+    </Resource>
+    <Resource Name="String290" ID="f002f3f3-8b25-496d-b8d3-22d28dab40ae">
+      <Localisation Language="en-US" Translation="ErrorStop" Default="True" />
+    </Resource>
+    <Resource Name="String291" ID="bb9062fb-a7b1-4b52-b7d0-adac42e6758a">
+      <Localisation Language="en-US" Translation="Coordinated" Default="True" />
+    </Resource>
+    <Resource Name="String292" ID="7a5e5b8e-0d6d-4e61-afb8-30534431e1c4">
+      <Localisation Language="en-US" Translation="Axis teaching" Default="True" />
+    </Resource>
+    <Resource Name="THE_S_Teaching_L1" ID="d593e128-8abf-4c53-a01f-fd856894818d">
+      <Localisation Language="en-US" Translation="A new position will be taught." Default="True" />
+    </Resource>
+    <Resource Name="THE_S_Teaching_L2" ID="51fbfac6-c45a-4183-8165-5b6d09b56440">
+      <Localisation Language="en-US" Translation="WARNING: If the axis is not taught-in to the correct position, there is a risk of destroying the machine!" Default="True" />
+    </Resource>
+    <Resource Name="THE_S_Teaching_L3" ID="1df82401-d3d2-4dd3-905d-230aed8154e2">
+      <Localisation Language="en-US" Translation="Are you sure?" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Images">
+    <Resource Name="MB_Warning" ID="e80fc6da-1c95-4c7c-9cb4-8f0df6eac77d">
+      <Localisation Language="en-US" Translation="MB_Warning.xaml" Default="True" />
+    </Resource>
+    <Resource Name="FA_Teaching" ID="db08ce4e-6e05-44b0-93bf-68897b4b42be">
+      <Localisation Language="en-US" Translation="FA_Teaching.xaml" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>

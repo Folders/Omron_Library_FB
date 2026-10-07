@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IagResources>
+  <Resources Type="FontFamilies">
+    <Resource Name="FontFamily" ID="bc1fc35b-e6d9-439b-94a3-988c3379edf8">
+      <Localisation Language="en-US" Translation="Segoe UI" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontSizes">
+    <Resource Name="FontSize1065" ID="80a6c75e-0fc1-4585-8654-567c43cd7f03">
+      <Localisation Language="en-US" Translation="18" Default="True" />
+    </Resource>
+    <Resource Name="FontSize1066" ID="600b18e3-526a-4d14-9b6f-711b616a018d">
+      <Localisation Language="en-US" Translation="16" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="FontStyles">
+    <Resource Name="FontStyle" ID="2c58374e-75cf-42c1-b094-c4381688264e">
+      <Localisation Language="en-US" Translation="Normal" Default="True" />
+    </Resource>
+    <Resource Name="FontStyle0" ID="4e18a95b-1db8-4ef6-b4c5-38f3759bf554">
+      <Localisation Language="en-US" Translation="Bold" Default="True" />
+    </Resource>
+  </Resources>
+  <Resources Type="Strings">
+    <Resource Name="String0" ID="71f13229-fac9-442d-a5d3-e01079b70c38">
+      <Localisation Language="en-US" Translation="/" Default="True" />
+    </Resource>
+    <Resource Name="String228" ID="016f8f71-e190-444b-8b58-e3166694ee7e">
+      <Localisation Language="en-US" Translation="Open" Default="True" />
+    </Resource>
+    <Resource Name="String12" ID="1e25c64a-931e-42ee-8b90-0d4199b6ede2">
+      <Localisation Language="en-US" Translation="Close" Default="True" />
+    </Resource>
+  </Resources>
+</IagResources>
