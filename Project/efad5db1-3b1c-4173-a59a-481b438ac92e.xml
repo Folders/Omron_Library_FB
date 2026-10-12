@@ -7,6 +7,12 @@ _EN=Variables
 ++D=BOOL	N=power_50	G=VAR
 ++D=MC_Home	N=Home_MC	G=VAR
 ++D=BOOL	N=run	G=VAR	Com=Run FB
+++D=_sSDO_ACCESS	N=sdoObj_ResetEncoder	IV=(Index := 16#4510, Subindex := 16#F1, IsCompleteAccess := False)	G=VAR
+++D=STRING[10]	N=writeDat_ClearCmd	IV='clea'	G=VAR	Com="clea" is a command for clearing the encoder value (16#61656C63 or 6A646165 )
+++D=_sSDO_ACCESS	N=sdoObj_RestartAxis	IV=(Index := 16#2400, Subindex := 16#01, IsCompleteAccess := False)	G=VAR
+++D=STRING[10]	N=writeDat_RestartCmd	IV='tesera'	G=VAR	Com="tesera" is a command for restarting the drive (16# 74 65 73 65 72 61)
+++D=EC_CoESDOWrite	N=EC_SDO_ResetEncoder	G=VAR
+++D=EC_CoESDOWrite	N=EC_SDO_RestartDrive	G=VAR
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=_sAxis_REF	N=MyAxis	Ord=0	Const=1	G=VAR_IN_OUT
 ++D=BOOL	N=Execute	Ord=1	G=VAR_INPUT	Com=Execute an axis absolut encoder reset for 1S
