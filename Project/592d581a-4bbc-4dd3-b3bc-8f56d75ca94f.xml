@@ -5,9 +5,10 @@ _EN=Variables
 ++D=DATE_AND_TIME	N=lastCalib	R=1	G=VAR	Com=Time when last calibration was done
 ++D=UINT	N=nbCalib	R=1	G=VAR	Com=Number of calibration
 ++D=REAL	N=forceRef	R=1	G=VAR	Com=Reference weight for span [u]
-++D=BOOL	N=orderSetForce	G=VAR	Com=Set weight reference
-++D=BOOL	N=orderSetSpan	G=VAR	Com=Set span reference
-++D=BOOL	N=orderSetZero	G=VAR	Com=Set zero reference
+++D=BOOL	N=orderCalibStart	G=VAR	Com=Calibration start sequence order
+++D=BOOL	N=orderCalibZero	G=VAR	Com=Calibration zero order
+++D=BOOL	N=orderSetForceRef	G=VAR	Com=Set force reference order
+++D=BOOL	N=orderCalibSpan	G=VAR	Com=Calibration span order
 +GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
 ++D=OBJ\LOADCELL\BASE	N=MyForce	Ord=0	G=VAR_IN_OUT	Com=Load cell object
 ++D=WORD	N=EC_DetectSta	Ord=1	G=VAR_IN_OUT	Com=Detection status

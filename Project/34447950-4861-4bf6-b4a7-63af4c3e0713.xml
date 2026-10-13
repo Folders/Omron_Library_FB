@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <DataType Name="Data Types10" BaseType="" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="">
-    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Load cell" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="58" OffsetType="NJ">
+    <DataType Name="BASE" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Load cell" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="152" OffsetType="NJ">
       <DataType Name="Cfg" BaseType="OBJ\LOADCELL\Config" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="config -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Cmd" BaseType="OBJ\LOADCELL\Command" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="command -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Sta" BaseType="OBJ\LOADCELL\Status" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="status -" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -10,16 +10,17 @@
       <DataType Name="Force" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Measured force [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Rate" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Relative force to MaxForce [%]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="15" OffsetType="NJ">
+    <DataType Name="Command" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="92" OffsetType="NJ">
+      <DataType Name="CalibStart" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to start the calibration sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CalibZero" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to make the zero reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CalibSpan" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to make the span reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="SetForceRef" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Order to set force reference" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="ForceSP" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Force reference value [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="16" OffsetType="NJ">
+    <DataType Name="Config" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="93" OffsetType="NJ">
       <DataType Name="MaxForce" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Maximum measurable force [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="14" OffsetType="NJ">
+    <DataType Name="Status" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="91" OffsetType="NJ">
       <DataType Name="Enabled" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Object is enabled" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Running" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Object provides measurements" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Busy" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Calibration or command in progress" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
@@ -28,14 +29,17 @@
       <DataType Name="Disconnected" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor is disconnected" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="Commissioning" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Is in commissioning mode" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="13" OffsetType="NJ">
+    <DataType Name="Message" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="90" OffsetType="NJ">
       <DataType Name="SensorDisconnected" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Sensor communication lost" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="UnderRange" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Measured value below range" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="OverRange" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Measured value above range" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="CalibrationError" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Calibration failed" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
-    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="12" OffsetType="NJ">
-      <DataType Name="LastCalibration" BaseType="DATE_AND_TIME" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Date and time of the last calibration date" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+    <DataType Name="Exchange" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="89" OffsetType="NJ">
+      <DataType Name="CalibrationSequenceNext" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Next button for the calibration sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CalibrationSequenceNextEnable" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Signal for enabling the next button during calibration sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CalibrationSequenceCancel" BaseType="BOOL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Cancel button from the calibration sequence" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
+      <DataType Name="CalibrationStep" BaseType="INT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Actual calibration step" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="NbCalibration" BaseType="UINT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Number of calibration done" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
       <DataType Name="ForceRef" BaseType="REAL" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="Reference weight for span [u]" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" />
     </DataType>
